@@ -1,2 +1,3 @@
-# CSRPDpro
-Repository for validity checks.
+# CSRPpro
+
+Repository for validity checks, Assets, and other info for CSRPpro.
