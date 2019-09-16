@@ -1,0 +1,5 @@
+• Build 1003 08-09-19
+	- Added new curl feature for downloading assets to speed up load time.
+	- Bug fixes in generators causing infinite variable numbers and things to not compute correctly. 
+	- Optimized menu's for more fluidity
+	- Fixed esnn builder parts not showing up due to esnn being set at 0.
