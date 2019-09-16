@@ -264,7 +264,7 @@ echo                                                           /___/
 	echo.
 	echo (1.) Previous - (2.) Next - (3.) Select - (4.) Back
 	echo.
-	CHOICE /C 1234 /M ""
+	CHOICE /C 1234 /M "" >nul
 	IF ERRORLEVEL == 4 GOTO CarPickerManuReturn
 	IF ERRORLEVEL == 3 GOTO AlfaRomeo2
 	IF ERRORLEVEL == 2 GOTO AlfaRomeoADD
@@ -500,7 +500,7 @@ echo                                                           /___/
 	echo.
 	echo (1.) Previous - (2.) Next - (3.) Select - (4.) Back
 	echo.
-	CHOICE /C 1234 /M ""
+	CHOICE /C 1234 /M "" >nul
 	IF ERRORLEVEL == 4 GOTO CarPickerManuReturn
 	IF ERRORLEVEL == 3 GOTO Alpine2
 	IF ERRORLEVEL == 2 GOTO AlpineADD
@@ -554,7 +554,7 @@ echo                                                           /___/
 	echo.
 	echo (1.) Previous - (2.) Next - (3.) Select - (4.) Back
 	echo.
-	CHOICE /C 1234 /M ""
+	CHOICE /C 1234 /M "" >nul
 	IF ERRORLEVEL == 4 GOTO Alpine1
 	IF ERRORLEVEL == 3 GOTO Alpine3
 	IF ERRORLEVEL == 2 GOTO AlpineWheelADD
@@ -629,7 +629,7 @@ echo                                                           /___/
 	echo.			
 	echo (1.) Select - (2.) Back
 	echo.
-	CHOICE /C 12 /M ""
+	CHOICE /C 12 /M "" >nul
 	IF ERRORLEVEL == 2 GOTO CarPickerManuReturn
 	IF ERRORLEVEL == 1 GOTO Javelin
 	goto AMC
@@ -659,7 +659,7 @@ echo                                                           /___/
 	echo.			
 	echo (1.) Previous - (2.) Next - (3.) Select - (4.) Back
 	echo.
-	CHOICE /C 1234 /M ""
+	CHOICE /C 1234 /M "" >nul
 	
 	IF ERRORLEVEL == 4 GOTO CarPickerManuReturn
 	IF ERRORLEVEL == 3 GOTO Apollo1
@@ -716,7 +716,7 @@ echo                                                           /___/
 	echo.			
 	echo (1.) Previous - (2.) Next - (3.) Select - (4.) Back
 	echo.
-	CHOICE /C 1234 /M ""
+	CHOICE /C 1234 /M "" >nul
 	
 	IF ERRORLEVEL == 4 GOTO CarPickerManuReturn
 	IF ERRORLEVEL == 3 GOTO AstonMartin1
@@ -1315,7 +1315,7 @@ echo                                                           /___/
 	echo.			
 	echo (1.) Previous - (2.) Next - (3.) Select - (4.) Back
 	echo.
-	CHOICE /C 1234 /M ""
+	CHOICE /C 1234 /M "" >nul
 	
 	IF ERRORLEVEL == 4 GOTO CarPickerManuReturn
 	IF ERRORLEVEL == 3 GOTO Audi1
@@ -1454,7 +1454,7 @@ echo                                                           /___/
 	echo.			
 	echo (1.) Previous - (2.) Next - (3.) Select - (4.) Back
 	echo.
-	CHOICE /C 1234 /M ""
+	CHOICE /C 1234 /M "" >nul
 	
 	IF ERRORLEVEL == 4 GOTO CarPickerManuReturn
 	IF ERRORLEVEL == 3 GOTO Bentley1
@@ -1524,7 +1524,7 @@ echo                                                           /___/
 	echo.			
 	echo (1.) Previous - (2.) Next - (3.) Select - (4.) Back
 	echo.
-	CHOICE /C 1234 /M ""
+	CHOICE /C 1234 /M "" >nul
 	
 	IF ERRORLEVEL == 4 GOTO CarPickerManuReturn
 	IF ERRORLEVEL == 3 GOTO BMW1
@@ -1614,7 +1614,7 @@ echo                                                           /___/
 		echo.
 		echo (1.) Previous - (2.) Next - (3.) Select - (4.) Back
 		echo.
-		CHOICE /C 1234 /M ""
+		CHOICE /C 1234 /M "" >nul
 		IF ERRORLEVEL == 4 GOTO BMWCon
 		IF ERRORLEVEL == 3 GOTO i8Option2
 		IF ERRORLEVEL == 2 GOTO i8OptionADD
@@ -1673,7 +1673,7 @@ echo                                                           /___/
 	echo.			
 	echo (1.) Select - (2.) Back
 	echo.
-	CHOICE /C 12 /M ""
+	CHOICE /C 12 /M "" >nul
 	IF ERRORLEVEL == 2 GOTO CarPickerManuReturn
 	IF ERRORLEVEL == 1 GOTO BT62
 	goto Brabham
@@ -1702,7 +1702,7 @@ echo                                                           /___/
 	echo.			
 	echo (1.) Previous - (2.) Next - (3.) Select - (4.) Back
 	echo.
-	CHOICE /C 1234 /M ""
+	CHOICE /C 1234 /M "" >nul
 	
 	IF ERRORLEVEL == 4 GOTO CarPickerManuReturn
 	IF ERRORLEVEL == 3 GOTO Bugatti1
@@ -1830,7 +1830,7 @@ echo                                                           /___/
 	echo.			
 	echo (1.) Previous - (2.) Next - (3.) Select - (4.) Back
 	echo.
-	CHOICE /C 1234 /M ""
+	CHOICE /C 1234 /M "" >nul
 	
 	IF ERRORLEVEL == 4 GOTO CarPickerManuReturn
 	IF ERRORLEVEL == 3 GOTO Chevrolet1
@@ -1890,7 +1890,7 @@ echo                                                           /___/
 		echo.			
 		echo (1.) Previous - (2.) Next - (3.) Select - (4.) Back
 		echo.
-		CHOICE /C 1234 /M ""
+		CHOICE /C 1234 /M "" >nul
 	
 		IF ERRORLEVEL == 4 GOTO ChevroletCon
 		IF ERRORLEVEL == 3 GOTO C101
@@ -1950,7 +1950,7 @@ echo                                                           /___/
 		echo.			
 		echo (1.) Previous - (2.) Next - (3.) Select - (4.) Back
 		echo.
-		CHOICE /C 1234 /M ""
+		CHOICE /C 1234 /M "" >nul
 	
 		IF ERRORLEVEL == 4 GOTO ChevroletCon
 		IF ERRORLEVEL == 3 GOTO Camaro1
@@ -2022,7 +2022,7 @@ echo                                                           /___/
 		echo.			
 		echo (1.) Previous - (2.) Next - (3.) Select - (4.) Back
 		echo.
-		CHOICE /C 1234 /M ""
+		CHOICE /C 1234 /M "" >nul
 	
 		IF ERRORLEVEL == 4 GOTO ChevroletCon
 		IF ERRORLEVEL == 3 GOTO Corvette1
@@ -2118,7 +2118,7 @@ echo                                                           /___/
 	echo.			
 	echo (1.) Previous - (2.) Next - (3.) Select - (4.) Back
 	echo.
-	CHOICE /C 1234 /M ""
+	CHOICE /C 1234 /M "" >nul
 	
 	IF ERRORLEVEL == 4 GOTO CarPickerManuReturn
 	IF ERRORLEVEL == 3 GOTO Dodge1
@@ -2242,7 +2242,7 @@ echo                                                           /___/
 	echo.			
 	echo (1.) Previous - (2.) Next - (3.) Select - (4.) Back
 	echo.
-	CHOICE /C 1234 /M ""
+	CHOICE /C 1234 /M "" >nul
 	
 	IF ERRORLEVEL == 4 GOTO CarPickerManuReturn
 	IF ERRORLEVEL == 3 GOTO Ferrari1
@@ -2330,7 +2330,7 @@ echo                                                           /___/
 		echo.
 		echo (1.) Previous - (2.) Next - (3.) Select - (4.) Back
 		echo.
-		CHOICE /C 1234 /M ""
+		CHOICE /C 1234 /M "" >nul
 		IF ERRORLEVEL == 4 GOTO FerrariCon
 		IF ERRORLEVEL == 3 GOTO 70thAnnOption2
 		IF ERRORLEVEL == 2 GOTO 70thAnnOptionADD
@@ -2437,7 +2437,7 @@ echo                                                           /___/
 	echo.			
 	echo (1.) Previous - (2.) Next - (3.) Select - (4.) Back
 	echo.
-	CHOICE /C 1234 /M ""
+	CHOICE /C 1234 /M "" >nul
 	
 	IF ERRORLEVEL == 4 GOTO CarPickerManuReturn
 	IF ERRORLEVEL == 3 GOTO FnFCars1
@@ -2600,7 +2600,7 @@ echo                                                           /___/
 	echo.			
 	echo (1.) Previous - (2.) Next - (3.) Select - (4.) Back
 	echo.
-	CHOICE /C 1234 /M ""
+	CHOICE /C 1234 /M "" >nul
 	
 	IF ERRORLEVEL == 4 GOTO CarPickerManuReturn
 	IF ERRORLEVEL == 3 GOTO Ford1
@@ -2728,7 +2728,7 @@ echo                                                           /___/
 	echo.			
 	echo (1.) Previous - (2.) Next - (3.) Select - (4.) Back
 	echo.
-	CHOICE /C 1234 /M ""
+	CHOICE /C 1234 /M "" >nul
 	
 	IF ERRORLEVEL == 4 GOTO CarPickerManuReturn
 	IF ERRORLEVEL == 3 GOTO Hennessey1
@@ -2794,7 +2794,7 @@ echo                                                           /___/
 	echo.			
 	echo (1.) Previous - (2.) Next - (3.) Select - (4.) Back
 	echo.
-	CHOICE /C 1234 /M ""
+	CHOICE /C 1234 /M "" >nul
 	
 	IF ERRORLEVEL == 4 GOTO CarPickerManuReturn
 	IF ERRORLEVEL == 3 GOTO Honda1
@@ -2868,7 +2868,7 @@ echo                                                           /___/
 	echo.			
 	echo (1.) Previous - (2.) Next - (3.) Select - (4.) Back
 	echo.
-	CHOICE /C 1234 /M ""
+	CHOICE /C 1234 /M "" >nul
 	
 	IF ERRORLEVEL == 4 GOTO CarPickerManuReturn
 	IF ERRORLEVEL == 3 GOTO Hyundai1
@@ -2930,7 +2930,7 @@ echo                                                           /___/
 	echo.			
 	echo (1.) Previous - (2.) Next - (3.) Select - (4.) Back
 	echo.
-	CHOICE /C 1234 /M ""
+	CHOICE /C 1234 /M "" >nul
 	
 	IF ERRORLEVEL == 4 GOTO CarPickerManuReturn
 	IF ERRORLEVEL == 3 GOTO Jaguar1
@@ -3042,7 +3042,7 @@ echo                                                           /___/
 	echo.			
 	echo (1.) Previous - (2.) Next - (3.) Select - (4.) Back
 	echo.
-	CHOICE /C 1234 /M ""
+	CHOICE /C 1234 /M "" >nul
 	
 	IF ERRORLEVEL == 4 GOTO CarPickerManuReturn
 	IF ERRORLEVEL == 3 GOTO Koenigsegg1
@@ -3151,7 +3151,7 @@ echo                                                           /___/
 	echo.			
 	echo (1.) Previous - (2.) Next - (3.) Select - (4.) Back
 	echo.
-	CHOICE /C 1234 /M ""
+	CHOICE /C 1234 /M "" >nul
 	
 	IF ERRORLEVEL == 4 GOTO CarPickerManuReturn
 	IF ERRORLEVEL == 3 GOTO Lamborghini1
@@ -3336,7 +3336,7 @@ echo                                                           /___/
 	echo.			
 	echo (1.) Previous - (2.) Next - (3.) Select - (4.) Back
 	echo.
-	CHOICE /C 1234 /M ""
+	CHOICE /C 1234 /M "" >nul
 	
 	IF ERRORLEVEL == 4 GOTO CarPickerManuReturn
 	IF ERRORLEVEL == 3 GOTO Lotus1
@@ -3402,7 +3402,7 @@ echo                                                           /___/
 	echo.			
 	echo (1.) Previous - (2.) Next - (3.) Select - (4.) Back
 	echo.
-	CHOICE /C 1234 /M ""
+	CHOICE /C 1234 /M "" >nul
 	
 	IF ERRORLEVEL == 4 GOTO CarPickerManuReturn
 	IF ERRORLEVEL == 3 GOTO Maserati1
@@ -3468,7 +3468,7 @@ echo                                                           /___/
 	echo.			
 	echo (1.) Previous - (2.) Next - (3.) Select - (4.) Back
 	echo.
-	CHOICE /C 1234 /M ""
+	CHOICE /C 1234 /M "" >nul
 	
 	IF ERRORLEVEL == 4 GOTO CarPickerManuReturn
 	IF ERRORLEVEL == 3 GOTO Mazda1
@@ -3563,7 +3563,7 @@ echo                                                           /___/
 	echo.			
 	echo (1.) Previous - (2.) Next - (3.) Select - (4.) Back
 	echo.
-	CHOICE /C 1234 /M ""
+	CHOICE /C 1234 /M "" >nul
 	
 	IF ERRORLEVEL == 4 GOTO CarPickerManuReturn
 	IF ERRORLEVEL == 3 GOTO McLaren1
@@ -3665,7 +3665,7 @@ echo                                                           /___/
 	echo.			
 	echo (1.) Previous - (2.) Next - (3.) Select - (4.) Back
 	echo.
-	CHOICE /C 1234 /M ""
+	CHOICE /C 1234 /M "" >nul
 	
 	IF ERRORLEVEL == 4 GOTO CarPickerManuReturn
 	IF ERRORLEVEL == 3 GOTO Mercedes1
@@ -3751,7 +3751,7 @@ echo                                                           /___/
 	echo.			
 	echo (1.) Previous - (2.) Next - (3.) Select - (4.) Back
 	echo.
-	CHOICE /C 1234 /M ""
+	CHOICE /C 1234 /M "" >nul
 	
 	IF ERRORLEVEL == 4 GOTO CarPickerManuReturn
 	IF ERRORLEVEL == 3 GOTO Mitsubishi1
@@ -3813,7 +3813,7 @@ echo                                                           /___/
 	echo.			
 	echo (1.) Previous - (2.) Next - (3.) Select - (4.) Back
 	echo.
-	CHOICE /C 1234 /M ""
+	CHOICE /C 1234 /M "" >nul
 	
 	IF ERRORLEVEL == 4 GOTO CarPickerManuReturn
 	IF ERRORLEVEL == 3 GOTO Nissan1
