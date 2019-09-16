@@ -3874,8 +3874,14 @@ echo                                                           /___/
 		
 		
 
+	:PUPR
+	START "" "%MYFILES%\IAPpuprtaglist.xlsx"
+	GOTO CarPickerManuType
 
+	:MasterIDList
+	START "" "%MYFILES%\CSR2MasterIDList.xlsx"
+	GOTO CarPickerManuType
 
 :MainMenuBack
 endlocal
-GOTO MainMenu
+exit /b
