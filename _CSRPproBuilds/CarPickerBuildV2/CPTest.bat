@@ -1249,8 +1249,6 @@ echo                                                           /___/
 	:ATSAutomobili
 	::This opens the first page of the ATSAutomobili 
 	CLS
-	SET ATSAutomobiliChoice=0
-
 echo    ______              ____  _      __            
 echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___
 echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  /
@@ -1269,25 +1267,19 @@ echo                                                           /___/
 	echo.
 	echo 1.) Back.
 	echo.
-	echo 2.) Reward
+	echo 2.) Reward (Grey with Italian Accent colors)
 	echo.
-	echo 3.) Placeholder
+	echo 3.) Red with Black Accent
 	echo.
-	echo 4.) Placeholder
-	echo.
-	echo 5.) Placeholder
-	echo.
-	echo 6.) Placeholder
-	echo.
-	echo 7.) Placeholder
+	echo 4.) Silver with Red Accent
 	echo.
 
 	set /p ATSAutomobiliChoice="Select Choice and press Enter: " 
 		
 	if %ATSAutomobiliChoice% == 1 GOTO CarPickerManuReturn
-	if %ATSAutomobiliChoice% == 2 GOTO ATSGTReward
-	if %ATSAutomobiliChoice% == 3 GOTO ATSGT
-	set ATSAutomobiliChoice=0
+	if %ATSAutomobiliChoice% == 2 GOTO ATSAGTReward
+	if %ATSAutomobiliChoice% == 3 GOTO ATSAGTR
+	if %ATSAutomobiliChoice% == 4 GOTO ATSAGTS
 	Goto ATSAutomobili
 
 
@@ -1360,17 +1352,375 @@ echo                                                           /___/
 		
 		:2014R8
 
+		CLS
+		SET 2014R8Choice=0
+
+echo    ______              ____  _      __            
+echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___
+echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  /
+echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ / 
+echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/  
+echo                                                           /___/      
+		echo.
+		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
+		echo.
+		echo Selected Manufacture:  !CurrentManuChoice!
+		echo Selected Car:          !CurrentCarChoice!
+		echo.
+		echo - Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 - 
+		echo.
+		echo 1.) Back                                         9.) Florett Silver
+		echo.
+		echo 2.) Audi Exclusive Estoril Blue                  10.) Ibis White
+		echo.
+		echo 3.) Audi Exclusive Java Green                    11.) Samoa Orange
+		echo.
+		echo 4.) Audi Exclusive Samoa Orange Matt             12.) Sepang Blue
+		echo.
+		echo 5.) Audi Exclusive Sphere Blue Matt
+		echo.
+		echo 6.) Audi Exclusive Suzuka Grey Matt
+		echo.
+		echo 7.) Audi Exclusive Tungsten Grey
+		echo.
+		echo 8.) Audi Exclusive Velvet Purple
+		echo.
+		
+		set /p 2014R8Choice="Select Choice and press Enter: " 
+
+		if !2014R8Choice! == 1 goto AudiCon
+		if !2014R8Choice! == 2 GOTO 14R8EB
+		if !2014R8Choice! == 3 GOTO 14R8JG
+		if !2014R8Choice! == 4 GOTO 14R8SOM
+		if !2014R8Choice! == 5 GOTO 14R8SBM
+		if !2014R8Choice! == 6 GOTO 14R8SGM
+		if !2014R8Choice! == 7 GOTO 14R8TG
+		if !2014R8Choice! == 8 GOTO 14R8VP
+		if !2014R8Choice! == 9 GOTO 14R8FS
+		if !2014R8Choice! == 10 GOTO 14R8IW
+		if !2014R8Choice! == 11 GOTO 14R8SO
+		if !2014R8Choice! == 12 GOTO 14R8SB
+		set 2014R8Choice=0
+		Goto 2014R8
+
 		:2016R8
 
+		CLS
+		SET 2016R8Choice=0
+
+echo    ______              ____  _      __            
+echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___
+echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  /
+echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ / 
+echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/  
+echo                                                           /___/      
+		echo.
+		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
+		echo.
+		echo Selected Manufacture:  !CurrentManuChoice!
+		echo Selected Car:          !CurrentCarChoice!
+		echo.
+		echo - Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 - 
+		echo.
+		echo 1.) Back                                                  9.) Florett Silver
+		echo.
+		echo 2.) Ara Blu Crystal                                       10.) Ibis White
+		echo.
+		echo 3.) Audi Exclusive Mocrommata Green                       11.) Ibis White Red Accent
+		echo.
+		echo 4.) Audi Exclusive Quantum Grey Yellow Accent             12.) Mythose Black
+		echo.
+		echo 5.) Camouflage Green                                      13.) Suzuka Gray
+		echo.
+		echo 6.) Camouflage Green Matt                                 14.) Tango Red
+		echo.
+		echo 7.) Daytona Gray                                          15.) Vegas Yellow
+		echo.
+		echo 8.) Dynamite Red
+		echo.
+		
+		set /p 2016R8Choice="Select Choice and press Enter: " 
+
+		if !2016R8Choice! == 1 goto AudiCon
+		if !2016R8Choice! == 2 GOTO 16R8ABC
+		if !2016R8Choice! == 3 GOTO 16R8MG
+		if !2016R8Choice! == 4 GOTO 16R8QGYA
+		if !2016R8Choice! == 5 GOTO 16R8CG
+		if !2016R8Choice! == 6 GOTO 16R8CGM
+		if !2016R8Choice! == 7 GOTO 16R8DG
+		if !2016R8Choice! == 8 GOTO 16R8DR
+		if !2016R8Choice! == 9 GOTO 16R8FS
+		if !2016R8Choice! == 10 GOTO 16R8IW
+		if !2016R8Choice! == 11 GOTO 16R8IWRA
+		if !2016R8Choice! == 12 GOTO 16R8MB
+		if !2016R8Choice! == 13 GOTO 16R8SG
+		if !2016R8Choice! == 14 GOTO 16R8TR
+		if !2016R8Choice! == 15 GOTO 16R8VY
+		set 2016R8Choice=0
+		Goto 2016R8
+		
 		:LBR8
+		CLS
+		SET LBR8Choice=0
+
+echo    ______              ____  _      __            
+echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___
+echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  /
+echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ / 
+echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/  
+echo                                                           /___/      
+		echo.
+		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
+		echo.
+		echo Selected Manufacture:  !CurrentManuChoice!
+		echo Selected Car:          !CurrentCarChoice!
+		echo.
+		echo - Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 - 
+		echo.
+		echo 1.) Back                                                10.) Jet Black , Black and Red Livery, Black Wheel 1
+		echo.
+		echo 2.) Ara Blu Crystal Wheel 2                             11.) Jet Black , Black and Red Livery, Red Wheel 1
+		echo.
+		echo 3.) Ara Blu Crystal Wheel 3                             12.) Jet Black , Gold Livery
+		echo.
+		echo 4.) Daytona Gray                                        13.) Reward
+		echo.
+		echo 5.) Audi Exclusive Quantum Grey                         14.) Vegas Yellow , Black Livery 
+		echo.
+		echo 6.) Florett Silver , Black Livery
+		echo.
+		echo 7.) Ibis White , Black livery , Black Wheels
+		echo.
+		echo 8.) Ibis White , Black livery , Red Wheels
+		echo.
+		echo 9.) Jet Black , Black and Red Livery, Wheel 3
+		echo.
+		
+		set /p LBR8Choice="Select Choice and press Enter: " 
+
+		if !LBR8Choice! == 1 goto AudiCon
+		if !LBR8Choice! == 2 GOTO LBR8ABCW2
+		if !LBR8Choice! == 3 GOTO LBR8ABCW3
+		if !LBR8Choice! == 4 GOTO LBR8DG
+		if !LBR8Choice! == 5 GOTO LBR8QG
+		if !LBR8Choice! == 6 GOTO LBR8FSBL
+		if !LBR8Choice! == 7 GOTO LBR8IWBLBW
+		if !LBR8Choice! == 8 GOTO LBR8IWBLRW
+		if !LBR8Choice! == 9 GOTO LBR8JBBRLB3W
+		if !LBR8Choice! == 10 GOTO LBR8JBBRLBW
+		if !LBR8Choice! == 11 GOTO LBR8JBBRLRW
+		if !LBR8Choice! == 12 GOTO LBR8JBGL
+		if !LBR8Choice! == 13 GOTO LBR8Reward
+		if !LBR8Choice! == 14 GOTO LBR8VYBL
+
+		set LBR8Choice=0
+		Goto LBR8
 
 		:LBRS5
 
+		CLS
+		SET LBRS5Choice=0
+
+echo    ______              ____  _      __            
+echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___
+echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  /
+echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ / 
+echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/  
+echo                                                           /___/      
+		echo.
+		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
+		echo.
+		echo Selected Manufacture:  !CurrentManuChoice!
+		echo Selected Car:          !CurrentCarChoice!
+		echo.
+		echo - Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 - 
+		echo.
+		echo 1.) Back                                       10.) Jet Black No Livery
+		echo.
+		echo 2.) Admiral Blue Silver LB Livery              11.) Jet Black White LB Livery
+		echo.
+		echo 3.) California Orange Black LB Livery          12.) Monza Red Black LB Livery
+		echo.
+		echo 4.) Daytona Grey Black LB Livery               13.) Monza Red Black Roof
+		echo.
+		echo 5.) Daytona Grey Black Roof                    14.) Monza Red No Livery 
+		echo.
+		echo 6.) Daytona Grey No Livery                     15.) Paris Red LB Livery
+		echo.
+		echo 7.) Ibis White Black LB Liv
+		echo.
+		echo 8.) Ibis White Black Roof
+		echo.
+		echo 9.) Ibis White No Livery  
+		echo.
+		
+		set /p LBRS5Choice="Select Choice and press Enter: " 
+
+		if !LBRS5Choice! == 1 goto AudiCon
+		if !LBRS5Choice! == 2 GOTO LBRS5ABSL
+		if !LBRS5Choice! == 3 GOTO LBRS5COBL
+		if !LBRS5Choice! == 4 GOTO LBRS5DGBL
+		if !LBRS5Choice! == 5 GOTO LBRS5DGBT
+		if !LBRS5Choice! == 6 GOTO LBRS5DG
+		if !LBRS5Choice! == 7 GOTO LBRS5IWBL
+		if !LBRS5Choice! == 8 GOTO LBRS5IWBT
+		if !LBRS5Choice! == 9 GOTO LBRS5IW
+		if !LBRS5Choice! == 10 GOTO LBRS5JB
+		if !LBRS5Choice! == 11 GOTO LBRS5JBWL
+		if !LBRS5Choice! == 12 GOTO LBRS5MRBL
+		if !LBRS5Choice! == 13 GOTO LBRS5MRBT
+		if !LBRS5Choice! == 14 GOTO LBRS5MR
+		if !LBRS5Choice! == 15 GOTO LBRS5PRL
+
+		set LBRS5Choice=0
+		Goto LBRS5
+		
 		:RS5
+		
+		CLS
+		SET RS5Choice=0
+
+echo    ______              ____  _      __            
+echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___
+echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  /
+echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ / 
+echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/  
+echo                                                           /___/      
+		echo.
+		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
+		echo.
+		echo Selected Manufacture:  !CurrentManuChoice!
+		echo Selected Car:          !CurrentCarChoice!
+		echo.
+		echo - Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 - 
+		echo.
+		echo 1.) Back                                       10.) Ibis White  
+		echo.
+		echo 2.) Audi Exclusive Gris Aser Red Livery        11.) Misano Red
+		echo.
+		echo 3.) Audi Exclusive Ipanema Brown               12.) Mythos Black
+		echo.
+		echo 4.) Audi Exclusive Java Green                  13.) Sepang Blue
+		echo.
+		echo 5.) Audi Exclusive Nardo Grey 
+		echo.
+		echo 6.) Audi Exclusive Nogaro Blue 
+		echo.
+		echo 7.) Audi Exclusive Solar Orange  
+		echo.
+		echo 8.) Audi Exclusive Velvet Purple
+		echo.
+		echo 9.) Daytona Gray
+		echo.
+		
+		set /p RS5Choice="Select Choice and press Enter: " 
+
+		if !RS5Choice! == 1 goto AudiCon
+		if !RS5Choice! == 2 GOTO RS5GARL
+		if !RS5Choice! == 3 GOTO RS5IB
+		if !RS5Choice! == 4 GOTO RS5JG
+		if !RS5Choice! == 5 GOTO RS5NG
+		if !RS5Choice! == 6 GOTO RS5NB
+		if !RS5Choice! == 7 GOTO RS5SO
+		if !RS5Choice! == 8 GOTO RS5VP
+		if !RS5Choice! == 9 GOTO RS5DG
+		if !RS5Choice! == 10 GOTO RS5IW
+		if !RS5Choice! == 11 GOTO RS5MR
+		if !RS5Choice! == 12 GOTO RS5MB
+		if !RS5Choice! == 13 GOTO RS5SB
+
+		set RS5Choice=0
+		Goto RS5
 
 		:TTRS
+		
+		CLS
+		SET TTRSChoice=0
+
+echo    ______              ____  _      __            
+echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___
+echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  /
+echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ / 
+echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/  
+echo                                                           /___/      
+		echo.
+		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
+		echo.
+		echo Selected Manufacture:  !CurrentManuChoice!
+		echo Selected Car:          !CurrentCarChoice!
+		echo.
+		echo - Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 - 
+		echo.
+		echo 1.) Back                                       9.) Misano Red  
+		echo.
+		echo 2.) Audi Exclusive Gris Aser Red Livery        10.) Phantom Black
+		echo.
+		echo 3.) Audi Exclusive Imola Yellow                11.) Sepang Blue
+		echo.
+		echo 4.) Audi Exclusive Java Green 
+		echo.
+		echo 5.) Audi Exclusive Kingfisher Blue 
+		echo.
+		echo 6.) Audi Exclusive Nogaroblau Orange Livery 
+		echo.
+		echo 7.) Audi Exclusive Solar Orange  
+		echo.
+		echo 8.) Audi Exclusive Velvet Purple
+		echo.
+		
+		set /p TTRSChoice="Select Choice and press Enter: " 
+
+		if !TTRSChoice! == 1 goto AudiCon
+		if !TTRSChoice! == 2 GOTO TTRSGARL
+		if !TTRSChoice! == 3 GOTO TTRSIY
+		if !TTRSChoice! == 4 GOTO TTRSJG
+		if !TTRSChoice! == 5 GOTO TTRSKB
+		if !TTRSChoice! == 6 GOTO TTRSNOL
+		if !TTRSChoice! == 7 GOTO TTRSSO
+		if !TTRSChoice! == 8 GOTO TTRSVP
+		if !TTRSChoice! == 9 GOTO TTRSMR
+		if !TTRSChoice! == 10 GOTO TTRSPB
+		if !TTRSChoice! == 11 GOTO TTRSSB
+
+		set TTRSChoice=0
+		Goto TTRS
 
 		:R8VRS
+		
+		CLS
+		SET R8VRSChoice=0
+
+echo    ______              ____  _      __            
+echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___
+echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  /
+echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ / 
+echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/  
+echo                                                           /___/      
+		echo.
+		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
+		echo.
+		echo Selected Manufacture:  !CurrentManuChoice!
+		echo Selected Car:          !CurrentCarChoice!
+		echo.
+		echo - Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 - 
+		echo.
+		echo 1.) Back
+		echo.
+		echo 2.) Reward
+		echo.
+		echo 3.) Reward Recycled
+		echo.
+		
+		set /p R8VRSChoice="Select Choice and press Enter: " 
+
+		if !R8VRSChoice! == 1 goto AudiCon
+		if !R8VRSChoice! == 2 GOTO R8VRSReward
+		if !R8VRSChoice! == 3 GOTO R8VRSRecycled
+
+
+		set R8VRSChoice=0
+		Goto R8VRS
+		
 
 	:BAC
 	CLS
@@ -1493,6 +1843,124 @@ echo                                                           /___/
 	GOTO BentleyCon
 
 		:Bentayga
+		CLS
+		set BentaygaType=0
+	
+		:BentaygaCon
+		cls
+	
+echo    ______              ____  _      __            
+echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___
+echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  /
+echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ / 
+echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/  
+echo                                                           /___/      
+		echo.
+		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
+		echo.
+		echo Selected Manufacture:  !CurrentManuChoice!
+		echo Selected Car:          !CurrentCarChoice!
+		echo.
+		echo - Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 - 
+		echo.
+		echo 1.)Back               (15.)Black Velvet          (29.)Fountain Blue      (43.)Monaco Yellow   (57.)Silver Tempest
+		echo.
+		echo 2.)Reward Official    (16.)Blue Crystal          (30.)Glacier White      (44.)Moonbeam        (58.)Spectre
+		echo.
+		echo 3.)Reward Unofficial  (17.)British Racing Green  (31.)Granite            (45.)Moroccan Blue   (59.)St. James Red
+		echo.
+		echo 4.)Bentayga Bronze    (18.)Brodgar               (32.)Hallmark           (46.)Neptune         (60.)Sunburst Gold
+		echo.
+		echo 5.)Alpine Green       (19.)Bronze                (33.)Havana             (47.)Onyx            (61.)Thunder
+		echo.
+		echo 6.)Anthracite         (20.)Burgundy              (34.)Ice                (48.)Orange Flame    (62.)Titan Grey
+		echo.
+		echo 7.)Apple Green        (21.)Camel                 (35.)Jetstream II       (49.)Pale Brodgar    (63.)Tungsten
+		echo.
+		echo 8.)Arabica            (22.)Cumbrian Green        (36.)Kingfisher         (50.)Passion Pink    (64.)Verdant
+		echo.
+		echo 9.)Azure Purple       (23.)Damson                (37.)Magenta            (51.)Peacock         (65.)White Sand
+		echo. 
+		echo 10.)Barnato           (24.)Dargon Red II         (38.)Magnetic           (52.)Portofino       (66.)Windsor Blue
+		echo.
+		echo 11.)Beluga            (25.)Dark Cashmere         (39.)Magnolia           (53.)Rose Gold     
+		echo.
+		echo 12.)Bronze            (26.)Dark Sapphire         (40.)Marlin             (54.)Sequine Blue
+		echo.
+		echo 13.)Black Crystal     (27.)Dove Grey             (41.)Meteor             (55.)Silver lake
+		echo.
+		echo 14.)Black Sapphire    (28.)Extreme Silver        (42.)Midnight Emerald   (56.)Silver Storm
+		echo.
+		set /p BentaygaType="Select Choice and press Enter: " 
+		
+		:BentaygaType1
+		if %BentaygaType% == 1 GOTO BentleyCon
+		if %BentaygaType% == 2 GOTO BentaygaRO
+		if %BentaygaType% == 3 GOTO BentaygaRU
+		if %BentaygaType% == 4 GOTO BentaygaBentaygaBronze
+		if %BentaygaType% == 5 GOTO BentaygaAlpineGreen
+		if %BentaygaType% == 6 GOTO BentaygaAnthracite
+		if %BentaygaType% == 7 GOTO BentaygaAppleGreen
+		if %BentaygaType% == 8 GOTO BentaygaArabica
+		if %BentaygaType% == 9 GOTO BentaygaAzurePurple
+		if %BentaygaType% == 10 GOTO BentaygaBarnato
+		if %BentaygaType% == 11 GOTO BentaygaBeluga
+		if %BentaygaType% == 12 GOTO BentaygaBronze
+		if %BentaygaType% == 13 GOTO BentaygaBlackCrystal
+		if %BentaygaType% == 14 GOTO BentaygaBlackSapphire
+		if %BentaygaType% == 15 GOTO BentaygaBlackVelvet
+		if %BentaygaType% == 16 GOTO BentaygaBlueCrystal
+		if %BentaygaType% == 17 GOTO BentaygaBritishRacingGreen4
+		if %BentaygaType% == 18 GOTO BentaygaBrodgar
+		if %BentaygaType% == 19 GOTO BentaygaBronze
+		if %BentaygaType% == 20 GOTO BentaygaBurgundy
+		if %BentaygaType% == 21 GOTO BentaygaCamel
+		if %BentaygaType% == 22 GOTO BentaygaCumbrianGreen
+		if %BentaygaType% == 23 GOTO BentaygaDamson
+		if %BentaygaType% == 24 GOTO BentaygaDargonRedII
+		if %BentaygaType% == 25 GOTO BentaygaDarkCashmere
+		if %BentaygaType% == 26 GOTO BentaygaDarkSapphire
+		if %BentaygaType% == 27 GOTO BentaygaDoveGrey
+		if %BentaygaType% == 28 GOTO BentaygaExtremeSilver
+		if %BentaygaType% == 29 GOTO BentaygaFountainBlue
+		if %BentaygaType% == 30 GOTO BentaygaGlacierWhite
+		if %BentaygaType% == 31 GOTO BentaygaGranite
+		if %BentaygaType% == 32 GOTO BentaygaHallmark
+		if %BentaygaType% == 33 GOTO BentaygaHavana
+		if %BentaygaType% == 34 GOTO BentaygaIce
+		if %BentaygaType% == 35 GOTO BentaygaJetstreamII
+		if %BentaygaType% == 36 GOTO BentaygaKingfisher
+		if %BentaygaType% == 37 GOTO BentaygaMagenta
+		if %BentaygaType% == 38 GOTO BentaygaMagnetic
+		if %BentaygaType% == 39 GOTO BentaygaMagnolia
+		if %BentaygaType% == 40 GOTO BentaygaMarlin
+		if %BentaygaType% == 41 GOTO BentaygaMeteor
+		if %BentaygaType% == 42 GOTO BentaygaMidnightEmerald
+		if %BentaygaType% == 43 GOTO BentaygaMonacoYellow
+		if %BentaygaType% == 44 GOTO BentaygaMoonbeam
+		if %BentaygaType% == 45 GOTO BentaygaMoroccanBlue
+		if %BentaygaType% == 46 GOTO BentaygaNeptune
+		if %BentaygaType% == 47 GOTO BentaygaOnyx
+		if %BentaygaType% == 48 GOTO BentaygaOrangeFlame
+		if %BentaygaType% == 49 GOTO BentaygaPaleBrodgar
+		if %BentaygaType% == 50 GOTO BentaygaPassionPink
+		if %BentaygaType% == 51 GOTO BentaygaPeacock
+		if %BentaygaType% == 52 GOTO BentaygaPortofino
+		if %BentaygaType% == 53 GOTO BentaygaRoseGold
+		if %BentaygaType% == 54 GOTO BentaygaSequineBlue
+		if %BentaygaType% == 55 GOTO BentaygaSilverlake
+		if %BentaygaType% == 56 GOTO BentaygaSilverStorm
+		if %BentaygaType% == 57 GOTO BentaygaSilverTempest
+		if %BentaygaType% == 58 GOTO BentaygaSpectre
+		if %BentaygaType% == 59 GOTO BentaygaStJamesRed
+		if %BentaygaType% == 60 GOTO BentaygaSunburstGold
+		if %BentaygaType% == 61 GOTO BentaygaThunder
+		if %BentaygaType% == 62 GOTO BentaygaTitanGrey
+		if %BentaygaType% == 63 GOTO BentaygaTungsten
+		if %BentaygaType% == 64 GOTO BentaygaVerdant
+		if %BentaygaType% == 65 GOTO BentaygaWhiteSand
+		if %BentaygaType% == 66 GOTO BentaygaWindsorBlue
+		GOTO BentaygaCon
 
 		:GT1
 
@@ -2273,15 +2741,16 @@ echo                                                           /___/
 	if !FerrariType! == 11 set CurrentCarChoice=F12 TDF
 	if !FerrariType! == 12 set CurrentCarChoice=F40
 	if !FerrariType! == 13 set CurrentCarChoice=F50
-	if !FerrariType! == 14 set CurrentCarChoice=FXXK / FXXK Evo
-	if !FerrariType! == 15 set CurrentCarChoice=GTC4 Lusso
-	if !FerrariType! == 16 set CurrentCarChoice=La Ferarri
-	if !FerrariType! == 17 set CurrentCarChoice=Portofino
-	if !FerrariType! == 18 GOTO FerrariOD
+	if !FerrariType! == 14 set CurrentCarChoice=F8 Tributo
+	if !FerrariType! == 15 set CurrentCarChoice=FXXK / FXXK Evo
+	if !FerrariType! == 16 set CurrentCarChoice=GTC4 Lusso
+	if !FerrariType! == 17 set CurrentCarChoice=La Ferarri
+	if !FerrariType! == 18 set CurrentCarChoice=Portofino
+	if !FerrariType! == 19 GOTO FerrariOD
 	GOTO FerrariCon
 
 	:FerrariOD
-	set FerrariType=17
+	set FerrariType=18
 	goto FerrariType1
 	
 	:Ferrari1
@@ -2299,10 +2768,11 @@ echo                                                           /___/
 	if !FerrariType! == 11 goto F12TDF
 	if !FerrariType! == 12 goto F40
 	if !FerrariType! == 13 goto F50
-	if !FerrariType! == 14 goto FXXK
-	if !FerrariType! == 15 goto GTC4Lusso
-	if !FerrariType! == 16 goto LaF
-	if !FerrariType! == 17 goto Portofino
+	if !FerrariType! == 14 goto F8TRIBUTO
+	if !FerrariType! == 15 goto FXXK
+	if !FerrariType! == 16 goto GTC4Lusso
+	if !FerrariType! == 17 goto LaF
+	if !FerrariType! == 18 goto Portofino
 
 	GOTO FerrariCon
 	
@@ -2403,6 +2873,8 @@ echo                                                           /___/
 		:F40
 
 		:F50
+		
+		:F8TRIBUTO
 
 		:FXXK
 
