@@ -6247,7 +6247,7 @@ echo                                                           /___/
 	if !FordType! == 1 set CurrentCarChoice=Durty 30
 	if !FordType! == 2 set CurrentCarChoice=F150 Raptor
 	if !FordType! == 3 set CurrentCarChoice=Focus RS
-	if !FordType! == 4 set CurrentCarChoice=Focus ST
+	if !FordType! == 4 set CurrentCarChoice=Focus ST (TrackSTer)
 	if !FordType! == 5 set CurrentCarChoice=GT40 MkII Restored
 	if !FordType! == 6 set CurrentCarChoice=GT (All Types)
 	if !FordType! == 7 set CurrentCarChoice=Mustang GT HPE750
@@ -6276,17 +6276,261 @@ echo                                                           /___/
 
 	GOTO FordCon
 	
-	    :Durty30
+		:Durty30
+		CLS
+		SET Durty30Choice=1
+
+echo    ______              ____  _      __            
+echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___
+echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  /
+echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ / 
+echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/  
+echo                                                           /___/      
+		echo.
+		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
+		echo.
+		echo Selected Manufacture:  !CurrentManuChoice!
+		echo Selected Car:          Durty 30
+		echo.
+		echo - Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 - 
+		echo.
+		echo 1.) Durty 30
+		echo.
+		echo 2.) Back
+		echo.			
+		echo (1.) Select - (2.) Back
+		echo.
+		CHOICE /C 12 /M "" >nul
+		IF ERRORLEVEL == 2 GOTO FordCon
+		IF ERRORLEVEL == 1 GOTO Durty30Get
+		goto Durty30
 	    
 		:F150Raptor
+		CLS
+		set F150RaptorType=0
+		
+		:F150RaptorCon
+		cls
+	
+echo    ______              ____  _      __            
+echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___
+echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  /
+echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ / 
+echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/  
+echo                                                           /___/      
+		echo.
+		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
+		echo.
+		echo Selected Manufacture:  !CurrentManuChoice!
+		echo Selected Car:          %CurrentCarChoice%
+		echo.
+		echo - Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 - 
+		echo.
+		echo 1.) Back
+		echo.
+		echo 2.) Ruby Red
+		echo.
+		echo 3.) Tuxedo Black
+		echo.
+		set /p F150RaptorType="Select Choice and press Enter: " 
+		
+		if !F150RaptorType! == 1 goto FordCon
+		if !F150RaptorType! == 2 goto F150RR
+		if !F150RaptorType! == 3 goto F150TB
+		goto F150RaptorCon
 	    
 		:FocusRS
+		CLS
+		set FocusRSType=0
+		
+		:FocusRSCon
+		cls
+	
+echo    ______              ____  _      __            
+echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___
+echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  /
+echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ / 
+echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/  
+echo                                                           /___/      
+		echo.
+		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
+		echo.
+		echo Selected Manufacture:  !CurrentManuChoice!
+		echo Selected Car:          %CurrentCarChoice%
+		echo.
+		echo - Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 - 
+		echo.
+		echo 1.) Back
+		echo.
+		echo 2.) Competition Orange
+		echo.
+		echo 3.) Frozen White
+		echo.
+		echo 4.) Nitrous Blue
+		echo.
+		echo 5.) Performance Blue
+		echo.
+		echo 6.) Shadow Black
+		echo.
+		echo 7.) Stealth Gray
+		echo.
+		echo 8.) Ultimate Green
+		echo.
+		echo 9.) Yellow Blaze Tricoat
+		echo. 
+		set /p FocusRSType="Select Choice and press Enter: " 
+		
+		if !FocusRSType! == 1 goto FordCon
+		if !FocusRSType! == 2 goto FocusCO
+		if !FocusRSType! == 3 goto FocusFW
+		if !FocusRSType! == 4 goto FocusNB
+		if !FocusRSType! == 5 goto FocusPB
+		if !FocusRSType! == 6 goto FocusSB
+		if !FocusRSType! == 7 goto FocusSG
+		if !FocusRSType! == 8 goto FocusUG
+		if !FocusRSType! == 9 goto FocusYBT		
+		goto FocusRSCon
 	    
 		:FocusST
+		CLS
+		set FocusSTType=0
+		
+		:FocusSTCon
+		cls
+	
+echo    ______              ____  _      __            
+echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___
+echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  /
+echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ / 
+echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/  
+echo                                                           /___/      
+		echo.
+		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
+		echo.
+		echo Selected Manufacture:  !CurrentManuChoice!
+		echo Selected Car:          %CurrentCarChoice%
+		echo.
+		echo - Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 - 
+		echo.
+		echo 1.) Back
+		echo.
+		echo 2.) Sneak's Crew Car
+		echo.
+		echo 3.) Oxford White
+		echo.
+		echo 4.) Performance Blue
+		echo.
+		echo 5.) Tuxedo Black
+		echo.
+		set /p FocusSTType="Select Choice and press Enter: " 
+		
+		if !FocusSTType! == 1 goto FordCon
+		if !FocusSTType! == 2 goto TRACKSTERCrew
+		if !FocusSTType! == 3 goto TRACKSTEROW
+		if !FocusSTType! == 4 goto TRACKSTERPB
+		if !FocusSTType! == 5 goto TRACKSTERTB
+		goto FocusSTCon
 	    
 		:GT40
+		CLS
+		SET GT40Choice=1
+
+echo    ______              ____  _      __            
+echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___
+echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  /
+echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ / 
+echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/  
+echo                                                           /___/      
+		echo.
+		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
+		echo.
+		echo Selected Manufacture:  !CurrentManuChoice!
+		echo Selected Car:          GT40 MKii
+		echo.
+		echo - Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 - 
+		echo.
+		echo 1.) GT40 MKii Restored
+		echo.
+		echo 2.) Back
+		echo.			
+		echo (1.) Select - (2.) Back
+		echo.
+		CHOICE /C 12 /M "" >nul
+		IF ERRORLEVEL == 2 GOTO FordCon
+		IF ERRORLEVEL == 1 GOTO GT40MKIIR
+		goto GT40
 	    
 		:FordGT
+		CLS
+		set FordGTType=0
+		
+		:FordGTCon
+		cls
+	
+echo    ______              ____  _      __            
+echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___
+echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  /
+echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ / 
+echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/  
+echo                                                           /___/      
+		echo.
+		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
+		echo.
+		echo Selected Manufacture:  !CurrentManuChoice!
+		echo Selected Car:          %CurrentCarChoice%
+		echo.
+		echo - Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 - 
+		echo.
+		echo 1.) Back                                               (13.) Liquid Grey
+		echo.
+		echo 2.) GT66 Heritage Edition (Yellow Star)                (14.) Liquid Grey with Orange Stripes
+		echo.
+		echo 3.) Heritage Edition Gulf Livery (Purple Star)         (15.) Liquid Red
+		echo.
+		echo 4.) Reward                                             (16.) LiquidRed with White Stripes
+		echo.
+		echo 5.) Atlas Green with Black Stripes                     (17.) Matte Black with Gold Stripes
+		echo.
+		echo 6.) Beryllium Orange with Black Stripes                (18.) Matte Black with Herritage Livery Num 2
+		echo.
+		echo 7.) Frozen White                                       (19.) Nitrous Blue
+		echo.
+		echo 8.) Frozen White with Black Stripes                    (20.) Race Red with Heritage Livery Num 1
+		echo.
+		echo 9.) Ingot Silver                                       (21.) Shadow Black
+		echo. 
+		echo 10.) Ingot Silver with Blue Stripes                    (22.) Shadow Black with Herritage Livery Num 2
+		echo.
+		echo 11.) Liquid Blue                                       (23.) Shadow Black with Red Stripes
+		echo.
+		echo 12.) Liquid Blue with White Stripes
+		echo.
+		set /p FordGTType="Select Choice and press Enter: " 
+		
+		if !FordGTType! == 1 goto FordCon
+		if !FordGTType! == 2 goto GT66Heritage
+		if !FordGTType! == 3 goto GTHeritageEdition
+		if !FordGTType! == 4 goto GTReward
+		if !FordGTType! == 5 goto GTAGBS
+		if !FordGTType! == 6 goto GTBOBS
+		if !FordGTType! == 7 goto GTFW
+		if !FordGTType! == 8 goto GTFWBS
+		if !FordGTType! == 9 goto GTIS
+		if !FordGTType! == 10 goto GTISBS
+		if !FordGTType! == 11 goto GTLB
+		if !FordGTType! == 12 goto GTLBWS
+		if !FordGTType! == 13 goto GTLG
+		if !FordGTType! == 14 goto GTLGOS
+		if !FordGTType! == 15 goto GTLR
+		if !FordGTType! == 16 goto GTLRWS
+		if !FordGTType! == 17 goto GTMBGS
+		if !FordGTType! == 18 goto GTMBHL2
+		if !FordGTType! == 19 goto GTNB
+		if !FordGTType! == 20 goto GTRRHL1
+		if !FordGTType! == 21 goto GTSB
+		if !FordGTType! == 22 goto GTSBHL2
+		if !FordGTType! == 23 goto GTSBRS
+		goto FordGTCon
 	    
 		:HPE750
 	    
