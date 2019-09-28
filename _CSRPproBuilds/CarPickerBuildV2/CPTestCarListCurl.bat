@@ -7,6 +7,7 @@
 			REM curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			REM move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			REM START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			REM echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			REM GOTO 
 
 			REM Start of ABARTH 500
@@ -17,6 +18,7 @@
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
 			set Abarth500Choice=0
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Abarth
 
 			:AbarthCR
@@ -25,6 +27,7 @@
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
 			set Abarth500Choice=0
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Abarth
 
 			:AbarthLB
@@ -33,6 +36,7 @@
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
 			set Abarth500Choice=0
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Abarth
 
 			:AbarthPBNL
@@ -41,6 +45,7 @@
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
 			set Abarth500Choice=0
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Abarth
 
 			:AbarthPBRL
@@ -49,6 +54,7 @@
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
 			set Abarth500Choice=0
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Abarth
 
 			:AbarthPGNL
@@ -57,6 +63,7 @@
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
 			set Abarth500Choice=0
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Abarth
 
 			:AbarthPWNL
@@ -65,6 +72,7 @@
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
 			set Abarth500Choice=0
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Abarth
 
 			:AbarthPWRL
@@ -73,6 +81,7 @@
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
 			set Abarth500Choice=0
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Abarth
 
 			:AbarthPBWL
@@ -81,6 +90,7 @@
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
 			set Abarth500Choice=0
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Abarth
 
 			:AbarthRB
@@ -89,6 +99,7 @@
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
 			set Abarth500Choice=0
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Abarth
 
 			:AbarthSB
@@ -97,6 +108,7 @@
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
 			set Abarth500Choice=0
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Abarth
 
 			:AbarthTG
@@ -105,6 +117,7 @@
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
 			set Abarth500Choice=0
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Abarth
 
 			:AbarthYBL
@@ -113,6 +126,7 @@
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
 			set Abarth500Choice=0
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Abarth
 			
 			REM Start of  Alfa Romeo:
@@ -124,6 +138,7 @@
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
 			SET 4CCoupeChoiceChoice=0
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO 4CCoupe
 
 			:4CCoupeBasalt
@@ -132,6 +147,7 @@
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
 			SET 4CCoupeChoiceChoice=0
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO 4CCoupe
 
 			:4CCoupeBlack
@@ -140,6 +156,7 @@
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
 			SET 4CCoupeChoiceChoice=0
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO 4CCoupe
 
 			:4CCoupeGiallo
@@ -148,6 +165,7 @@
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
 			SET 4CCoupeChoiceChoice=0
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO 4CCoupe
 
 			:4CCoupeAlfa
@@ -156,6 +174,7 @@
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
 			SET 4CCoupeChoiceChoice=0
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO 4CCoupe
 
 			:4CCoupeComp
@@ -164,6 +183,7 @@
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
 			SET 4CCoupeChoiceChoice=0
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO 4CCoupe
 					
 			:4CCoupeWhite
@@ -172,6 +192,7 @@
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
 			SET 4CCoupeChoiceChoice=0
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO 4CCoupe
 			
 			REM Start of 4C Spyder:
@@ -182,6 +203,7 @@
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
 			SET 4CSpyderChoice=0
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO 4CSpyder
 					
 			:4CSpyderCarrera
@@ -190,6 +212,7 @@
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
 			SET 4CSpyderChoice=0
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO 4CSpyder					
 	
 			:4CSpyderConcept
@@ -198,6 +221,7 @@
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
 			SET 4CSpyderChoice=0
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO 4CSpyder
 
 			:4CSpyderEtna
@@ -206,6 +230,7 @@
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
 			SET 4CSpyderChoice=0
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO 4CSpyder
 
 			:4CSpyderTornado
@@ -214,6 +239,7 @@
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
 			SET 4CSpyderChoice=0
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO 4CSpyder
 			
 			REM Start of 8C Competizione:
@@ -224,6 +250,7 @@
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
 			set 8CCompetizioneChoice=0
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO 8C
 			
 			REM Start of Giulia Quadrifoglio:
@@ -234,6 +261,7 @@
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
 			set GiuliaQuadrifoglioChoice=0
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			Goto GiuliaQuadrifoglio
 
 			:GQMisano
@@ -242,6 +270,7 @@
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
 			set GiuliaQuadrifoglioChoice=0
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			Goto GiuliaQuadrifoglio
 
 			:GQMonte
@@ -250,6 +279,7 @@
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
 			set GiuliaQuadrifoglioChoice=0
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			Goto GiuliaQuadrifoglio
 
 			:GQRosso
@@ -258,6 +288,7 @@
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
 			set GiuliaQuadrifoglioChoice=0
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			Goto GiuliaQuadrifoglio
 
 			:GQSilverstone
@@ -266,6 +297,7 @@
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
 			set GiuliaQuadrifoglioChoice=0
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			Goto GiuliaQuadrifoglio
 
 			:GQTrofeo
@@ -274,6 +306,7 @@
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
 			set GiuliaQuadrifoglioChoice=0
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			Goto GiuliaQuadrifoglio
 
 			:GQVesuvio
@@ -282,6 +315,7 @@
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
 			set GiuliaQuadrifoglioChoice=0
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			Goto GiuliaQuadrifoglio
 
 			:GQVolcanicAll
@@ -290,6 +324,7 @@
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
 			set GiuliaQuadrifoglioChoice=0
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			Goto GiuliaQuadrifoglio
 
 			:GQVolcanicBAR
@@ -298,6 +333,7 @@
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
 			set GiuliaQuadrifoglioChoice=0
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			Goto GiuliaQuadrifoglio
 			
 			REM Start of Alpine:
@@ -310,6 +346,7 @@
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
 			set AlpineType=1
 			set AlpineWheelType=1
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Alpine
 				
 
@@ -320,6 +357,7 @@
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
 			set AlpineType=1
 			set AlpineWheelType=1
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Alpine
 				
 			:A110BGW3
@@ -329,6 +367,7 @@
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
 			set AlpineType=1
 			set AlpineWheelType=1
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Alpine
 
 			:A110BIW1
@@ -338,6 +377,7 @@
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
 			set AlpineType=1
 			set AlpineWheelType=1
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Alpine
 				
 			:A110BIW2
@@ -347,6 +387,7 @@
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
 			set AlpineType=1
 			set AlpineWheelType=1
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Alpine
 				
 			:A110BIW3
@@ -356,6 +397,7 @@
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
 			set AlpineType=1
 			set AlpineWheelType=1
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Alpine
 
 			:A110BW1
@@ -365,6 +407,7 @@
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
 			set AlpineType=1
 			set AlpineWheelType=1
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Alpine
 				
 			:A110BW2
@@ -374,6 +417,7 @@
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
 			set AlpineType=1
 			set AlpineWheelType=1
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Alpine
 				
 			:A110BW3
@@ -383,6 +427,7 @@
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
 			set AlpineType=1
 			set AlpineWheelType=1
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Alpine
 
 			:A110BAW1
@@ -392,6 +437,7 @@
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
 			set AlpineType=1
 			set AlpineWheelType=1
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Alpine
 				
 			:A110BAW2
@@ -401,6 +447,7 @@
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
 			set AlpineType=1
 			set AlpineWheelType=1
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Alpine
 				
 			:A110BAW3
@@ -410,6 +457,7 @@
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
 			set AlpineType=1
 			set AlpineWheelType=1
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Alpine
 
 			:A110GW1
@@ -419,6 +467,7 @@
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
 			set AlpineType=1
 			set AlpineWheelType=1
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Alpine
 				
 			:A110GW2
@@ -428,6 +477,7 @@
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
 			set AlpineType=1
 			set AlpineWheelType=1
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Alpine
 				
 			:A110GW3
@@ -437,6 +487,7 @@
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
 			set AlpineType=1
 			set AlpineWheelType=1
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Alpine
 
 
@@ -447,6 +498,7 @@
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
 			set AlpineType=1
 			set AlpineWheelType=1
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Alpine
 				
 			:A110NW2
@@ -456,6 +508,7 @@
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
 			set AlpineType=1
 			set AlpineWheelType=1
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Alpine
 				
 			:A110NW3
@@ -465,6 +518,7 @@
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
 			set AlpineType=1
 			set AlpineWheelType=1
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Alpine
 
 			REM Start of AMC:
@@ -475,6 +529,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/AMC/Javelin/Javelin_IAPSpecial.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO AMC
 
 			REM Start of Apollo:
@@ -485,6 +540,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Apollo/IntensaEmozione/IntensaEmozione_IAPSpecial.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			set ApolloType=1
 			GOTO Apollo
 			
@@ -493,6 +549,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Apollo/IntensaEmozione/IntensaEmozione_IAPSpecial_Secondary%20Official_.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			set ApolloType=1
 			GOTO Apollo
 			
@@ -505,6 +562,7 @@
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
 			set DB11Type=0
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO DB11
 			
 			:DB11ATGBL
@@ -513,6 +571,7 @@
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
 			set DB11Type=0
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO DB11
 				
 			:DB11ATGSL
@@ -521,6 +580,7 @@
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
 			set DB11Type=0
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO DB11
 
 			:DB11AGCBI
@@ -529,6 +589,7 @@
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
 			set DB11Type=0
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO DB11
 
 			:DB11AGMI
@@ -537,6 +598,7 @@
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
 			set DB11Type=0
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO DB11
 
 			:DB11AB
@@ -545,6 +607,7 @@
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
 			set DB11Type=0
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO DB11
 
 			:DB11CG
@@ -553,6 +616,7 @@
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
 			set DB11Type=0
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO DB11
 
 			:DB11CO
@@ -561,6 +625,7 @@
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
 			set DB11Type=0
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO DB11
 
 			:DB11Cobalt
@@ -569,6 +634,7 @@
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
 			set DB11Type=0
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO DB11
 
 			:DB11Concours
@@ -577,6 +643,7 @@
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
 			set DB11Type=0
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO DB11
 
 			:DB11Diavolo
@@ -585,6 +652,7 @@
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
 			set DB11Type=0
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO DB11
 
 			:DB11Divine
@@ -593,6 +661,7 @@
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
 			set DB11Type=0
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO DB11
 
 			:DB11FS
@@ -601,6 +670,7 @@
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
 			set DB11Type=0
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO DB11
 
 			:DB11HS
@@ -609,6 +679,7 @@
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
 			set DB11Type=0
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO DB11
 
 			:DB11HG
@@ -617,6 +688,7 @@
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
 			set DB11Type=0
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO DB11
 
 			:DB11JB
@@ -625,6 +697,7 @@
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
 			set DB11Type=0
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO DB11
 
 			:DB11KB
@@ -633,6 +706,7 @@
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
 			set DB11Type=0
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO DB11
 
 			:DB11LS
@@ -641,6 +715,7 @@
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
 			set DB11Type=0
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO DB11
 
 			:DB11LW
@@ -649,6 +724,7 @@
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
 			set DB11Type=0
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO DB11
 
 			:DB11MO
@@ -657,6 +733,7 @@
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
 			set DB11Type=0
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO DB11
 
 			:DB11MS
@@ -665,6 +742,7 @@
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
 			set DB11Type=0
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO DB11
 
 			:DB11Mariana
@@ -673,6 +751,7 @@
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
 			set DB11Type=0
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO DB11
 
 			:DB11Marron
@@ -681,6 +760,7 @@
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
 			set DB11Type=0
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO DB11
 
 			:DB11Midnight
@@ -689,6 +769,7 @@
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
 			set DB11Type=0
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO DB11
 
 			:DB11MFW
@@ -697,6 +778,7 @@
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
 			set DB11Type=0
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO DB11
 
 			:DB11OT
@@ -705,6 +787,7 @@
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
 			set DB11Type=0
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO DB11
 
 			:DB11OB
@@ -713,6 +796,7 @@
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
 			set DB11Type=0
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO DB11
 
 			:DB11QS
@@ -721,6 +805,7 @@
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
 			set DB11Type=0
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO DB11
 
 			:DB11SEA
@@ -729,6 +814,7 @@
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
 			set DB11Type=0
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO DB11
 
 			:DB11Selene
@@ -737,6 +823,7 @@
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
 			set DB11Type=0
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO DB11
 
 			:DB11SB
@@ -745,6 +832,7 @@
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
 			set DB11Type=0
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO DB11
 
 			:DB11SF
@@ -753,6 +841,7 @@
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
 			set DB11Type=0
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO DB11
 
 			:DB11SKY
@@ -761,6 +850,7 @@
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
 			set DB11Type=0
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO DB11
 
 			:DB11SW
@@ -769,6 +859,7 @@
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
 			set DB11Type=0
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO DB11
 
 			:DB11SY
@@ -777,6 +868,7 @@
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
 			set DB11Type=0
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO DB11
 
 			:DB11UB
@@ -785,6 +877,7 @@
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
 			set DB11Type=0
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO DB11
 
 			:DB11VR
@@ -793,6 +886,7 @@
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
 			set DB11Type=0
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO DB11
 
 			:DB11YT
@@ -801,6 +895,7 @@
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
 			set DB11Type=0
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO DB11
 
 			:DB11ZB
@@ -809,6 +904,7 @@
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
 			set DB11Type=0
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO DB11
 			
 			REM Start of One-77:
@@ -818,6 +914,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/AstonMartin/One77/One77Reward.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
             move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO One77
 				
 			:One77ATGW1
@@ -825,6 +922,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/AstonMartin/One77/One77AppletreeGreenW1.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
             move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO One77
 				
 			:One77ATGW2
@@ -832,6 +930,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/AstonMartin/One77/One77AppletreeGreenW2.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
             move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO One77
 
 			:One77AG
@@ -839,6 +938,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/AstonMartin/One77/One77ArdenGreen.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
             move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO One77
 
 			:One77CG
@@ -846,6 +946,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/AstonMartin/One77/One77ChinaGrey.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
             move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO One77
 
 			:One77CO
@@ -853,6 +954,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/AstonMartin/One77/One77CinnabarOrange.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
             move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO One77
 
 			:One77DIAVOLO
@@ -860,6 +962,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/AstonMartin/One77/One77DiavoloRed.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
             move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO One77
 
 			:One77DIVINEW1
@@ -867,6 +970,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/AstonMartin/One77/One77DivineRedW1.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
             move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO One77
 
 			:One77DIVINEW2
@@ -874,6 +978,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/AstonMartin/One77/One77DivineRedW2.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
             move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO One77
 
 			:One77FGB
@@ -881,6 +986,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/AstonMartin/One77/One77FrostedGlassBlue.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
             move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO One77
 
 			:One77GXG
@@ -888,6 +994,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/AstonMartin/One77/One77GlossXenonGrey.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
             move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO One77
 
 			:One77HG
@@ -895,6 +1002,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/AstonMartin/One77/One77HardlyGreen.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
             move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO One77
 
 			:One77HR
@@ -902,6 +1010,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/AstonMartin/One77/One77HyperRed.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
             move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO One77
 
 			:One77JB
@@ -909,6 +1018,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/AstonMartin/One77/One77JetBlack.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
             move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO One77
 
 			:One77LE
@@ -916,6 +1026,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/AstonMartin/One77/One77LimeEssence.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
             move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO One77
 
 			:One77LW
@@ -923,6 +1034,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/AstonMartin/One77/One77LunarWhite.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
             move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO One77
 
 			:One77MB
@@ -930,6 +1042,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/AstonMartin/One77/One77MarronBlack.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
             move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO One77
 
 			:One77OT
@@ -937,6 +1050,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/AstonMartin/One77/One77OcellusTeal.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
             move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO One77
 
 			:One77OB
@@ -944,6 +1058,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/AstonMartin/One77/One77OnyxBlack.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
             move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO One77
 
 			:One77QS
@@ -951,6 +1066,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/AstonMartin/One77/One77QuantumSilver.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
             move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO One77
 
 			:One77SS
@@ -958,6 +1074,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/AstonMartin/One77/One77SkyfallSilver.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
             move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO One77
 
 			:One77UB
@@ -965,6 +1082,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/AstonMartin/One77/One77UltramarineBlack.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
             move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO One77
 
 			:One77WS
@@ -972,6 +1090,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/AstonMartin/One77/One77WhiteStone.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
             move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO One77
 
 			:One77YT
@@ -979,6 +1098,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/AstonMartin/One77/One77YellowTang.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
             move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO One77
 
 			REM Start of DBS Superleggera
@@ -988,6 +1108,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/AstonMartin/Superleggera/SuperleggeraReward.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
             move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO DBSSuperleggera
 			
 			:SuperleggeraHR
@@ -995,6 +1116,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/AstonMartin/Superleggera/DBSHyperRed.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
             move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO DBSSuperleggera
 			
 			:SuperleggeraWS
@@ -1002,6 +1124,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/AstonMartin/Superleggera/DBSWhiteStone.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
             move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO DBSSuperleggera
 			
 			REM Start of Vanquish
@@ -1011,6 +1134,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/AstonMartin/Vanquish/VanquishQbyAMAborOrange.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
             move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Vanquish
 
 		    :VanquishAB
@@ -1018,6 +1142,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/AstonMartin/Vanquish/VanquishQbyAMAshenBlonde.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
             move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Vanquish			
 		
 		    :VanquishFS
@@ -1025,6 +1150,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/AstonMartin/Vanquish/VanquishQbyAMFrostedSilver.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
             move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Vanquish
 			
 		    :VanquishMP
@@ -1032,6 +1158,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/AstonMartin/Vanquish/VanquishQbyAMMontereyPearl.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
             move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Vanquish
 			
 		    :VanquishOT
@@ -1039,6 +1166,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/AstonMartin/Vanquish/VanquishOcellusTeal.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Vanquish
 			
 		    :VanquishPA
@@ -1046,6 +1174,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/AstonMartin/Vanquish/VanquishQbyAMPurpleAmethyst.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
             move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Vanquish
 			
 		    :VanquishQA
@@ -1053,6 +1182,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/AstonMartin/Vanquish/VanquishQuantumSilver.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
             move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Vanquish
 			
 		    :VanquishSJB
@@ -1060,6 +1190,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/AstonMartin/Vanquish/VanquishQbyAMSatinJetBlack.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Vanquish
 			
 		    :VanquishSS
@@ -1067,6 +1198,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/AstonMartin/Vanquish/VanquishSkyfallSilver.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
             move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Vanquish
 			
 		    :VanquishSW
@@ -1074,6 +1206,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/AstonMartin/Vanquish/VanquishStratusWhite.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
             move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Vanquish
 			
 		    :VanquishVR
@@ -1081,6 +1214,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/AstonMartin/Vanquish/VanquishVolcanoRed.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
             move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Vanquish
 			
 			REM Start of Vantage V8
@@ -1090,6 +1224,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/AstonMartin/Vantage/VantageReward.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
             move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Vantage
 			
 			:VantageCG
@@ -1097,6 +1232,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/AstonMartin/Vantage/VantageChinaGrey.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
             move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Vantage
 			
 			:VantageHR
@@ -1104,6 +1240,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/AstonMartin/Vantage/VantageHyperRed.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
             move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Vantage
 			
 			:VantageJB
@@ -1111,6 +1248,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/AstonMartin/Vantage/VantageJetBlack.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
             move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Vantage
 			
 			:VantageLE
@@ -1118,6 +1256,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/AstonMartin/Vantage/VantageLimeEssence.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
             move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Vantage
 			
 			:VantageUB
@@ -1125,6 +1264,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/AstonMartin/Vantage/VantageUltramarineBlack.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
             move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Vantage
 			
 			:VantageWS
@@ -1132,6 +1272,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/AstonMartin/Vantage/VantageWhiteStone.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
             move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Vantage
 			
 			:VantageYT
@@ -1139,6 +1280,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/AstonMartin/Vantage/VantageYellowTang.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
             move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Vantage
 			
 			REM Start of Vulcan
@@ -1148,6 +1290,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/AstonMartin/Vulcan/VulcanReward.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
             move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Vulcan
 			
 			:VulcanEvo
@@ -1155,6 +1298,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/AstonMartin/Vulcan/VulcanAMR_Prize_EvoCup.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
             move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Vulcan
 			
 			:VulcanRed
@@ -1162,6 +1306,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/AstonMartin/Vulcan/VulcanRed.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
             move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Vulcan
 			
 			:VulcanGreen
@@ -1169,6 +1314,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/AstonMartin/Vulcan/VulcanGreen.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
             move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Vulcan
 			
 			:VulcanWhite
@@ -1176,6 +1322,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/AstonMartin/Vulcan/VulcanWhite.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
             move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Vulcan
 			
 			REM Start of DB5
@@ -1185,6 +1332,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/AstonMartin/DB5/DB5Restored.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
             move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO DB5
 
 			REM Start of Vanquish Zagato
@@ -1194,6 +1342,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/AstonMartin/Zagato/ZagatoReward.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
             move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Zagato
 
 			:ZagatoG
@@ -1201,6 +1350,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/AstonMartin/Zagato/ZagatoQbyCaplanRoadsterGreen.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
             move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Zagato
 
 			:ZagatoU
@@ -1208,6 +1358,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/AstonMartin/Zagato/ZagatoUltramarineBlack.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
             move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Zagato			
 
 			REM Start of ATS Automobili:
@@ -1217,7 +1368,8 @@
 			set tempcarname=ATSAutomobili_GTRewardRecycled_2018R
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/ATSAutomobili/RedBlackLiv.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
-			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\D
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"ocuments\CSRPpro\TempFiles\%tempcarname%"
 			GOTO ATSAutomobili
 			
 			:ATSAGTReward
@@ -1225,6 +1377,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/ATSAutomobili/Reward.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO ATSAutomobili
 			
 			:ATSAGTS
@@ -1232,6 +1385,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/ATSAutomobili/SilverRedLiv.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO ATSAutomobili
 
 			REM Start of Audi:
@@ -1242,6 +1396,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Audi/2014R8/2014R8AudiExEstorilBlue.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO 2014R8
 
 			:14R8JG
@@ -1249,6 +1404,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Audi/2014R8/2014R8AudiExJavaGreen.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO 2014R8
 
 			:14R8SOM
@@ -1256,6 +1412,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Audi/2014R8/2014R8AudiExSamoaOrangeMatt.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO 2014R8
 
 			:14R8SBM
@@ -1263,6 +1420,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Audi/2014R8/2014R8AudiExSphereBlueMatt.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO 2014R8
 
 			:14R8SGM
@@ -1270,6 +1428,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Audi/2014R8/2014R8AudiExSuzukaGreyMatt.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO 2014R8
 
 			:14R8TG
@@ -1277,6 +1436,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Audi/2014R8/2014R8AudiExTungstenGrey.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO 2014R8
 
 			:14R8VP
@@ -1284,6 +1444,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Audi/2014R8/2014R8AudiExVelvetPurple.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO 2014R8
 
 			:14R8FS
@@ -1291,6 +1452,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Audi/2014R8/2014R8FlorettSilver.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO 2014R8
 
 			:14R8IW
@@ -1298,6 +1460,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Audi/2014R8/2014R8IbisWhite.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO 2014R8
 
 			:14R8SO
@@ -1305,6 +1468,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Audi/2014R8/2014R8SamoaOrange.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO 2014R8
 
 			:14R8SB
@@ -1312,6 +1476,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Audi/2014R8/2014R8SepangBlue.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO 2014R8
 
 			REM Start of 2016 R8:
@@ -1321,6 +1486,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Audi/2016R8/16R8AraBlueCrystal.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO 2016R8
 
 			:16R8MG
@@ -1328,6 +1494,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Audi/2016R8/16R8AudiExMocrommataGreen.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO 2016R8
 
 			:16R8QGYA
@@ -1335,6 +1502,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Audi/2016R8/16R8AudiExQuantumGreyYellowAccent.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO 2016R8
 
 			:16R8CG
@@ -1342,6 +1510,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Audi/2016R8/16R8CamouflageGreen.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO 2016R8
 
 			:16R8CGM
@@ -1349,6 +1518,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Audi/2016R8/16R8CamouflageGreenMatte.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO 2016R8
 
 			:16R8DG
@@ -1356,6 +1526,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Audi/2016R8/16R8DaytonaGray.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO 2016R8
 
 			:16R8DR
@@ -1363,6 +1534,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Audi/2016R8/16R8DynamiteRed.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO 2016R8
 
 			:16R8FS
@@ -1370,6 +1542,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Audi/2016R8/16R8FlorettSilver.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO 2016R8
 
 			:16R8IW
@@ -1377,6 +1550,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Audi/2016R8/16R8IbisWhite.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO 2016R8
 
 			:16R8IWRA
@@ -1384,6 +1558,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Audi/2016R8/16R8IbisWhiteRedAccent.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO 2016R8
 
 			:16R8MB
@@ -1391,6 +1566,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Audi/2016R8/16R8MythosBlack.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO 2016R8
 
 			:16R8SG
@@ -1398,6 +1574,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Audi/2016R8/16R8SuzukaGray.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO 2016R8
 
 			:16R8TR
@@ -1405,6 +1582,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Audi/2016R8/16R8TangoRed.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO 2016R8
 
 			:16R8VY
@@ -1412,6 +1590,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Audi/2016R8/16R8VegasYellow.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO 2016R8
 
 			REM Start of Liberty Walk R8:
@@ -1421,6 +1600,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Audi/LBR8/LBR8AraBlueCrystalWheel2.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO LBR8
 
 			:LBR8ABCW3
@@ -1428,6 +1608,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Audi/LBR8/LBR8AraBlueCrystalWheel3.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO LBR8
 
 			:LBR8DG
@@ -1435,6 +1616,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Audi/LBR8/LBR8DaytonaGray.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO LBR8
 
 			:LBR8QG
@@ -1442,6 +1624,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Audi/LBR8/LBR8ExclusiveQuantumGrey.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO LBR8
 
 			:LBR8FSBL
@@ -1449,6 +1632,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Audi/LBR8/LBR8FlorettSilverwithBlackLivery.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO LBR8
 
 			:LBR8IWBLBW
@@ -1456,6 +1640,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Audi/LBR8/LBR8IbisWhiteBlackLivBlackWheels.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO LBR8
 
 			:LBR8IWBLRW
@@ -1463,6 +1648,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Audi/LBR8/LBR8IbisWhiteBlackLivRedWheels.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO LBR8
 
 			:LBR8JBBRLB3W
@@ -1470,6 +1656,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Audi/LBR8/LBR8JetBlackBlackRedLivBlack3Wheels.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO LBR8
 
 			:LBR8JBBRLBW
@@ -1477,6 +1664,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Audi/LBR8/LBR8JetBlackBlackRedLivBlackWheels.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO LBR8
 
 			:LBR8JBBRLRW
@@ -1484,6 +1672,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Audi/LBR8/LBR8JetBlackBlackRedLivRedWheels.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO LBR8
 
 			:LBR8JBGL
@@ -1491,6 +1680,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Audi/LBR8/LBR8JetBlackGoldLiv.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO LBR8
 
 			:LBR8Reward
@@ -1498,6 +1688,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Audi/LBR8/LBR8Reward.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO LBR8
 
 			:LBR8VYBL
@@ -1505,6 +1696,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Audi/LBR8/LBR8VegasYellowBlackLiv.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO LBR8
 
 			REM Start of Liberty Walk RS5:
@@ -1514,6 +1706,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Audi/LBRS5/LBRS5AdmiralBlueSilverLBLiv.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO LBRS5
 
 			:LBRS5COBL
@@ -1521,6 +1714,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Audi/LBRS5/LBRS5CaliforniaOrangeBlackLBLiv.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO LBRS5
 
 			:LBRS5DGBL
@@ -1528,6 +1722,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Audi/LBRS5/LBRS5DaytonaGreyBlackLBLiv.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO LBRS5
 
 			:LBRS5DGBT
@@ -1535,6 +1730,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Audi/LBRS5/LBRS5DaytonaGreyBlackTop.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO LBRS5
 
 			:LBRS5DG
@@ -1542,6 +1738,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Audi/LBRS5/LBRS5DaytonaGreyNoLiv.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO LBRS5
 
 			:LBRS5IWBL
@@ -1549,6 +1746,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Audi/LBRS5/LBRS5IbisWhiteBlackLBLiv.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO LBRS5
 
 			:LBRS5IWBT
@@ -1556,6 +1754,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Audi/LBRS5/LBRS5IbisWhiteBlackTop.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO LBRS5
 
 			:LBRS5IW
@@ -1563,6 +1762,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Audi/LBRS5/LBRS5IbisWhiteNoLiv.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO LBRS5
 
 			:LBRS5JB
@@ -1570,6 +1770,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Audi/LBRS5/LBRS5JetBlackNoLiv.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO LBRS5
 
 			:LBRS5JBWL
@@ -1577,6 +1778,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Audi/LBRS5/LBRS5JetBlackWhiteLBLiv.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO LBRS5
 
 			:LBRS5MRBL
@@ -1584,6 +1786,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Audi/LBRS5/LBRS5MonzaRedBlackLBLiv.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO LBRS5
 
 			:LBRS5MRBT
@@ -1591,6 +1794,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Audi/LBRS5/LBRS5MonzaRedBlackTop.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO LBRS5
 
 			:LBRS5MR
@@ -1598,6 +1802,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Audi/LBRS5/LBRS5MonzaRedNoLiv.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO LBRS5
 
 			:LBRS5PRL
@@ -1605,6 +1810,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Audi/LBRS5/LBRS5ParisRedLBLiv.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO LBRS5
 
 			REM Start of Vortsteiner R8:
@@ -1614,6 +1820,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Audi/R8VRS/R8VRSRecycled" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO R8VRS
 
 			:R8VRSReward
@@ -1621,6 +1828,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Audi/R8VRS/R8VRSReward" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO R8VRS
 
 			REM Start of RS5:
@@ -1630,6 +1838,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Audi/RS5/RS5AudiExGrisAsterRedLiv.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO RS5
 
 			:RS5IB
@@ -1637,6 +1846,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Audi/RS5/RS5AudiExIpanemaBrown.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO RS5
 
 			:RS5JG
@@ -1644,6 +1854,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Audi/RS5/RS5AudiExJavaGreen.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO RS5
 
 			:RS5NG
@@ -1651,6 +1862,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Audi/RS5/RS5AudiExNardoGrey.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO RS5
 
 			:RS5NB
@@ -1658,6 +1870,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Audi/RS5/RS5AudiExNogaroBlue.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO RS5
 
 			:RS5SO
@@ -1665,6 +1878,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Audi/RS5/RS5AudiExSolarOrange.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO RS5
 
 			:RS5VP
@@ -1672,6 +1886,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Audi/RS5/RS5AudiExVelvetPurple.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO RS5
 
 			:RS5DG
@@ -1679,6 +1894,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Audi/RS5/RS5DaytonaGray.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO RS5
 
 			:RS5IW
@@ -1686,6 +1902,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Audi/RS5/RS5IbisWhite.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO RS5
 
 			:RS5MR
@@ -1693,6 +1910,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Audi/RS5/RS5MisanoRed.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO RS5
 
 			:RS5MB
@@ -1700,6 +1918,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Audi/RS5/RS5MythosBlack.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO RS5
 
 			:RS5SB
@@ -1707,6 +1926,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Audi/RS5/RS5SepangBlue.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO RS5
 
 			REM Start of TT RS:
@@ -1716,6 +1936,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Audi/TTRS/TTAudiExGrisAsterRedLiv.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO TTRS
 
 			:TTRSIY
@@ -1723,6 +1944,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Audi/TTRS/TTAudiExImolaYellow.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO TTRS
 
 			:TTRSJG
@@ -1730,6 +1952,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Audi/TTRS/TTAudiExJavaGreen.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO TTRS
 
 			:TTRSKB
@@ -1737,6 +1960,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Audi/TTRS/TTAudiExKingfisherBlue.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO TTRS
 
 			:TTRSNOL
@@ -1744,6 +1968,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Audi/TTRS/TTAudiExNogaroblauOrangeLiv.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO TTRS
 
 			:TTRSSO
@@ -1751,6 +1976,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Audi/TTRS/TTAudiExSolarOrange.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO TTRS
 
 			:TTRSVP
@@ -1758,6 +1984,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Audi/TTRS/TTAudiExVelvetPurple.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO TTRS
 
 			:TTRSMR
@@ -1765,6 +1992,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Audi/TTRS/TTMisanoRed.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO TTRS
 
 			:TTRSPB
@@ -1772,6 +2000,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Audi/TTRS/TTPhantomBlack.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO TTRS
 
 			:TTRSSB
@@ -1779,6 +2008,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Audi/TTRS/TTSepangBlue.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO TTRS
 
 			REM Start of BAC:
@@ -1788,7 +2018,8 @@
 			set tempcarname=BAC_MonoRewardRecycled_2017Black
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/BAC/MonoBlackPearl.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
-			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			START "%tempcarname%" Notepad++.exe "%USERPROFIL
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"E%\Documents\CSRPpro\TempFiles\%tempcarname%"
 			GOTO BAC
 
 			:MonoBlue
@@ -1796,6 +2027,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/BAC/MonoBluePearl.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO BAC
 
 			:MonoGreen
@@ -1803,6 +2035,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/BAC/MonoGreenPearl.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO BAC
 
 			:MonoGunmetal
@@ -1810,6 +2043,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/BAC/MonoGunmetal.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO BAC
 
 			:MonoOrange
@@ -1817,6 +2051,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/BAC/MonoOrangePearl.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO BAC
 
 			:MonoRaptor
@@ -1824,6 +2059,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/BAC/MonoRaptorGrey.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO BAC
 
 			:MonoRed
@@ -1831,6 +2067,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/BAC/MonoRedPearl.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO BAC
 
 			:MonoReward
@@ -1838,6 +2075,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/BAC/MonoReward.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO BAC
 
 			:MonoTitanium
@@ -1845,6 +2083,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/BAC/MonoTitanium.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO BAC
 
 			:MonoWhite
@@ -1852,6 +2091,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/BAC/MonoWhitePearl.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO BAC
 
 			:MonoYellow
@@ -1859,6 +2099,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/BAC/MonoYellowPearl.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO BAC
 
 			REM Start of BMW:
@@ -1868,7 +2109,8 @@
 			set tempcarname=BMW_ACSchnitzerM2Coupe_2016AWW1A
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/BMW/ACS2/ACS2AplineWhiteW1A.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
-			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			START "%tempcarname%" Notepad++.exe "%USERPROFIL
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"E%\Documents\CSRPpro\TempFiles\%tempcarname%"
 			GOTO ACS2
 
 			:ACS2AWW1B
@@ -1876,6 +2118,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/BMW/ACS2/ACS2AplineWhiteW1B.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO ACS2
 
 			:ACS2AWW2
@@ -1883,6 +2126,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/BMW/ACS2/ACS2AplineWhiteW2.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO ACS2
 
 			:ACS2BSW1A
@@ -1890,6 +2134,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/BMW/ACS2/ACS2BlackSapphireW1A.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO ACS2
 
 			:ACS2BSW1B
@@ -1897,6 +2142,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/BMW/ACS2/ACS2BlackSapphireW1B.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO ACS2
 
 			:ACS2BSW2
@@ -1904,6 +2150,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/BMW/ACS2/ACS2BlackSapphireW2.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO ACS2
 
 			:ACS2LBBW1A
@@ -1911,6 +2158,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/BMW/ACS2/ACS2LongBeachBlueW1A.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO ACS2
 
 			:ACS2LBBW1B
@@ -1918,6 +2166,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/BMW/ACS2/ACS2LongBeachBlueW1B.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO ACS2
 
 			:ACS2LBBW2
@@ -1925,6 +2174,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/BMW/ACS2/ACS2LongBeachBlueW2.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO ACS2
 
 			:ACS2MGW1A
@@ -1932,6 +2182,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/BMW/ACS2/ACS2MineralGreyW1A.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO ACS2
 
 			:ACS2MGW1B
@@ -1939,6 +2190,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/BMW/ACS2/ACS2MineralGreyW1B.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO ACS2
 
 			:ACS2MGW2
@@ -1946,6 +2198,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/BMW/ACS2/ACS2MineralGreyW2.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO ACS2
 
 			:ACS2SOW1A
@@ -1953,6 +2206,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/BMW/ACS2/ACS2SunsetOrangeW1A.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO ACS2
 
 			:ACS2SOW1B
@@ -1960,6 +2214,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/BMW/ACS2/ACS2SunsetOrangeW1B.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO ACS2
 
 			:ACS2SOW2
@@ -1967,6 +2222,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/BMW/ACS2/ACS2SunsetOrangeW2.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO ACS2
 
 			REM Start of Liberty Walk M4:
@@ -1976,6 +2232,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/BMW/LBM4/LBM4AlpineWhite.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO LBM4
 
 			:LBM4AY
@@ -1983,6 +2240,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/BMW/LBM4/LBM4AustinYellow.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO LBM4
 
 			:LBM4B
@@ -1990,6 +2248,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/BMW/LBM4/LBM4Bunker.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO LBM4
 
 			:LBM4CREW
@@ -1997,6 +2256,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/BMW/LBM4/LBM4CoupeCrew.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO LBM4
 
 			:LBM4FB
@@ -2004,6 +2264,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/BMW/LBM4/LBM4FunBlue.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO LBM4
 
 			:LBM4RD
@@ -2011,6 +2272,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/BMW/LBM4/LBM4RedDevil.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO LBM4
 
 			:LBM4RB
@@ -2018,6 +2280,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/BMW/LBM4/LBM4ResolutionBlue.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO LBM4
 
 			:LBM4TP
@@ -2025,6 +2288,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/BMW/LBM4/LBM4TotemPole.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO LBM4
 
 			REM Start of 235i
@@ -2034,6 +2298,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/BMW/M235i/235iAlpineWhiteMLiv.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO BMW235I
 
 			:235IFO
@@ -2041,6 +2306,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/BMW/M235i/235iBMWIndFireOrange.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO BMW235I
 
 			:235IFB
@@ -2048,6 +2314,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/BMW/M235i/235iBMWIndFrozenBlue.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO BMW235I
 
 			:235IFR
@@ -2055,6 +2322,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/BMW/M235i/235iBMWIndFrozenRed.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO BMW235I
 
 			:235IFW
@@ -2062,6 +2330,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/BMW/M235i/235iBMWIndFrozenWhite.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO BMW235I
 
 			:235IMG
@@ -2069,6 +2338,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/BMW/M235i/235iBMWIndMintGreen.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO BMW235I
 
 			:235IVO
@@ -2076,6 +2346,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/BMW/M235i/235iBMWIndValenciaOrange.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO BMW235I
 
 			:235IEB
@@ -2083,6 +2354,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/BMW/M235i/235iEstorilBlue.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO BMW235I
 
 			:235IMR
@@ -2090,6 +2362,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/BMW/M235i/235iMelbourneRed.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO BMW235I
 
 			:235IMG
@@ -2097,6 +2370,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/BMW/M235i/235iMineralGrey.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO BMW235I
 
 			REM Start of M2 Competition
@@ -2106,6 +2380,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/BMW/M2Competition/M2CompAlpineWhite.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO M2COMP
 
 			:M2COMPBS
@@ -2113,6 +2388,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/BMW/M2Competition/M2CompBlackSapphire.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO M2COMP
 
 			:M2COMPHS
@@ -2120,6 +2396,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/BMW/M2Competition/M2CompHockenheimSilver.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO M2COMP
 
 			:M2COMPLBB
@@ -2127,6 +2404,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/BMW/M2Competition/M2CompLongBeachBlue.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO M2COMP
 
 			:M2COMPSO
@@ -2134,6 +2412,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/BMW/M2Competition/M2CompSunsetOrange.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO M2COMP
 
 			REM Start of Liberty Walk E92 M3
@@ -2143,6 +2422,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/BMW/M3LBE92/LBE92AlpineWhite.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO LBM3
 
 			:LBM3AB
@@ -2150,6 +2430,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/BMW/M3LBE92/LBE92BMWIndAzuriteBlack.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO LBM3
 
 			:LBM3ABSL
@@ -2157,6 +2438,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/BMW/M3LBE92/LBE92BMWIndAzuriteBlackSilverLiv.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO LBM3
 
 			:LBM3FO
@@ -2164,6 +2446,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/BMW/M3LBE92/LBE92BMWIndFireOrange.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO LBM3
 
 			:LBM3FOBL
@@ -2171,6 +2454,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/BMW/M3LBE92/LBE92BMWIndFireOrangeBlackLiv.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO LBM3
 
 			:LBM3MG
@@ -2178,6 +2462,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/BMW/M3LBE92/LBE92BMWIndMintGreen.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO LBM3
 
 			:LBM3MGBL
@@ -2185,6 +2470,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/BMW/M3LBE92/LBE92BMWIndMintGreenBlackLiv.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO LBM3
 
 			:LBM3O
@@ -2192,6 +2478,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/BMW/M3LBE92/LBE92BMWIndOrange.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO LBM3
 
 			:LBM3OBL
@@ -2199,6 +2486,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/BMW/M3LBE92/LBE92BMWIndOrangeBlackLiv.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO LBM3
 
 			:LBM3PY
@@ -2206,6 +2494,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/BMW/M3LBE92/LBE92BMWIndPheonixYellow.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO LBM3
 
 			:LBM3PYBL
@@ -2213,6 +2502,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/BMW/M3LBE92/LBE92BMWIndPheonixYellowBlackLiv.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO LBM3
 
 			:LBM3EB
@@ -2220,6 +2510,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/BMW/M3LBE92/LBE92EstorilBlue.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO LBM3
 
 			:LBM3EBBL
@@ -2227,6 +2518,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/BMW/M3LBE92/LBE92EstorilBlueBlackLiv.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO LBM3
 
 			:LBM3GS
@@ -2234,6 +2526,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/BMW/M3LBE92/LBE92GlacierSilver.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO LBM3
 
 			:LBM3GSBL
@@ -2241,6 +2534,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/BMW/M3LBE92/LBE92GlacierSilverBlackLiv.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO LBM3
 
 			:LBM3MR
@@ -2248,6 +2542,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/BMW/M3LBE92/LBE92MelbourneRed.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO LBM3
 
 			:LBM3MRBL
@@ -2255,6 +2550,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/BMW/M3LBE92/LBE92MelbourneRedBlackLiv.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO LBM3
 
 			:LBM3MG
@@ -2262,6 +2558,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/BMW/M3LBE92/LBE92MineralGrey.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO LBM3
 
 			:LBM3MGBLBL
@@ -2269,6 +2566,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/BMW/M3LBE92/LBE92MineralGreyBlackLivBlackLugs.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO LBM3
 
 			:LBM3MGBLGL
@@ -2276,6 +2574,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/BMW/M3LBE92/LBE92MineralGreyBlackLivGoldLugs.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO LBM3
 
 			:LBM3SBBL
@@ -2283,6 +2582,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/BMW/M3LBE92/LBE92SapphireBlackBronzeLiv.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO LBM3
 
 			:LBM3YMB
@@ -2290,6 +2590,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/BMW/M3LBE92/LBE92YasMarinaBlue.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO LBM3
 
 			:LBM3YMBBL
@@ -2297,6 +2598,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/BMW/M3LBE92/LBE92YasMarinaBlueBlackLiv.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO LBM3
 
 			:LBM3REWARD
@@ -2304,6 +2606,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/BMW/M3LBE92/LBE92Reward.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO LBM3
 			
 			REM Start of M4 Coupe
@@ -2313,6 +2616,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/BMW/M4Coupe/M4CoupeAlpineWhite.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO M4
 
 			:M4AY
@@ -2320,6 +2624,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/BMW/M4Coupe/M4CoupeAustinYellow.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO M4
 
 			:M4AB
@@ -2327,6 +2632,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/BMW/M4Coupe/M4CoupeBMWIndAzuriteBlack.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO M4
 
 			:M4FG
@@ -2334,6 +2640,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/BMW/M4Coupe/M4CoupeBMWIndFashionGrey.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO M4
 
 			:M4FO
@@ -2341,6 +2648,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/BMW/M4Coupe/M4CoupeBMWIndFireOrange.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO M4
 
 			:M4FB
@@ -2348,6 +2656,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/BMW/M4Coupe/M4CoupeBMWIndFrozenBlue.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO M4
 
 			:M4FR
@@ -2355,6 +2664,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/BMW/M4Coupe/M4CoupeBMWIndFrozenRed.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO M4
 
 			:M4FW
@@ -2362,6 +2672,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/BMW/M4Coupe/M4CoupeBMWIndFrozenWhite.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO M4
 
 			:M4MG
@@ -2369,6 +2680,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/BMW/M4Coupe/M4CoupeBMWIndMintGreen.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO M4
 
 			:M4BS
@@ -2376,6 +2688,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/BMW/M4Coupe/M4CoupeBlackSapphire.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO M4
 
 			:M4MINERAL
@@ -2383,6 +2696,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/BMW/M4Coupe/M4CoupeMineralGrey.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO M4
 
 			:M4SO
@@ -2390,6 +2704,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/BMW/M4Coupe/M4CoupeSakhirOrange.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO M4
 
 			:M4YMB
@@ -2397,6 +2712,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/BMW/M4Coupe/M4CoupeYasMarinaBlue.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO M4
 
 			REM Start of M4 GTS
@@ -2406,6 +2722,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/BMW/M4GTS/M4GTSAlpineWhite.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO M4GTS
 
 			:M4GTSFDGM
@@ -2413,6 +2730,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/BMW/M4GTS/M4GTSFrozenDarkGreyMetallic.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO M4GTS
 
 			:M4GTSMG
@@ -2420,6 +2738,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/BMW/M4GTS/M4GTSMineralGrey.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO M4GTS
 
 			:M4GTSSB
@@ -2427,6 +2746,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/BMW/M4GTS/M4GTSSapphireBlack.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO M4GTS
 
 			REM Start of M5 Competition
@@ -2436,6 +2756,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/BMW/M5Competition/M5CompAlpineWhite.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO M5COMP
 
 			:M5COMPBS
@@ -2443,6 +2764,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/BMW/M5Competition/M5CompBlackSapphire.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO M5COMP
 
 			:M5COMPB
@@ -2450,6 +2772,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/BMW/M5Competition/M5CompBluestone.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO M5COMP
 
 			:M5COMPDG
@@ -2457,6 +2780,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/BMW/M5Competition/M5CompDoningtonGrey.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO M5COMP
 
 			:M5COMPMBB
@@ -2464,6 +2788,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/BMW/M5Competition/M5CompMarinaBayBlue.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO M5COMP
 
 			:M5COMPSG
@@ -2471,6 +2796,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/BMW/M5Competition/M5CompSingaporeGray.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO M5COMP
 
 			:M5COMPSRB
@@ -2478,6 +2804,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/BMW/M5Competition/M5CompSnapperRocksBlue.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO M5COMP
 
 			REM Start of all i8's
@@ -2487,6 +2814,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/BMW/i8/ACS8AustinYellow.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO I8SILVER
 
 			:ACS8BR
@@ -2494,6 +2822,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/BMW/i8/ACS8BlackRust.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO I8SILVER
 
 			:ACS8CWP
@@ -2501,6 +2830,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/BMW/i8/ACS8CrystalWhitePearl.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO I8SILVER
 
 			:ACS8FDGM
@@ -2508,6 +2838,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/BMW/i8/ACS8FozenDarkGreyMetallic.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO I8SILVER
 
 			:ACS8MG
@@ -2515,6 +2846,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/BMW/i8/ACS8MineralGrey.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO I8SILVER
 
 			:ACS8P
@@ -2522,6 +2854,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/BMW/i8/ACS8Paris.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO I8SILVER
 
 			:ACS8PB
@@ -2529,6 +2862,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/BMW/i8/ACS8ProtonicBlue.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO I8SILVER
 
 			:ACS8SO
@@ -2536,6 +2870,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/BMW/i8/ACS8SakhirOrange.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO I8SILVER
 
 			:ACS8SB
@@ -2543,6 +2878,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/BMW/i8/ACS8SapphireBlack.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO I8SILVER
 
 			:I8CWPW1
@@ -2550,6 +2886,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/BMW/i8/i8CrystalWhitePearlW1.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO I8RECYCLED
 
 			:I8CWPW2
@@ -2557,6 +2894,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/BMW/i8/i8CrystalWhitePearlW2.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO I8RECYCLED
 
 			:I8FY
@@ -2564,6 +2902,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/BMW/i8/i8FrozenYellow.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO I8RECYCLED
 
 			:I8ISW1
@@ -2571,6 +2910,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/BMW/i8/i8IonicSilverW1.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO I8RECYCLED
 
 			:I8ISW2
@@ -2578,6 +2918,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/BMW/i8/i8IonicSilverW2.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO I8RECYCLED
 
 			:I8PBW1
@@ -2585,6 +2926,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/BMW/i8/i8ProtonicBlueW1.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO I8RECYCLED
 
 			:I8PBW2
@@ -2592,6 +2934,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/BMW/i8/i8ProtonicBlueW2.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO I8RECYCLED
 
 			:I8SGW1
@@ -2599,6 +2942,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/BMW/i8/i8SophistoGrayW1.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO I8RECYCLED
 
 			:I8SGW2
@@ -2606,6 +2950,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/BMW/i8/i8SophistoGrayW2.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO I8RECYCLED
 
 			:I8REWARDCAR
@@ -2613,6 +2958,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/BMW/i8/i8_Reward.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO I8REWARD
 
 			:I8HOLIDAY
@@ -2620,6 +2966,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/BMW/i8/i8_RewardHoliday.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO I8REWARD
 
 			REM Start of Z4 
@@ -2629,6 +2976,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Z4/AlpineWhiteTanIntW1.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			set Z4choiceChoice=0
 			GOTO Z4
 
@@ -2637,6 +2985,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Z4/AlpineWhiteW1.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			set Z4choiceChoice=0
 			GOTO Z4
 
@@ -2645,6 +2994,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Z4/AlpineWhiteW2.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			set Z4choiceChoice=0
 			GOTO Z4
 
@@ -2653,6 +3003,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Z4/BlackSapphireTanIntW1.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			set Z4choiceChoice=0
 			GOTO Z4
 
@@ -2661,6 +3012,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Z4/BlackSapphireW2.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			set Z4choiceChoice=0
 			GOTO Z4
 
@@ -2669,6 +3021,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Z4/BlackSapphireWhiteIntW1.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			set Z4choiceChoice=0
 			GOTO Z4
 
@@ -2677,6 +3030,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Z4/FrozenGreyIITanIntW1.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			set Z4choiceChoice=0
 			GOTO Z4
 
@@ -2685,6 +3039,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Z4/FrozenGreyIIW2.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			set Z4choiceChoice=0
 			GOTO Z4
 
@@ -2693,6 +3048,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Z4/FrozenGreyIIWhiteIntW1.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			set Z4choiceChoice=0
 			GOTO Z4
 
@@ -2701,6 +3057,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Z4/GlacierSilverRedIntW1.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			set Z4choiceChoice=0
 			GOTO Z4
 
@@ -2709,6 +3066,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Z4/GlacierSilverW1.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			set Z4choiceChoice=0
 			GOTO Z4
 
@@ -2717,6 +3075,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Z4/GlacierSilverW2.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			set Z4choiceChoice=0
 			GOTO Z4
 
@@ -2725,6 +3084,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Z4/MisanoBlueRedIntW1.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			set Z4choiceChoice=0
 			GOTO Z4
 
@@ -2733,6 +3093,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Z4/MisanoBlueW2.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			set Z4choiceChoice=0
 			GOTO Z4
 
@@ -2741,6 +3102,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Z4/MisanoBlueWhiteIntW1.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			set Z4choiceChoice=0
 			GOTO Z4
 
@@ -2749,6 +3111,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Z4/SanFranciscoRedBlackIntW2.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			set Z4choiceChoice=0
 			GOTO Z4
 
@@ -2757,6 +3120,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Z4/SanFranciscoRedW1.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			set Z4choiceChoice=0
 			GOTO Z4
 
@@ -2765,6 +3129,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Z4/SanFranciscoRedWhiteIntW2.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			set Z4choiceChoice=0
 			GOTO Z4
 
@@ -2776,6 +3141,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Bentley/Bentayga/BentaygaRewardBelugaBlackRadiumLivery.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Bentayga
 
 			:BentaygaRO
@@ -2783,6 +3149,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Bentley/Bentayga/BentaygaRewardRadiumGreenBlackLivery.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Bentayga
 			
 			:BentaygaBentaygaBronze
@@ -2790,6 +3157,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Bentley/Bentayga/BentaygaBronze.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%cartempname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Bentayga
 			
 			:BentaygaAlpineGreen
@@ -2797,6 +3165,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Bentley/Bentayga/AlpineGreen.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%cartempname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Bentayga
 
 			:BentaygaAnthracite
@@ -2804,6 +3173,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Bentley/Bentayga/Anthracite.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%cartempname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Bentayga
 
 			:BentaygaAppleGreen
@@ -2811,6 +3181,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Bentley/Bentayga/AppleGreen.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%cartempname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Bentayga
 
 			:BentaygaArabica
@@ -2818,6 +3189,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Bentley/Bentayga/Arabica.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%cartempname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Bentayga
 
 			:BentaygaAzurePurple
@@ -2825,6 +3197,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Bentley/Bentayga/AzurePurple.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%cartempname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Bentayga
 
 			:BentaygaBarnato
@@ -2832,6 +3205,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Bentley/Bentayga/Barnato.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%cartempname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Bentayga
 
 			:BentaygaBeluga
@@ -2839,6 +3213,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Bentley/Bentayga/Beluga.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%cartempname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Bentayga
 
 			:BentaygaBronze
@@ -2846,6 +3221,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Bentley/Bentayga/BentaygaBronze.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%cartempname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Bentayga
 
 			:BentaygaBlackCrystal
@@ -2853,6 +3229,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Bentley/Bentayga/BlackCrystal.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%cartempname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Bentayga
 
 			:BentaygaBlackSapphire
@@ -2860,6 +3237,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Bentley/Bentayga/BlackSapphire.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%cartempname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Bentayga
 
 			:BentaygaBlackVelvet
@@ -2867,6 +3245,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Bentley/Bentayga/BlackVelvet.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%cartempname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Bentayga
 
 			:BentaygaBlueCrystal
@@ -2874,6 +3253,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Bentley/Bentayga/BlueCrystal.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%cartempname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Bentayga
 
 			:BentaygaBritishRacingGreen4
@@ -2881,6 +3261,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Bentley/Bentayga/BritishRacingGreen4.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%cartempname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Bentayga
 
 			:BentaygaBrodgar
@@ -2888,6 +3269,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Bentley/Bentayga/Brodgar.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%cartempname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Bentayga
 
 			:BentaygaBronze
@@ -2895,6 +3277,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Bentley/Bentayga/Bronze.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%cartempname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Bentayga
 
 			:BentaygaBurgundy
@@ -2902,6 +3285,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Bentley/Bentayga/Burgundy.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%cartempname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Bentayga
 
 			:BentaygaCamel
@@ -2909,6 +3293,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Bentley/Bentayga/Camel.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%cartempname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Bentayga
 
 			:BentaygaCumbrianGreen
@@ -2916,6 +3301,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Bentley/Bentayga/CumbrianGreen.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%cartempname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Bentayga
 
 			:BentaygaDamson
@@ -2923,6 +3309,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Bentley/Bentayga/Damson.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%cartempname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Bentayga
 
 			:BentaygaDargonRedII
@@ -2930,6 +3317,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Bentley/Bentayga/DargonRedII.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%cartempname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Bentayga
 
 			:BentaygaDarkCashmere
@@ -2937,6 +3325,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Bentley/Bentayga/DarkCashmere.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%cartempname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Bentayga
 
 			:BentaygaDarkSapphire
@@ -2944,6 +3333,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Bentley/Bentayga/DarkSapphire.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%cartempname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Bentayga
 
 			:BentaygaDoveGrey
@@ -2951,6 +3341,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Bentley/Bentayga/DoveGrey.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%cartempname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Bentayga
 
 			:BentaygaExtremeSilver
@@ -2958,6 +3349,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Bentley/Bentayga/ExtremeSilver.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%cartempname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Bentayga
 
 			:BentaygaFountainBlue
@@ -2965,6 +3357,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Bentley/Bentayga/FountainBlue.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%cartempname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Bentayga
 
 			:BentaygaGlacierWhite
@@ -2972,6 +3365,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Bentley/Bentayga/GlacierWhite.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%cartempname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Bentayga
 
 			:BentaygaGranite
@@ -2979,6 +3373,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Bentley/Bentayga/Granite.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%cartempname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Bentayga
 
 			:BentaygaHallmark
@@ -2986,6 +3381,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Bentley/Bentayga/Hallmark.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%cartempname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Bentayga
 
 			:BentaygaHavana
@@ -2993,6 +3389,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Bentley/Bentayga/Havana.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%cartempname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Bentayga
 
 			:BentaygaIce
@@ -3000,6 +3397,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Bentley/Bentayga/Ice.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%cartempname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Bentayga
 
 			:BentaygaJetstreamII
@@ -3007,6 +3405,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Bentley/Bentayga/JetstreamII.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%cartempname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Bentayga
 
 			:BentaygaKingfisher
@@ -3014,6 +3413,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Bentley/Bentayga/Kingfisher.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%cartempname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Bentayga
 
 			:BentaygaMagenta
@@ -3021,6 +3421,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Bentley/Bentayga/Magenta.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%cartempname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Bentayga
 
 			:BentaygaMagnetic
@@ -3028,6 +3429,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Bentley/Bentayga/Magnetic.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%cartempname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Bentayga
 
 			:BentaygaMagnolia
@@ -3035,6 +3437,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Bentley/Bentayga/Magnolia.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%cartempname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Bentayga
 
 			:BentaygaMarlin
@@ -3042,6 +3445,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Bentley/Bentayga/Marlin.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%cartempname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Bentayga
 
 			:BentaygaMeteor
@@ -3049,6 +3453,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Bentley/Bentayga/Meteor.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%cartempname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Bentayga
 
 			:BentaygaMidnightEmerald
@@ -3056,6 +3461,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Bentley/Bentayga/MidnightEmerald.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%cartempname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Bentayga
 
 			:BentaygaMonacoYellow
@@ -3063,6 +3469,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Bentley/Bentayga/MonacoYellow.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%cartempname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Bentayga
 
 			:BentaygaMoonbeam
@@ -3070,6 +3477,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Bentley/Bentayga/Moonbeam.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%cartempname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Bentayga
 
 			:BentaygaMoroccanBlue
@@ -3077,6 +3485,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Bentley/Bentayga/MoroccanBlue.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%cartempname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Bentayga
 
 			:BentaygaNeptune
@@ -3084,6 +3493,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Bentley/Bentayga/Neptune.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%cartempname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Bentayga
 
 			:BentaygaOnyx
@@ -3091,6 +3501,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Bentley/Bentayga/Onyx.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%cartempname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Bentayga
 
 			:BentaygaOrangeFlame
@@ -3098,6 +3509,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Bentley/Bentayga/OrangeFlame.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%cartempname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Bentayga
 
 			:BentaygaPaleBrodgar
@@ -3105,6 +3517,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Bentley/Bentayga/PaleBrodgar.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%cartempname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Bentayga
 
 			:BentaygaPassionPink
@@ -3112,6 +3525,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Bentley/Bentayga/PassionPink.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%cartempname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Bentayga
 
 			:BentaygaPeacock
@@ -3119,6 +3533,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Bentley/Bentayga/Peacock.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%cartempname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Bentayga
 
 			:BentaygaPortofino
@@ -3126,6 +3541,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Bentley/Bentayga/Portofino.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%cartempname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Bentayga
 
 			:BentaygaRoseGold
@@ -3133,6 +3549,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Bentley/Bentayga/RoseGold.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%cartempname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Bentayga
 
 			:BentaygaSequineBlue
@@ -3140,6 +3557,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Bentley/Bentayga/SequineBlue.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%cartempname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Bentayga
 
 			:BentaygaSilverlake
@@ -3147,6 +3565,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Bentley/Bentayga/Silverlake.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%cartempname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Bentayga
 
 			:BentaygaSilverStorm
@@ -3154,6 +3573,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Bentley/Bentayga/SilverStorm.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%cartempname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Bentayga
 
 			:BentaygaSilverTempest
@@ -3161,6 +3581,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Bentley/Bentayga/SilverTempest.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%cartempname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Bentayga
 
 			:BentaygaSpectre
@@ -3168,6 +3589,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Bentley/Bentayga/Spectre.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%cartempname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Bentayga
 
 			:BentaygaStJamesRed
@@ -3175,6 +3597,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Bentley/Bentayga/StJamesRed.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%cartempname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Bentayga
 
 			:BentaygaSunburstGold
@@ -3182,6 +3605,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Bentley/Bentayga/SunburstGold.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%cartempname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Bentayga
 
 			:BentaygaThunder
@@ -3189,6 +3613,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Bentley/Bentayga/Thunder.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%cartempname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Bentayga
 
 			:BentaygaTitanGrey
@@ -3196,6 +3621,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Bentley/Bentayga/TitanGrey.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%cartempname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Bentayga
 
 			:BentaygaTungsten
@@ -3203,6 +3629,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Bentley/Bentayga/Tungsten.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%cartempname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Bentayga
 
 			:BentaygaVerdant
@@ -3210,6 +3637,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Bentley/Bentayga/Verdant.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%cartempname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Bentayga
 
 			:BentaygaWhiteSand
@@ -3217,6 +3645,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Bentley/Bentayga/WhiteSand.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%cartempname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Bentayga
 
 			:BentaygaWindsorBlue
@@ -3224,6 +3653,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Bentley/Bentayga/WindsorBlue.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%cartempname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Bentayga
 
 			REM Start of Continental GT Speed
@@ -3233,6 +3663,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Bentley/ContinentalGTSpeed/GTSpeedAnthracite.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO GTSpeed
 
 			:GTSpeedAYL
@@ -3240,6 +3671,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Bentley/ContinentalGTSpeed/GTSpeedAnthraciteYellowLiv.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO GTSpeed
 
 			:GTSpeedAG
@@ -3247,6 +3679,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Bentley/ContinentalGTSpeed/GTSpeedAppleGreen.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO GTSpeed
 
 			:GTSpeedArtica
@@ -3254,6 +3687,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Bentley/ContinentalGTSpeed/GTSpeedArtica.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO GTSpeed
 
 			:GTSpeedAP
@@ -3261,6 +3695,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Bentley/ContinentalGTSpeed/GTSpeedAzurePurple.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO GTSpeed
 
 			:GTSpeedBlack
@@ -3268,6 +3703,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Bentley/ContinentalGTSpeed/GTSpeedBlack.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO GTSpeed
 
 			:GTSpeedBrodgar
@@ -3275,6 +3711,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Bentley/ContinentalGTSpeed/GTSpeedBrodgar.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO GTSpeed
 
 			:GTSpeedBronze
@@ -3282,6 +3719,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Bentley/ContinentalGTSpeed/GTSpeedBronze.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO GTSpeed
 
 			:GTSpeedCR
@@ -3289,6 +3727,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Bentley/ContinentalGTSpeed/GTSpeedCandyRed.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO GTSpeed
 
 			:GTSpeedCY
@@ -3296,6 +3735,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Bentley/ContinentalGTSpeed/GTSpeedContinentalYellow.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO GTSpeed
 
 			:GTSpeedDR
@@ -3303,6 +3743,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Bentley/ContinentalGTSpeed/GTSpeedDragonRed.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO GTSpeed
 
 			:GTSpeedES
@@ -3310,6 +3751,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Bentley/ContinentalGTSpeed/GTSpeedExtremeSilver.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO GTSpeed
 
 			:GTSpeedH
@@ -3317,6 +3759,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Bentley/ContinentalGTSpeed/GTSpeedHallmark.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO GTSpeed
 
 			:GTSpeedI
@@ -3324,6 +3767,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Bentley/ContinentalGTSpeed/GTSpeedIce.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO GTSpeed
 
 			:GTSpeedM
@@ -3331,6 +3775,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Bentley/ContinentalGTSpeed/GTSpeedMoonbeam.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO GTSpeed
 
 			:GTSpeedN
@@ -3338,6 +3783,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Bentley/ContinentalGTSpeed/GTSpeedNeptune.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO GTSpeed
 
 			:GTSpeedOB
@@ -3345,6 +3791,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Bentley/ContinentalGTSpeed/GTSpeedOnyxBlack.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO GTSpeed
 
 			:GTSpeedOYL
@@ -3352,6 +3799,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Bentley/ContinentalGTSpeed/GTSpeedOnyxYellowLiv.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO GTSpeed
 
 			:GTSpeedOF
@@ -3359,6 +3807,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Bentley/ContinentalGTSpeed/GTSpeedOrangeFlame.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO GTSpeed
 
 			:GTSpeedSB
@@ -3366,6 +3815,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Bentley/ContinentalGTSpeed/GTSpeedSequinBlue.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO GTSpeed
 
 			:GTSpeedSBRL
@@ -3373,6 +3823,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Bentley/ContinentalGTSpeed/GTSpeedSequinBlueRedLiv.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO GTSpeed
 
 			:GTSpeedSpectre
@@ -3380,6 +3831,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Bentley/ContinentalGTSpeed/GTSpeedSpectreBlack.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO GTSpeed
 
 			:GTSpeedT
@@ -3387,6 +3839,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Bentley/ContinentalGTSpeed/GTSpeedThunder.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO GTSpeed
 
 			:GTSpeedWB
@@ -3394,6 +3847,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Bentley/ContinentalGTSpeed/GTSpeedWindsorBlue.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO GTSpeed
 
 			REM Start of Continental GT1
@@ -3403,6 +3857,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Bentley/GT%201/ContinentalGT1DragonRedII.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO GT1
 
 			:GT1R
@@ -3410,6 +3865,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Bentley/GT%201/ContinentalGT1Reward.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO GT1
 
 			:GT1SB
@@ -3417,6 +3873,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Bentley/GT%201/ContinentalGT1SequinBlue.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO GT1
 
 			REM Start of Continental GT3R
@@ -3426,6 +3883,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Bentley/GT3R/ContinentalGT3RReward.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO GT3R
 
 			:GT3RA
@@ -3433,6 +3891,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Bentley/GT3R/GT3RAnthracite.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO GT3R
 
 			:GT3RAM
@@ -3440,6 +3899,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Bentley/GT3R/GT3RAnthraciteMatte.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO GT3R
 
 			:GT3RAG
@@ -3447,6 +3907,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Bentley/GT3R/GT3RAppleGreen.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO GT3R
 
 			:GT3RB
@@ -3454,6 +3915,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Bentley/GT3R/GT3RBlack.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO GT3R
 
 			:GT3RCY
@@ -3461,6 +3923,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Bentley/GT3R/GT3RContinentalYellow.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO GT3R
 
 			:GT3RGW
@@ -3468,6 +3931,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Bentley/GT3R/GT3RGlacierWhite.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO GT3R
 
 			REM Start of Brabham:
@@ -3478,6 +3942,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Brabham/BT62/BT62.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Brabham
 
 			REM Start of Bugatti:
@@ -3488,6 +3953,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Bugatti/Chiron/ChironSport110/ChironSport110.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Chiron
 
 			:CHIRONABFLFW
@@ -3495,6 +3961,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Bugatti/Chiron/Gacha/ChironArgentBackFierceLiveryFierceWheels.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Chiron
 
 			:CHIRONABGLGW
@@ -3502,6 +3969,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Bugatti/Chiron/Gacha/ChironArgentBackGrenadeLiveryGrenadeWheels.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Chiron
 
 			:CHIRONALFLFW
@@ -3509,6 +3977,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Bugatti/Chiron/Gacha/ChironArgentLowFierceLiveryFierceWheels.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Chiron
 
 			:CHIRONAGLGW
@@ -3516,6 +3985,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Bugatti/Chiron/Gacha/ChironArgentLowGenadeLiveryGenadeWheels.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Chiron
 
 			:CHIRONALGLGW
@@ -3523,6 +3993,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Bugatti/Chiron/Gacha/ChironBlancBackCastGreyLiveryCastGreyWheels.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Chiron
 
 			:CHIRONBLCGLCGW
@@ -3530,6 +4001,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Bugatti/Chiron/Gacha/ChironBlancLowCastGreyLiveryCastGreyWheels.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Chiron
 
 			:CHIRONFRBBCGLFRBW
@@ -3537,6 +4009,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Bugatti/Chiron/Gacha/ChironFrenchRacingBlueBackCastGreyLiveryFrenchRacingBlueWheels.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Chiron
 
 			:CHIRONFAFW
@@ -3544,6 +4017,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Bugatti/Chiron/Gacha/ChironFullArgentFierceWheels.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Chiron
 
 			:CHIRONFAGW
@@ -3551,6 +4025,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Bugatti/Chiron/Gacha/ChironFullArgentGenadeWheels.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Chiron
 
 			:CHIRONFABSW
@@ -3558,6 +4033,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Bugatti/Chiron/Gacha/ChironFullAtlanticBlueSilverWheels.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Chiron
 
 			:CHIRONFBCGW
@@ -3565,6 +4041,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Bugatti/Chiron/Gacha/ChironFullBlancCastGreyWheels.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Chiron
 
 			:CHIRONFCGCGW
@@ -3572,6 +4049,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Bugatti/Chiron/Gacha/ChironFullCastGreyCastGreyWheels.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Chiron
 
 			:CHIRONFFSW
@@ -3579,6 +4057,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Bugatti/Chiron/Gacha/ChironFullFierceSilverWheels.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Chiron
 
 			:CHIRONFFFSW
@@ -3586,6 +4065,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Bugatti/Chiron/Gacha/ChironFullFirefinchSilverWheels.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Chiron
 
 			:CHIRONFGLPW
@@ -3593,6 +4073,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Bugatti/Chiron/Gacha/ChironFullGlacierLePatronWheels.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Chiron
 
 			:CHIRONFGSW
@@ -3600,6 +4081,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Bugatti/Chiron/Gacha/ChironFullGrenadeSilverWheels.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Chiron
 
 			:CHIRONFGRABW
@@ -3607,6 +4089,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Bugatti/Chiron/Gacha/ChironFullGrisRafaleAtlanticBlueWheels.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Chiron
 
 			:CHIRONFIRNW
@@ -3614,6 +4097,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Bugatti/Chiron/Gacha/ChironFullItalianRedNocturneWheels.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Chiron
 
 			:CHIRONFLBSW
@@ -3621,6 +4105,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Bugatti/Chiron/Gacha/ChironFullLakeBlueSilverWheels.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Chiron
 
 			:CHIRONFLPSW
@@ -3628,6 +4113,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Bugatti/Chiron/Gacha/ChironFullLePatronSilverWheels.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Chiron
 
 			:CHIRONFLSLBW
@@ -3635,6 +4121,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Bugatti/Chiron/Gacha/ChironFullLiquidSilverLakeBlueWheels.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Chiron
 
 			:CHIRONFMBSLW
@@ -3642,6 +4129,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Bugatti/Chiron/Gacha/ChironFullMinkBlackSpecialLorelinWheels.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Chiron
 
 			:CHIRONFSFFW
@@ -3649,6 +4137,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Bugatti/Chiron/Gacha/ChironFullSilkFirefinchWheels.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Chiron
 
 			:CHIRONGBLPLLPW
@@ -3656,6 +4145,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Bugatti/Chiron/Gacha/ChironGlacierBackLePatronLiveryLePatronWheels.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Chiron
 
 			:CHIRONGLLPLLPW
@@ -3663,6 +4153,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Bugatti/Chiron/Gacha/ChironGlacierLowLePatronLiveryLePatronWheels.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Chiron
 
 			:CHIRONGRBABLABW
@@ -3670,6 +4161,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Bugatti/Chiron/Gacha/ChironGrisRafaleBackAtlanticBlueLiveryAtlanticBlueWheels.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Chiron
 
 			:CHIRONGRLABLABW
@@ -3677,6 +4169,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Bugatti/Chiron/Gacha/ChironGrisRafaleLowAtlanticBlueLiveryAtlanticBlueWheels.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Chiron
 
 			:CHIRONJMBCGLJMW
@@ -3684,6 +4177,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Bugatti/Chiron/Gacha/ChironJauneMolsheimBackCastGreyLiveryJauneMolsheimWheels.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Chiron
 
 			:CHIRONJMBCGLSJMW
@@ -3691,6 +4185,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Bugatti/Chiron/Gacha/ChironJauneMolsheimBackCastGreyLiverySpecialJauneMolsheimWheels.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Chiron
 
 			:CHIRONLSBLBLLBW
@@ -3698,6 +4193,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Bugatti/Chiron/Gacha/ChironLiquidSilverBackLakeBlueLiveryLakeBlueWheels.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Chiron
 
 			:CHIRONLSLLBLLBW
@@ -3705,6 +4201,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Bugatti/Chiron/Gacha/ChironLiquidSilverLowLakeBlueLiveryLakeBlueWheels.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Chiron
 
 			:CHIRONMBLBCMBW
@@ -3712,6 +4209,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Bugatti/Chiron/Gacha/ChironMinkBlackLightBlueCaliperMinkBlackWheels.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Chiron
 
 			:CHIRONSBFFLFFW
@@ -3719,6 +4217,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Bugatti/Chiron/Gacha/ChironSilkBackFirefinchLiveryFirefinchWheels.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Chiron
 
 			:CHIRONSLFFLFFW
@@ -3726,6 +4225,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Bugatti/Chiron/Gacha/ChironSilkLowFirefinchLiveryFirefinchWheels.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Chiron
 
 			:CHIRONWHEELS
@@ -3733,6 +4233,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Bugatti/Chiron/Custom%20Builds/Wheel%20color.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Chiron
 
 			:CHIRONRED
@@ -3740,6 +4241,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Bugatti/Chiron/Red%20edition_IAP/Chiron%20CSR2%20Red%20Edition.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Chiron
 			
 			REM Start of Divo:
@@ -3749,6 +4251,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Bugatti/Divo/Divo.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO
 
 			REM Start of EB110 SS:
@@ -3758,6 +4261,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Bugatti/EB110SS/EB110SS.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO
 
 			REM Start of Veyron:
@@ -3767,6 +4271,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Bugatti/Veyron/BlancDarkBlueBackDBW.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO
 
 			:VEYRONBBDBBBBW
@@ -3774,6 +4279,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Bugatti/Veyron/BugattiBlueDarkBlueBackBBW.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO
 
 			:VEYRONDBTCMW
@@ -3781,6 +4287,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Bugatti/Veyron/DarkBlueTintedCarbonMatchW.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO
 
 			:VEYRONDBTCSW
@@ -3788,6 +4295,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Bugatti/Veyron/DarkBlueTintedCarbonSilverW.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO
 
 			:VEYRONDBTCWSBI
@@ -3795,6 +4303,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Bugatti/Veyron/DarkBlueTintedCarbonWhiteSilverBlackInt.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO
 
 			:VEYRONDBTCWSMW
@@ -3802,6 +4311,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Bugatti/Veyron/DarkBlueTintedCarbonWhiteSilverMatchW.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO
 
 			:VEYRONDBTCWSWI
@@ -3809,6 +4319,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Bugatti/Veyron/DarkBlueTintedCarbonWhiteSilverWhiteInt.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO
 
 			:VEYRONJMDBCJMW
@@ -3816,6 +4327,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Bugatti/Veyron/JauneMolsheimDarkBlueCarbonJMW.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO
 
 			:VEYRONWRE
@@ -3823,6 +4335,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Bugatti/Veyron/VeyronSuperSportGold.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO
 
 			REM Start of Cadillac:
@@ -3833,6 +4346,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Cadillac/CSTVCrystalWhiteTricoatWA.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO
 
 			:CTSVCWTWB
@@ -3840,6 +4354,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Cadillac/CSTVCrystalWhiteTricoatWB.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO
 
 			:CTSVReward
@@ -3847,6 +4362,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Cadillac/CSTVReward.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO
 
 			:CTSVBRWA
@@ -3854,6 +4370,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Cadillac/CTSVBlackRavenWA.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO
 
 			:CTSVBRWB
@@ -3861,6 +4378,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Cadillac/CTSVBlackRavenWB.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO
 
 			:CTSVSSWA
@@ -3868,6 +4386,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Cadillac/CTSVSatinSteelWA.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO
 
 			:CTSVSSWB
@@ -3875,6 +4394,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Cadillac/CTSVSatinSteelWB.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO
 
 			:CTSVVRWA
@@ -3882,6 +4402,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Cadillac/CTSVVelocityRedWA.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO
 
 			:CTSVVRWB
@@ -3889,6 +4410,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Cadillac/CTSVVelocityRedWB.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO
 
 			:CTSVWWA
@@ -3896,6 +4418,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Cadillac/CTSVWaveWA.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO
 
 			:CTSVWWB
@@ -3903,6 +4426,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Cadillac/CTSVWaveWB.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO
 
 			REM Start of Chevrolet:
@@ -3913,6 +4437,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Chevy/15Stingray/StingrayArcticWhite.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Stingray
 
 			:STINGRAYB
@@ -3920,6 +4445,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Chevy/15Stingray/StingrayBlack.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Stingray
 
 			:STINGRAYCRYTBRS
@@ -3927,6 +4453,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Chevy/15Stingray/StingrayCorvetteRacingYellowTintcoatBlackRacingStripes.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Stingray
 
 			:STINGRAYCRT
@@ -3934,6 +4461,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Chevy/15Stingray/StingrayCrystalRedTintcoat.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Stingray
 
 			:STINGRAYDSO
@@ -3941,6 +4469,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Chevy/15Stingray/StingrayDaytonaSunriseOrange.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Stingray
 
 			:STINGRAYGRTBRS
@@ -3948,6 +4477,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Chevy/15Stingray/StingrayGarnetRedTintcoatBlackRacingStripes.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Stingray
 
 			:STINGRAYHBSRS
@@ -3955,6 +4485,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Chevy/15Stingray/StingrayHyperBlueSilverRacingStripes.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Stingray
 
 			:STINGRAYLBT
@@ -3962,6 +4493,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Chevy/15Stingray/StingrayLagunaBlueTintcoat.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Stingray
 
 			:STINGRAYMBRRS
@@ -3969,6 +4501,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Chevy/15Stingray/StingrayMosaicBlackRedRacingStripes.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Stingray
 
 			:STINGRAYNGORS
@@ -3976,6 +4509,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Chevy/15Stingray/StingrayNightfallGrayOrangeRacingStripes.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Stingray
 
 			:STINGRAYSG
@@ -3983,6 +4517,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Chevy/15Stingray/StingraySharkGray.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Stingray
 
 			:STINGRAYTR
@@ -3990,6 +4525,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Chevy/15Stingray/StingrayTorchRed.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Stingray
 
 			:STINGRAYVYT
@@ -3997,6 +4533,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Chevy/15Stingray/StingrayVelocityYellowTintcoat.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Stingray
 
 			REM Start of 2016 Camaro SS
@@ -4006,6 +4543,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Chevy/16CamaroSS/16SSBlackRedRacingStripesBlackandRedWheels.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO CamaroSS
 
 			:CAMAROSSBRSS
@@ -4013,6 +4551,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Chevy/16CamaroSS/16SSBlackRedSideStripes.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO CamaroSS
 
 			:CAMAROSSBWRS
@@ -4020,6 +4559,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Chevy/16CamaroSS/16SSBlackWhiteRacingStripes.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO CamaroSS
 
 			:CAMAROSSBV
@@ -4027,6 +4567,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Chevy/16CamaroSS/16SSBlueVelvet.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO CamaroSS
 
 			:CAMAROSSBVSSS
@@ -4034,6 +4575,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Chevy/16CamaroSS/16SSBlueVelvetSilverSideStripes.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO CamaroSS
 
 			:CAMAROSSBY
@@ -4041,6 +4583,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Chevy/16CamaroSS/16SSBrightYellow.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO CamaroSS
 
 			:CAMAROSSBYBSS
@@ -4048,6 +4591,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Chevy/16CamaroSS/16SSBrightYellowBlackSideStripe.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO CamaroSS
 
 			:CAMAROSSDSOBRS
@@ -4055,6 +4599,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Chevy/16CamaroSS/16SSDaytonaSunriseOrangeBlackRacingStripes.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO CamaroSS
 
 			:CAMAROSSGRTSSS
@@ -4062,6 +4607,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Chevy/16CamaroSS/16SSGarnetRedTintcoatSilverSideStripe.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO CamaroSS
 
 			:CAMAROSSHB
@@ -4069,6 +4615,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Chevy/16CamaroSS/16SSHyperBlue.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO CamaroSS
 
 			:CAMAROSSHBBSS
@@ -4076,6 +4623,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Chevy/16CamaroSS/16SSHyperBlueBlackSideStripe.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO CamaroSS
 
 			:CAMAROSSLBTWRS
@@ -4083,6 +4631,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Chevy/16CamaroSS/16SSLagunaBlueTintcoatWhiteRacingStripes.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO CamaroSS
 
 			:CAMAROSSMBBRW
@@ -4090,6 +4639,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Chevy/16CamaroSS/16SSMosaicBlackBackandRedWheels.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO CamaroSS
 
 			:CAMAROSSNG
@@ -4097,6 +4647,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Chevy/16CamaroSS/16SSNightfallGray.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO CamaroSS
 
 			:CAMAROSSNGRRS
@@ -4104,6 +4655,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Chevy/16CamaroSS/16SSNightfallGrayRedRacingStripes.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO CamaroSS
 
 			:CAMAROSSRHWRS
@@ -4111,6 +4663,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Chevy/16CamaroSS/16SSRedHotWhiteRacingStripes.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO CamaroSS
 
 			:CAMAROSSSG
@@ -4118,6 +4671,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Chevy/16CamaroSS/16SSSharkGray.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO CamaroSS
 
 			:CAMAROSSSIBRS
@@ -4125,6 +4679,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Chevy/16CamaroSS/16SSSilverIceBlackRacingStripes.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO CamaroSS
 
 			:CAMAROSSSWBSS
@@ -4132,6 +4687,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Chevy/16CamaroSS/16SSSummitWhiteBlackSideStripe.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO CamaroSS
 
 			:CAMAROSSVYTBRS
@@ -4139,6 +4695,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Chevy/16CamaroSS/16SSVelocityYellowTintcoatBlackRacingStripes.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO CamaroSS
 
 			REM Start of C10 Options:
@@ -4148,6 +4705,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Chevy/C10/C10Recycled.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO C10
 
 			:C10O
@@ -4155,6 +4713,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Chevy/C10/C10Reward.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO C10
 
 			:C10B
@@ -4162,6 +4721,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Chevy/C10/C10RewardVip.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO C10
 
 			REM Start of COPO Camaro
@@ -4171,6 +4731,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Chevy/COPO/COPOBlack.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO COPO
 
 			:COPOGRT
@@ -4178,6 +4739,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Chevy/COPO/COPOGarnetRedTintcoat.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO COPO
 
 			:COPOMB
@@ -4185,6 +4747,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Chevy/COPO/COPOMosaicBlack.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO COPO
 
 			:COPORH
@@ -4192,6 +4755,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Chevy/COPO/COPORedHot.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO COPO
 
 			:COPOReward
@@ -4199,6 +4763,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Chevy/COPO/COPOReward.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO COPO
 
 			:COPOSSG
@@ -4206,6 +4771,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Chevy/COPO/COPOSatinSteelGray.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO COPO
 
 			:COPOSG
@@ -4213,6 +4779,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Chevy/COPO/COPOShadowGray.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO COPO
 
 			:COPOS
@@ -4220,6 +4787,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Chevy/COPO/COPOShock.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO COPO
 
 			:COPOSI
@@ -4227,6 +4795,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Chevy/COPO/COPOSilverIce.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO COPO
 
 			:COPOSW
@@ -4234,6 +4803,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Chevy/COPO/COPOSummitWhite.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO COPO
 
 			REM Start of Corvette Grandsport:
@@ -4243,6 +4813,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Chevy/Gransport/CorvetteGransport.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"set tempcarname=
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Grandsport
 
 			REM Start of Label Motorsports Alpha Six Camaro:
@@ -4252,6 +4823,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Chevy/LabelMotorsports/AlphaSixMexicoBlue.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Alpha6
 
 			:ALPHA6MW
@@ -4259,6 +4831,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Chevy/LabelMotorsports/AlphaSixMiamiWhite.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Alpha6
 
 			:ALPHA6P
@@ -4266,6 +4839,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Chevy/LabelMotorsports/AlphaSixPetah.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Alpha6
 
 			REM Start of Quinten Brother Camaro:
@@ -4275,6 +4849,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Chevy/QuintinBrothers/QuintinBrothersReward.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO QBC
 
 			:QBCRecycled
@@ -4282,6 +4857,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Chevy/QuintinBrothers/QuintinBrothersRewardRecycled.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO QBC
 
 			REM Start of Under Pressure Camaro:
@@ -4291,6 +4867,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Chevy/UnderPressure/UnderPressureRecycled.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO UPCamaroCon
 
 			:UPCamaroReward
@@ -4298,6 +4875,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Chevy/UnderPressure/UnderPressureReward.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO UPCamaroCon
 
 			REM Start of Z06 Corvette C7:
@@ -4307,6 +4885,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Chevy/Z06C7R/AdmiralBlue.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Z06C7
 
 			:Z06C7AW
@@ -4314,6 +4893,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Chevy/Z06C7R/ArcticWhite.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Z06C7
 
 			:Z06C7B
@@ -4321,6 +4901,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Chevy/Z06C7R/Black.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Z06C7
 
 			:Z06C7BRBW
@@ -4328,6 +4909,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Chevy/Z06C7R/BlackRoseBlackWheel.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Z06C7
 
 			:Z06C7BRSW
@@ -4335,6 +4917,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Chevy/Z06C7R/BlackRoseSilverWheel.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Z06C7
 
 			:Z06C7BS
@@ -4342,6 +4925,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Chevy/Z06C7R/BladeSilver.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Z06C7
 
 			:Z06C7REWARD
@@ -4349,6 +4933,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Chevy/Z06C7R/C7RReward.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Z06C7
 
 			:Z06C7CCMG
@@ -4356,6 +4941,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Chevy/Z06C7R/ChevroletCeramicMatrixGray.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Z06C7
 
 			:Z06C7FSB
@@ -4363,6 +4949,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Chevy/Z06C7R/Florida(SpecialBlue).txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Z06C7
 
 			:Z06C7GRTSW
@@ -4370,6 +4957,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Chevy/Z06C7R/GarnetRedTintcoatSpecialWheels.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Z06C7
 
 			:Z06C7LBRMT
@@ -4377,6 +4965,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Chevy/Z06C7R/LongBeachRedMetallicTintcoat.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Z06C7
 
 			:Z06C7TR
@@ -4384,6 +4973,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Chevy/Z06C7R/TorchRed.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Z06C7
 
 			:Z06C7WGG
@@ -4391,6 +4981,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Chevy/Z06C7R/WatkinsGlenGray.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Z06C7
 
 			REM Start of 2015 Camaro Z28:
@@ -4400,6 +4991,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Chevy/Z28/AshenGray.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO CamaroZ28
 
 			:Z28B
@@ -4407,6 +4999,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Chevy/Z28/Black.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO CamaroZ28
 
 			:Z28RH
@@ -4414,6 +5007,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Chevy/Z28/RedHot.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO CamaroZ28
 
 			:Z28SI
@@ -4421,6 +5015,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Chevy/Z28/SilverIce.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO CamaroZ28
 
 			:Z28SW
@@ -4428,6 +5023,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Chevy/Z28/SummitWhite.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO CamaroZ28
 
 			:Z28ASCAB
@@ -4435,6 +5031,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Chevy/Z28ASC/AdmiralBlue.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Z28ACS
 
 			:Z28ASCBR
@@ -4442,6 +5039,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Chevy/Z28ASC/BlackRose.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Z28ACS
 
 			:Z28ASCBS
@@ -4449,6 +5047,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Chevy/Z28ASC/BlueSteel.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Z28ACS
 
 			:Z28ASCGRT
@@ -4456,6 +5055,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Chevy/Z28ASC/GarnetRedTintcoat.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Z28ACS
 
 			:Z28ASCHVTNL
@@ -4463,6 +5063,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Chevy/Z28ASC/HighVoltageTintNoASCLiv.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Z28ACS
 
 			:Z28ASCKG
@@ -4470,6 +5071,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Chevy/Z28ASC/KryptonGreen.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Z28ACS
 
 			:Z28ASCLART
@@ -4477,6 +5079,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Chevy/Z28ASC/LimitedAddictionRedTint.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Z28ACS
 
 			:Z28ASCLBRMT
@@ -4484,6 +5087,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Chevy/Z28ASC/LongBeachRedMetallicTintcoat.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Z28ACS
 
 			:Z28ASCYTNL
@@ -4491,6 +5095,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Chevy/Z28ASC/YellOTintNoASCLiv.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Z28ACS
 
 			REM Start of Camaro ZL1
@@ -4500,6 +5105,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Chevy/ZL1/ArcticBlue.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO ZL1Con
 
 			:ZL1B
@@ -4507,6 +5113,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Chevy/ZL1/Black.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO ZL1Con
 
 			:ZL1BY
@@ -4514,6 +5121,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Chevy/ZL1/BrightYellow.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO ZL1Con
 
 			:ZL1CREW
@@ -4521,6 +5129,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Chevy/ZL1/Crew.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO ZL1Con
 
 			:ZL1GRT
@@ -4528,6 +5137,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Chevy/ZL1/GarnetRedTintcoat.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO ZL1Con
 
 			:ZL1HB
@@ -4535,6 +5145,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Chevy/ZL1/HyperBlue.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO ZL1Con
 
 			:ZL1MB
@@ -4542,6 +5153,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Chevy/ZL1/MosaicBlack.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO ZL1Con
 
 			:ZL1NG
@@ -4549,6 +5161,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Chevy/ZL1/NightfallGray.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO ZL1Con
 
 			:ZL1RH
@@ -4556,6 +5169,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Chevy/ZL1/RedHot.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO ZL1Con
 
 			:ZL1SI
@@ -4563,6 +5177,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Chevy/ZL1/SilverIce.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO ZL1Con
 
 			:ZL1SW
@@ -4570,6 +5185,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Chevy/ZL1/SummitWhite.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO ZL1Con
 
 			REM Start of Camaro Zl1 1LE
@@ -4579,6 +5195,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Chevy/ZL11LE/ArcticBlue.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO 1LECon
 
 			:1LEB
@@ -4586,6 +5203,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Chevy/ZL11LE/Black.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO 1LECon
 
 			:1LEBY
@@ -4593,6 +5211,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Chevy/ZL11LE/BrightYellow.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO 1LECon
 
 			:1LEGRT
@@ -4600,6 +5219,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Chevy/ZL11LE/GarnetRedTintcoat.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO 1LECon
 
 			:1LEHB
@@ -4607,6 +5227,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Chevy/ZL11LE/HyperBlue.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO 1LECon
 
 			:1LEKG
@@ -4614,6 +5235,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Chevy/ZL11LE/KryptonGreen.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO 1LECon
 
 			REM Start of Corvette ZR1
@@ -4623,6 +5245,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Chevy/ZR1/ArcticWhiteSatinWheels.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO 18ZR1
 
 			:ZR1BCARBONW
@@ -4630,6 +5253,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Chevy/ZR1/BlackCarbonWheels.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO 18ZR1
 
 			:ZR1BCHROMEW
@@ -4637,6 +5261,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Chevy/ZR1/BlackChromeWheels.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO 18ZR1
 
 			:ZR1BPW
@@ -4644,6 +5269,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Chevy/ZR1/BlackPearlWheels.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO 18ZR1
 
 			:ZR1BSSW
@@ -4651,6 +5277,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Chevy/ZR1/BlueSteelSilverWheels.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO 18ZR1
 
 			:ZR1GSW
@@ -4658,6 +5285,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Chevy/ZR1/GenesisSatinWheels.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO 18ZR1
 
 			:ZR1LARTPW
@@ -4665,6 +5293,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Chevy/ZR1/LimitedAddictionRedTintPearlWheels.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO 18ZR1
 
 			:ZR1SOAGCW
@@ -4672,6 +5301,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Chevy/ZR1/SonOfAGunCarbonWheels.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO 18ZR1
 
 			:ZR1SSPW
@@ -4679,6 +5309,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Chevy/ZR1/SwitchbladeSilverPaintWheels.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO 18ZR1
 
 			:ZR1TRCW
@@ -4686,6 +5317,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Chevy/ZR1/TorchRedCarbonWheels.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO 18ZR1
 
 			:ZR1YTCW
@@ -4693,6 +5325,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Chevy/ZR1/YellOTintCarbonWheels.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO 18ZR1
 
 			:ZR1Reward
@@ -4700,6 +5333,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Chevy/ZR1/ZR1Reward.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO 18ZR1
 
 			:ZR1RESTORED
@@ -4707,6 +5341,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Chevy/ZR1Classic/ZR1Classic.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO ZR1ClassicRestored
 
 			:ZR1SHAW
@@ -4714,6 +5349,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Chevy/ZR1FnF/ZR1SH1.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO 18ZR1
 
 			REM Start of Dodge:
@@ -4724,6 +5360,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Dodge/ChallengerSRT/AnodizedCarbonBlackHood.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO SRTHellcat
 
 			:CHALLENGERSRTB5BP
@@ -4731,6 +5368,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Dodge/ChallengerSRT/B5BluePearl.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO SRTHellcat
 
 			:CHALLENGERSRTBS
@@ -4738,6 +5376,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Dodge/ChallengerSRT/BilletSilver.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO SRTHellcat
 
 			:CHALLENGERSRTBW
@@ -4745,6 +5384,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Dodge/ChallengerSRT/BrightWhite.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO SRTHellcat
 
 			:CHALLENGERSRTBWBS
@@ -4752,6 +5392,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Dodge/ChallengerSRT/BrightWhiteBlueStripe.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO SRTHellcat
 
 			:CHALLENGERSRTIWTBH
@@ -4759,6 +5400,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Dodge/ChallengerSRT/IvoryWhiteTriCoatBlackHood.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO SRTHellcat
 
 			:CHALLENGERSRTJB
@@ -4766,6 +5408,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Dodge/ChallengerSRT/JazzBlue.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO SRTHellcat
 
 			:CHALLENGERSRTPBTRS
@@ -4773,6 +5416,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Dodge/ChallengerSRT/PhantomBlackTriCoatRedStripe.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO SRTHellcat
 
 			:CHALLENGERSRTPB
@@ -4780,6 +5424,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Dodge/ChallengerSRT/PitchBlack.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO SRTHellcat
 
 			:CHALLENGERSRTPCBH
@@ -4787,6 +5432,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Dodge/ChallengerSRT/PlumCrazyBlackHood.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO SRTHellcat
 
 			:CHALLENGERSRTRRT
@@ -4794,6 +5440,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Dodge/ChallengerSRT/RedlineRedTriCoat.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO SRTHellcat
 
 			:CHALLENGERSRTSOBRS
@@ -4801,6 +5448,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Dodge/ChallengerSRT/StrykerOrangeBlackRearStripe.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO SRTHellcat
 
 			:CHALLENGERSRTSGBRS
@@ -4808,6 +5456,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Dodge/ChallengerSRT/SublimeGreenBlackRearStripe.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO SRTHellcat
 
 			:CHALLENGERSRTTBH
@@ -4815,6 +5464,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Dodge/ChallengerSRT/TorredBlackHood.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO SRTHellcat
 
 			REM Start of Demon
@@ -4824,6 +5474,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Dodge/Demon/B5BluePearl.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Demon
 
 			:DEMONB5BPMH
@@ -4831,6 +5482,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Dodge/Demon/B5BluePearlMatteHood.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Demon
 
 			:DEMONDG
@@ -4838,6 +5490,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Dodge/Demon/DestroyerGrey.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Demon
 
 			:DEMONDGMH
@@ -4845,6 +5498,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Dodge/Demon/DestroyerGreyMatteHood.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Demon
 
 			:DEMONGM
@@ -4852,6 +5506,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Dodge/Demon/GoMango.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Demon
 
 			:DEMONGMMH
@@ -4859,6 +5514,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Dodge/Demon/GoMangoMatteHood.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Demon
 
 			:DEMONPB
@@ -4866,6 +5522,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Dodge/Demon/PitchBlack.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Demon
 
 			:DEMONPBMH
@@ -4873,6 +5530,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Dodge/Demon/PitchBlackMatteHood.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Demon
 
 			:DEMONPC
@@ -4880,6 +5538,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Dodge/Demon/PlumCrazy.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Demon
 
 			:DEMONPCMH
@@ -4887,6 +5546,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Dodge/Demon/PlumCrazyMatteHood.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Demon
 
 			:DEMONReward
@@ -4894,6 +5554,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Dodge/Demon/Reward.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Demon
 
 			:DEMONWK
@@ -4901,6 +5562,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Dodge/Demon/WhiteKnuckle.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Demon
 
 			:DEMONWKMH
@@ -4908,6 +5570,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Dodge/Demon/WhiteKnuckleMatteHood.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Demon
 
 			:DEMONYJ
@@ -4915,6 +5578,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Dodge/Demon/YellowJacket.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Demon
 
 			:DEMONYJMH
@@ -4922,6 +5586,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Dodge/Demon/YellowJacketMatteHood.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Demon
 
 			:HPE1200
@@ -4929,6 +5594,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Dodge/DemonHPE1200/HPE1200.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO DemonHPE1200
 
 			:FnFDemon
@@ -4936,6 +5602,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Dodge/Hobbs%20Demon/HobbsDemon.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Demon
 
 			REM Start of Liberty Walk Challenger
@@ -4945,6 +5612,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Dodge/LBHellcat/BrightCerulean.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO LBHellcat
 
 			:LBHELLCATBCBL
@@ -4952,6 +5620,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Dodge/LBHellcat/BrightCeruleanBlackLBLiv.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO LBHellcat
 
 			:LBHELLCATBWBL
@@ -4959,6 +5628,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Dodge/LBHellcat/BrightWhiteBlackLBLiv.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO LBHellcat
 
 			:LBHELLCATO
@@ -4966,6 +5636,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Dodge/LBHellcat/Ovocado.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO LBHellcat
 
 			:LBHELLCATOBF
@@ -4973,6 +5644,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Dodge/LBHellcat/OvocadoBlackFlares.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO LBHellcat
 
 			:LBHELLCATPB
@@ -4980,6 +5652,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Dodge/LBHellcat/PhantomBlack.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO LBHellcat
 
 			:LBHELLCATPBRL
@@ -4987,6 +5660,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Dodge/LBHellcat/PhantomBlackRedLBLiv.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO LBHellcat
 
 			:LBHELLCATP
@@ -4994,6 +5668,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Dodge/LBHellcat/Pumpkin.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO LBHellcat
 
 			:LBHELLCATPBL
@@ -5001,6 +5676,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Dodge/LBHellcat/PumpkinBlackLBLiv.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO LBHellcat
 
 			:LBHELLCATReward
@@ -5008,6 +5684,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Dodge/LBHellcat/Reward.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO LBHellcat
 
 			:LBHELLCATTBL
@@ -5015,6 +5692,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Dodge/LBHellcat/TorredBlackLBLiv.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO LBHellcat
 
 			:LBHELLCATVBBL
@@ -5022,6 +5700,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Dodge/LBHellcat/VenomBlackBronzeLBLiv.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO LBHellcat
 
 			:LBHELLCATVBMRL
@@ -5029,6 +5708,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Dodge/LBHellcat/VenomBlackMatteRedLBLiv.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO LBHellcat
 
 			REM Start of Viper ACR
@@ -5038,6 +5718,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Dodge/ViperACR/Reward.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO ViperACR
 			
 			:ACRARBS
@@ -5045,6 +5726,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Dodge/ViperACR/AdrenalineRedBlackStripes.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO ViperACR
 
 			:ACRARM
@@ -5052,6 +5734,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Dodge/ViperACR/AdrenalineRedMatte.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO ViperACR
 
 			:ACRBSMRS
@@ -5059,6 +5742,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Dodge/ViperACR/BilletSilverMatteRedStripes.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO ViperACR
 
 			:ACRBSRS
@@ -5066,6 +5750,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Dodge/ViperACR/BilletSilverRedStripes.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO ViperACR
 
 			:ACRCBM
@@ -5073,6 +5758,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Dodge/ViperACR/CeramicBlueMatte.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO ViperACR
 
 			:ACRCBWS
@@ -5080,6 +5766,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Dodge/ViperACR/CeramicBlueWhiteStripes.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO ViperACR
 
 			:ACRCBMSS
@@ -5087,6 +5774,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Dodge/ViperACR/CompetitionBlueMatteSilverStripes.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO ViperACR
 
 			:ACRCBWS
@@ -5094,6 +5782,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Dodge/ViperACR/CompetitionBlueWhiteStripes.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO ViperACR
 
 			:ACRGTSRBMWS
@@ -5101,6 +5790,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Dodge/ViperACR/GTSRBlueMatteWhiteStripes.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO ViperACR
 
 			:ACRGTSRBSS
@@ -5108,6 +5798,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Dodge/ViperACR/GTSRBlueSilverStripes.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO ViperACR
 
 			:ACRGM
@@ -5115,6 +5806,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Dodge/ViperACR/GunmetalMatte.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO ViperACR
 
 			:ACRGPSS
@@ -5122,6 +5814,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Dodge/ViperACR/GunmetalPearlSilverStripes.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO ViperACR
 
 			:ACRSOBS
@@ -5129,6 +5822,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Dodge/ViperACR/StrykerOrangeBlackStripes.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO ViperACR
 
 			:ACRSPSS
@@ -5136,6 +5830,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Dodge/ViperACR/StrykerPurpleSilverStripes.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO ViperACR
 
 			:ACRVBMSS
@@ -5143,6 +5838,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Dodge/ViperACR/VenomBlackMatteSilverStripes.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO ViperACR
 
 			:ACRVBRS
@@ -5150,6 +5846,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Dodge/ViperACR/VenomBlackRedStripes.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO ViperACR
 
 			:ACRVWM
@@ -5157,6 +5854,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Dodge/ViperACR/ViperWhiteMatte.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO ViperACR
 
 			:ACRVWSS
@@ -5164,6 +5862,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Dodge/ViperACR/ViperWhiteSilverStripes.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO ViperACR
 
 			:ACRYOBS
@@ -5171,6 +5870,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Dodge/ViperACR/YOrangeBlackStripes.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO ViperACR
 
 			REM Start of Viper ACR Extreme Aero
@@ -5180,6 +5880,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Dodge/ViperACRExtremeAero/ACRExtremeAero.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO ACRExtreme
 
 			REM Start of Viper GTS
@@ -5189,6 +5890,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Dodge/ViperGTS/AdrenalineRedWhiteStripes.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO ViperGTS
 
 			:GTSAC
@@ -5196,6 +5898,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Dodge/ViperGTS/AnodizedCarbon.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO ViperGTS
 
 			:GTSBSBS
@@ -5203,6 +5906,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Dodge/ViperGTS/BilletSilverBlackStripes.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO ViperGTS
 
 			:GTSGTSRBSS
@@ -5210,6 +5914,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Dodge/ViperGTS/GTSRBlueSilverStripe.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO ViperGTS
 
 			:GTSGPWS
@@ -5217,6 +5922,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Dodge/ViperGTS/GunmetalPearlWhiteStripe.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO ViperGTS
 
 			:GTSLB
@@ -5224,6 +5930,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Dodge/ViperGTS/LaserBlue.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO ViperGTS
 
 			:GTSLBSS
@@ -5231,6 +5938,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Dodge/ViperGTS/LaserBlueSilverStripes.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO ViperGTS
 
 			:GTSPC
@@ -5238,6 +5946,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Dodge/ViperGTS/PlumCrazy.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO ViperGTS
 
 			:GTSPCSS
@@ -5245,6 +5954,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Dodge/ViperGTS/PlumCrazySilverStripes.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO ViperGTS
 
 			:GTSSO
@@ -5252,6 +5962,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Dodge/ViperGTS/StrykerOrange.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO ViperGTS
 
 			:GTSSOBS
@@ -5259,6 +5970,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Dodge/ViperGTS/StrykerOrangeBlackStripes.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO ViperGTS
 
 			:GTSSG
@@ -5266,6 +5978,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Dodge/ViperGTS/SublimeGreen.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO ViperGTS
 
 			:GTSSGBS
@@ -5273,6 +5986,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Dodge/ViperGTS/SublimeGreenBlackStripes.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 						move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO ViperGTS
 
 			:GTSVBRS
@@ -5280,6 +5994,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Dodge/ViperGTS/VenomBlackRedStripes.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO ViperGTS
 
 			:GTSVWBS
@@ -5287,6 +6002,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Dodge/ViperGTS/ViperWhiteBlackStripes.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO ViperGTS
 
 			:GTSYO
@@ -5294,6 +6010,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Dodge/ViperGTS/YOrange.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO ViperGTS
 
 			REM Start of Viper SnakeSkin Edition
@@ -5303,6 +6020,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Dodge/ViperSnakeskin/ViperSnakeskinEditionGTC.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO SnakeskinGTC
 
 			REM Start of Donkervoort:
@@ -5313,6 +6031,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Donkervoort/Blue.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO DonkervoortCon
 
 			:D8GTOG
@@ -5320,6 +6039,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Donkervoort/Green.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO DonkervoortCon
 
 			:D8GTOR
@@ -5327,6 +6047,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Donkervoort/Red.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO DonkervoortCon
 
 			:D8GTOBB
@@ -5334,6 +6055,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Donkervoort/BabyBlue.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO DonkervoortCon
 
 			:D8GTOO
@@ -5341,6 +6063,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Donkervoort/Orange.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO DonkervoortCon
 
 			:D8GTOP
@@ -5348,6 +6071,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Donkervoort/Purple.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO DonkervoortCon
 
 			:D8GTOSG
@@ -5355,6 +6079,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Donkervoort/ShipGray.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO DonkervoortCon
 
 			:D8GTOS
@@ -5362,6 +6087,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Donkervoort/Silver.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO DonkervoortCon
 
 			:D8GTOW
@@ -5369,6 +6095,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Donkervoort/White.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO DonkervoortCon
 
 			:D8GTOY
@@ -5376,6 +6103,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Donkervoort/Yellow.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO DonkervoortCon
 
 			:D8GTOReward
@@ -5383,6 +6111,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Donkervoort/RewardGTOBareNakedCarbon.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO DonkervoortCon
 
 			REM Start of Ferrari:
@@ -5393,6 +6122,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ferrari/250GTO/250GTORestored.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO 250GTO
 			
 			REM Start of 458 Speciale
@@ -5402,6 +6132,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ferrari/458Special/BiancoAvus.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO 458Speciale
 			
 			:458SPECIALBSH
@@ -5409,6 +6140,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ferrari/458Special/BluScozia_Historical.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO 458Speciale
 			
 			:458SPECIALGM
@@ -5416,6 +6148,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ferrari/458Special/GialloModena.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO 458Speciale
 			
 			:458SPECIALGS
@@ -5423,6 +6156,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ferrari/458Special/GrigioSilverstone.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO 458Speciale
 			
 			:458SPECIALRFH
@@ -5430,6 +6164,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ferrari/458Special/RossoFiorano_Historical.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO 458Speciale
 			
 			:458SPECIALVBH
@@ -5437,6 +6172,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ferrari/458Special/VerdeBritish_Historical.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO 458Speciale
 			
 			REM Start of 488 Pista
@@ -5446,6 +6182,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ferrari/488Pista/ArgentoNurburgring.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO 488Pista
 			
 			:PISTABAD
@@ -5453,6 +6190,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ferrari/488Pista/BluAbuDhabi.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO 488Pista
 			
 			:PISTABM
@@ -5460,6 +6198,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ferrari/488Pista/BluMirabeau.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO 488Pista
 			
 			:PISTABP
@@ -5467,6 +6206,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ferrari/488Pista/BluPozzi.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO 488Pista
 			
 			:PISTABTDFBW
@@ -5474,6 +6214,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ferrari/488Pista/BluTourDeFranceBlackWheels.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO 488Pista
 			
 			:PISTABTDFSW
@@ -5481,6 +6222,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ferrari/488Pista/BluTourDeFranceSilverWheels.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO 488Pista
 			
 			:PISTAGM
@@ -5488,6 +6230,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ferrari/488Pista/GialloModena.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO 488Pista
 			
 			:PISTAGA
@@ -5495,6 +6238,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ferrari/488Pista/GrigioAlloy.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO 488Pista
 			
 			:PISTAGS
@@ -5502,6 +6246,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ferrari/488Pista/GrigioSilverstone.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO 488Pista
 			
 			:PISTAGTM
@@ -5509,6 +6254,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ferrari/488Pista/GrigioTitanioMetallizzato.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO 488Pista
 			
 			:PISTAND
@@ -5516,6 +6262,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ferrari/488Pista/NeroDaytona.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO 488Pista
 			
 			:PISTANDS
@@ -5523,6 +6270,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ferrari/488Pista/NeroDS.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO 488Pista
 			
 			:PISTAReward
@@ -5530,6 +6278,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ferrari/488Pista/Reward.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO 488Pista
 			
 			:PISTARC
@@ -5537,6 +6286,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ferrari/488Pista/RossoCorsa.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO 488Pista
 			
 			:PISTARM
@@ -5544,6 +6294,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ferrari/488Pista/RossoMugello.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO 488Pista
 			
 			:PISTARS
@@ -5551,6 +6302,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ferrari/488Pista/RossoScuderia.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO 488Pista
 			
 			REM Start of 488 Pista Spider
@@ -5560,6 +6312,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ferrari/488PistaSpider/ArgentoNurburgringBlackWheels.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO 488PistaSpider
 			
 			:PISTASPIDERANSW
@@ -5567,6 +6320,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ferrari/488PistaSpider/ArgentoNurburgringSilverWheels.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO 488PistaSpider
 			
 			:PISTASPIDERBTDF
@@ -5574,6 +6328,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ferrari/488PistaSpider/BluTourDeFrance.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO 488PistaSpider
 			
 			:PISTASPIDERGM
@@ -5581,6 +6336,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ferrari/488PistaSpider/GialloModena.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO 488PistaSpider
 			
 			:PISTASPIDERGFH
@@ -5588,6 +6344,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ferrari/488PistaSpider/GrigioFerro_Historical.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO 488PistaSpider
 			
 			:PISTASPIDERGS
@@ -5595,6 +6352,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ferrari/488PistaSpider/GrigioSilverstone.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO 488PistaSpider
 			
 			:PISTASPIDERGTM
@@ -5602,6 +6360,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ferrari/488PistaSpider/GrigioTitanioMetallizzato.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO 488PistaSpider
 			
 			:PISTASPIDERND
@@ -5609,6 +6368,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ferrari/488PistaSpider/NeroDaytona.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO 488PistaSpider
 			
 			:PISTASPIDERNDS
@@ -5616,6 +6376,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ferrari/488PistaSpider/NeroDS.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO 488PistaSpider
 			
 			:PISTASPIDERReward
@@ -5623,6 +6384,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ferrari/488PistaSpider/Reward.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO 488PistaSpider
 			
 			:PISTASPIDERRM
@@ -5630,6 +6392,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ferrari/488PistaSpider/RossoMugello.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO 488PistaSpider
 			
 			:PISTASPIDERRSBL
@@ -5637,6 +6400,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ferrari/488PistaSpider/RossoScuderiaBlackLiv.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO 488PistaSpider
 			
 			:PISTASPIDERRSSL
@@ -5644,6 +6408,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ferrari/488PistaSpider/RossoScuderiaSilverLiv.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO 488PistaSpider
 			
 			REM Start of 488 Spider
@@ -5653,6 +6418,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ferrari/488Spider/Avorio_Historical.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO 488Spider
 			
 			:488SPIDERACH
@@ -5660,6 +6426,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ferrari/488Spider/AzzurroCalifornia_Historical.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO 488Spider
 			
 			:488SPIDERBCS
@@ -5667,6 +6434,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ferrari/488Spider/BluCorsa_Special.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO 488Spider
 			
 			:488SPIDERBM
@@ -5674,6 +6442,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ferrari/488Spider/BluMirabeau.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO 488Spider
 			
 			:488SPIDERBSH
@@ -5681,6 +6450,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ferrari/488Spider/BluScozia_Historical.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO 488Spider
 			
 			:488SPIDERBSwatersH
@@ -5688,6 +6458,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ferrari/488Spider/BluSwaters_Historical.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO 488Spider
 			
 			:488SPIDERCDFH
@@ -5695,6 +6466,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ferrari/488Spider/CannaDiFucile_Historical.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO 488Spider
 			
 			:488SPIDERGFH
@@ -5702,6 +6474,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ferrari/488Spider/GrigioFerro_Historical.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO 488Spider
 			
 			:488SPIDERGSH
@@ -5709,6 +6482,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ferrari/488Spider/GrigioScuro_Historical.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO 488Spider
 			
 			:488SPIDERGS
@@ -5716,6 +6490,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ferrari/488Spider/GrigioSilverstone.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO 488Spider
 			
 			:488SPIDERND
@@ -5723,6 +6498,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ferrari/488Spider/NeroDaytona.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO 488Spider
 			
 			:488SPIDERRDH
@@ -5730,6 +6506,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ferrari/488Spider/RossoDino_Historical.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO 488Spider
 			
 			:488SPIDERRFH
@@ -5737,6 +6514,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ferrari/488Spider/RossoFiorano_Historical.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO 488Spider
 			
 			:488SPIDERVBH
@@ -5744,6 +6522,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ferrari/488Spider/VerdeBritish_Historical.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO 488Spider
 			
 			REM Start of 70th Ann Cars
@@ -5753,6 +6532,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ferrari/70th/70th488GTB.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO 70thAnnCon
 			
 			:70th488Spider
@@ -5760,6 +6540,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ferrari/70th/70th488Spyder.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO 70thAnnCon
 			
 			:70thCaliforniaT
@@ -5767,6 +6548,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ferrari/70th/70thCalifornia.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO 70thAnnCon
 			
 			:70thF12
@@ -5774,6 +6556,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ferrari/70th/70thF12.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO 70thAnnCon
 			
 			:70thGTC4Lusso
@@ -5781,6 +6564,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ferrari/70th/70thGTC4Lusso.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO 70thAnnCon
 			
 			:70thLaFAperta
@@ -5788,6 +6572,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ferrari/70th/70thLaFerrariAperta.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO 70thAnnCon
 			
 			REM Start of California
@@ -5797,6 +6582,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ferrari/California/ArgentoNurburgring.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO California
 			
 			:CALIFORNIAAH
@@ -5804,6 +6590,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ferrari/California/Avoria_Historical.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO California
 			
 			:CALIFORNIAACH
@@ -5811,6 +6598,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ferrari/California/AzzurroCalifornia_Historical.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO California
 			
 			:CALIFORNIABA
@@ -5818,6 +6606,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ferrari/California/BiancoAvus.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO California
 			
 			:CALIFORNIABM
@@ -5825,6 +6614,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ferrari/California/BluMirabeau.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO California
 			
 			:CALIFORNIABP
@@ -5832,6 +6622,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ferrari/California/BluPozzi.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO California
 			
 			:CALIFORNIABSH
@@ -5839,6 +6630,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ferrari/California/BluScozia_Historical.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO California
 			
 			:CALIFORNIABTDF
@@ -5846,6 +6638,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ferrari/California/BluTourDeFrance.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO California
 			
 			:CALIFORNIACDFH
@@ -5853,6 +6646,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ferrari/California/CannaDiFucile_Historical.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO California
 			
 			:CALIFORNIAGM
@@ -5860,6 +6654,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ferrari/California/GialloModena.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO California
 			
 			:CALIFORNIAGA
@@ -5867,6 +6662,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ferrari/California/GrigioAlloy.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO California
 			
 			:CALIFORNIAGFH
@@ -5874,6 +6670,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ferrari/California/GrigioFerro_Historical.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO California
 			
 			:CALIFORNIAGI
@@ -5881,6 +6678,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ferrari/California/GrigioIngrid.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO California
 			
 			:CALIFORNIAGSH
@@ -5888,6 +6686,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ferrari/California/GrigioScuro_Historical.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO California
 			
 			:CALIFORNIAGS
@@ -5895,6 +6694,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ferrari/California/GrigioSilverstone.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO California
 			
 			:CALIFORNIAGTM
@@ -5902,6 +6702,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ferrari/California/GrigioTitanioMetalizzato.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO California
 			
 			:CALIFORNIANDW2
@@ -5909,6 +6710,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ferrari/California/NeroDaytonaW2.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO California
 			
 			:CALIFORNIANDW3
@@ -5916,6 +6718,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ferrari/California/NeroDaytonaW3.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO California
 			
 			:CALIFORNIANDS
@@ -5923,6 +6726,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ferrari/California/NeroDS.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO California
 			
 			:CALIFORNIAReward
@@ -5930,6 +6734,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ferrari/California/Reward.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO California
 			
 			:CALIFORNIARCS
@@ -5937,6 +6742,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ferrari/California/RossoCalifornia_Special.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO California
 			
 			:CALIFORNIARC
@@ -5944,6 +6750,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ferrari/California/RossoCorsa.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO California
 			
 			:CALIFORNIARDH
@@ -5951,6 +6758,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ferrari/California/RossoDino_Historical.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO California
 			
 			:CALIFORNIARFH
@@ -5958,6 +6766,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ferrari/California/RossoFiorano_Historical.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO California
 			
 			:CALIFORNIARM
@@ -5965,6 +6774,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ferrari/California/RossoMugello.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO California
 			
 			:CALIFORNIARS
@@ -5972,6 +6782,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ferrari/California/RossoScuderia.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO California
 			
 			:CALIFORNIAVBH
@@ -5979,6 +6790,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ferrari/California/VerdeBritish_Historical.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO California
 			
 			REM Start of F8 Tributo
@@ -5988,6 +6800,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ferrari/F8Tributo/ArgentoNurburgring.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO F8TRIBUTO
 			
 			:F8TRIBUTOBABR
@@ -5995,6 +6808,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ferrari/F8Tributo/BiancoAvusBlackRoof.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO F8TRIBUTO
 			
 			:F8TRIBUTOB
@@ -6002,6 +6816,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ferrari/F8Tributo/Black.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO F8TRIBUTO
 			
 			:F8TRIBUTOBAD
@@ -6009,6 +6824,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ferrari/F8Tributo/BluAbuDhabi.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO F8TRIBUTO
 			
 			:F8TRIBUTOBTDFBW
@@ -6016,6 +6832,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ferrari/F8Tributo/BlueTourDeFranceBlackW.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO F8TRIBUTO
 			
 			:F8TRIBUTOBM
@@ -6023,6 +6840,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ferrari/F8Tributo/BluMirabeau.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO F8TRIBUTO
 			
 			:F8TRIBUTOBP
@@ -6030,6 +6848,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ferrari/F8Tributo/BluPozzi.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO F8TRIBUTO
 			
 			:F8TRIBUTOBTDFSW
@@ -6037,6 +6856,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ferrari/F8Tributo/BluTourDeFranceSilverW.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO F8TRIBUTO
 			
 			:F8TRIBUTOGM
@@ -6044,6 +6864,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ferrari/F8Tributo/GialloModena.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO F8TRIBUTO
 			
 			:F8TRIBUTOGABR
@@ -6051,6 +6872,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ferrari/F8Tributo/GrigioAlloyBlackRoof.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO F8TRIBUTO
 			
 			:F8TRIBUTOGI
@@ -6058,6 +6880,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ferrari/F8Tributo/GrigioIngrid.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO F8TRIBUTO
 			
 			:F8TRIBUTOGSBR
@@ -6065,6 +6888,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ferrari/F8Tributo/GrigioSilverstoneBlackRoof.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO F8TRIBUTO
 			
 			:F8TRIBUTOGTM
@@ -6072,6 +6896,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ferrari/F8Tributo/GrigioTitanioMetallizzato.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO F8TRIBUTO
 			
 			:F8TRIBUTOND
@@ -6079,6 +6904,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ferrari/F8Tributo/NeroDaytona.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO F8TRIBUTO
 			
 			:F8TRIBUTOReward
@@ -6086,6 +6912,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ferrari/F8Tributo/Reward.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO F8TRIBUTO
 			
 			:F8TRIBUTORCBR
@@ -6093,6 +6920,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ferrari/F8Tributo/RossoCorsaBlackRoof.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO F8TRIBUTO
 			
 			:F8TRIBUTORM
@@ -6100,6 +6928,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ferrari/F8Tributo/RossoMugello.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO F8TRIBUTO
 			
 			:F8TRIBUTORS
@@ -6107,6 +6936,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ferrari/F8Tributo/RossoScuderia.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO F8TRIBUTO
 			
 			REM Start of F12 Berlinetta
@@ -6116,6 +6946,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ferrari/F12Berlinetta/Avoria_Historical.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO F12Berlinetta
 			
 			:F12ACH
@@ -6123,6 +6954,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ferrari/F12Berlinetta/AzzurroCalifornia_Historical.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO F12Berlinetta
 			
 			:F12BAD
@@ -6130,6 +6962,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ferrari/F12Berlinetta/BluAbuDhabi.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO F12Berlinetta
 			
 			:F12BScH
@@ -6137,6 +6970,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ferrari/F12Berlinetta/BluScozia_Historical.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO F12Berlinetta
 			
 			:F12BSwH
@@ -6144,6 +6978,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ferrari/F12Berlinetta/BluSwaters_Historical.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO F12Berlinetta
 			
 			:F12CDFH
@@ -6151,6 +6986,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ferrari/F12Berlinetta/CannaDiFucile_Historical.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO F12Berlinetta
 			
 			:F12GAYS
@@ -6158,6 +6994,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ferrari/F12Berlinetta/GrigioAlloyYellowStripe.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO F12Berlinetta
 			
 			:F12GFH
@@ -6165,6 +7002,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ferrari/F12Berlinetta/GrigioFerro_Historical.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO F12Berlinetta
 			
 			:F12GSH
@@ -6172,6 +7010,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ferrari/F12Berlinetta/GrigioScuro_Historical.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO F12Berlinetta
 			
 			:F12GS
@@ -6179,6 +7018,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ferrari/F12Berlinetta/GrigioSilverstone.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO F12Berlinetta
 			
 			:F12RDH
@@ -6186,6 +7026,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ferrari/F12Berlinetta/RossoDino_Historical.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO F12Berlinetta
 			
 			:F12RFH
@@ -6193,6 +7034,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ferrari/F12Berlinetta/RossoFiorano_Historical.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO F12Berlinetta
 			
 			:F12RM
@@ -6200,6 +7042,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ferrari/F12Berlinetta/RossoMugello.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO F12Berlinetta
 			
 			:F12VBH
@@ -6207,6 +7050,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ferrari/F12Berlinetta/VerdeBritish_Historical.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO F12Berlinetta
 			
 			REM Start of F12 TDF
@@ -6216,6 +7060,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ferrari/F12TDF/BiancoAvusW1C.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO F12TDF
 			
 			:F12TDFBTDFW1B
@@ -6223,6 +7068,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ferrari/F12TDF/BluTourDeFranceW1B.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO F12TDF
 			
 			:F12TDFGMW1A
@@ -6230,6 +7076,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ferrari/F12TDF/GialloModenaW1A.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO F12TDF
 			
 			:F12TDFGMW1C
@@ -6237,6 +7084,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ferrari/F12TDF/GialloModenaW1C.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO F12TDF
 			
 			:F12TDFGTMW1B
@@ -6244,6 +7092,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ferrari/F12TDF/GrigioTitanioMerallizzatoW1B.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO F12TDF
 			
 			:F12TDFGRMW1C
@@ -6251,6 +7100,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ferrari/F12TDF/GrigioTitanioMerallizzatoW1C.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO F12TDF
 			
 			:F12TDFND
@@ -6258,6 +7108,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ferrari/F12TDF/NeroDaytona.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO F12TDF
 			
 			:F12TDFReward
@@ -6265,6 +7116,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ferrari/F12TDF/Reward.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO F12TDF
 			
 			:F12TDFRSW1B
@@ -6272,6 +7124,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ferrari/F12TDF/RossoScuderiaW1B.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO F12TDF
 			
 			:F12TDFRSW1C
@@ -6279,6 +7132,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ferrari/F12TDF/RossoScuderiaW1C.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO F12TDF
 			
 			REM Start of 599 GTO
@@ -6288,6 +7142,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ferrari/599GTO/AvioMet_HistoricalBlackRoofandSide.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO 599GTO
 			
 			:599GTOAHBR
@@ -6295,6 +7150,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ferrari/599GTO/Avorio_HistoricalBlackRoof.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO 599GTO
 			
 			:599GTOAMHWS
@@ -6302,6 +7158,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ferrari/599GTO/AzzurroMet_HistoricalWhiteStripe.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO 599GTO
 			
 			:599GTOBSHGR
@@ -6309,6 +7166,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ferrari/599GTO/BluScozia_HistoricalGreyRoof.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO 599GTO
 			
 			:599GTOBTDFBRMW
@@ -6316,6 +7174,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ferrari/599GTO/BluTourDeFranceBlackRoofMatchW.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO 599GTO
 			
 			:599GTOBTDFWS
@@ -6323,6 +7182,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ferrari/599GTO/BluTourDeFranceWhiteStripe.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO 599GTO
 			
 			:599GTOFABFBRS
@@ -6330,6 +7190,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ferrari/599GTO/FerrariAtelierBiancoFujiBlackRoofandSide.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO 599GTO
 			
 			:599GTOGMBRMW
@@ -6337,6 +7198,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ferrari/599GTO/GialloModenaBlackRoofMatchW.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO 599GTO
 			
 			:599GTOGMBS
@@ -6344,6 +7206,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ferrari/599GTO/GialloModenaBlackStripe.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO 599GTO
 			
 			:599GTOGFHBR
@@ -6351,6 +7214,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ferrari/599GTO/GrigioFerro_HistoricalBlackRoof.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO 599GTO
 			
 			:599GTOGMHILBRW
@@ -6358,6 +7222,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ferrari/599GTO/GrigioMedio_HistoricalItalianLivBlackRedW.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO 599GTO
 			
 			:599GTOGSHBR
@@ -6365,6 +7230,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ferrari/599GTO/GrigioScuro_HistoricalBlackRoof.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO 599GTO
 			
 			:599GTOMNS
@@ -6372,6 +7238,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ferrari/599GTO/MattNero_Special.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO 599GTO
 			
 			:599GTONDS
@@ -6379,6 +7246,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ferrari/599GTO/NeroDaytona_Special.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO 599GTO
 			
 			:599GTONDSIL
@@ -6386,6 +7254,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ferrari/599GTO/NeroDaytona_SpecialItalianLiv.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO 599GTO
 			
 			:599GTOReward
@@ -6393,6 +7262,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ferrari/599GTO/Reward.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO 599GTO
 			
 			:599GTORBHBR
@@ -6400,6 +7270,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ferrari/599GTO/RossoBarchetta_HistoricalBlackRoof.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO 599GTO
 			
 			:599GTORDHGR
@@ -6407,6 +7278,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ferrari/599GTO/RossoDino_HistoricalGreyRoof.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO 599GTO
 			
 			:599GTORFHBR
@@ -6414,6 +7286,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ferrari/599GTO/RossoFiorano_HistoricalBlackRoof.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO 599GTO
 			
 			:599GTORFHBRMW
@@ -6421,6 +7294,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ferrari/599GTO/RossoFiorano_HistoricalBlackRoofMatchW.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO 599GTO
 			
 			:599GTORMHWS
@@ -6428,6 +7302,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ferrari/599GTO/RubinoMicalizzato_HistoricalWhiteStripe.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO 599GTO
 			
 			:599GTOVAH
@@ -6435,6 +7310,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ferrari/599GTO/VerdeAbetone_Historical.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO 599GTO
 			
 			:599GTOVBHBR70
@@ -6442,6 +7318,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ferrari/599GTO/VerdeBritish_HistoricalBlackRoof70thLiv.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO 599GTO
 			
 			:599GTOVHGR
@@ -6449,6 +7326,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ferrari/599GTO/Vinaccia_HistoricalGreyRoof.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO 599GTO
 			
 			REM Start of GTC4 Lusso
@@ -6458,6 +7336,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ferrari/GTC4Lusso/Bianco.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO GTC4Lusso
 			
 			:GTC4LUSSOC
@@ -6465,6 +7344,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ferrari/GTC4Lusso/CannaDiFucile_Historical.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO GTC4Lusso
 			
 			:GTC4LUSSOReward
@@ -6472,6 +7352,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ferrari/GTC4Lusso/Reward.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO GTC4Lusso
 			
 			REM Start of F40
@@ -6481,6 +7362,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ferrari/F40/GialloModena.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO F40
 			
 			:F40ND
@@ -6488,6 +7370,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ferrari/F40/NeroDaytona.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO F40
 			
 			:F40Reward
@@ -6495,6 +7378,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ferrari/F40/Reward.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO F40
 			
 			:F40RC
@@ -6502,6 +7386,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ferrari/F40/RossoCorsa.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO F40
 			
 			REM Start of F50
@@ -6511,6 +7396,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ferrari/F50/ArgentoNurburgring.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO F50
 			
 			:F50Crew
@@ -6518,6 +7404,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ferrari/F50/CrewDonna.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO F50
 			
 			:F50GM
@@ -6525,6 +7412,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ferrari/F50/GialloModena.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO F50
 			
 			:F50ND
@@ -6532,6 +7420,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ferrari/F50/NeroDaytona.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO F50
 			
 			:F50RB
@@ -6539,6 +7428,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ferrari/F50/RossoBarchetta.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO F50
 			
 			:F50RC
@@ -6546,6 +7436,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ferrari/F50/RossoCorsa.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO F50
 			
 			REM Start of FXX K
@@ -6555,6 +7446,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ferrari/FXXK/BiancoAvus23.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO FXXK
 			
 			:FXXKBluMontecarlo15
@@ -6562,6 +7454,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ferrari/FXXK/BluMontecarlo15.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO FXXK
 			
 			:FXXKNeroDaytona23
@@ -6569,6 +7462,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ferrari/FXXK/NeroDaytona23.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO FXXK
 			
 			:FXXKReward
@@ -6576,6 +7470,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ferrari/FXXK/Reward.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO FXXK
 			
 			:FXXKRossoCorsa10
@@ -6583,6 +7478,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ferrari/FXXK/RossoCorsa10.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO FXXK
 			
 			:FXXKWhite10
@@ -6590,6 +7486,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ferrari/FXXK/White10.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO FXXK
 			
 			:FXXKEVO
@@ -6597,6 +7494,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ferrari/FXXKEVO/EVO.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO FXXK
 			
 			REM Start of Portofino
@@ -6606,6 +7504,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ferrari/Portofino/ArgentoNurburgringBlackW.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Portofino
 			
 			:PORTOFINOBAD
@@ -6613,6 +7512,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ferrari/Portofino/BluAbuDhabi.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Portofino
 			
 			:PORTOFINOBM
@@ -6620,6 +7520,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ferrari/Portofino/BluMirabeau.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Portofino
 			
 			:PORTOFINOBP
@@ -6627,6 +7528,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ferrari/Portofino/BluPozzi.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Portofino
 			
 			:PORTOFINOBTDF
@@ -6634,6 +7536,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ferrari/Portofino/BluTourDeFrance.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Portofino
 			
 			:PORTOFINOGM
@@ -6641,6 +7544,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ferrari/Portofino/GialloModena.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Portofino
 			
 			:PORTOFINOGABSW
@@ -6648,6 +7552,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ferrari/Portofino/GrigioAlloyBandSW.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Portofino
 			
 			:PORTOFINOGI
@@ -6655,6 +7560,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ferrari/Portofino/GrigioIngrid.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Portofino
 			
 			:PORTOFINOGSBW
@@ -6662,6 +7568,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ferrari/Portofino/GrigioSilverstoneBlackW.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Portofino
 			
 			:PORTOFINOGTM
@@ -6669,6 +7576,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ferrari/Portofino/GrigioTitanioMetallizzatoSilverW.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Portofino
 			
 			:PORTOFINONDBWRI
@@ -6676,6 +7584,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ferrari/Portofino/NeroDaytonaBlackWheelRedInt.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Portofino
 			
 			:PORTOFINONDSW
@@ -6683,6 +7592,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ferrari/Portofino/NeroDaytonaSilverW.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Portofino
 			
 			:PORTOFINONDSBW
@@ -6690,6 +7600,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ferrari/Portofino/NeroDSBlackW.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Portofino
 			
 			:PORTOFINOReward
@@ -6697,6 +7608,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ferrari/Portofino/Reward.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Portofino
 			
 			:PORTOFINORCSW
@@ -6704,6 +7616,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ferrari/Portofino/RossoCorsaSilverW.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Portofino
 			
 			:PORTOFINORM
@@ -6711,6 +7624,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ferrari/Portofino/RossoMugello.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Portofino
 			
 			:PORTOFINORP
@@ -6718,6 +7632,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ferrari/Portofino/RossoPortofino.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Portofino
 			
 			:PORTOFINORSBW
@@ -6725,6 +7640,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ferrari/Portofino/RossoScuderiaBlackWheel.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Portofino
 			
 			REM Start of 812 Superfast
@@ -6734,6 +7650,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ferrari/Superfast/ArgentoNurburgring.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO 812Superfast
 			
 			:SUPERFASTAH
@@ -6741,6 +7658,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ferrari/Superfast/Avorio_Historical.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO 812Superfast
 			
 			:SUPERFASTACH
@@ -6748,6 +7666,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ferrari/Superfast/AzzurroCalifornia_Historical.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO 812Superfast
 			
 			:SUPERFASTBA
@@ -6755,6 +7674,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ferrari/Superfast/BiancoAvus.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO 812Superfast
 			
 			:SUPERFASTBAD
@@ -6762,6 +7682,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ferrari/Superfast/BluAbuDhabi.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO 812Superfast
 			
 			:SUPERFASTBM
@@ -6769,6 +7690,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ferrari/Superfast/BluMirabeau.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO 812Superfast
 			
 			:SUPERFASTBP
@@ -6776,6 +7698,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ferrari/Superfast/BluPozzi.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO 812Superfast
 			
 			:SUPERFASTBScH
@@ -6783,6 +7706,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ferrari/Superfast/BluScozia_Historical.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO 812Superfast
 			
 			:SUPERFASTBSwH
@@ -6790,6 +7714,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ferrari/Superfast/BluSwaters_Historical.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO 812Superfast
 			
 			:SUPERFASTBTDF
@@ -6797,6 +7722,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ferrari/Superfast/BluTourDeFrance.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO 812Superfast
 			
 			:SUPERFASTCDFH
@@ -6804,6 +7730,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ferrari/Superfast/CannaDiFucile_Historical.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO 812Superfast
 			
 			:SUPERFASTGM
@@ -6811,6 +7738,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ferrari/Superfast/GialloModena.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO 812Superfast
 			
 			:SUPERFASTGA
@@ -6818,6 +7746,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ferrari/Superfast/GrigioAlloy.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO 812Superfast
 			
 			:SUPERFASTGFH
@@ -6825,6 +7754,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ferrari/Superfast/GrigioFerro_Historical.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO 812Superfast
 			
 			:SUPERFASTGI
@@ -6832,6 +7762,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ferrari/Superfast/GrigioIngrid.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO 812Superfast
 			
 			:SUPERFASTGSH
@@ -6839,6 +7770,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ferrari/Superfast/GrigioScuro_Historical.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO 812Superfast
 			
 			:SUPERFASTGS
@@ -6846,6 +7778,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ferrari/Superfast/GrigioSilverstone.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO 812Superfast
 			
 			:SUPERFASTGTM
@@ -6853,6 +7786,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ferrari/Superfast/GrigioTitanioMetallizzato.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO 812Superfast
 			
 			:SUPERFASTND
@@ -6860,6 +7794,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ferrari/Superfast/NeroDaytona.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO 812Superfast
 			
 			:SUPERFASTNDS
@@ -6867,6 +7802,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ferrari/Superfast/NeroDS.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO 812Superfast
 			
 			:SUPERFASTReward
@@ -6874,6 +7810,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ferrari/Superfast/Reward.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO 812Superfast
 			
 			:SUPERFASTRC
@@ -6881,6 +7818,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ferrari/Superfast/RossoCorsa.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO 812Superfast
 			
 			:SUPERFASTRDH
@@ -6888,6 +7826,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ferrari/Superfast/RossoDino_Historical.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO 812Superfast
 			
 			:SUPERFASTRFH
@@ -6895,6 +7834,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ferrari/Superfast/RossoFiorano_Historical.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO 812Superfast
 			
 			:SUPERFASTRM
@@ -6902,6 +7842,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ferrari/Superfast/RossoMugello.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO 812Superfast
 			
 			:SUPERFASTRS
@@ -6909,6 +7850,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ferrari/Superfast/RossoScuderia.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO 812Superfast
 			
 			:SUPERFASTVBH
@@ -6916,6 +7858,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ferrari/Superfast/VerdeBritish_Historical.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO 812Superfast
 			
 			REM Start of La Ferrari
@@ -6925,6 +7868,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ferrari/LaFerrari/AtelierAzzuroPearl.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO LaF
 			
 			:LAFAVKL
@@ -6932,6 +7876,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ferrari/LaFerrari/AtelierVerdeKersLucido.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO LaF
 			
 			:LAFBABI
@@ -6939,6 +7884,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ferrari/LaFerrari/BiancoAvusBlackInterior.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO LaF
 			
 			:LAFBARI
@@ -6946,6 +7892,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ferrari/LaFerrari/BiancoAvusRedInterior.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO LaF
 			
 			:LAFBTDF
@@ -6953,6 +7900,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ferrari/LaFerrari/BluTourDeFrance.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO LaF
 			
 			:LAFGM
@@ -6960,6 +7908,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ferrari/LaFerrari/GialloModena.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO LaF
 			
 			:LAFNBW
@@ -6967,6 +7916,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ferrari/LaFerrari/NeroBlackW.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO LaF
 			
 			:LAFNSW
@@ -6974,6 +7924,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ferrari/LaFerrari/NeroSilverW.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO LaF
 			
 			:LAFRCBW
@@ -6981,6 +7932,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ferrari/LaFerrari/RossoCorsaBlackW.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO LaF
 			
 			:LAFRCSW
@@ -6988,6 +7940,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ferrari/LaFerrari/RossoCorsaSilverW.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO LaF
 			
 			REM Start of Fast and Furious Cars
@@ -6998,6 +7951,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/FastandFurious/BrianR34VSpecII.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO FnFCarsCon
 			
 			:FnFCWestR34
@@ -7005,6 +7959,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/FastandFurious/BriansCWestR34.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO FnFCarsCon
 			
 			:FnFEclipse
@@ -7012,6 +7967,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/FastandFurious/BriansEclipse.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO FnFCarsCon
 			
 			:FnFLanEvo
@@ -7019,6 +7975,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/FastandFurious/BriansLanEvo.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO FnFCarsCon
 			
 			:FnFSupra
@@ -7026,6 +7983,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/FastandFurious/BriansSupraMKIV.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO FnFCarsCon
 			
 			:FnFDomCharger
@@ -7033,6 +7991,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/FastandFurious/DomsChargerRT.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO FnFCarsCon
 			
 			:FnFFlipCar
@@ -7040,6 +7999,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/FastandFurious/FlipCar.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO FnFCarsCon
 			
 			:FnFHobbsDemon
@@ -7047,6 +8007,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/FastandFurious/HobbsDemon.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO FnFCarsCon
 			
 			:FnFRoadRunner
@@ -7054,6 +8015,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/FastandFurious/HobbsRoadRunnerGTX.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO FnFCarsCon
 			
 			:FnFHobbZR1
@@ -7061,6 +8023,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/FastandFurious/HobbsZR1.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO FnFCarsCon
 			
 			:FnFIceCharger
@@ -7068,6 +8031,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/FastandFurious/IceCharger.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO FnFCarsCon
 			
 			:FnFRallyFighter
@@ -7075,6 +8039,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/FastandFurious/LettyRallyFighter.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO FnFCarsCon
 			
 			:FnFSTINGRAY
@@ -7082,6 +8047,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/FastandFurious/LettyStingrayC2.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO FnFCarsCon
 			
 			:FnFBRZ
@@ -7089,6 +8055,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/FastandFurious/RamseyBRZ.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO FnFCarsCon
 			
 			:FnFGTV8S
@@ -7096,6 +8063,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/FastandFurious/RomanBentleyCGTV8S.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO FnFCarsCon
 			
 			:FnFMurcielago
@@ -7103,6 +8071,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/FastandFurious/RomanMurcielago.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO FnFCarsCon
 			
 			:FnF720S
@@ -7110,6 +8079,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/FastandFurious/Shaw720S.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO FnFCarsCon
 			
 			:FnFJAG
@@ -7117,6 +8087,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/FastandFurious/ShawFTypeR.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO FnFCarsCon
 			
 			:FnFS2000
@@ -7124,6 +8095,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/FastandFurious/SukiS2000.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO FnFCarsCon
 			
 			:FnFAMG
@@ -7131,6 +8103,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/FastandFurious/TejAMGGTS.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO FnFCarsCon
 			
 			:FnFSTI
@@ -7138,6 +8111,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/FastandFurious/TejSTI.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO FnFCarsCon
 			
 			:FnFDK350Z
@@ -7145,6 +8119,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/FastandFurious/Veilside350z.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO FnFCarsCon
 			
 			:FnFHanRX7
@@ -7152,6 +8127,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/FastandFurious/VeilsideFortuneRX7.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO FnFCarsCon
 			
 			:FnFDomRX7
@@ -7159,6 +8135,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/FastandFurious/VeilsideRX7.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO FnFCarsCon
 
 			REM Start of Ford
@@ -7169,6 +8146,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/FocusRS/CompetitionOrange.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO FocusRS
 
 			:FocusFW
@@ -7176,6 +8154,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/FocusRS/FrozenWhite.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO FocusRS
 
 			:FocusNB
@@ -7183,6 +8162,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/FocusRS/NitrousBlue.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO FocusRS
 
 			:FocusPB
@@ -7190,6 +8170,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/FocusRS/PerformanceBlue.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO FocusRS
 
 			:FocusSB
@@ -7197,6 +8178,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/FocusRS/ShadowBlack.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO FocusRS
 
 			:FocusSG
@@ -7204,6 +8186,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/FocusRS/StealthGray.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO FocusRS
 
 			:FocusUG
@@ -7211,6 +8194,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/FocusRS/UltimateGreen.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO FocusRS
 
 			:FocusYBT
@@ -7218,6 +8202,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/FocusRS/YellowBlazeTricoat.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO FocusRS
 
 			REM Start of GT
@@ -7227,6 +8212,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/GT/AtlasGreenBlackStripes.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO FordGT
 
 			:GTBOBS
@@ -7234,6 +8220,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/GT/BerylliumOrangeBlackStripes.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO FordGT
 
 			:GTFW
@@ -7241,6 +8228,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/GT/FrozenWhite.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO FordGT
 
 			:GTFWBS
@@ -7248,6 +8236,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/GT/FrozenWhiteBlackStripes.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO FordGT
 
 			:GTIS
@@ -7255,6 +8244,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/GT/IngotSilver.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO FordGT
 
 			:GTISBS
@@ -7262,6 +8252,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/GT/IngotSilverBlueStripes.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO FordGT
 
 			:GTLB
@@ -7269,6 +8260,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/GT/LiquidBlue.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO FordGT
 
 			:GTLBWS
@@ -7276,6 +8268,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/GT/LiquidBlueWhiteStripes.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO FordGT
 
 			:GTLG
@@ -7283,6 +8276,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/GT/LiquidGrey.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO FordGT
 
 			:GTLGOS
@@ -7290,6 +8284,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/GT/LiquidGreyOrangeStripes.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO FordGT
 
 			:GTLR
@@ -7297,6 +8292,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/GT/LiquidRed.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO FordGT
 
 			:GTLRWS
@@ -7304,6 +8300,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/GT/LiquidRedWhiteStripes.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO FordGT
 
 			:GTMBGS
@@ -7311,6 +8308,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/GT/MatteBlackGoldStripes.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO FordGT
 
 			:GTMBHL2
@@ -7318,6 +8316,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/GT/MatteBlackHerritageLivery2.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO FordGT
 
 			:GTNB
@@ -7325,6 +8324,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/GT/NitrousBlue.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO FordGT
 
 			:GTRRHL1
@@ -7332,6 +8332,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/GT/RaceRedHeritageLivery1.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO FordGT
 
 			:GTReward
@@ -7339,6 +8340,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/GT/Reward.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO FordGT
 
 			:GTSB
@@ -7346,6 +8348,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/GT/ShadowBlack.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO FordGT
 
 			:GTSBHL2
@@ -7353,6 +8356,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/GT/ShadowBlackHerritageLivery2.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO FordGT
 
 			:GTSBRS
@@ -7360,6 +8364,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/GT/ShadowBlackRedStripes.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO FordGT
 
 			:GT66Heritage
@@ -7367,6 +8372,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/GT_66/GT66_Heritage.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO FordGT
 
 			:GTHeritageEdition
@@ -7374,6 +8380,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/GT_HerritageEdition/GulfLivery.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO FordGT
 
 			REM Start of GT40
@@ -7383,6 +8390,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/GT40MKII/GT40.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO GT40
 
 			REM Start of Durty 30
@@ -7392,6 +8400,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/Durty30/Durty30.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Durty30
 
 			REM Start of Fiesta
@@ -7401,6 +8410,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/Fiesta/KonaBlue.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO 
 
 			:Fiesta
@@ -7408,6 +8418,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/Fiesta/Magnetic.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO 
 
 			:Fiesta
@@ -7415,6 +8426,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/Fiesta/MoltenOrange.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO 
 
 			:Fiesta
@@ -7422,6 +8434,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/Fiesta/PerformanceBlue.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO 
 
 			:Fiesta
@@ -7429,6 +8442,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/Fiesta/RubyRed.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO 
 
 			:Fiesta
@@ -7436,6 +8450,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/Fiesta/ShadowBlack.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO 
 
 			:Fiesta
@@ -7443,6 +8458,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/Fiesta/StealthGray.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO 
 
 			:Fiesta
@@ -7450,6 +8466,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/Fiesta/TangerineScream.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO 
 
 			:Fiesta
@@ -7457,6 +8474,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/Fiesta/TuxedoBlack.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO 
 
 			:Fiesta
@@ -7464,6 +8482,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/Fiesta/UltimateGreen.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO 
 
 			:Fiesta
@@ -7471,6 +8490,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/Fiesta/WhitePlatinium.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO 
 
 			REM Start of Mustang GT
@@ -7480,6 +8500,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/MustangPremium/Black.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO MustangGT
 
 			:MustangGTCOBR
@@ -7487,6 +8508,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/MustangPremium/CompetitionOrangeBR.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO MustangGT
 
 			:MustangGTDIBBR
@@ -7494,6 +8516,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/MustangPremium/DeepImpactBlueBR.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO MustangGT
 
 			:MustangGTGHIGWS
@@ -7501,6 +8524,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/MustangPremium/GottaHaveItGreenWhiteTranslucentStripes.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO MustangGT
 
 			:MustangGTGBBR
@@ -7508,6 +8532,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/MustangPremium/GrabberBlueBR.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO MustangGT
 
 			:MustangGTOWBR
@@ -7515,6 +8540,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/MustangPremium/OxfordWhiteBR.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO MustangGT
 
 			:MustangGTPGBR
@@ -7522,6 +8548,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/MustangPremium/PepperGreyBR.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO MustangGT
 
 			:MustangGTRRBR
@@ -7529,6 +8556,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/MustangPremium/RubyRedBR.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO MustangGT
 
 			:MustangGTUGBS
@@ -7536,6 +8564,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/MustangPremium/UltimateGreenBlackTranslucentStripes.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO MustangGT
 
 			:MustangGTYBTBS
@@ -7543,6 +8572,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/MustangPremium/YellowBlazeTricoatBlackTranslucentStripes.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO MustangGT
 
 			REM Start of Raptor
@@ -7552,6 +8582,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/Raptor/RubyRed.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO F150Raptor
 
 			:F150TB
@@ -7559,6 +8590,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/Raptor/TuxedoBlack.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO F150Raptor
 
 			REM Start of Roush Stage 3 Mustang
@@ -7568,6 +8600,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/RoushStage3Mustang/IngotSilver.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO RoushS3Con
 
 			:RoushStage3KB
@@ -7575,6 +8608,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/RoushStage3Mustang/KonaBlue.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO RoushS3Con
 
 			:RoushStage3MMBSRA
@@ -7582,6 +8616,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/RoushStage3Mustang/MagneticMattBlackStripeRedAccent.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO RoushS3Con
 
 			:RoushStage3OFBS
@@ -7589,6 +8624,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/RoushStage3Mustang/OrangeFuryBlackStripe.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO RoushS3Con
 
 			:RoushStage3OWBS
@@ -7596,6 +8632,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/RoushStage3Mustang/OxfordWhiteBlackStripe.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO RoushS3Con
 
 			:RoushStage3RACE
@@ -7603,6 +8640,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/RoushStage3Mustang/RaceRed.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO RoushS3Con
 
 			:RoushStage3RRMBSWA
@@ -7610,6 +8648,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/RoushStage3Mustang/RaceRedMattBlackStripeWhiteAccent.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO RoushS3Con
 
 			:RoushStage3RUBY
@@ -7617,6 +8656,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/RoushStage3Mustang/RubyRed.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO RoushS3Con
 
 			REM Start of GT350R
@@ -7626,6 +8666,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/ShelbyGT350R/AvalancheGray.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO GT350R
 
 			:GT350RDIB
@@ -7633,6 +8674,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/ShelbyGT350R/DeepImpactBlue.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO GT350R
 
 			:GT350RM
@@ -7640,6 +8682,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/ShelbyGT350R/Magnetic.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO GT350R
 
 			:GT350RMO
@@ -7647,6 +8690,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/ShelbyGT350R/MoltenOrange.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO GT350R
 
 			:GT350RNB
@@ -7654,6 +8698,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/ShelbyGT350R/NitrousBlue.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO GT350R
 
 			:GT350ROW
@@ -7661,6 +8706,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/ShelbyGT350R/OxfordWhite.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO GT350R
 
 			:GT350RRR
@@ -7668,6 +8714,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/ShelbyGT350R/RaceRed.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO GT350R
 
 			:GT350RSB
@@ -7675,6 +8722,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/ShelbyGT350R/ShadowBlack.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO GT350R
 
 			:GT350RTY
@@ -7682,6 +8730,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/ShelbyGT350R/TripleYellow.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO GT350R
 
 			:GT350RUG
@@ -7689,6 +8738,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/ShelbyGT350R/UltimateGreen.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO GT350R
 
 			REM Start of Kurtz Mustang GT
@@ -7698,6 +8748,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/KurtzMustang/Kurtz%20Mustang_Prize.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO MustangGT
 
 			REM Start of Boss 302
@@ -7707,6 +8758,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/MustangBoss/BrightGold.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Boss302
 
 			:BOSS302BY
@@ -7714,6 +8766,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/MustangBoss/BrightYellow.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Boss302
 
 			:BOSS302CC
@@ -7721,6 +8774,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/MustangBoss/CalypsoCoral.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Boss302
 
 			:BOSS302GB
@@ -7728,6 +8782,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/MustangBoss/GrabberBlue.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Boss302
 
 			:BOSS302GG
@@ -7735,6 +8790,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/MustangBoss/GrabberGreen.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Boss302
 
 			:BOSS302GO
@@ -7742,6 +8798,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/MustangBoss/GrabberOrange.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Boss302
 
 			:BOSS302MB
@@ -7749,6 +8806,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/MustangBoss/MediumBlue.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Boss302
 
 			:BOSS302ML
@@ -7756,6 +8814,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/MustangBoss/MediumLime.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Boss302
 
 			:BOSS302PB
@@ -7763,6 +8822,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/MustangBoss/PastelBlue.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Boss302
 
 			:BOSS302R
@@ -7770,6 +8830,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/MustangBoss/Red.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Boss302
 
 			:BOSS302WW
@@ -7777,6 +8838,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/MustangBoss/WimbledonWhite.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO Boss302
 
 			REM Start of Mustang HPE 750
@@ -7786,6 +8848,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/MustangHPE750/BerylliumOrange.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO HPE750
 
 			:HPE750CO
@@ -7793,6 +8856,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/MustangHPE750/CompetitionOrange.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO HPE750
 
 			:HPE750IS
@@ -7800,6 +8864,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/MustangHPE750/IngotSilver.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO HPE750
 
 			:HPE750OW
@@ -7807,6 +8872,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/MustangHPE750/OxfordWhite.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO HPE750
 
 			:HPE750PB
@@ -7814,6 +8880,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/MustangHPE750/PerformanceBlue.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO HPE750
 
 			:HPE750RR
@@ -7821,6 +8888,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/MustangHPE750/RubyRed.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO HPE750
 
 			:HPE750SB
@@ -7828,6 +8896,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/MustangHPE750/ShadowBlack.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO HPE750
 
 			:HPE750SBGLRA
@@ -7835,6 +8904,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/MustangHPE750/ShadowBlackGreyLivRedAccent.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO HPE750
 
 			:HPE750YBT
@@ -7842,6 +8912,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/MustangHPE750/YellowBlazeTricoat.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO HPE750
 
 			REM Start of GT500 
@@ -7851,6 +8922,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/ShelbyGT500/DarkHighlandGreen.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO GT500
 
 			:GT500DarkHighlandGreenBR
@@ -7858,6 +8930,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/ShelbyGT500/DarkHighlandGreenBR.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO GT500
 
 			:GT500DarkHighlandGreenBRBlackStripes
@@ -7865,6 +8938,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/ShelbyGT500/DarkHighlandGreenBRBlackStripes.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO GT500
 
 			:GT500DarkHighlandGreenWhiteStripes
@@ -7872,6 +8946,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/ShelbyGT500/DarkHighlandGreenWhiteStripes.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO GT500
 
 			:GT500GrabberLime
@@ -7879,6 +8954,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/ShelbyGT500/GrabberLime.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO GT500
 
 			:GT500GrabberLimeBlackStripes
@@ -7886,6 +8962,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/ShelbyGT500/GrabberLimeBlackStripes.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO GT500
 
 			:GT500GrabberLimeBR
@@ -7893,6 +8970,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/ShelbyGT500/GrabberLimeBR.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO GT500
 
 			:GT500GrabberLimeBRBlackStripes
@@ -7900,6 +8978,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/ShelbyGT500/GrabberLimeBRBlackStripes.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO GT500
 
 			:GT500IconicSilver
@@ -7907,6 +8986,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/ShelbyGT500/IconicSilver.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO GT500
 
 			:GT500IconicSilverBlackStripes
@@ -7914,6 +8994,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/ShelbyGT500/IconicSilverBlackStripes.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO GT500
 
 			:GT500IconicSilverBR
@@ -7921,6 +9002,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/ShelbyGT500/IconicSilverBR.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO GT500
 
 			:GT500IconicSilverBRBlackStripes
@@ -7928,6 +9010,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/ShelbyGT500/IconicSilverBRBlackStripes.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO GT500
 
 			:GT500KonaBlue
@@ -7935,6 +9018,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/ShelbyGT500/KonaBlue.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO GT500
 
 			:GT500KonaBlueBR
@@ -7942,6 +9026,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/ShelbyGT500/KonaBlueBR.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO GT500
 
 			:GT500KonaBlueWhiteStripes
@@ -7949,6 +9034,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/ShelbyGT500/KonaBlueWhiteStripes.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO GT500
 
 			:GT500Magnetic
@@ -7956,6 +9042,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/ShelbyGT500/Magnetic.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO GT500
 
 			:GT500MagneticBR
@@ -7963,6 +9050,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/ShelbyGT500/MagneticBR.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO GT500
 
 			:GT500MagneticBRBlackStripes
@@ -7970,6 +9058,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/ShelbyGT500/MagneticBRBlackStripes.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO GT500
 
 			:GT500MagneticWhiteStripes
@@ -7977,6 +9066,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/ShelbyGT500/MagneticWhiteStripes.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO GT500
 
 			:GT500OxfordWhite
@@ -7984,6 +9074,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/ShelbyGT500/OxfordWhite.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO GT500
 
 			:GT500OxfordWhiteBlackSideandTopStripes
@@ -7991,6 +9082,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/ShelbyGT500/OxfordWhiteBlackSideandTopStripes.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO GT500
 
 			:GT500OxfordWhiteBlackStripes
@@ -7998,6 +9090,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/ShelbyGT500/OxfordWhiteBlackStripes.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO GT500
 
 			:GT500OxfordWhiteBR
@@ -8005,6 +9098,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/ShelbyGT500/OxfordWhiteBR.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO GT500
 
 			:GT500OxfordWhiteBRBlackStripes
@@ -8012,6 +9106,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/ShelbyGT500/OxfordWhiteBRBlackStripes.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO GT500
 
 			:GT500RaceRed
@@ -8019,6 +9114,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/ShelbyGT500/RaceRed.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO GT500
 
 			:GT500RaceRedBR
@@ -8026,6 +9122,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/ShelbyGT500/RaceRedBR.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO GT500
 
 			:GT500RaceRedBRBlackStripes
@@ -8033,6 +9130,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/ShelbyGT500/RaceRedBRBlackStripes.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO GT500
 
 			:GT500RaceRedWhiteStripesTopandSide
@@ -8040,6 +9138,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/ShelbyGT500/RaceRedWhiteStripesTopandSide.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO GT500
 
 			:GT500RedHotMetalicTintedClearcoatBlackStripes
@@ -8047,6 +9146,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/ShelbyGT500/RedHotMetalicTintedClearcoatBlackStripes.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO GT500
 
 			:GT500Reward
@@ -8054,6 +9154,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/ShelbyGT500/Reward.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO GT500
 
 			:GT500ShadowBlack
@@ -8061,6 +9162,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/ShelbyGT500/ShadowBlack.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO GT500
 
 			:GT500ShadowBlackWhiteStripes
@@ -8068,6 +9170,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/ShelbyGT500/ShadowBlackWhiteStripes.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO GT500
 
 			:GT500ShadowBlackWhiteStripesTopandSide
@@ -8075,6 +9178,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/ShelbyGT500/ShadowBlackWhiteStripesTopandSide.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO GT500
 
 			:GT500TwisterOrange
@@ -8082,6 +9186,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/ShelbyGT500/TwisterOrange.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO GT500
 
 			:GT500TwisterOrangeBlackStripes
@@ -8089,6 +9194,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/ShelbyGT500/TwisterOrangeBlackStripes.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO GT500
 
 			:GT500TwisterOrangeBR
@@ -8096,6 +9202,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/ShelbyGT500/TwisterOrangeBR.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO GT500
 
 			:GT500TwisterOrangeBRBlackStripes
@@ -8103,6 +9210,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/ShelbyGT500/TwisterOrangeBRBlackStripes.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO GT500
 
 			:GT500VelocityBlue
@@ -8110,6 +9218,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/ShelbyGT500/VelocityBlue.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO GT500
 
 			:GT500VelocityBlueBR
@@ -8117,6 +9226,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/ShelbyGT500/VelocityBlueBR.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO GT500
 
 			:GT500VelocityBlueBRBlackStripes
@@ -8124,6 +9234,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/ShelbyGT500/VelocityBlueBRBlackStripes.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO GT500
 
 			:GT500VelocityBlueWhiteStipes
@@ -8131,6 +9242,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/ShelbyGT500/VelocityBlueWhiteStipes.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO GT500
 
 			REM Start of TrackSTer
@@ -8140,6 +9252,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/TrackSTer/OxfordWhite.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO FocusST
 
 			:TRACKSTERPB
@@ -8147,6 +9260,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/TrackSTer/PerformanceBlue.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO FocusST
 
 			:TRACKSTERCrew
@@ -8154,6 +9268,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/TrackSTer/SneakCrew.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO FocusST
 
 			:TRACKSTERTB
@@ -8161,6 +9276,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/TrackSTer/TuxedoBlack.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO FocusST
 
 			REM Start of GTA Motors
@@ -8171,6 +9287,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/GTAMotors/Amarillo.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO GTA
 
 			:SpanoB
@@ -8178,6 +9295,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/GTAMotors/Blanco.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO GTA
 
 			:SpanoLarry
@@ -8185,6 +9303,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/GTAMotors/LarryCrew.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO GTA
 
 			:SpanoN
@@ -8192,6 +9311,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/GTAMotors/Naranja.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO GTA
 
 			:SpanoO
@@ -8199,6 +9319,7 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/GTAMotors/Oscuro.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO GTA
 
 			:SpanoR
@@ -8206,5 +9327,6 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/GTAMotors/Rojo.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO 
 			
