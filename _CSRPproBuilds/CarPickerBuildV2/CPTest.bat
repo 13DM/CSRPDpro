@@ -6781,7 +6781,7 @@ echo                                                           /___/
 		if !GT500Type! == 6 goto GT500M
 		if !GT500Type! == 7 goto GT500OW
 		if !GT500Type! == 8 goto GT500RR
-		if !GT500Type! == 9 goto GT500GT500RedHotMetalicTintedClearcoatBlackStripes
+		if !GT500Type! == 9 goto GT500RedHotMetalicTintedClearcoatBlackStripes
 		if !GT500Type! == 10 goto GT500SB
 		if !GT500Type! == 11 goto GT500TO
 		if !GT500Type! == 12 goto GT500VB
