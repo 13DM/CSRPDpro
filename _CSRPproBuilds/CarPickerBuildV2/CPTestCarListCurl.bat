@@ -7162,219 +7162,219 @@
 			GOTO FnFCarsCon
 
 			REM Start of Ford
-			REM Start of Foxus RS
+			REM Start of Focus RS
 
-			:Focus
-			set tempcarname=Ford_FocusRS_2017
+			:FocusCO
+			set tempcarname=Ford_FocusRS_2017CO
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/FocusRS/CompetitionOrange.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
-			GOTO 
+			GOTO FocusRS
 
-			:Focus
-			set tempcarname=Ford_FocusRS_2017
+			:FocusFW
+			set tempcarname=Ford_FocusRS_2017FW
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/FocusRS/FrozenWhite.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
-			GOTO 
+			GOTO FocusRS
 
-			:Focus
-			set tempcarname=Ford_FocusRS_2017
+			:FocusNB
+			set tempcarname=Ford_FocusRS_2017NB
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/FocusRS/NitrousBlue.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
-			GOTO 
+			GOTO FocusRS
 
-			:Focus
-			set tempcarname=Ford_FocusRS_2017
+			:FocusPB
+			set tempcarname=Ford_FocusRS_2017PB
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/FocusRS/PerformanceBlue.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
-			GOTO 
+			GOTO FocusRS
 
-			:Focus
-			set tempcarname=Ford_FocusRS_2017
+			:FocusSB
+			set tempcarname=Ford_FocusRS_2017SB
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/FocusRS/ShadowBlack.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
-			GOTO 
+			GOTO FocusRS
 
-			:Focus
-			set tempcarname=Ford_FocusRS_2017
+			:FocusSG
+			set tempcarname=Ford_FocusRS_2017SG
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/FocusRS/StealthGray.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
-			GOTO 
+			GOTO FocusRS
 
-			:Focus
-			set tempcarname=Ford_FocusRS_2017
+			:FocusUG
+			set tempcarname=Ford_FocusRS_2017UG
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/FocusRS/UltimateGreen.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
-			GOTO 
+			GOTO FocusRS
 
-			:Focus
-			set tempcarname=Ford_FocusRS_2017
+			:FocusYBT
+			set tempcarname=Ford_FocusRS_2017YBT
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/FocusRS/YellowBlazeTricoat.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
-			GOTO 
+			GOTO FocusRS
 
 			REM Start of GT
 			
-			:GT
+			:GTAGBS
 			set tempcarname=Ford_GTRewardRecycled_2017
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/GT/AtlasGreenBlackStripes.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
-			GOTO 
+			GOTO FordGT
 
-			:GT
+			:GTBOBS
 			set tempcarname=Ford_GTRewardRecycled_2017
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/GT/BerylliumOrangeBlackStripes.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
-			GOTO 
+			GOTO FordGT
 
-			:GT
+			:GTFW
 			set tempcarname=Ford_GTRewardRecycled_2017
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/GT/FrozenWhite.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
-			GOTO 
+			GOTO FordGT
 
-			:GT
+			:GTFWBS
 			set tempcarname=Ford_GTRewardRecycled_2017
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/GT/FrozenWhiteBlackStripes.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
-			GOTO 
+			GOTO FordGT
 
-			:GT
+			:GTIS
 			set tempcarname=Ford_GTRewardRecycled_2017
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/GT/IngotSilver.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
-			GOTO 
+			GOTO FordGT
 
-			:GT
+			:GTISBS
 			set tempcarname=Ford_GTRewardRecycled_2017
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/GT/IngotSilverBlueStripes.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
-			GOTO 
+			GOTO FordGT
 
-			:GT
+			:GTLB
 			set tempcarname=Ford_GTRewardRecycled_2017
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/GT/LiquidBlue.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
-			GOTO 
+			GOTO FordGT
 
-			:GT
+			:GTLBWS
 			set tempcarname=Ford_GTRewardRecycled_2017
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/GT/LiquidBlueWhiteStripes.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
-			GOTO 
+			GOTO FordGT
 
-			:GT
+			:GTLG
 			set tempcarname=Ford_GTRewardRecycled_2017
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/GT/LiquidGrey.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
-			GOTO 
+			GOTO FordGT
 
-			:GT
+			:GTLGOS
 			set tempcarname=Ford_GTRewardRecycled_2017
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/GT/LiquidGreyOrangeStripes.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
-			GOTO 
+			GOTO FordGT
 
-			:GT
+			:GTLR
 			set tempcarname=Ford_GTRewardRecycled_2017
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/GT/LiquidRed.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
-			GOTO 
+			GOTO FordGT
 
-			:GT
+			:GTLRWS
 			set tempcarname=Ford_GTRewardRecycled_2017
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/GT/LiquidRedWhiteStripes.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
-			GOTO 
+			GOTO FordGT
 
-			:GT
+			:GTMBGS
 			set tempcarname=Ford_GTRewardRecycled_2017
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/GT/MatteBlackGoldStripes.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
-			GOTO 
+			GOTO FordGT
 
-			:GT
+			:GTMBHL2
 			set tempcarname=Ford_GTRewardRecycled_2017
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/GT/MatteBlackHerritageLivery2.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
-			GOTO 
+			GOTO FordGT
 
-			:GT
+			:GTNB
 			set tempcarname=Ford_GTRewardRecycled_2017
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/GT/NitrousBlue.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
-			GOTO 
+			GOTO FordGT
 
-			:GT
+			:GTRRHL1
 			set tempcarname=Ford_GTRewardRecycled_2017
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/GT/RaceRedHeritageLivery1.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
-			GOTO 
+			GOTO FordGT
 
-			:GT
+			:GTReward
 			set tempcarname=Ford_GTReward_2017
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/GT/Reward.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
-			GOTO 
+			GOTO FordGT
 
-			:GT
+			:GTSB
 			set tempcarname=Ford_GTRewardRecycled_2017
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/GT/ShadowBlack.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
-			GOTO 
+			GOTO FordGT
 
-			:GT
+			:GTSBHL2
 			set tempcarname=Ford_GTRewardRecycled_2017
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/GT/ShadowBlackHerritageLivery2.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
-			GOTO 
+			GOTO FordGT
 
-			:GT
+			:GTSBRS
 			set tempcarname=Ford_GTRewardRecycled_2017
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/GT/ShadowBlackRedStripes.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
-			GOTO 
+			GOTO FordGT
 
 			:GT66Heritage
 			set tempcarname=Ford_GTRewardRecycled66_2017
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/GT_66/GT66_Heritage.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
-			GOTO 
+			GOTO FordGT
 
 			:GTHeritageEdition
 			set tempcarname=Ford_GTHeritageEdition_2017
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/GT_HerritageEdition/GulfLivery.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
-			GOTO 
+			GOTO FordGT
 
 			REM Start of GT40
 			
@@ -7383,16 +7383,16 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/GT40MKII/GT40.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
-			GOTO 
+			GOTO GT40
 
 			REM Start of Durty 30
 			
-			:Durty30
+			:Durty30Get
 			set tempcarname=Ford_Durty30_2016
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/Durty30/Durty30.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
-			GOTO 
+			GOTO Durty30
 
 			REM Start of Fiesta
 			
@@ -7475,731 +7475,731 @@
 
 			REM Start of Mustang GT
 			
-			:MustangGT
-			set tempcarname=Ford_MustangGTPremium_2015
+			:MustangGTB
+			set tempcarname=Ford_MustangGTPremium_2015B
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/MustangPremium/Black.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
-			GOTO 
+			GOTO MustangGT
 
-			:MustangGT
-			set tempcarname=Ford_MustangGTPremium_2015
+			:MustangGTCOBR
+			set tempcarname=Ford_MustangGTPremium_2015COBR
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/MustangPremium/CompetitionOrangeBR.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
-			GOTO 
+			GOTO MustangGT
 
-			:MustangGT
-			set tempcarname=Ford_MustangGTPremium_2015
+			:MustangGTDIBBR
+			set tempcarname=Ford_MustangGTPremium_2015DIBBR
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/MustangPremium/DeepImpactBlueBR.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
-			GOTO 
+			GOTO MustangGT
 
-			:MustangGT
-			set tempcarname=Ford_MustangGTPremium_2015
+			:MustangGTGHIGWS
+			set tempcarname=Ford_MustangGTPremium_2015GHIGWS
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/MustangPremium/GottaHaveItGreenWhiteTranslucentStripes.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
-			GOTO 
+			GOTO MustangGT
 
-			:MustangGT
-			set tempcarname=Ford_MustangGTPremium_2015
+			:MustangGTGBBR
+			set tempcarname=Ford_MustangGTPremium_2015GBBR
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/MustangPremium/GrabberBlueBR.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
-			GOTO 
+			GOTO MustangGT
 
-			:MustangGT
-			set tempcarname=Ford_MustangGTPremium_2015
+			:MustangGTOWBR
+			set tempcarname=Ford_MustangGTPremium_2015OWBR
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/MustangPremium/OxfordWhiteBR.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
-			GOTO 
+			GOTO MustangGT
 
-			:MustangGT
-			set tempcarname=Ford_MustangGTPremium_2015
+			:MustangGTPGBR
+			set tempcarname=Ford_MustangGTPremium_2015PGBR
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/MustangPremium/PepperGreyBR.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
-			GOTO 
+			GOTO MustangGT
 
-			:MustangGT
-			set tempcarname=Ford_MustangGTPremium_2015
+			:MustangGTRRBR
+			set tempcarname=Ford_MustangGTPremium_2015RRBR
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/MustangPremium/RubyRedBR.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
-			GOTO 
+			GOTO MustangGT
 
-			:MustangGT
-			set tempcarname=Ford_MustangGTPremium_2015
+			:MustangGTUGBS
+			set tempcarname=Ford_MustangGTPremium_2015UGBS
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/MustangPremium/UltimateGreenBlackTranslucentStripes.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
-			GOTO 
+			GOTO MustangGT
 
-			:MustangGT
-			set tempcarname=Ford_MustangGTPremium_2015
+			:MustangGTYBTBS
+			set tempcarname=Ford_MustangGTPremium_2015YBTBS
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/MustangPremium/YellowBlazeTricoatBlackTranslucentStripes.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
-			GOTO 
+			GOTO MustangGT
 
 			REM Start of Raptor
 			
-			:F150
-			set tempcarname=Ford_F150SVTRaptor_2014
+			:F150RR
+			set tempcarname=Ford_F150SVTRaptor_2014RR
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/Raptor/RubyRed.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
-			GOTO 
+			GOTO F150Raptor
 
-			:F150
-			set tempcarname=Ford_F150SVTRaptor_2014
+			:F150TB
+			set tempcarname=Ford_F150SVTRaptor_2014TB
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/Raptor/TuxedoBlack.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
-			GOTO 
+			GOTO F150Raptor
 
 			REM Start of Roush Stage 3 Mustang
 			
-			:RoushStage3
-			set tempcarname=Ford_ROUSHStage3Mustang_2019
+			:RoushStage3IS
+			set tempcarname=Ford_ROUSHStage3Mustang_2019IS
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/RoushStage3Mustang/IngotSilver.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
-			GOTO 
+			GOTO RoushS3Con
 
-			:RoushStage3
-			set tempcarname=Ford_ROUSHStage3Mustang_2019
+			:RoushStage3KB
+			set tempcarname=Ford_ROUSHStage3Mustang_2019KB
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/RoushStage3Mustang/KonaBlue.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
-			GOTO 
+			GOTO RoushS3Con
 
-			:RoushStage3
-			set tempcarname=Ford_ROUSHStage3Mustang_2019
+			:RoushStage3MMBSRA
+			set tempcarname=Ford_ROUSHStage3Mustang_2019MMBSRA
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/RoushStage3Mustang/MagneticMattBlackStripeRedAccent.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
-			GOTO 
+			GOTO RoushS3Con
 
-			:RoushStage3
-			set tempcarname=Ford_ROUSHStage3Mustang_2019
+			:RoushStage3OFBS
+			set tempcarname=Ford_ROUSHStage3Mustang_2019OFBS
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/RoushStage3Mustang/OrangeFuryBlackStripe.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
-			GOTO 
+			GOTO RoushS3Con
 
-			:RoushStage3
-			set tempcarname=Ford_ROUSHStage3Mustang_2019
+			:RoushStage3OWBS
+			set tempcarname=Ford_ROUSHStage3Mustang_2019OWBS
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/RoushStage3Mustang/OxfordWhiteBlackStripe.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
-			GOTO 
+			GOTO RoushS3Con
 
-			:RoushStage3
-			set tempcarname=Ford_ROUSHStage3Mustang_2019
+			:RoushStage3RACE
+			set tempcarname=Ford_ROUSHStage3Mustang_2019RACE
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/RoushStage3Mustang/RaceRed.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
-			GOTO 
+			GOTO RoushS3Con
 
-			:RoushStage3
-			set tempcarname=Ford_ROUSHStage3Mustang_2019
+			:RoushStage3RRMBSWA
+			set tempcarname=Ford_ROUSHStage3Mustang_2019RRMBSWA
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/RoushStage3Mustang/RaceRedMattBlackStripeWhiteAccent.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
-			GOTO 
+			GOTO RoushS3Con
 
-			:RoushStage3
-			set tempcarname=Ford_ROUSHStage3Mustang_2019
+			:RoushStage3RUBY
+			set tempcarname=Ford_ROUSHStage3Mustang_2019RUBY
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/RoushStage3Mustang/RubyRed.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
-			GOTO 
+			GOTO RoushS3Con
 
 			REM Start of GT350R
 			
-			:GT350R
-			set tempcarname=Ford_ShelbyGT350R_2016
+			:GT350RAG
+			set tempcarname=Ford_ShelbyGT350R_2016AG
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/ShelbyGT350R/AvalancheGray.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
-			GOTO 
+			GOTO GT350R
 
-			:GT350R
-			set tempcarname=Ford_ShelbyGT350R_2016
+			:GT350RDIB
+			set tempcarname=Ford_ShelbyGT350R_2016DIB
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/ShelbyGT350R/DeepImpactBlue.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
-			GOTO 
+			GOTO GT350R
 
-			:GT350R
-			set tempcarname=Ford_ShelbyGT350R_2016
+			:GT350RM
+			set tempcarname=Ford_ShelbyGT350R_2016M
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/ShelbyGT350R/Magnetic.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
-			GOTO 
+			GOTO GT350R
 
-			:GT350R
-			set tempcarname=Ford_ShelbyGT350R_2016
+			:GT350RMO
+			set tempcarname=Ford_ShelbyGT350R_2016MO
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/ShelbyGT350R/MoltenOrange.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
-			GOTO 
+			GOTO GT350R
 
-			:GT350R
-			set tempcarname=Ford_ShelbyGT350R_2016
+			:GT350RNB
+			set tempcarname=Ford_ShelbyGT350R_2016NB
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/ShelbyGT350R/NitrousBlue.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
-			GOTO 
+			GOTO GT350R
 
-			:GT350R
-			set tempcarname=Ford_ShelbyGT350R_2016
+			:GT350ROW
+			set tempcarname=Ford_ShelbyGT350R_2016OW
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/ShelbyGT350R/OxfordWhite.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
-			GOTO 
+			GOTO GT350R
 
-			:GT350R
-			set tempcarname=Ford_ShelbyGT350R_2016
+			:GT350RRR
+			set tempcarname=Ford_ShelbyGT350R_2016RR
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/ShelbyGT350R/RaceRed.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
-			GOTO 
+			GOTO GT350R
 
-			:GT350R
-			set tempcarname=Ford_ShelbyGT350R_2016
+			:GT350RSB
+			set tempcarname=Ford_ShelbyGT350R_2016SB
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/ShelbyGT350R/ShadowBlack.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
-			GOTO 
+			GOTO GT350R
 
-			:GT350R
-			set tempcarname=Ford_ShelbyGT350R_2016
+			:GT350RTY
+			set tempcarname=Ford_ShelbyGT350R_2016TY
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/ShelbyGT350R/TripleYellow.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
-			GOTO 
+			GOTO GT350R
 
-			:GT350R
-			set tempcarname=Ford_ShelbyGT350R_2016
+			:GT350RUG
+			set tempcarname=Ford_ShelbyGT350R_2016UG
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/ShelbyGT350R/UltimateGreen.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
-			GOTO 
+			GOTO GT350R
 
 			REM Start of Kurtz Mustang GT
 			
 			:KurtzMustang
 			set tempcarname=Ford_MustangGTPremiumBoss_2015
-			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/KurtzMustang/Kurtz Mustang_Prize.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/KurtzMustang/Kurtz%20Mustang_Prize.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
-			GOTO 
+			GOTO MustangGT
 
 			REM Start of Boss 302
 			
-			:BOSS302
-			set tempcarname=Ford_Mustang302_1970
+			:BOSS302BG
+			set tempcarname=Ford_Mustang302_1970BG
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/MustangBoss/BrightGold.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
-			GOTO 
+			GOTO Boss302
 
-			:BOSS302
-			set tempcarname=Ford_Mustang302_1970
+			:BOSS302BY
+			set tempcarname=Ford_Mustang302_1970BY
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/MustangBoss/BrightYellow.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
-			GOTO 
+			GOTO Boss302
 
-			:BOSS302
-			set tempcarname=Ford_Mustang302_1970
+			:BOSS302CC
+			set tempcarname=Ford_Mustang302_1970CC
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/MustangBoss/CalypsoCoral.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
-			GOTO 
+			GOTO Boss302
 
-			:BOSS302
-			set tempcarname=Ford_Mustang302_1970
+			:BOSS302GB
+			set tempcarname=Ford_Mustang302_1970GB
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/MustangBoss/GrabberBlue.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
-			GOTO 
+			GOTO Boss302
 
-			:BOSS302
-			set tempcarname=Ford_Mustang302_1970
+			:BOSS302GG
+			set tempcarname=Ford_Mustang302_1970GG
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/MustangBoss/GrabberGreen.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
-			GOTO 
+			GOTO Boss302
 
-			:BOSS302
-			set tempcarname=Ford_Mustang302_1970
+			:BOSS302GO
+			set tempcarname=Ford_Mustang302_1970GO
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/MustangBoss/GrabberOrange.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
-			GOTO 
+			GOTO Boss302
 
-			:BOSS302
-			set tempcarname=Ford_Mustang302_1970
+			:BOSS302MB
+			set tempcarname=Ford_Mustang302_1970MB
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/MustangBoss/MediumBlue.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
-			GOTO 
+			GOTO Boss302
 
-			:BOSS302
-			set tempcarname=Ford_Mustang302_1970
+			:BOSS302ML
+			set tempcarname=Ford_Mustang302_1970ML
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/MustangBoss/MediumLime.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
-			GOTO 
+			GOTO Boss302
 
-			:BOSS302
-			set tempcarname=Ford_Mustang302_1970
+			:BOSS302PB
+			set tempcarname=Ford_Mustang302_1970PB
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/MustangBoss/PastelBlue.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
-			GOTO 
+			GOTO Boss302
 
-			:BOSS302
-			set tempcarname=Ford_Mustang302_1970
+			:BOSS302R
+			set tempcarname=Ford_Mustang302_1970R
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/MustangBoss/Red.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
-			GOTO 
+			GOTO Boss302
 
-			:BOSS302
-			set tempcarname=Ford_Mustang302_1970
+			:BOSS302WW
+			set tempcarname=Ford_Mustang302_1970WW
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/MustangBoss/WimbledonWhite.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
-			GOTO 
+			GOTO Boss302
 
 			REM Start of Mustang HPE 750
 			
-			:HPE750
-			set tempcarname=Ford_MustangGTHPE750Silver_2015
+			:HPE750BO
+			set tempcarname=Ford_MustangGTHPE750Silver_2015BO
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/MustangHPE750/BerylliumOrange.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
-			GOTO 
+			GOTO HPE750
 
-			:HPE750
-			set tempcarname=Ford_MustangGTHPE750Silver_2015
+			:HPE750CO
+			set tempcarname=Ford_MustangGTHPE750Silver_2015CO
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/MustangHPE750/CompetitionOrange.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
-			GOTO 
+			GOTO HPE750
 
-			:HPE750
-			set tempcarname=Ford_MustangGTHPE750Silver_2015
+			:HPE750IS
+			set tempcarname=Ford_MustangGTHPE750Silver_2015IS
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/MustangHPE750/IngotSilver.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
-			GOTO 
+			GOTO HPE750
 
-			:HPE750
-			set tempcarname=Ford_MustangGTHPE750Silver_2015
+			:HPE750OW
+			set tempcarname=Ford_MustangGTHPE750Silver_2015OW
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/MustangHPE750/OxfordWhite.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
-			GOTO 
+			GOTO HPE750
 
-			:HPE750
-			set tempcarname=Ford_MustangGTHPE750Silver_2015
+			:HPE750PB
+			set tempcarname=Ford_MustangGTHPE750Silver_2015PB
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/MustangHPE750/PerformanceBlue.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
-			GOTO 
+			GOTO HPE750
 
-			:HPE750
-			set tempcarname=Ford_MustangGTHPE750Silver_2015
+			:HPE750RR
+			set tempcarname=Ford_MustangGTHPE750Silver_2015RR
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/MustangHPE750/RubyRed.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
-			GOTO 
+			GOTO HPE750
 
-			:HPE750
-			set tempcarname=Ford_MustangGTHPE750Silver_2015
+			:HPE750SB
+			set tempcarname=Ford_MustangGTHPE750Silver_2015SB
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/MustangHPE750/ShadowBlack.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
-			GOTO 
+			GOTO HPE750
 
-			:HPE750
-			set tempcarname=Ford_MustangGTHPE750Silver_2015
+			:HPE750SBGLRA
+			set tempcarname=Ford_MustangGTHPE750Silver_2015SBGLRA
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/MustangHPE750/ShadowBlackGreyLivRedAccent.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
-			GOTO 
+			GOTO HPE750
 
-			:HPE750
-			set tempcarname=Ford_MustangGTHPE750Silver_2015
+			:HPE750YBT
+			set tempcarname=Ford_MustangGTHPE750Silver_2015YBT
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/MustangHPE750/YellowBlazeTricoat.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
-			GOTO 
+			GOTO HPE750
 
-			REM Start of GT500
+			REM Start of GT500 
 			
-			:GT500
-			set tempcarname=Ford_MustangShelbyGT500RewardRecycled_2019
+			:GT500DarkHighlandGreen
+			set tempcarname=Ford_MustangShelbyGT500RewardRecycled_2019DarkHighlandGreen
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/ShelbyGT500/DarkHighlandGreen.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
-			GOTO 
+			GOTO GT500
 
-			:GT500
-			set tempcarname=Ford_MustangShelbyGT500RewardRecycled_2019
+			:GT500DarkHighlandGreenBR
+			set tempcarname=Ford_MustangShelbyGT500RewardRecycled_2019DarkHighlandGreenBR
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/ShelbyGT500/DarkHighlandGreenBR.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
-			GOTO 
+			GOTO GT500
 
-			:GT500
-			set tempcarname=Ford_MustangShelbyGT500RewardRecycled_2019
+			:GT500DarkHighlandGreenBRBlackStripes
+			set tempcarname=Ford_MustangShelbyGT500RewardRecycled_2019DarkHighlandGreenBRBlackStripes
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/ShelbyGT500/DarkHighlandGreenBRBlackStripes.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
-			GOTO 
+			GOTO GT500
 
-			:GT500
-			set tempcarname=Ford_MustangShelbyGT500RewardRecycled_2019
+			:GT500DarkHighlandGreenWhiteStripes
+			set tempcarname=Ford_MustangShelbyGT500RewardRecycled_2019DarkHighlandGreenWhiteStripes
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/ShelbyGT500/DarkHighlandGreenWhiteStripes.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
-			GOTO 
+			GOTO GT500
 
-			:GT500
-			set tempcarname=Ford_MustangShelbyGT500RewardRecycled_2019
+			:GT500GrabberLime
+			set tempcarname=Ford_MustangShelbyGT500RewardRecycled_2019GrabberLime
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/ShelbyGT500/GrabberLime.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
-			GOTO 
+			GOTO GT500
 
-			:GT500
-			set tempcarname=Ford_MustangShelbyGT500RewardRecycled_2019
+			:GT500GrabberLimeBlackStripes
+			set tempcarname=Ford_MustangShelbyGT500RewardRecycled_2019GrabberLimeBlackStripes
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/ShelbyGT500/GrabberLimeBlackStripes.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
-			GOTO 
+			GOTO GT500
 
-			:GT500
-			set tempcarname=Ford_MustangShelbyGT500RewardRecycled_2019
+			:GT500GrabberLimeBR
+			set tempcarname=Ford_MustangShelbyGT500RewardRecycled_2019GrabberLimeBR
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/ShelbyGT500/GrabberLimeBR.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
-			GOTO 
+			GOTO GT500
 
-			:GT500
-			set tempcarname=Ford_MustangShelbyGT500RewardRecycled_2019
+			:GT500GrabberLimeBRBlackStripes
+			set tempcarname=Ford_MustangShelbyGT500RewardRecycled_2019GrabberLimeBRBlackStripes
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/ShelbyGT500/GrabberLimeBRBlackStripes.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
-			GOTO 
+			GOTO GT500
 
-			:GT500
-			set tempcarname=Ford_MustangShelbyGT500RewardRecycled_2019
+			:GT500IconicSilver
+			set tempcarname=Ford_MustangShelbyGT500RewardRecycled_2019IconicSilver
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/ShelbyGT500/IconicSilver.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
-			GOTO 
+			GOTO GT500
 
-			:GT500
-			set tempcarname=Ford_MustangShelbyGT500RewardRecycled_2019
+			:GT500IconicSilverBlackStripes
+			set tempcarname=Ford_MustangShelbyGT500RewardRecycled_2019IconicSilverBlackStripes
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/ShelbyGT500/IconicSilverBlackStripes.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
-			GOTO 
+			GOTO GT500
 
-			:GT500
-			set tempcarname=Ford_MustangShelbyGT500RewardRecycled_2019
+			:GT500IconicSilverBR
+			set tempcarname=Ford_MustangShelbyGT500RewardRecycled_2019IconicSilverBR
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/ShelbyGT500/IconicSilverBR.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
-			GOTO 
+			GOTO GT500
 
-			:GT500
-			set tempcarname=Ford_MustangShelbyGT500RewardRecycled_2019
+			:GT500IconicSilverBRBlackStripes
+			set tempcarname=Ford_MustangShelbyGT500RewardRecycled_2019IconicSilverBRBlackStripes
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/ShelbyGT500/IconicSilverBRBlackStripes.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
-			GOTO 
+			GOTO GT500
 
-			:GT500
-			set tempcarname=Ford_MustangShelbyGT500RewardRecycled_2019
+			:GT500KonaBlue
+			set tempcarname=Ford_MustangShelbyGT500RewardRecycled_2019KonaBlue
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/ShelbyGT500/KonaBlue.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
-			GOTO 
+			GOTO GT500
 
-			:GT500
-			set tempcarname=Ford_MustangShelbyGT500RewardRecycled_2019
+			:GT500KonaBlueBR
+			set tempcarname=Ford_MustangShelbyGT500RewardRecycled_2019KonaBlueBR
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/ShelbyGT500/KonaBlueBR.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
-			GOTO 
+			GOTO GT500
 
-			:GT500
-			set tempcarname=Ford_MustangShelbyGT500RewardRecycled_2019
+			:GT500KonaBlueWhiteStripes
+			set tempcarname=Ford_MustangShelbyGT500RewardRecycled_2019KonaBlueWhiteStripes
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/ShelbyGT500/KonaBlueWhiteStripes.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
-			GOTO 
+			GOTO GT500
 
-			:GT500
-			set tempcarname=Ford_MustangShelbyGT500RewardRecycled_2019
+			:GT500Magnetic
+			set tempcarname=Ford_MustangShelbyGT500RewardRecycled_2019Magnetic
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/ShelbyGT500/Magnetic.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
-			GOTO 
+			GOTO GT500
 
-			:GT500
-			set tempcarname=Ford_MustangShelbyGT500RewardRecycled_2019
+			:GT500MagneticBR
+			set tempcarname=Ford_MustangShelbyGT500RewardRecycled_2019MagneticBR
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/ShelbyGT500/MagneticBR.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
-			GOTO 
+			GOTO GT500
 
-			:GT500
-			set tempcarname=Ford_MustangShelbyGT500RewardRecycled_2019
+			:GT500MagneticBRBlackStripes
+			set tempcarname=Ford_MustangShelbyGT500RewardRecycled_2019MagneticBRBlackStripes
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/ShelbyGT500/MagneticBRBlackStripes.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
-			GOTO 
+			GOTO GT500
 
-			:GT500
-			set tempcarname=Ford_MustangShelbyGT500RewardRecycled_2019
+			:GT500MagneticWhiteStripes
+			set tempcarname=Ford_MustangShelbyGT500RewardRecycled_2019MagneticWhiteStripes
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/ShelbyGT500/MagneticWhiteStripes.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
-			GOTO 
+			GOTO GT500
 
-			:GT500
-			set tempcarname=Ford_MustangShelbyGT500RewardRecycled_2019
+			:GT500OxfordWhite
+			set tempcarname=Ford_MustangShelbyGT500RewardRecycled_2019OxfordWhite
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/ShelbyGT500/OxfordWhite.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
-			GOTO 
+			GOTO GT500
 
-			:GT500
-			set tempcarname=Ford_MustangShelbyGT500RewardRecycled_2019
+			:GT500OxfordWhiteBlackSideandTopStripes
+			set tempcarname=Ford_MustangShelbyGT500RewardRecycled_2019OxfordWhiteBlackSideandTopStripes
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/ShelbyGT500/OxfordWhiteBlackSideandTopStripes.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
-			GOTO 
+			GOTO GT500
 
-			:GT500
-			set tempcarname=Ford_MustangShelbyGT500RewardRecycled_2019
+			:GT500OxfordWhiteBlackStripes
+			set tempcarname=Ford_MustangShelbyGT500RewardRecycled_2019OxfordWhiteBlackStripes
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/ShelbyGT500/OxfordWhiteBlackStripes.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
-			GOTO 
+			GOTO GT500
 
-			:GT500
-			set tempcarname=Ford_MustangShelbyGT500RewardRecycled_2019
+			:GT500OxfordWhiteBR
+			set tempcarname=Ford_MustangShelbyGT500RewardRecycled_2019OxfordWhiteBR
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/ShelbyGT500/OxfordWhiteBR.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
-			GOTO 
+			GOTO GT500
 
-			:GT500
-			set tempcarname=Ford_MustangShelbyGT500RewardRecycled_2019
+			:GT500OxfordWhiteBRBlackStripes
+			set tempcarname=Ford_MustangShelbyGT500RewardRecycled_2019OxfordWhiteBRBlackStripes
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/ShelbyGT500/OxfordWhiteBRBlackStripes.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
-			GOTO 
+			GOTO GT500
 
-			:GT500
-			set tempcarname=Ford_MustangShelbyGT500RewardRecycled_2019
+			:GT500RaceRed
+			set tempcarname=Ford_MustangShelbyGT500RewardRecycled_2019RaceRed
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/ShelbyGT500/RaceRed.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
-			GOTO 
+			GOTO GT500
 
-			:GT500
-			set tempcarname=Ford_MustangShelbyGT500RewardRecycled_2019
+			:GT500RaceRedBR
+			set tempcarname=Ford_MustangShelbyGT500RewardRecycled_2019RaceRedBR
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/ShelbyGT500/RaceRedBR.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
-			GOTO 
+			GOTO GT500
 
-			:GT500
-			set tempcarname=Ford_MustangShelbyGT500RewardRecycled_2019
+			:GT500RaceRedBRBlackStripes
+			set tempcarname=Ford_MustangShelbyGT500RewardRecycled_2019RaceRedBRBlackStripes
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/ShelbyGT500/RaceRedBRBlackStripes.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
-			GOTO 
+			GOTO GT500
 
-			:GT500
-			set tempcarname=Ford_MustangShelbyGT500RewardRecycled_2019
+			:GT500RaceRedWhiteStripesTopandSide
+			set tempcarname=Ford_MustangShelbyGT500RewardRecycled_2019RaceRedWhiteStripesTopandSide
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/ShelbyGT500/RaceRedWhiteStripesTopandSide.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
-			GOTO 
+			GOTO GT500
 
-			:GT500
-			set tempcarname=Ford_MustangShelbyGT500RewardRecycled_2019
+			:GT500RedHotMetalicTintedClearcoatBlackStripes
+			set tempcarname=Ford_MustangShelbyGT500RewardRecycled_2019RedHotMetalicTintedClearcoatBlackStripes
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/ShelbyGT500/RedHotMetalicTintedClearcoatBlackStripes.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
-			GOTO 
+			GOTO GT500
 
-			:GT500
-			set tempcarname=Ford_MustangShelbyGT500Reward_2019
+			:GT500Reward
+			set tempcarname=Ford_MustangShelbyGT500Reward_2019Reward
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/ShelbyGT500/Reward.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
-			GOTO 
+			GOTO GT500
 
-			:GT500
-			set tempcarname=Ford_MustangShelbyGT500RewardRecycled_2019
+			:GT500ShadowBlack
+			set tempcarname=Ford_MustangShelbyGT500RewardRecycled_2019ShadowBlack
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/ShelbyGT500/ShadowBlack.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
-			GOTO 
+			GOTO GT500
 
-			:GT500
-			set tempcarname=Ford_MustangShelbyGT500RewardRecycled_2019
+			:GT500ShadowBlackWhiteStripes
+			set tempcarname=Ford_MustangShelbyGT500RewardRecycled_2019ShadowBlackWhiteStripes
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/ShelbyGT500/ShadowBlackWhiteStripes.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
-			GOTO 
+			GOTO GT500
 
-			:GT500
-			set tempcarname=Ford_MustangShelbyGT500RewardRecycled_2019
+			:GT500ShadowBlackWhiteStripesTopandSide
+			set tempcarname=Ford_MustangShelbyGT500RewardRecycled_2019ShadowBlackWhiteStripesTopandSide
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/ShelbyGT500/ShadowBlackWhiteStripesTopandSide.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
-			GOTO 
+			GOTO GT500
 
-			:GT500
-			set tempcarname=Ford_MustangShelbyGT500RewardRecycled_2019
+			:GT500TwisterOrange
+			set tempcarname=Ford_MustangShelbyGT500RewardRecycled_2019TwisterOrange
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/ShelbyGT500/TwisterOrange.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
-			GOTO 
+			GOTO GT500
 
-			:GT500
-			set tempcarname=Ford_MustangShelbyGT500RewardRecycled_2019
+			:GT500TwisterOrangeBlackStripes
+			set tempcarname=Ford_MustangShelbyGT500RewardRecycled_2019TwisterOrangeBlackStripes
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/ShelbyGT500/TwisterOrangeBlackStripes.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
-			GOTO 
+			GOTO GT500
 
-			:GT500
-			set tempcarname=Ford_MustangShelbyGT500RewardRecycled_2019
+			:GT500TwisterOrangeBR
+			set tempcarname=Ford_MustangShelbyGT500RewardRecycled_2019TwisterOrangeBR
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/ShelbyGT500/TwisterOrangeBR.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
-			GOTO 
+			GOTO GT500
 
-			:GT500
-			set tempcarname=Ford_MustangShelbyGT500RewardRecycled_2019
+			:GT500TwisterOrangeBRBlackStripes
+			set tempcarname=Ford_MustangShelbyGT500RewardRecycled_2019TwisterOrangeBRBlackStripes
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/ShelbyGT500/TwisterOrangeBRBlackStripes.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
-			GOTO 
+			GOTO GT500
 
-			:GT500
-			set tempcarname=Ford_MustangShelbyGT500RewardRecycled_2019
+			:GT500VelocityBlue
+			set tempcarname=Ford_MustangShelbyGT500RewardRecycled_2019VelocityBlue
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/ShelbyGT500/VelocityBlue.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
-			GOTO 
+			GOTO GT500
 
-			:GT500
-			set tempcarname=Ford_MustangShelbyGT500RewardRecycled_2019
+			:GT500VelocityBlueBR
+			set tempcarname=Ford_MustangShelbyGT500RewardRecycled_2019VelocityBlueBR
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/ShelbyGT500/VelocityBlueBR.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
-			GOTO 
+			GOTO GT500
 
-			:GT500
-			set tempcarname=Ford_MustangShelbyGT500RewardRecycled_2019
+			:GT500VelocityBlueBRBlackStripes
+			set tempcarname=Ford_MustangShelbyGT500RewardRecycled_2019VelocityBlueBRBlackStripes
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/ShelbyGT500/VelocityBlueBRBlackStripes.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
-			GOTO 
+			GOTO GT500
 
-			:GT500
-			set tempcarname=Ford_MustangShelbyGT500RewardRecycled_2019
+			:GT500VelocityBlueWhiteStipes
+			set tempcarname=Ford_MustangShelbyGT500RewardRecycled_2019VelocityBlueWhiteStipes
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/ShelbyGT500/VelocityBlueWhiteStipes.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
-			GOTO 
+			GOTO GT500
 
 			REM Start of TrackSTer
 			
-			:TRACKSTER
-			set tempcarname=Ford_FocusSTCrewRecycled_2014
+			:TRACKSTEROW
+			set tempcarname=Ford_FocusSTCrewRecycled_2014OW
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/TrackSTer/OxfordWhite.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
-			GOTO 
+			GOTO FocusST
 
-			:TRACKSTER
-			set tempcarname=Ford_FocusSTCrewRecycled_2014
+			:TRACKSTERPB
+			set tempcarname=Ford_FocusSTCrewRecycled_2014PB
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/TrackSTer/PerformanceBlue.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
-			GOTO 
+			GOTO FocusST
 
-			:TRACKSTER
+			:TRACKSTERCrew
 			set tempcarname=Ford_FocusSTCrew_2014
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/TrackSTer/SneakCrew.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
-			GOTO 
+			GOTO FocusST
 
-			:TRACKSTER
-			set tempcarname=Ford_FocusSTCrewRecycled_2014
+			:TRACKSTERTB
+			set tempcarname=Ford_FocusSTCrewRecycled_2014TB
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/TrackSTer/TuxedoBlack.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
-			GOTO 
+			GOTO FocusST
 
 			REM Start of GTA Motors
 			REM Start of Spano
 
 			:SpanoA
-			set tempcarname=GTA_SpanoCrewRecycled_2015
+			set tempcarname=GTA_SpanoCrewRecycled_2015A
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/GTAMotors/Amarillo.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
-			GOTO 
+			GOTO GTA
 
 			:SpanoB
-			set tempcarname=GTA_SpanoCrewRecycled_2015
+			set tempcarname=GTA_SpanoCrewRecycled_2015B
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/GTAMotors/Blanco.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
-			GOTO 
+			GOTO GTA
 
 			:SpanoLarry
 			set tempcarname=GTA_SpanoCrew_2015
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/GTAMotors/LarryCrew.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
-			GOTO 
+			GOTO GTA
 
 			:SpanoN
-			set tempcarname=GTA_SpanoCrewRecycled_2015
+			set tempcarname=GTA_SpanoCrewRecycled_2015N
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/GTAMotors/Naranja.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
-			GOTO 
+			GOTO GTA
 
 			:SpanoO
-			set tempcarname=GTA_SpanoCrewRecycled_2015
+			set tempcarname=GTA_SpanoCrewRecycled_2015O
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/GTAMotors/Oscuro.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
-			GOTO 
+			GOTO GTA
 
 			:SpanoR
 			set tempcarname=GTA_SpanoCrewRecycled_2015

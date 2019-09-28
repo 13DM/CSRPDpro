@@ -84,37 +84,38 @@ echo                                                           /___/
  	if !CurrentManuLevel! == 18 set CurrentManuChoice=Ferrari
 	if !CurrentManuLevel! == 19 set CurrentManuChoice=FnF Cars
 	if !CurrentManuLevel! == 20 set CurrentManuChoice=Ford
-	if !CurrentManuLevel! == 21 set CurrentManuChoice=Hennessey
-	if !CurrentManuLevel! == 22 set CurrentManuChoice=Honda
-	if !CurrentManuLevel! == 23 set CurrentManuChoice=Jaguar
-	if !CurrentManuLevel! == 24 set CurrentManuChoice=Koenigsegg
-	if !CurrentManuLevel! == 25 set CurrentManuChoice=KTM
-	if !CurrentManuLevel! == 26 set CurrentManuChoice=Lamborghini
-	if !CurrentManuLevel! == 27 set CurrentManuChoice=Local Motors
-	if !CurrentManuLevel! == 28 set CurrentManuChoice=Lotus
-	if !CurrentManuLevel! == 29 set CurrentManuChoice=Maserati
-	if !CurrentManuLevel! == 30 set CurrentManuChoice=Mazda
-	if !CurrentManuLevel! == 31 set CurrentManuChoice=Mazzanti
-	if !CurrentManuLevel! == 32 set CurrentManuChoice=McLaren
-	if !CurrentManuLevel! == 33 set CurrentManuChoice=Mercedes Benz
-	if !CurrentManuLevel! == 34 set CurrentManuChoice=Mitsubishi
-	if !CurrentManuLevel! == 35 set CurrentManuChoice=Nissan
-	if !CurrentManuLevel! == 36 set CurrentManuChoice=Pagani
-	if !CurrentManuLevel! == 37 set CurrentManuChoice=Plymouth
-	if !CurrentManuLevel! == 38 set CurrentManuChoice=Porsche
-	if !CurrentManuLevel! == 39 set CurrentManuChoice=RangeRover
-	if !CurrentManuLevel! == 40 set CurrentManuChoice=Saleen
-	if !CurrentManuLevel! == 41 set CurrentManuChoice=SCG
-	if !CurrentManuLevel! == 42 set CurrentManuChoice=Spyker
-	if !CurrentManuLevel! == 43 set CurrentManuChoice=SSC
-	if !CurrentManuLevel! == 44 set CurrentManuChoice=Subaru
-	if !CurrentManuLevel! == 45 set CurrentManuChoice=Toyota
-	if !CurrentManuLevel! == 46 set CurrentManuChoice=Volkswagen
-	if !CurrentManuLevel! == 47 set CurrentManuChoice=WMotors
-	if !CurrentManuLevel! == 48 set CurrentManuChoice=Zenvo
-	if !CurrentManuLevel! == 49 set CurrentManuChoice=Fusions And Parts
-	if !CurrentManuLevel! == 50 set CurrentManuChoice=PUPR
-	if !CurrentManuLevel! == 51 set CurrentManuChoice=Master ID List
+	if !CurrentManuLevel! == 21 set CurrentManuChoice=GTA Motors
+	if !CurrentManuLevel! == 22 set CurrentManuChoice=Hennessey
+	if !CurrentManuLevel! == 23 set CurrentManuChoice=Honda
+	if !CurrentManuLevel! == 24 set CurrentManuChoice=Jaguar
+	if !CurrentManuLevel! == 25 set CurrentManuChoice=Koenigsegg
+	if !CurrentManuLevel! == 26 set CurrentManuChoice=KTM
+	if !CurrentManuLevel! == 27 set CurrentManuChoice=Lamborghini
+	if !CurrentManuLevel! == 28 set CurrentManuChoice=Local Motors
+	if !CurrentManuLevel! == 29 set CurrentManuChoice=Lotus
+	if !CurrentManuLevel! == 30 set CurrentManuChoice=Maserati
+	if !CurrentManuLevel! == 31 set CurrentManuChoice=Mazda
+	if !CurrentManuLevel! == 32 set CurrentManuChoice=Mazzanti
+	if !CurrentManuLevel! == 33 set CurrentManuChoice=McLaren
+	if !CurrentManuLevel! == 34 set CurrentManuChoice=Mercedes Benz
+	if !CurrentManuLevel! == 35 set CurrentManuChoice=Mitsubishi
+	if !CurrentManuLevel! == 36 set CurrentManuChoice=Nissan
+	if !CurrentManuLevel! == 37 set CurrentManuChoice=Pagani
+	if !CurrentManuLevel! == 38 set CurrentManuChoice=Plymouth
+	if !CurrentManuLevel! == 39 set CurrentManuChoice=Porsche
+	if !CurrentManuLevel! == 40 set CurrentManuChoice=RangeRover
+	if !CurrentManuLevel! == 41 set CurrentManuChoice=Saleen
+	if !CurrentManuLevel! == 42 set CurrentManuChoice=SCG
+	if !CurrentManuLevel! == 43 set CurrentManuChoice=Spyker
+	if !CurrentManuLevel! == 44 set CurrentManuChoice=SSC
+	if !CurrentManuLevel! == 45 set CurrentManuChoice=Subaru
+	if !CurrentManuLevel! == 46 set CurrentManuChoice=Toyota
+	if !CurrentManuLevel! == 47 set CurrentManuChoice=Volkswagen
+	if !CurrentManuLevel! == 48 set CurrentManuChoice=WMotors
+	if !CurrentManuLevel! == 49 set CurrentManuChoice=Zenvo
+	if !CurrentManuLevel! == 50 set CurrentManuChoice=Fusions And Parts
+	if !CurrentManuLevel! == 51 set CurrentManuChoice=PUPR
+	if !CurrentManuLevel! == 52 set CurrentManuChoice=Master ID List
 	if !CurrentManuLevel! == 52 GOTO CPManuCHECKUE
 	if !CurrentManuLevel! == 53 GOTO CPManuCHECKUE
 	if !CurrentManuLevel! == 54 GOTO CPManuCHECKUE
@@ -154,37 +155,38 @@ echo                                                           /___/
  	if !CurrentManuLevel! == 18 GOTO Ferrari
 	if !CurrentManuLevel! == 19 GOTO FnFCars
 	if !CurrentManuLevel! == 20 GOTO Ford
-	if !CurrentManuLevel! == 21 GOTO Hennessey
-	if !CurrentManuLevel! == 22 GOTO Honda
-	if !CurrentManuLevel! == 23 GOTO Jaguar
-	if !CurrentManuLevel! == 24 GOTO Koenigsegg
-	if !CurrentManuLevel! == 25 GOTO KTM
-	if !CurrentManuLevel! == 26 GOTO Lamborghini
-	if !CurrentManuLevel! == 27 GOTO LocalMotors
-	if !CurrentManuLevel! == 28 GOTO Lotus
-	if !CurrentManuLevel! == 29 GOTO Maserati
-	if !CurrentManuLevel! == 30 GOTO Mazda
-	if !CurrentManuLevel! == 31 GOTO Mazzanti
-	if !CurrentManuLevel! == 32 GOTO McLaren
-	if !CurrentManuLevel! == 33 GOTO Mercedes
-	if !CurrentManuLevel! == 34 GOTO Mitsubishi
-	if !CurrentManuLevel! == 35 GOTO Nissan
-	if !CurrentManuLevel! == 36 GOTO Pagani
-	if !CurrentManuLevel! == 37 GOTO Plymouth
-	if !CurrentManuLevel! == 38 GOTO Porsche
-	if !CurrentManuLevel! == 39 GOTO RangeRover
-	if !CurrentManuLevel! == 40 GOTO Saleen
-	if !CurrentManuLevel! == 41 GOTO SCG
-	if !CurrentManuLevel! == 42 GOTO Spyker
-	if !CurrentManuLevel! == 43 GOTO SSC
-	if !CurrentManuLevel! == 44 GOTO Subaru
-	if !CurrentManuLevel! == 45 GOTO Toyota
-	if !CurrentManuLevel! == 46 GOTO Volkswagen
-	if !CurrentManuLevel! == 47 GOTO WMotors
-	if !CurrentManuLevel! == 48 GOTO Zenvo
-	if !CurrentManuLevel! == 49 GOTO FusionsAndParts
-	if !CurrentManuLevel! == 50 GOTO PUPR
-	if !CurrentManuLevel! == 51 GOTO MasterIDList
+	if !CurrentManuLevel! == 21 GOTO GTA
+	if !CurrentManuLevel! == 22 GOTO Hennessey
+	if !CurrentManuLevel! == 23 GOTO Honda
+	if !CurrentManuLevel! == 24 GOTO Jaguar
+	if !CurrentManuLevel! == 25 GOTO Koenigsegg
+	if !CurrentManuLevel! == 26 GOTO KTM
+	if !CurrentManuLevel! == 27 GOTO Lamborghini
+	if !CurrentManuLevel! == 28 GOTO LocalMotors
+	if !CurrentManuLevel! == 29 GOTO Lotus
+	if !CurrentManuLevel! == 30 GOTO Maserati
+	if !CurrentManuLevel! == 31 GOTO Mazda
+	if !CurrentManuLevel! == 32 GOTO Mazzanti
+	if !CurrentManuLevel! == 33 GOTO McLaren
+	if !CurrentManuLevel! == 34 GOTO Mercedes
+	if !CurrentManuLevel! == 35 GOTO Mitsubishi
+	if !CurrentManuLevel! == 36 GOTO Nissan
+	if !CurrentManuLevel! == 37 GOTO Pagani
+	if !CurrentManuLevel! == 38 GOTO Plymouth
+	if !CurrentManuLevel! == 39 GOTO Porsche
+	if !CurrentManuLevel! == 40 GOTO RangeRover
+	if !CurrentManuLevel! == 41 GOTO Saleen
+	if !CurrentManuLevel! == 42 GOTO SCG
+	if !CurrentManuLevel! == 43 GOTO Spyker
+	if !CurrentManuLevel! == 44 GOTO SSC
+	if !CurrentManuLevel! == 45 GOTO Subaru
+	if !CurrentManuLevel! == 46 GOTO Toyota
+	if !CurrentManuLevel! == 47 GOTO Volkswagen
+	if !CurrentManuLevel! == 48 GOTO WMotors
+	if !CurrentManuLevel! == 49 GOTO Zenvo
+	if !CurrentManuLevel! == 50 GOTO FusionsAndParts
+	if !CurrentManuLevel! == 51 GOTO PUPR
+	if !CurrentManuLevel! == 52 GOTO MasterIDList
 
 	:Abarth
 		::This opens the first page of the Abarth 500 options
@@ -6205,7 +6207,7 @@ echo                                                           /___/
 	
 	:Ford
 	CLS
-	set CurrentCarChoice=Durty 30
+	set CurrentCarChoice=Boss 302 Mustang
 	set FordType=1
 	
 	:FordCon
@@ -6244,38 +6246,103 @@ echo                                                           /___/
 	
 	:FordType1
 	if !FordType! == 0 GOTO Ford
-	if !FordType! == 1 set CurrentCarChoice=Durty 30
-	if !FordType! == 2 set CurrentCarChoice=F150 Raptor
-	if !FordType! == 3 set CurrentCarChoice=Focus RS
-	if !FordType! == 4 set CurrentCarChoice=Focus ST (TrackSTer)
-	if !FordType! == 5 set CurrentCarChoice=GT40 MkII Restored
-	if !FordType! == 6 set CurrentCarChoice=GT (All Types)
-	if !FordType! == 7 set CurrentCarChoice=Mustang GT HPE750
-	if !FordType! == 8 set CurrentCarChoice=Mustang GT Premium (All Types)
-	if !FordType! == 9 set CurrentCarChoice=Mustang Shelby GT500
-	if !FordType! == 10 set CurrentCarChoice=Mustang Shelby GT350R
-	if !FordType! == 11 GOTO FordOD
+	if !FordType! == 1 set CurrentCarChoice=Boss 302 Mustang
+	if !FordType! == 2 set CurrentCarChoice=Durty 30
+	if !FordType! == 3 set CurrentCarChoice=F150 Raptor
+	if !FordType! == 4 set CurrentCarChoice=Focus RS
+	if !FordType! == 5 set CurrentCarChoice=Focus ST (TrackSTer)
+	if !FordType! == 6 set CurrentCarChoice=GT40 MkII Restored
+	if !FordType! == 7 set CurrentCarChoice=GT (All Types)
+	if !FordType! == 8 set CurrentCarChoice=Mustang GT HPE750
+	if !FordType! == 9 set CurrentCarChoice=Mustang GT Premium (All Types)
+	if !FordType! == 10 set CurrentCarChoice=Mustang Shelby GT500
+	if !FordType! == 11 set CurrentCarChoice=Mustang Shelby GT350R
+	if !FordType! == 12 set CurrentCarChoice=Roush Stage 3 Mustang
+	if !FordType! == 13 GOTO FordOD
 	GOTO FordCon
 
 	:FordOD
-	set FordType=10
+	set FordType=12
 	goto FordType1
 	
 	:Ford1
 
-	if !FordType! == 1 goto Durty30
-	if !FordType! == 2 goto F150Raptor
-	if !FordType! == 3 goto FocusRS
-	if !FordType! == 4 goto FocusST
-	if !FordType! == 5 goto GT40
-	if !FordType! == 6 goto FordGT
-	if !FordType! == 7 goto HPE750
-	if !FordType! == 8 goto MustangGT
-	if !FordType! == 9 goto GT500
-	if !FordType! == 10 goto GT350R
+	if !FordType! == 1 goto Boss302
+	if !FordType! == 2 goto Durty30
+	if !FordType! == 3 goto F150Raptor
+	if !FordType! == 4 goto FocusRS
+	if !FordType! == 5 goto FocusST
+	if !FordType! == 6 goto GT40
+	if !FordType! == 7 goto FordGT
+	if !FordType! == 8 goto HPE750
+	if !FordType! == 9 goto MustangGT
+	if !FordType! == 10 goto GT500
+	if !FordType! == 11 goto GT350R
+	if !FordType! == 12 goto RoushS3
 
 	GOTO FordCon
 	
+		:Boss302
+		CLS
+		set Boss302Type=0
+		
+		:Boss302Con
+		cls
+	
+echo    ______              ____  _      __            
+echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___
+echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  /
+echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ / 
+echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/  
+echo                                                           /___/      
+		echo.
+		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
+		echo.
+		echo Selected Manufacture:  !CurrentManuChoice!
+		echo Selected Car:          %CurrentCarChoice%
+		echo.
+		echo - Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 - 
+		echo.
+		echo 1.) Back
+		echo.
+		echo 2.) Bright Gold
+		echo.
+		echo 3.) Bright Yellow
+		echo.
+		echo 4.) Calypso Coral
+		echo.
+		echo 5.) Grabber Blue
+		echo.
+		echo 6.) Grabber Green
+		echo.
+		echo 7.) Grabber Orange
+		echo.
+		echo 8.) Medium Blue
+		echo.
+		echo 9.) Medium Lime
+		echo. 
+		echo 10.) Pastel Blue
+		echo.
+		echo 11.) Red
+		echo.
+		echo 12.) Wimbledon White
+		echo.
+		set /p Boss302Type="Select Choice and press Enter: " 
+		
+		if !Boss302Type! == 1 goto FordCon
+		if !Boss302Type! == 2 goto BOSS302BG
+		if !Boss302Type! == 3 goto BOSS302BY
+		if !Boss302Type! == 4 goto BOSS302CC
+		if !Boss302Type! == 5 goto BOSS302GB
+		if !Boss302Type! == 6 goto BOSS302GG
+		if !Boss302Type! == 7 goto BOSS302GO
+		if !Boss302Type! == 8 goto BOSS302MB
+		if !Boss302Type! == 9 goto BOSS302ML
+		if !Boss302Type! == 10 goto BOSS302PB
+		if !Boss302Type! == 11 goto BOSS302R
+		if !Boss302Type! == 12 goto BOSS302WW
+		goto Boss302Con
+
 		:Durty30
 		CLS
 		SET Durty30Choice=1
@@ -6533,13 +6600,715 @@ echo                                                           /___/
 		goto FordGTCon
 	    
 		:HPE750
+		CLS
+		set HPE750Type=0
+		
+		:HPE750Con
+		cls
+	
+echo    ______              ____  _      __            
+echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___
+echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  /
+echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ / 
+echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/  
+echo                                                           /___/      
+		echo.
+		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
+		echo.
+		echo Selected Manufacture:  !CurrentManuChoice!
+		echo Selected Car:          %CurrentCarChoice%
+		echo.
+		echo - Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 - 
+		echo.
+		echo 1.) Back
+		echo.
+		echo 2.) Beryllium Orange
+		echo.
+		echo 3.) Competition Orange
+		echo.
+		echo 4.) Ingot Silver
+		echo.
+		echo 5.) Oxford White
+		echo.
+		echo 6.) Performance Blue
+		echo.
+		echo 7.) Ruby Red
+		echo.
+		echo 8.) Shadow Black
+		echo.
+		echo 9.) Shadow Black with Grey Livery and Red Accent
+		echo. 
+		echo 10.) Yellow Blaze Tricoat
+		echo.
+		set /p HPE750Type="Select Choice and press Enter: " 
+		
+		if !HPE750Type! == 1 goto FordCon
+		if !HPE750Type! == 2 goto HPE750BO
+		if !HPE750Type! == 3 goto HPE750CO
+		if !HPE750Type! == 4 goto HPE750IS
+		if !HPE750Type! == 5 goto HPE750OW
+		if !HPE750Type! == 6 goto HPE750PB
+		if !HPE750Type! == 7 goto HPE750RR
+		if !HPE750Type! == 8 goto HPE750SB
+		if !HPE750Type! == 9 goto HPE750SBGLRA
+		if !HPE750Type! == 10 goto HPE750YBT
+		goto HPE750Con
 	    
 		:MustangGT
+		CLS
+		set MustangGTType=0
+		
+		:MustangGTCon
+		cls
+	
+echo    ______              ____  _      __            
+echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___
+echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  /
+echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ / 
+echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/  
+echo                                                           /___/      
+		echo.
+		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
+		echo.
+		echo Selected Manufacture:  !CurrentManuChoice!
+		echo Selected Car:          %CurrentCarChoice%
+		echo.
+		echo - Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 - 
+		echo.
+		echo 1.) Back
+		echo.
+		echo 2.) Kurtz Mustang Prize
+		echo.
+		echo 3.) Black
+		echo.
+		echo 4.) Competition Orange Black Roof
+		echo.
+		echo 5.) Deep Impact Blue Black Roof
+		echo.
+		echo 6.) Gotta Have It Green with White Translucent Stripes
+		echo.
+		echo 7.) Grabber Blue Black Roof
+		echo.
+		echo 8.) Oxford White Black Roof
+		echo.
+		echo 9.) Pepper Grey Black Roof
+		echo. 
+		echo 10.) Ruby Red Black Roof
+		echo.
+		echo 11.) Ultimate Green with Black Translucent Stripes
+		echo.
+		echo 12.) Yellow Blaze Tricoat with Black Translucent Stripes
+		echo.
+		set /p MustangGTType="Select Choice and press Enter: " 
+		
+		if !MustangGTType! == 1 goto FordCon
+		if !MustangGTType! == 2 goto KurtzMustang
+		if !MustangGTType! == 3 goto MustangGTB
+		if !MustangGTType! == 4 goto MustangGTCOBR
+		if !MustangGTType! == 5 goto MustangGTDIBBR
+		if !MustangGTType! == 6 goto MustangGTGHIGWS
+		if !MustangGTType! == 7 goto MustangGTGBBR
+		if !MustangGTType! == 8 goto MustangGTOWBR
+		if !MustangGTType! == 9 goto MustangGTPGBR
+		if !MustangGTType! == 10 goto MustangGTRRBR
+		if !MustangGTType! == 11 goto MustangGTUGBS
+		if !MustangGTType! == 12 goto MustangGTYBTBS
+		goto MustangGTCon
 	    
 		:GT500
+		set GT500Type=1
+		set CurrentGT500=Reward
+	
+		:GT500Con
+		set GT500ColorType=0
+		cls
+echo    ______              ____  _      __            
+echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___
+echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  /
+echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ / 
+echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/  
+echo                                                           /___/      
+		echo.
+		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
+		echo.
+		echo Selected Manufacture:  %CurrentManuChoice%
+		echo Selected Car:          %CurrentCarChoice%
+		echo Selected GT500 Color:  %CurrentGT500%
+		echo.
+		echo - Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 - 
+		echo.
+		echo (1.) Previous - (2.) Next - (3.) Select - (4.) Back
+		echo.
+		CHOICE /C 1234 /M "" >nul
+		IF ERRORLEVEL == 4 GOTO FordCon
+		IF ERRORLEVEL == 3 GOTO GT5002
+		IF ERRORLEVEL == 2 GOTO GT500ADD
+		IF ERRORLEVEL == 1 GOTO GT500UB
+	
+		:GT500ADD
+		set /a GT500Type+=1
+		GOTO GT500Type1
+	
+		:GT500UB
+		set /a GT500Type-=1
+		GOTO GT500Type1	
+	
+		:GT500Type1
+		if !GT500Type! == 0 GOTO GT500
+		if !GT500Type! == 1 set CurrentGT500=Reward
+		if !GT500Type! == 2 set CurrentGT500=Dark Highland Green
+		if !GT500Type! == 3 set CurrentGT500=Grabber Lime
+		if !GT500Type! == 4 set CurrentGT500=Iconic Silver
+		if !GT500Type! == 5 set CurrentGT500=Kona Blue
+		if !GT500Type! == 6 set CurrentGT500=Magnetic
+		if !GT500Type! == 7 set CurrentGT500=Oxford White
+		if !GT500Type! == 8 set CurrentGT500=Race Red
+		if !GT500Type! == 9 set CurrentGT500=Red Hot Metallic Tinted Clearcoat with Black Stripes
+		if !GT500Type! == 10 set CurrentGT500=Shadow Black
+		if !GT500Type! == 11 set CurrentGT500=Twister Orange
+		if !GT500Type! == 12 set CurrentGT500=Velocity Blue
+		if !GT500Type! == 13 GOTO GT500OD
+		GOTO GT500Con
+
+		:GT500OD
+		set GT500Type=12
+		goto GT500Con
+		
+		:GT5002
+		if !GT500Type! == 1 goto GT500Reward
+		if !GT500Type! == 2 goto GT500DHG
+		if !GT500Type! == 3 goto GT500GL
+		if !GT500Type! == 4 goto GT500IS
+		if !GT500Type! == 5 goto GT500KB
+		if !GT500Type! == 6 goto GT500M
+		if !GT500Type! == 7 goto GT500OW
+		if !GT500Type! == 8 goto GT500RR
+		if !GT500Type! == 9 goto GT500GT500RedHotMetalicTintedClearcoatBlackStripes
+		if !GT500Type! == 10 goto GT500SB
+		if !GT500Type! == 11 goto GT500TO
+		if !GT500Type! == 12 goto GT500VB
+		
+			:GT500DHG
+			cls
+	
+echo    ______              ____  _      __            
+echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___
+echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  /
+echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ / 
+echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/  
+echo                                                           /___/      
+			echo.
+			echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
+			echo.
+			echo Selected Manufacture:  %CurrentManuChoice%
+			echo Selected Car:          %CurrentCarChoice%
+			echo Selected GT500 Color:  %CurrentGT500%
+			echo.
+			echo - Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 - 
+			echo.
+			echo 1.) Back
+			echo.
+			echo 2.) No Livery
+			echo.
+			echo 3.) Black Roof
+			echo.
+			echo 4.) Black Roof Black Stripes
+			echo.
+			echo 5.) White Stripes
+			echo.
+			set /p GT500ColorType="Select Choice and press Enter: " 
+		
+			if !GT500ColorType! == 1 goto GT500Con
+			if !GT500ColorType! == 2 goto GT500Finish
+			if !GT500ColorType! == 3 goto GT500Finish
+			if !GT500ColorType! == 4 goto GT500Finish
+			if !GT500ColorType! == 5 goto GT500Finish
+			goto GT500DHG
+			
+			:GT500GL
+			cls
+	
+echo    ______              ____  _      __            
+echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___
+echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  /
+echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ / 
+echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/  
+echo                                                           /___/      
+			echo.
+			echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
+			echo.
+			echo Selected Manufacture:  %CurrentManuChoice%
+			echo Selected Car:          %CurrentCarChoice%
+			echo Selected GT500 Color:  %CurrentGT500%
+			echo.
+			echo - Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 - 
+			echo.
+			echo 1.) Back
+			echo.
+			echo 2.) No Livery
+			echo.
+			echo 3.) Black Stripes
+			echo.
+			echo 4.) Black Roof 
+			echo.
+			echo 5.) Black Roof Black Stripes
+			echo.
+			set /p GT500ColorType="Select Choice and press Enter: " 
+		
+			if !GT500ColorType! == 1 goto GT500Con
+			if !GT500ColorType! == 2 goto GT500Finish
+			if !GT500ColorType! == 3 goto GT500Finish
+			if !GT500ColorType! == 4 goto GT500Finish
+			if !GT500ColorType! == 5 goto GT500Finish
+			goto GT500GL
+			
+			:GT500IS
+			cls
+	
+echo    ______              ____  _      __            
+echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___
+echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  /
+echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ / 
+echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/  
+echo                                                           /___/      
+			echo.
+			echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
+			echo.
+			echo Selected Manufacture:  %CurrentManuChoice%
+			echo Selected Car:          %CurrentCarChoice%
+			echo Selected GT500 Color:  %CurrentGT500%
+			echo.
+			echo - Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 - 
+			echo.
+			echo 1.) Back
+			echo.
+			echo 2.) No Livery
+			echo.
+			echo 3.) Black Stripes
+			echo.
+			echo 4.) Black Roof 
+			echo.
+			echo 5.) Black Roof Black Stripes
+			echo.
+			set /p GT500ColorType="Select Choice and press Enter: " 
+		
+			if !GT500ColorType! == 1 goto GT500Con
+			if !GT500ColorType! == 2 goto GT500Finish
+			if !GT500ColorType! == 3 goto GT500Finish
+			if !GT500ColorType! == 4 goto GT500Finish
+			if !GT500ColorType! == 5 goto GT500Finish
+			goto GT500IS
+			
+			:GT500KB
+			cls
+	
+echo    ______              ____  _      __            
+echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___
+echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  /
+echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ / 
+echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/  
+echo                                                           /___/      
+			echo.
+			echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
+			echo.
+			echo Selected Manufacture:  %CurrentManuChoice%
+			echo Selected Car:          %CurrentCarChoice%
+			echo Selected GT500 Color:  %CurrentGT500%
+			echo.
+			echo - Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 - 
+			echo.
+			echo 1.) Back
+			echo.
+			echo 2.) No Livery
+			echo.
+			echo 3.) Black Roof 
+			echo.
+			echo 4.) White Stripes
+			echo.
+			set /p GT500ColorType="Select Choice and press Enter: " 
+		
+			if !GT500ColorType! == 1 goto GT500Con
+			if !GT500ColorType! == 2 goto GT500Finish
+			if !GT500ColorType! == 3 goto GT500Finish
+			if !GT500ColorType! == 4 goto GT500Finish
+			goto GT500KB
+			
+			:GT500M
+			cls
+	
+echo    ______              ____  _      __            
+echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___
+echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  /
+echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ / 
+echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/  
+echo                                                           /___/      
+			echo.
+			echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
+			echo.
+			echo Selected Manufacture:  %CurrentManuChoice%
+			echo Selected Car:          %CurrentCarChoice%
+			echo Selected GT500 Color:  %CurrentGT500%
+			echo.
+			echo - Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 - 
+			echo.
+			echo 1.) Back
+			echo.
+			echo 2.) No Livery
+			echo.
+			echo 3.) Black Roof 
+			echo.
+			echo 4.) Black Roof Black Stripes
+			echo.
+			echo 5.) White Stripes
+			echo.
+			set /p GT500ColorType="Select Choice and press Enter: " 
+		
+			if !GT500ColorType! == 1 goto GT500Con
+			if !GT500ColorType! == 2 goto GT500Finish
+			if !GT500ColorType! == 3 goto GT500Finish
+			if !GT500ColorType! == 4 goto GT500Finish
+			if !GT500ColorType! == 5 goto GT500Finish
+			goto GT500M
+			
+			:GT500OW
+			cls
+	
+echo    ______              ____  _      __            
+echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___
+echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  /
+echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ / 
+echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/  
+echo                                                           /___/      
+			echo.
+			echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
+			echo.
+			echo Selected Manufacture:  %CurrentManuChoice%
+			echo Selected Car:          %CurrentCarChoice%
+			echo Selected GT500 Color:  %CurrentGT500%
+			echo.
+			echo - Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 - 
+			echo.
+			echo 1.) Back
+			echo.
+			echo 2.) No Livery
+			echo.
+			echo 3.) Black Stripes and GT500 Side Stripe
+			echo.
+			echo 4.) Black Stripes
+			echo.
+			echo 5.) Black Roof
+			echo.
+			echo 6.) Black Roof Black Stripes
+			echo.
+			set /p GT500ColorType="Select Choice and press Enter: " 
+		
+			if !GT500ColorType! == 1 goto GT500Con
+			if !GT500ColorType! == 2 goto GT500Finish
+			if !GT500ColorType! == 3 goto GT500Finish
+			if !GT500ColorType! == 4 goto GT500Finish
+			if !GT500ColorType! == 5 goto GT500Finish
+			if !GT500ColorType! == 6 goto GT500Finish
+			goto GT500OW
+			
+			:GT500RR
+			cls
+	
+echo    ______              ____  _      __            
+echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___
+echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  /
+echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ / 
+echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/  
+echo                                                           /___/      
+			echo.
+			echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
+			echo.
+			echo Selected Manufacture:  %CurrentManuChoice%
+			echo Selected Car:          %CurrentCarChoice%
+			echo Selected GT500 Color:  %CurrentGT500%
+			echo.
+			echo - Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 - 
+			echo.
+			echo 1.) Back
+			echo.
+			echo 2.) No Livery
+			echo.
+			echo 3.) Black Roof
+			echo.
+			echo 4.) Black Roof Black Stripes
+			echo.
+			echo 5.) White Stripes and GT500 Side Stripe
+			echo.
+			set /p GT500ColorType="Select Choice and press Enter: " 
+		
+			if !GT500ColorType! == 1 goto GT500Con
+			if !GT500ColorType! == 2 goto GT500Finish
+			if !GT500ColorType! == 3 goto GT500Finish
+			if !GT500ColorType! == 4 goto GT500Finish
+			if !GT500ColorType! == 5 goto GT500Finish
+			goto GT500RR
+
+			:GT500SB
+			cls
+	
+echo    ______              ____  _      __            
+echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___
+echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  /
+echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ / 
+echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/  
+echo                                                           /___/      
+			echo.
+			echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
+			echo.
+			echo Selected Manufacture:  %CurrentManuChoice%
+			echo Selected Car:          %CurrentCarChoice%
+			echo Selected GT500 Color:  %CurrentGT500%
+			echo.
+			echo - Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 - 
+			echo.
+			echo 1.) Back
+			echo.
+			echo 2.) No Livery
+			echo.
+			echo 3.) White Stripes
+			echo.
+			echo 4.) White Stripes and GT500 Side Stripe
+			echo.
+			set /p GT500ColorType="Select Choice and press Enter: " 
+		
+			if !GT500ColorType! == 1 goto GT500Con
+			if !GT500ColorType! == 2 goto GT500Finish
+			if !GT500ColorType! == 3 goto GT500Finish
+			if !GT500ColorType! == 4 goto GT500Finish
+			goto GT500SB
+
+			:GT500TO
+			cls
+	
+echo    ______              ____  _      __            
+echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___
+echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  /
+echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ / 
+echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/  
+echo                                                           /___/      
+			echo.
+			echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
+			echo.
+			echo Selected Manufacture:  %CurrentManuChoice%
+			echo Selected Car:          %CurrentCarChoice%
+			echo Selected GT500 Color:  %CurrentGT500%
+			echo.
+			echo - Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 - 
+			echo.
+			echo 1.) Back
+			echo.
+			echo 2.) No Livery
+			echo.
+			echo 3.) Black Stripes
+			echo.
+			echo 4.) Black Roof 
+			echo.
+			echo 5.) Black Roof Black Stripes
+			echo.
+			set /p GT500ColorType="Select Choice and press Enter: " 
+		
+			if !GT500ColorType! == 1 goto GT500Con
+			if !GT500ColorType! == 2 goto GT500Finish
+			if !GT500ColorType! == 3 goto GT500Finish
+			if !GT500ColorType! == 4 goto GT500Finish
+			if !GT500ColorType! == 5 goto GT500Finish
+			goto GT500TO
+
+			:GT500VB
+			cls
+	
+echo    ______              ____  _      __            
+echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___
+echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  /
+echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ / 
+echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/  
+echo                                                           /___/      
+			echo.
+			echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
+			echo.
+			echo Selected Manufacture:  %CurrentManuChoice%
+			echo Selected Car:          %CurrentCarChoice%
+			echo Selected GT500 Color:  %CurrentGT500%
+			echo.
+			echo - Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 - 
+			echo.
+			echo 1.) Back
+			echo.
+			echo 2.) No Livery
+			echo.
+			echo 3.) Black Roof
+			echo.
+			echo 4.) Black Roof Black Stripes
+			echo.
+			echo 5.) White Stripes
+			echo.
+			set /p GT500ColorType="Select Choice and press Enter: " 
+		
+			if !GT500ColorType! == 1 goto GT500Con
+			if !GT500ColorType! == 2 goto GT500Finish
+			if !GT500ColorType! == 3 goto GT500Finish
+			if !GT500ColorType! == 4 goto GT500Finish
+			if !GT500ColorType! == 5 goto GT500Finish
+			goto GT500VB
+
+			:GT500Finish
+			set GT500FinishType=%GT500Type%%GT500ColorType%
+		
+			if !GT500FinishType! == 22 goto GT500DarkHighlandGreen
+			if !GT500FinishType! == 23 goto GT500DarkHighlandGreenBR
+			if !GT500FinishType! == 24 goto GT500DarkHighlandGreenBRBlackStripes
+			if !GT500FinishType! == 25 goto GT500DarkHighlandGreenWhiteStripes
+			if !GT500FinishType! == 32 goto GT500GrabberLime
+			if !GT500FinishType! == 33 goto GT500GrabberLimeBlackStripes
+			if !GT500FinishType! == 34 goto GT500GrabberLimeBR
+			if !GT500FinishType! == 35 goto GT500GrabberLimeBRBlackStripes
+			if !GT500FinishType! == 42 goto GT500IconicSilver
+			if !GT500FinishType! == 43 goto GT500IconicSilverBlackStripes
+			if !GT500FinishType! == 44 goto GT500IconicSilverBR
+			if !GT500FinishType! == 45 goto GT500IconicSilverBRBlackStripes
+			if !GT500FinishType! == 52 goto GT500KonaBlue
+			if !GT500FinishType! == 53 goto GT500KonaBlueBR
+			if !GT500FinishType! == 54 goto GT500KonaBlueWhiteStripes
+			if !GT500FinishType! == 62 goto GT500Magnetic
+			if !GT500FinishType! == 63 goto GT500MagneticBR
+			if !GT500FinishType! == 64 goto GT500MagneticBRBlackStripes
+			if !GT500FinishType! == 65 goto GT500MagneticWhiteStripes
+			if !GT500FinishType! == 72 goto GT500OxfordWhite
+			if !GT500FinishType! == 73 goto GT500OxfordWhiteBlackSideandTopStripes
+			if !GT500FinishType! == 74 goto GT500OxfordWhiteBlackStripes
+			if !GT500FinishType! == 75 goto GT500OxfordWhiteBR
+			if !GT500FinishType! == 76 goto GT500OxfordWhiteBRBlackStripes
+			if !GT500FinishType! == 82 goto GT500RaceRed
+			if !GT500FinishType! == 83 goto GT500RaceRedBR
+			if !GT500FinishType! == 84 goto GT500RaceRedBRBlackStripes
+			if !GT500FinishType! == 85 goto GT500RaceRedWhiteStripesTopandSide
+			if !GT500FinishType! == 102 goto GT500ShadowBlack
+			if !GT500FinishType! == 103 goto GT500ShadowBlackWhiteStripes
+			if !GT500FinishType! == 104 goto GT500ShadowBlackWhiteStripesTopandSide
+			if !GT500FinishType! == 112 goto GT500TwisterOrange
+			if !GT500FinishType! == 113 goto GT500TwisterOrangeBlackStripes
+			if !GT500FinishType! == 114 goto GT500TwisterOrangeBR
+			if !GT500FinishType! == 115 goto GT500TwisterOrangeBRBlackStripes
+			if !GT500FinishType! == 122 goto GT500VelocityBlue
+			if !GT500FinishType! == 123 goto GT500VelocityBlueBR
+			if !GT500FinishType! == 124 goto GT500VelocityBlueBRBlackStripes
+			if !GT500FinishType! == 125 goto GT500VelocityBlueWhiteStipes
+			goto GT500Con
 	    
 		:GT350R
+		CLS
+		set GT350RType=0
+		
+		:GT350RCon
+		cls
+	
+echo    ______              ____  _      __            
+echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___
+echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  /
+echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ / 
+echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/  
+echo                                                           /___/      
+		echo.
+		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
+		echo.
+		echo Selected Manufacture:  !CurrentManuChoice!
+		echo Selected Car:          %CurrentCarChoice%
+		echo.
+		echo - Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 - 
+		echo.
+		echo 1.) Back
+		echo.
+		echo 2.) Avalanche Gray
+		echo.
+		echo 3.) Deep Impact Blue
+		echo.
+		echo 4.) Magnetic
+		echo.
+		echo 5.) Molten Orange
+		echo.
+		echo 6.) Nitrous Blue
+		echo.
+		echo 7.) Oxford White
+		echo.
+		echo 8.) Race Red
+		echo.
+		echo 9.) Shadow Black
+		echo. 
+		echo 10.) Triple Yellow
+		echo.
+		echo 11.) Ultimate Green
+		echo.
+		set /p GT350RType="Select Choice and press Enter: " 
+		
+		if !GT350RType! == 1 goto FordCon
+		if !GT350RType! == 2 goto GT350RAG
+		if !GT350RType! == 3 goto GT350RDIB
+		if !GT350RType! == 4 goto GT350RM
+		if !GT350RType! == 5 goto GT350RMO
+		if !GT350RType! == 6 goto GT350RNB
+		if !GT350RType! == 7 goto GT350ROW
+		if !GT350RType! == 8 goto GT350RRR
+		if !GT350RType! == 9 goto GT350RSB
+		if !GT350RType! == 10 goto GT350RTY
+		if !GT350RType! == 11 goto GT350RUG
+		goto GT350RCon
 
+		:RoushS3
+		CLS
+		set RoushS3Type=0
+		
+		:RoushS3Con
+		cls
+	
+echo    ______              ____  _      __            
+echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___
+echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  /
+echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ / 
+echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/  
+echo                                                           /___/      
+		echo.
+		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
+		echo.
+		echo Selected Manufacture:  !CurrentManuChoice!
+		echo Selected Car:          %CurrentCarChoice%
+		echo.
+		echo - Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 - 
+		echo.
+		echo 1.) Back
+		echo.
+		echo 2.) Shadow Black
+		echo.
+		echo 3.) Kona Blue
+		echo.
+		echo 4.) Magnetic with Matt Black Stripe Red Accent
+		echo.
+		echo 5.) Orange Fury with Black Stripe
+		echo.
+		echo 6.) Oxford White with Black Stripe
+		echo.
+		echo 7.) Race Red
+		echo.
+		echo 8.) Race Red with Matt Black Stripe White Accent
+		echo.
+		echo 9.) Ruby Red
+		echo. 
+		set /p RoushS3Type="Select Choice and press Enter: " 
+		
+		if !RoushS3Type! == 1 goto FordCon
+		if !RoushS3Type! == 2 goto RoushStage3IS
+		if !RoushS3Type! == 3 goto RoushStage3KB
+		if !RoushS3Type! == 4 goto RoushStage3MMBSRA
+		if !RoushS3Type! == 5 goto RoushStage3OFBS
+		if !RoushS3Type! == 6 goto RoushStage3OWBS
+		if !RoushS3Type! == 7 goto RoushStage3RACE
+		if !RoushS3Type! == 8 goto RoushStage3RRMBSWA
+		if !RoushS3Type! == 9 goto RoushStage3RUBY
+		goto RoushS3Con
+		
 		
 	:GTA
 	CLS
@@ -6561,20 +7330,27 @@ echo                                                           /___/
 	echo.
 	echo 1.) Back.                                 
 	echo.
-	echo 2.) Spano Placeholder                      
+	echo 2.) Larry Crew Car
+	echo.
+	echo 3.) Amarillo
+	echo.
+	echo 4.) Blanco
+	echo.
+	echo 5.) Naranja
+	echo.
+	echo 6.) Oscuro
 	echo.
 	
 	set /p GTAChoice="Select Choice and press Enter: " 
 	
 	if %GTAChoice% == 1 GOTO CarPickerManuReturn
-	if %GTAChoice% == 2 GOTO GTA
+	if %GTAChoice% == 2 GOTO SpanoLarry
+	if %GTAChoice% == 3 GOTO SpanoA
+	if %GTAChoice% == 4 GOTO SpanoB
+	if %GTAChoice% == 5 GOTO SpanoN
+	if %GTAChoice% == 6 GOTO SpanoO
 	Goto GTA
 	
-		:SpanoBoss
-		
-		:Spano
-
-
 	:Hennessey
 	CLS
 	set CurrentCarChoice=Camaro Exorcist
