@@ -1265,8 +1265,6 @@ echo                                                           /___/
 	echo.
 	echo - Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 - 
 	echo.
-	echo Page 1
-	echo.
 	echo 1.) Back.
 	echo.
 	echo 2.) Reward (Grey with Italian Accent colors)
