@@ -2,7 +2,7 @@
 
 cls
 
-call ".\QRStats.bat" ".\SessionInfo"
+call .\QRStats.bat .\SessionInfo
 
 cls
 
