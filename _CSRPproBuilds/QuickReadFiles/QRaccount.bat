@@ -18,3 +18,4 @@ echo File Contents:
 echo.
 type ".\AccountPreview"
 pause >nul
+exit /b
