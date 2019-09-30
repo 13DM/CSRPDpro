@@ -3,8 +3,6 @@
  exit /b
 )
 
-DEL .\AccountPreview >nul
-
 @rem 
 @echo off
 setlocal EnableDelayEdexpansion enabledelayedexpansion
