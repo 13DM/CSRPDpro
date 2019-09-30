@@ -17,10 +17,8 @@ echo.
 echo File Contents:
 echo.
 type ".\AccountPreview"
-pause >nul
-
 del ".\AccountPreview" >nul
 del ".\QRStats.bat" >nul
-del ".\QRaccount.bat" >nul
 del ".\SessionInfo" >nul
+pause >nul
 exit
