@@ -23,4 +23,4 @@ del ".\AccountPreview" >nul
 del ".\QRStats.bat" >nul
 del ".\QRaccount.bat" >nul
 del ".\SessionInfo" >nul
-exit /b
+exit
