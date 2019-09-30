@@ -220,17 +220,4 @@ FOR /F "tokens=1,2" %%i IN (%NSBFILE%) DO (
   echo !unid!; !crdb!; Upgraded Fitted: !nuub!; pp=!cppi!; evo=!cepi!; !csrc!; "paid": !paid!; "inid": !inid!>>%outfile%
   )
 )
-
-cls
-echo   ____        _      __      ____                 __   _   _______ ____ 
-echo  / __ \__  __(_)____/ /__   / __ \___  ____ _____/ /  / ^| / / ___// __ )
-echo / / / / / / / / ___/ //_/  / /_/ / _ \/ __ `/ __  /  /  ^|/ /\__ \/ __  ^|
-echo/ /_/ / /_/ / / /__/ ,^<    / _, _/  __/ /_/ / /_/ /  / /^|  /___/ / /_/ / 
-echo\___\_\__,_/_/\___/_/^|_^|  /_/ ^|_^|\___/\__,_/\__,_/  /_/ ^|_//____/_____/  
-echo.                                                                         
-echo.
-echo File Contents:
-echo.
-type ".\AccountPreview"
-pause >nul
 endlocal
