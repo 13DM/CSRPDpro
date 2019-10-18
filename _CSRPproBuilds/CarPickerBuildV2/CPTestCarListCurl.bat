@@ -9330,3 +9330,3143 @@
 			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
 			GOTO 
 			
+			Rem Start Hennessey Cars:
+			rem start Exorcist
+
+			:ExorcistReward  
+			set tempcarname=Hennessey_CamaroExorcistRewardRecycled_2017Reward 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Hennessey/Exorcist/Reward.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"  >nul
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
+			GOTO Exorcist
+ 
+			:ExorcistABBL  
+			set tempcarname=Hennessey_CamaroExorcistRewardRecycled_2017ABBL 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Hennessey/Exorcist/ArcticBluewithBlackLivery.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"  >nul
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
+			GOTO Exorcist
+ 
+			:ExorcistBYBL  
+			set tempcarname=Hennessey_CamaroExorcistRewardRecycled_2017BYBL 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Hennessey/Exorcist/BrightYellowwithBlackLivery.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"  >nul
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
+			GOTO Exorcist
+ 
+			:ExorcistGRTBL  
+			set tempcarname=Hennessey_CamaroExorcistRewardRecycled_2017GRTBL 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Hennessey/Exorcist/GarnetRedTintcoatwithBlackLivery.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"  >nul
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
+			GOTO Exorcist
+ 
+			:ExorcistHBBL  
+			set tempcarname=Hennessey_CamaroExorcistRewardRecycled_2017HBBL 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Hennessey/Exorcist/HyperBluewithBlackLivery.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"  >nul
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
+			GOTO Exorcist
+ 
+			:ExorcistKGBL  
+			set tempcarname=Hennessey_CamaroExorcistRewardRecycled_2017KGBL 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Hennessey/Exorcist/KryptonGreenwithBlackLivery.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"  >nul
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
+			GOTO Exorcist
+ 
+			:ExorcistMBRL  
+			set tempcarname=Hennessey_CamaroExorcistRewardRecycled_2017MBRL 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Hennessey/Exorcist/MosaicBlackwithRedLivery(RewardCopycat).txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"  >nul
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
+			GOTO Exorcist
+ 
+			:ExorcistNGBL  
+			set tempcarname=Hennessey_CamaroExorcistRewardRecycled_2017NGBL 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Hennessey/Exorcist/NightfallGraywithBlackLivery.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"  >nul
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
+			GOTO Exorcist
+ 
+			:ExorcistRHBL  
+			set tempcarname=Hennessey_CamaroExorcistRewardRecycled_2017RHBL 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Hennessey/Exorcist/RedHotwithBlackLivery.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"  >nul
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
+			GOTO Exorcist
+ 
+			:ExorcistSIBL  
+			set tempcarname=Hennessey_CamaroExorcistRewardRecycled_2017SIBL 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Hennessey/Exorcist/SilverIcewithBlackLivery.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"  >nul
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
+			GOTO Exorcist
+ 
+			:ExorcistSWBLRL  
+			set tempcarname=Hennessey_CamaroExorcistRewardRecycled_2017SWBLRL 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Hennessey/Exorcist/SummitWhitewithBlackLiveryRedLogo.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"  >nul
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
+			GOTO Exorcist
+ 
+			Rem Start of Venom GT:
+
+			:VenomGTBM  
+			set tempcarname=Hennessey_VenomGT_2012BM 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Hennessey/VenomGT/BlackMica.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO VenomGTCon 
+ 
+			:VenomGTCR  
+			set tempcarname=Hennessey_VenomGT_2012CR 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Hennessey/VenomGT/CarmineRed.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO VenomGTCon 
+ 
+			:VenomGTCY  
+			set tempcarname=Hennessey_VenomGT_2012CY 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Hennessey/VenomGT/CarnotiteYellow.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO VenomGTCon 
+ 
+			:VenomGTV  
+			set tempcarname=Hennessey_VenomGT_2012V 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Hennessey/VenomGT/Verdelet.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO VenomGTCon 
+ 
+			:VenomGTZ  
+			set tempcarname=Hennessey_VenomGT_2012Z 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Hennessey/VenomGT/Zirconium.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO VenomGTCon 
+ 
+			Rem Start of Venom GT Spyder:
+
+			:VenomGTSpyderReward  
+			set tempcarname=Hennessey_VenomGTSpyderReward_2016 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Hennessey/VenomGTSpyder/RewardWREEdition.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO VenomGTSpyderCon 
+ 
+			:VenomGTSpyderRewardGold  
+			set tempcarname=Hennessey_VenomGTSpyderRewardGold_2016
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Hennessey/VenomGTSpyder/GoldRewardFinalEdition.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO VenomGTSpyderCon 
+ 
+			:VenomGTSpyderBMRW  
+			set tempcarname=Hennessey_VenomGTSpyderRewardRecycled_2016BMRW 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Hennessey/VenomGTSpyder/BlackMicaRedWheels.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO VenomGTSpyderCon 
+ 
+			:VenomGTSpyderBMSW  
+			set tempcarname=Hennessey_VenomGTSpyderRewardRecycled_2016BMSW 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Hennessey/VenomGTSpyder/BlackMicaSilverWheel.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO VenomGTSpyderCon 
+ 
+			:VenomGTSpyderCR  
+			set tempcarname=Hennessey_VenomGTSpyderRewardRecycled_2016CR 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Hennessey/VenomGTSpyder/CarmineRed.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO VenomGTSpyderCon 
+ 
+			:VenomGTSpyderCY  
+			set tempcarname=Hennessey_VenomGTSpyderRewardRecycled_2016CY 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Hennessey/VenomGTSpyder/CarnotiteYellow.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO VenomGTSpyderCon 
+ 
+			:VenomGTSpyderP  
+			set tempcarname=Hennessey_VenomGTSpyderRewardRecycled_2016P 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Hennessey/VenomGTSpyder/Pumpkin.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO VenomGTSpyderCon 
+ 
+			:VenomGTSpyderUG  
+			set tempcarname=Hennessey_VenomGTSpyderRewardRecycled_2016UG 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Hennessey/VenomGTSpyder/UltimateGreen.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO VenomGTSpyderCon 
+ 
+			:VenomGTSpyderV  
+			set tempcarname=Hennessey_VenomGTSpyderRewardRecycled_2016V 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Hennessey/VenomGTSpyder/Verdelet.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO VenomGTSpyderCon 
+ 
+			:VenomGTSpyderZ  
+			set tempcarname=Hennessey_VenomGTSpyderRewardRecycled_2016Z 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Hennessey/VenomGTSpyder/Zirconium.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO VenomGTSpyderCon 
+ 
+			Rem Start of Honda:
+			Rem Start of Civic 1.5 Vtec:
+
+			:Civic15AngelBoss  
+			set tempcarname=Honda_Civic15Vtec_1994AngelBoss 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Honda/Civic15Vtec/AngelsBossCar.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO Civic15Con 
+ 
+			:Civic15BSB  
+			set tempcarname=Honda_Civic15Vtec_1994BSB 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Honda/Civic15Vtec/BrilliantSportyBlue.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO Civic15Con 
+ 
+			:Civic15CW  
+			set tempcarname=Honda_Civic15Vtec_1994CW 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Honda/Civic15Vtec/ChampionshipWhite.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO Civic15Con 
+ 
+			:Civic15CB  
+			set tempcarname=Honda_Civic15Vtec_1994CB 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Honda/Civic15Vtec/CrystalBlack.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO Civic15Con 
+ 
+			:Civic15MR  
+			set tempcarname=Honda_Civic15Vtec_1994MR 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Honda/Civic15Vtec/MilanoRed.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO Civic15Con 
+ 
+			:Civic15PM  
+			set tempcarname=Honda_Civic15Vtec_1994PM 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Honda/Civic15Vtec/PolishedMetal.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO Civic15Con 
+ 
+ 			Rem Start of Civic Type R:
+
+			:CivicTypeRAB  
+			set tempcarname=Honda_CivicTypeR_2017AB 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Honda/CivicTypeR/AegeanBlue.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO CivicTypeRCon 
+ 
+			:CivicTypeRCW  
+			set tempcarname=Honda_CivicTypeR_2017CW 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Honda/CivicTypeR/ChampionshipWhite.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO CivicTypeRCon 
+ 
+			:CivicTypeRCB  
+			set tempcarname=Honda_CivicTypeR_2017CB 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Honda/CivicTypeR/CrystalBlack.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO CivicTypeRCon 
+ 
+			:CivicTypeRPM  
+			set tempcarname=Honda_CivicTypeR_2017PM 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Honda/CivicTypeR/PolishedMetal.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO CivicTypeRCon 
+ 
+			:CivicTypeRRR  
+			set tempcarname=Honda_CivicTypeR_2017RR 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Honda/CivicTypeR/RallyeRed.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO CivicTypeRCon 
+ 
+			Rem Start of NSX Type R Classic
+			
+			:NSXClassicR
+			set tempcarname=Honda_NSXRClassic_1992
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Honda/NSX-R/NSXRClassic.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO CivicTypeRCon 
+ 
+			Rem Start of NSX
+			
+			:NSXReward  
+			set tempcarname=Honda_NSXReward_2017 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Honda/NSX/Reward.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO NSXCon 
+ 
+			:NSX130RW  
+			set tempcarname=Honda_NSXRewardRecycled_2017130RW 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Honda/NSX/130RWhite.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO NSXCon 
+ 
+			:NSXBBBASW  
+			set tempcarname=Honda_NSXRewardRecycled_2017BBBASW 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Honda/NSX/BerlinaBlackBandSWheels.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO NSXCon 
+ 
+			:NSXBBSW  
+			set tempcarname=Honda_NSXRewardRecycled_2017BBSW 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Honda/NSX/BerlinaBlackSWheels.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO NSXCon 
+ 
+			:NSXCW  
+			set tempcarname=Honda_NSXRewardRecycled_2017CW 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Honda/NSX/CasinoWhite.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO NSXCon 
+ 
+			:NSXCR  
+			set tempcarname=Honda_NSXRewardRecycled_2017CR 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Honda/NSX/CurvaRed.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO NSXCon 
+ 
+			:NSXNG  
+			set tempcarname=Honda_NSXRewardRecycled_2017NG 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Honda/NSX/NorthGray.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO NSXCon 
+ 
+			:NSXNBRC  
+			set tempcarname=Honda_NSXRewardRecycled_2017NBRC 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Honda/NSX/NouvelleBlueRedCalipers.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO NSXCon 
+ 
+			:NSXNBWC  
+			set tempcarname=Honda_NSXRewardRecycled_2017NBWC 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Honda/NSX/NouvelleBlueWhiteCalipers.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO NSXCon 
+ 
+			:NSXSS  
+			set tempcarname=Honda_NSXRewardRecycled_2017SS 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Honda/NSX/SourceSilver.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO NSXCon 
+ 
+			Rem Start of Liberty Walk NSX
+			
+			:LBNSXReward  
+			set tempcarname=Honda_LBNSXReward_2017
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Honda/LBNSX/Reward.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO LBNSXCon 
+ 
+			:LBNSX7WGBAGW  
+			set tempcarname=Honda_LBNSXRewardRecycled_20177WGBAGW 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Honda/LBNSX/7WGreenBlackandGreenWheels.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO LBNSXCon 
+ 
+			:LBNSX7WGBLBAGW  
+			set tempcarname=Honda_LBNSXRewardRecycled_20177WGBLBAGW 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Honda/LBNSX/7WGreenBlackLiveryBlackandGreenWheels.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO LBNSXCon 
+ 
+			:LBNSX7WGBLBW  
+			set tempcarname=Honda_LBNSXRewardRecycled_20177WGBLBW 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Honda/LBNSX/7WGreenBlackLiveryBlackWheels.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO LBNSXCon 
+ 
+			:LBNSX7WGBW  
+			set tempcarname=Honda_LBNSXRewardRecycled_20177WGBW 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Honda/LBNSX/7WGreenBlackWheels.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO LBNSXCon 
+ 
+			:LBNSXCWLSW  
+			set tempcarname=Honda_LBNSXRewardRecycled_2017CWLSW 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Honda/LBNSX/CalypsoWhiteLiverySilverWheels.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO LBNSXCon 
+ 
+			:LBNSXCBBABW  
+			set tempcarname=Honda_LBNSXRewardRecycled_2017CBBABW 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Honda/LBNSX/CrystalBlackBlackandBronzeWheels.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO LBNSXCon 
+ 
+			:LBNSXCBBAGW  
+			set tempcarname=Honda_LBNSXRewardRecycled_2017CBBAGW 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Honda/LBNSX/CrystalBlackBlackandGreenWheels.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO LBNSXCon 
+ 
+			:LBNSXCBBW  
+			set tempcarname=Honda_LBNSXRewardRecycled_2017CBBW 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Honda/LBNSX/CrystalBlackBlackWheels.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO LBNSXCon 
+ 
+			:LBNSXCBBLBABW  
+			set tempcarname=Honda_LBNSXRewardRecycled_2017CBBLBABW 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Honda/LBNSX/CrystalBlackBronzeLiveryBlackandBronzeWheels.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO LBNSXCon 
+ 
+			:LBNSXCBGLBAGW  
+			set tempcarname=Honda_LBNSXRewardRecycled_2017CBGLBAGW 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Honda/LBNSX/CrystalBlackGreenLiveryBlackandGreenWheels.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO LBNSXCon 
+ 
+			:LBNSXCBPLBAPW  
+			set tempcarname=Honda_LBNSXRewardRecycled_2017CBPLBAPW 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Honda/LBNSX/CrystalBlackPinkLiveryBlackandPinkWheels.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO LBNSXCon 
+ 
+			:LBNSXCBRLRW  
+			set tempcarname=Honda_LBNSXRewardRecycled_2017CBRLRW 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Honda/LBNSX/CrystalBlackRedLiveryRedWheels.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO LBNSXCon 
+ 
+			:LBNSXCBRW  
+			set tempcarname=Honda_LBNSXRewardRecycled_2017CBRW 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Honda/LBNSX/CrystalBlackRedWheels.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO LBNSXCon 
+ 
+			:LBNSXCBWLBW  
+			set tempcarname=Honda_LBNSXRewardRecycled_2017CBWLBW 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Honda/LBNSX/CrystalBlackWhiteLiveryBlackWheels.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO LBNSXCon 
+ 
+			:LBNSXNBBW  
+			set tempcarname=Honda_LBNSXRewardRecycled_2017NBBW 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Honda/LBNSX/NouvelleBlueBlackWheels.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO LBNSXCon 
+ 
+			:LBNSXNBSW  
+			set tempcarname=Honda_LBNSXRewardRecycled_2017NBSW 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Honda/LBNSX/NouvelleBlueSilverWheels.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO LBNSXCon 
+ 
+			:LBNSXNBWLBW  
+			set tempcarname=Honda_LBNSXRewardRecycled_2017NBWLBW 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Honda/LBNSX/NouvelleBlueWhiteLiveryBlackWheels.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO LBNSXCon 
+ 
+			:LBNSXNBWLSW  
+			set tempcarname=Honda_LBNSXRewardRecycled_2017NBWLSW 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Honda/LBNSX/NouvelleBlueWhiteLiverySilverWheels.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO LBNSXCon 
+ 
+			:LBNSXPWLSW  
+			set tempcarname=Honda_LBNSXRewardRecycled_2017PWLSW 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Honda/LBNSX/ParisWhiteLiverySilverWheels.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO LBNSXCon 
+ 
+			:LBNSXSBGBLBW  
+			set tempcarname=Honda_LBNSXRewardRecycled_2017SBGBLBW 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Honda/LBNSX/SatinBattleshipGrayBlackLiveryBlackWheels.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO LBNSXCon 
+ 
+			:LBNSXSBLBW  
+			set tempcarname=Honda_LBNSXRewardRecycled_2017SBLBW 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Honda/LBNSX/SupernovaBlackLiveryBlackWheels.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO LBNSXCon 
+ 
+			:LBNSXTBLWBABW  
+			set tempcarname=Honda_LBNSXRewardRecycled_2017TBLWBABW 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Honda/LBNSX/ThunderBlackLiveryBlackandBronzeWheels.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO LBNSXCon 
+ 
+			:LBNSXVRBLBW  
+			set tempcarname=Honda_LBNSXRewardRecycled_2017VRBLBW 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Honda/LBNSX/ValenciaRedBlackLiveryBlackWheels.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO LBNSXCon 
+ 
+			:LBNSXVRBLRW  
+			set tempcarname=Honda_LBNSXRewardRecycled_2017VRBLRW 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Honda/LBNSX/ValenciaRedBlackLiveryRedWheels.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO LBNSXCon 
+ 
+			:LBNSXVRBW  
+			set tempcarname=Honda_LBNSXRewardRecycled_2017VRBW 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Honda/LBNSX/ValenciaRedBlackWheels.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO LBNSXCon 
+ 
+			:LBNSXVRRW  
+			set tempcarname=Honda_LBNSXRewardRecycled_2017VRRW 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Honda/LBNSX/ValenciaRedRedWheels.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO LBNSXCon 
+ 
+			:LBNSXWPBLBAPW  
+			set tempcarname=Honda_LBNSXRewardRecycled_2017WPBLBAPW 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Honda/LBNSX/WarriorPinkBlackLiveryBlackandPinkWheels.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO LBNSXCon 
+ 
+			:LBNSXWPBLBW  
+			set tempcarname=Honda_LBNSXRewardRecycled_2017WPBLBW 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Honda/LBNSX/WarriorPinkBlackLiveryBlackWheels.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO LBNSXCon 
+ 
+			Rem Start Suki s20000 for honda:
+			
+			:SukiS2kCar
+			set tempcarname=Honda_S2000F2_2001
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/FastandFurious/SukiS2000.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"
+			GOTO SukiS2k
+			
+			Rem start of Hyundai:
+			Rem start of Veloster Spec R
+			
+			:VelosterBR  
+			set tempcarname=Hyundai_VelosterTurboRSpec_2014BR 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Hyundai/Veloster/BostonRed.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO VelosterCon 
+ 
+			:VelosterEWBI  
+			set tempcarname=Hyundai_VelosterTurboRSpec_2014EWBI 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Hyundai/Veloster/EliteWhiteBlackInt.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO VelosterCon 
+ 
+			:VelosterEWGI  
+			set tempcarname=Hyundai_VelosterTurboRSpec_2014EWGI 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Hyundai/Veloster/EliteWhiteGreyInt.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO VelosterCon 
+ 
+			:VelosterLGBI  
+			set tempcarname=Hyundai_VelosterTurboRSpec_2014LGBI 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Hyundai/Veloster/LimeGreenBlackInt.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO VelosterCon 
+ 
+			:VelosterMBBI  
+			set tempcarname=Hyundai_VelosterTurboRSpec_2014MBBI 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Hyundai/Veloster/MarathonBlueBlackInt.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO VelosterCon 
+ 
+			:VelosterMBGI  
+			set tempcarname=Hyundai_VelosterTurboRSpec_2014MBGI 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Hyundai/Veloster/MarathonBlueGreyInt.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO VelosterCon 
+ 
+			:VelosterSGGI  
+			set tempcarname=Hyundai_VelosterTurboRSpec_2014SGGI 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Hyundai/Veloster/SprintGrayGreyInt.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO VelosterCon 
+ 
+			:VelosterSGTI  
+			set tempcarname=Hyundai_VelosterTurboRSpec_2014SGTI 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Hyundai/Veloster/SprintGrayTanInt.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO VelosterCon 
+ 
+			:VelosterUBBI  
+			set tempcarname=Hyundai_VelosterTurboRSpec_2014UBBI 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Hyundai/Veloster/UltraBlackBlackInt.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO VelosterCon 
+ 
+			:VelosterUBGI  
+			set tempcarname=Hyundai_VelosterTurboRSpec_2014UBGI 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Hyundai/Veloster/UltraBlackGreyInt.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO VelosterCon 
+ 
+			:VelosterVC  
+			set tempcarname=Hyundai_VelosterTurboRSpec_2014VC 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Hyundai/Veloster/VitaminC.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO VelosterCon 
+ 
+			Rem Start of Veloster Ark:
+			
+			:VelosterARKPerfBR  
+			set tempcarname=Hyundai_VelosterTurboRSpecARK_2014BR 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Hyundai/VelosterArk/BostonRed.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO VelosterARKPerfCon 
+ 
+			:VelosterARKPerfK  
+			set tempcarname=Hyundai_VelosterTurboRSpecARK_2014K 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Hyundai/VelosterArk/Keyshia.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO VelosterARKPerfCon 
+ 
+			:VelosterARKPerfMB  
+			set tempcarname=Hyundai_VelosterTurboRSpecARK_2014MB 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Hyundai/VelosterArk/MarathonBlue.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO VelosterARKPerfCon 
+ 
+			:VelosterARKPerfUB  
+			set tempcarname=Hyundai_VelosterTurboRSpecARK_2014UB 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Hyundai/VelosterArk/UltraBlack.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO VelosterARKPerfCon 
+ 
+			Rem Start of Jaguar:
+			Rem Start of CX75 Prototype
+
+			:CX75Reward  
+			set tempcarname=Jaguar_CX75PrototypeReward_2013
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Jaguar/CX75/Reward.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO CX75Con 
+ 
+			:CX75BRGGS  
+			set tempcarname=Jaguar_CX75PrototypeRewardRecycled_2013BRGGS 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Jaguar/CX75/BritishRacingGreenGreyStripes.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO CX75Con 
+ 
+			:CX75CB  
+			set tempcarname=Jaguar_CX75PrototypeRewardRecycled_2013CB 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Jaguar/CX75/CaesiumBlue.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO CX75Con 
+ 
+			:CX75DSGS  
+			set tempcarname=Jaguar_CX75PrototypeRewardRecycled_2013DSGS 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Jaguar/CX75/DarkSapphireGreyStripes.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO CX75Con 
+ 
+			:CX75F  
+			set tempcarname=Jaguar_CX75PrototypeRewardRecycled_2013F 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Jaguar/CX75/Firesand.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO CX75Con 
+ 
+			:CX75RSDBSWL  
+			set tempcarname=Jaguar_CX75PrototypeRewardRecycled_2013RSDBSWL 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Jaguar/CX75/RhodiumSilverDarkBlueStripeswithLogo.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO CX75Con 
+ 
+			:CX75SG  
+			set tempcarname=Jaguar_CX75PrototypeRewardRecycled_2013SG 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Jaguar/CX75/SilverstoneGreen.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO CX75Con 
+ 
+			:CX75SRRBS  
+			set tempcarname=Jaguar_CX75PrototypeRewardRecycled_2013SRRBS 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Jaguar/CX75/SpectralRacingRedBlackStripes.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO CX75Con 
+ 
+			:CX75UBLBS  
+			set tempcarname=Jaguar_CX75PrototypeRewardRecycled_2013UBLBS 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Jaguar/CX75/UltimateBlackLightBlueStripes.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO CX75Con 
+ 
+			Rem start of F Type R:
+			
+			:FTypeRBRG  
+			set tempcarname=Jaguar_FTypeRCoupe_2016BRG 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Jaguar/FTypeCoupe/BritishRacingGreen.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO FTypeRCon 
+ 
+			:FTypeRBRGGFS  
+			set tempcarname=Jaguar_FTypeRCoupe_2016BRGGFS 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Jaguar/FTypeCoupe/BritishRacingGreenGreyFenderStripe.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO FTypeRCon 
+ 
+			:FTypeRCRBFS  
+			set tempcarname=Jaguar_FTypeRCoupe_2016CRBFS 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Jaguar/FTypeCoupe/CalderaRedBlackFenderStripe.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO FTypeRCon 
+ 
+			:FTypeRCRBLT  
+			set tempcarname=Jaguar_FTypeRCoupe_2016CRBLT 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Jaguar/FTypeCoupe/CalderaRedBlackLowerTrim.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO FTypeRCon 
+ 
+			:FTypeREB  
+			set tempcarname=Jaguar_FTypeRCoupe_2016EB 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Jaguar/FTypeCoupe/EbonyBlack.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO FTypeRCon 
+ 
+			:FTypeRF  
+			set tempcarname=Jaguar_FTypeRCoupe_2016F 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Jaguar/FTypeCoupe/Firesand.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO FTypeRCon 
+ 
+			:FTypeRFBFS  
+			set tempcarname=Jaguar_FTypeRCoupe_2016FBFS 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Jaguar/FTypeCoupe/FiresandBlackFenderStripe.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO FTypeRCon 
+ 
+			:FTypeRGW  
+			set tempcarname=Jaguar_FTypeRCoupe_2016GW 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Jaguar/FTypeCoupe/GlacierWhite.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO FTypeRCon 
+ 
+			:FTypeRGWBFS  
+			set tempcarname=Jaguar_FTypeRCoupe_2016GWBFS 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Jaguar/FTypeCoupe/GlacierWhiteBlackFenderStripe.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO FTypeRCon 
+ 
+			:FTypeRGWBLT  
+			set tempcarname=Jaguar_FTypeRCoupe_2016GWBLT 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Jaguar/FTypeCoupe/GlacierWhiteBlackLowerTrim.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO FTypeRCon 
+ 
+			:FTypeRSHAW  
+			set tempcarname=Jaguar_FTypeRCoupe_2016SHAW 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Jaguar/FTypeCoupe/ShawFTypeR.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO FTypeRCon 
+ 
+			:FTypeRSG  
+			set tempcarname=Jaguar_FTypeRCoupe_2016SG 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Jaguar/FTypeCoupe/StratusGrey.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO FTypeRCon 
+ 
+			:FTypeRUB  
+			set tempcarname=Jaguar_FTypeRCoupe_2016UB 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Jaguar/FTypeCoupe/UltimateBlack.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO FTypeRCon 
+ 
+			:FTypeRUBGFS  
+			set tempcarname=Jaguar_FTypeRCoupe_2016UBGFS 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Jaguar/FTypeCoupe/UltimateBlackGreyFenderStripe.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO FTypeRCon 
+ 
+			:FTypeRULTRAB  
+			set tempcarname=Jaguar_FTypeRCoupe_2016ULTRAB 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Jaguar/FTypeCoupe/UltraBlue.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO FTypeRCon 
+ 
+			:FTypeRULTRABBFS  
+			set tempcarname=Jaguar_FTypeRCoupe_2016ULTRABBFS 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Jaguar/FTypeCoupe/UltraBlueBlackFenderStripe.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO FTypeRCon 
+ 
+			Rem Start of F Type SVR:
+			
+			:FTypeSVRReward  
+			set tempcarname=Jaguar_FTypeSVRCoupeRewardRecycled_2019Reward 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Jaguar/FTypeSVRCoupe/Reward.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO FTypeSVRCon 
+ 
+			:FTypeSVRFG  
+			set tempcarname=Jaguar_FTypeSVRCoupeRewardRecycled_2019FG 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Jaguar/FTypeSVRCoupe/FluxGrey.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO FTypeSVRCon 
+ 
+			:FTypeSVRLB  
+			set tempcarname=Jaguar_FTypeSVRCoupeRewardRecycled_2019LB 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Jaguar/FTypeSVRCoupe/LigurianBlack.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO FTypeSVRCon 
+ 
+			:FTypeSVRMO  
+			set tempcarname=Jaguar_FTypeSVRCoupeRewardRecycled_2019MO 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Jaguar/FTypeSVRCoupe/MadagascarOrange.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO FTypeSVRCon 
+ 
+			:FTypeSVRSB  
+			set tempcarname=Jaguar_FTypeSVRCoupeRewardRecycled_2019SB 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Jaguar/FTypeSVRCoupe/SantoriniBlack.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO FTypeSVRCon 
+ 
+			:FTypeSVRSRR  
+			set tempcarname=Jaguar_FTypeSVRCoupeRewardRecycled_2019SRR 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Jaguar/FTypeSVRCoupe/SpectralRacingRed.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO FTypeSVRCon 
+ 
+			:FTypeSVRVW  
+			set tempcarname=Jaguar_FTypeSVRCoupeRewardRecycled_2019VW 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Jaguar/FTypeSVRCoupe/ValloireWhite.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO FTypeSVRCon 
+ 
+			:FTypeSVRVB  
+			set tempcarname=Jaguar_FTypeSVRCoupeRewardRecycled_2019VB 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Jaguar/FTypeSVRCoupe/VelocityBlue.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO FTypeSVRCon 
+ 
+			Rem start to Project 7's
+			
+			:VictorProject7
+			set tempcarname=Jaguar_Project7Boss_2016
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Jaguar/Project7/VictorProject7.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO Project7Boss
+ 
+ 			:VIPProject7  
+			set tempcarname=Jaguar_Project7VIP_2016
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Jaguar/Project7/VIP.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO Project7VIP 
+ 
+			Rem start of XE SV Project 8:
+			
+			:XESVProject8Reward  
+			set tempcarname=Jaguar_XESVProject8Reward_2018
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Jaguar/XESVProject8/Reward.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO XESVProject8Con 
+ 
+			:XESVProject8Caldera Red  
+			set tempcarname=Jaguar_XESVProject8RewardRecycled_2018Caldera Red 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Jaguar/XESVProject8/CalderaRed.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO XESVProject8Con 
+ 
+			:XESVProject8CRBJL  
+			set tempcarname=Jaguar_XESVProject8RewardRecycled_2018CRBJL 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Jaguar/XESVProject8/CalderaRedBlackJagLivery.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO XESVProject8Con 
+ 
+			:XESVProject8CG  
+			set tempcarname=Jaguar_XESVProject8RewardRecycled_2018CG 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Jaguar/XESVProject8/CorrisGrey.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO XESVProject8Con 
+ 
+			:XESVProject8CGBJL  
+			set tempcarname=Jaguar_XESVProject8RewardRecycled_2018CGBJL 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Jaguar/XESVProject8/CorrisGreyBronzeJagLivery.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO XESVProject8Con 
+ 
+			:XESVProject8FWBJL  
+			set tempcarname=Jaguar_XESVProject8RewardRecycled_2018FWBJL 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Jaguar/XESVProject8/FujiWhiteBlackJagLivery.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO XESVProject8Con 
+ 
+			:XESVProject8MW  
+			set tempcarname=Jaguar_XESVProject8RewardRecycled_2018MW 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Jaguar/XESVProject8/MeribelWhite.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO XESVProject8Con 
+ 
+			:XESVProject8NB  
+			set tempcarname=Jaguar_XESVProject8RewardRecycled_2018NB 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Jaguar/XESVProject8/NarvikBlack.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO XESVProject8Con 
+ 
+			:XESVProject8NBGJL  
+			set tempcarname=Jaguar_XESVProject8RewardRecycled_2018NBGJL 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Jaguar/XESVProject8/NarvikBlackGreyJagLivery.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO XESVProject8Con 
+ 
+			:XESVProject8VO  
+			set tempcarname=Jaguar_XESVProject8RewardRecycled_2018VO 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Jaguar/XESVProject8/ValenciaOrange.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO XESVProject8Con 
+ 
+			:XESVProject8VOBJL  
+			set tempcarname=Jaguar_XESVProject8RewardRecycled_2018VOBJL 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Jaguar/XESVProject8/ValenciaOrangeBlackJagLivery.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO XESVProject8Con 
+ 
+			:XESVProject8VB  
+			set tempcarname=Jaguar_XESVProject8RewardRecycled_2018VB 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Jaguar/XESVProject8/VelocityBlue.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO XESVProject8Con 
+ 
+			:XESVProject8VBGJL  
+			set tempcarname=Jaguar_XESVProject8RewardRecycled_2018VBGJL 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Jaguar/XESVProject8/VelocityBlueGreyJagLivery.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO XESVProject8Con 
+ 
+			:XESVProject8VS  
+			set tempcarname=Jaguar_XESVProject8RewardRecycled_2018VS 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Jaguar/XESVProject8/VerbierSilver.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO XESVProject8Con 
+ 
+			:XESVProject8VSBJL  
+			set tempcarname=Jaguar_XESVProject8RewardRecycled_2018VSBJL 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Jaguar/XESVProject8/VerbierSilverBlackJagLivery.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO XESVProject8Con 
+ 
+			Rem start of XJ220:
+			
+			:XJ220R  
+			set tempcarname=Jaguar_XJ220Classic_1993
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Jaguar/XJ220/XJ220Classic.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO XJ220 
+
+			Rem start of Jeep:
+			Rem start of Trackhawk Grand Cherokee:
+			
+			:JeepBSW1  
+			set tempcarname=Jeep_GrandCherokeeTrackhawk_2018BSW1 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Jeep/GrandCherokeeTrackhawk/BilletSilverWheel1.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO JeepCon 
+ 
+			:JeepBSW2  
+			set tempcarname=Jeep_GrandCherokeeTrackhawk_2018BSW2 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Jeep/GrandCherokeeTrackhawk/BilletSilverWheel2.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO JeepCon 
+ 
+			:JeepBWW1  
+			set tempcarname=Jeep_GrandCherokeeTrackhawk_2018BWW1 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Jeep/GrandCherokeeTrackhawk/BrightWhiteWheel1.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO JeepCon 
+ 
+			:JeepBWW2  
+			set tempcarname=Jeep_GrandCherokeeTrackhawk_2018BWW2 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Jeep/GrandCherokeeTrackhawk/BrighWhiteWheel2.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO JeepCon 
+ 
+			:JeepDBW1  
+			set tempcarname=Jeep_GrandCherokeeTrackhawk_2018DBW1 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Jeep/GrandCherokeeTrackhawk/DiamondBlackWheel1.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO JeepCon 
+ 
+			:JeepDBW2  
+			set tempcarname=Jeep_GrandCherokeeTrackhawk_2018DBW2 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Jeep/GrandCherokeeTrackhawk/DiamondBlackWheel2.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO JeepCon 
+ 
+			:JeepGCW1  
+			set tempcarname=Jeep_GrandCherokeeTrackhawk_2018GCW1 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Jeep/GrandCherokeeTrackhawk/GraniteCrystalWheel1.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO JeepCon 
+ 
+			:JeepGCW2  
+			set tempcarname=Jeep_GrandCherokeeTrackhawk_2018GCW2 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Jeep/GrandCherokeeTrackhawk/GraniteCrystalWheel2.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO JeepCon 
+ 
+			:JeepIW1  
+			set tempcarname=Jeep_GrandCherokeeTrackhawk_2018IW1 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Jeep/GrandCherokeeTrackhawk/IvoryWheel1.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO JeepCon 
+ 
+			:JeepIW2  
+			set tempcarname=Jeep_GrandCherokeeTrackhawk_2018IW2 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Jeep/GrandCherokeeTrackhawk/IvoryWheel2.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO JeepCon 
+ 
+			:JeepR2W1  
+			set tempcarname=Jeep_GrandCherokeeTrackhawk_2018R2W1 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Jeep/GrandCherokeeTrackhawk/Redline2Wheel1.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO JeepCon 
+ 
+			:JeepR2W2  
+			set tempcarname=Jeep_GrandCherokeeTrackhawk_2018R2W2 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Jeep/GrandCherokeeTrackhawk/Redline2Wheel2.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO JeepCon 
+ 
+			:JeepRW1  
+			set tempcarname=Jeep_GrandCherokeeTrackhawk_2018RW1 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Jeep/GrandCherokeeTrackhawk/RhinoWheel1.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO JeepCon 
+ 
+			:JeepRW2  
+			set tempcarname=Jeep_GrandCherokeeTrackhawk_2018RW2 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Jeep/GrandCherokeeTrackhawk/RhinoWheel2.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO JeepCon 
+ 
+			:JeepTBW1  
+			set tempcarname=Jeep_GrandCherokeeTrackhawk_2018TBW1 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Jeep/GrandCherokeeTrackhawk/TrueBlueWheel1.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO JeepCon 
+ 
+			:JeepTBW2  
+			set tempcarname=Jeep_GrandCherokeeTrackhawk_2018TBW2 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Jeep/GrandCherokeeTrackhawk/TrueBlueWheel2.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO JeepCon 
+ 
+			:JeepVRW1  
+			set tempcarname=Jeep_GrandCherokeeTrackhawk_2018VRW1 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Jeep/GrandCherokeeTrackhawk/VelvetRedWheel1.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO JeepCon 
+ 
+			:JeepVRW2  
+			set tempcarname=Jeep_GrandCherokeeTrackhawk_2018VRW2 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Jeep/GrandCherokeeTrackhawk/VelvetRedWheel2.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO JeepCon 
+ 
+			Rem Start of Koenigsegg:
+			Rem start of Agera R:
+
+			:ShaxAgeraR
+			set tempcarname=Koenigsegg_AgeraR_2013
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Koenigsegg/AgeraR/ShaxAgeraR.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO KoenigseggCon
+			
+			Rem start of Agera RS:
+			
+			:AgeraRSReward  
+			set tempcarname=Koenigsegg_AgeraRSReward_2017
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Koenigsegg/AgeraRS/Reward.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO AgeraRSCon 
+ 
+			:AgeraRSASOA  
+			set tempcarname=Koenigsegg_AgeraRSRewardRecycled_2017ASOA 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Koenigsegg/AgeraRS/AppleSilverwithOrangeAccents.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO AgeraRSCon 
+ 
+			:AgeraRSCO  
+			set tempcarname=Koenigsegg_AgeraRSRewardRecycled_2017CO 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Koenigsegg/AgeraRS/ConeOrange.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO AgeraRSCon 
+ 
+			:AgeraRSCOCB  
+			set tempcarname=Koenigsegg_AgeraRSRewardRecycled_2017COCB 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Koenigsegg/AgeraRS/ConeOrangewithCarbonBody.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO AgeraRSCon 
+ 
+			:AgeraRSGYBAYSW  
+			set tempcarname=Koenigsegg_AgeraRSRewardRecycled_2017GYBAYSW 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Koenigsegg/AgeraRS/GranitewithYellowandBlueAccentYellowStripeWheel.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO AgeraRSCon 
+ 
+			:AgeraRSJBRA  
+			set tempcarname=Koenigsegg_AgeraRSRewardRecycled_2017JBRA 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Koenigsegg/AgeraRS/JetBlackwithRedAccents.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO AgeraRSCon 
+ 
+			:AgeraRSNGCBNW  
+			set tempcarname=Koenigsegg_AgeraRSRewardRecycled_2017NGCBNW 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Koenigsegg/AgeraRS/NarayaGoldwithCarbonBodyNarayaWheels.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO AgeraRSCon 
+ 
+			:AgeraRSOBWABSW  
+			set tempcarname=Koenigsegg_AgeraRSRewardRecycled_2017OBWABSW 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Koenigsegg/AgeraRS/OceanBluewithWhiteAccentBlueStripeWheel.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO AgeraRSCon 
+ 
+			:AgeraRSPWCB  
+			set tempcarname=Koenigsegg_AgeraRSRewardRecycled_2017PWCB 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Koenigsegg/AgeraRS/PebbleWhitewithCarbonBody.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO AgeraRSCon 
+ 
+			:AgeraRSPWLBA  
+			set tempcarname=Koenigsegg_AgeraRSRewardRecycled_2017PWLBA 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Koenigsegg/AgeraRS/PebbleWhitewithLightBlueAccents.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO AgeraRSCon 
+ 
+			:AgeraRSPWRA  
+			set tempcarname=Koenigsegg_AgeraRSRewardRecycled_2017PWRA 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Koenigsegg/AgeraRS/PebbleWhitewithRedAccents.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO AgeraRSCon 
+ 
+			:AgeraRSSYRAMLEW  
+			set tempcarname=Koenigsegg_AgeraRSRewardRecycled_2017SYRAMLEW 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Koenigsegg/AgeraRS/SuedeYellowwithRedAccentsMLeditionWheels.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO AgeraRSCon 
+ 
+			:AgeraRSZPYA  
+			set tempcarname=Koenigsegg_AgeraRSRewardRecycled_2017ZPYA 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Koenigsegg/AgeraRS/ZijinPurplewithYellowAccent.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO AgeraRSCon 
+ 
+			Rem start of Jesko:
+
+			:JeskoWhite
+			set tempcarname=Koenigsegg_Jesko_2020
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Koenigsegg/Jesko/JeskoWhite.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO KoenigseggCon
+			
+			Rem Start of One:1:
+			
+			:One1AS  
+			set tempcarname=Koenigsegg_One1_2014AS 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Koenigsegg/One1/AppleSilver.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO One1Con 
+ 
+			:One1BB  
+			set tempcarname=Koenigsegg_One1_2014BB 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Koenigsegg/One1/BlueBlood.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO One1Con 
+ 
+			:One1BO  
+			set tempcarname=Koenigsegg_One1_2014BO 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Koenigsegg/One1/BurntOrange.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO One1Con 
+ 
+			:One1KR  
+			set tempcarname=Koenigsegg_One1_2014KR 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Koenigsegg/One1/KiteRed.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO One1Con 
+ 
+			:One1RB  
+			set tempcarname=Koenigsegg_One1_2014RB 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Koenigsegg/One1/RavenBlack.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO One1Con 
+ 
+			Rem Start of Regera:
+			
+			:RegeraReward  
+			set tempcarname=Koenigsegg_RegeraReward_2016
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Koenigsegg/Regera/Reward.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO RegeraCon 
+ 
+			:RegeraA  
+			set tempcarname=Koenigsegg_RegeraRewardRecycled_2016A 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Koenigsegg/Regera/Anthracite.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO RegeraCon 
+ 
+			:RegeraAW  
+			set tempcarname=Koenigsegg_RegeraRewardRecycled_2016AW 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Koenigsegg/Regera/ArcticWhite.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO RegeraCon 
+ 
+			:RegeraBGCC  
+			set tempcarname=Koenigsegg_RegeraRewardRecycled_2016BGCC 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Koenigsegg/Regera/BattleGreywithCarbonCenter.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO RegeraCon 
+ 
+			:RegeraCAR  
+			set tempcarname=Koenigsegg_RegeraRewardRecycled_2016CAR 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Koenigsegg/Regera/CandyAppleRed.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO RegeraCon 
+ 
+			:RegeraCBT  
+			set tempcarname=Koenigsegg_RegeraRewardRecycled_2016CBT 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Koenigsegg/Regera/CarbonBlueTint.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO RegeraCon 
+ 
+			:RegeraCGT  
+			set tempcarname=Koenigsegg_RegeraRewardRecycled_2016CGT 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Koenigsegg/Regera/CarbonGreenTint.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO RegeraCon 
+ 
+			:RegeraCPT  
+			set tempcarname=Koenigsegg_RegeraRewardRecycled_2016CPT 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Koenigsegg/Regera/CarbonPurpleTint.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO RegeraCon 
+ 
+			:RegeraCRT  
+			set tempcarname=Koenigsegg_RegeraRewardRecycled_2016CRT 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Koenigsegg/Regera/CarbonRedTint.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO RegeraCon 
+ 
+			:RegeraCRCC  
+			set tempcarname=Koenigsegg_RegeraRewardRecycled_2016CRCC 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Koenigsegg/Regera/ChiliRedCarbonCenter.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO RegeraCon 
+ 
+			:RegeraCOCC  
+			set tempcarname=Koenigsegg_RegeraRewardRecycled_2016COCC 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Koenigsegg/Regera/ConeOrangeCarbonCenter.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO RegeraCon 
+ 
+			:RegeraCW  
+			set tempcarname=Koenigsegg_RegeraRewardRecycled_2016CW 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Koenigsegg/Regera/CrystalWhite.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO RegeraCon 
+ 
+			:RegeraG  
+			set tempcarname=Koenigsegg_RegeraRewardRecycled_2016G 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Koenigsegg/Regera/Granite.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO RegeraCon 
+ 
+			:RegeraHB  
+			set tempcarname=Koenigsegg_RegeraRewardRecycled_2016HB 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Koenigsegg/Regera/HorizonBlue.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO RegeraCon 
+ 
+			:RegeraIB  
+			set tempcarname=Koenigsegg_RegeraRewardRecycled_2016IB 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Koenigsegg/Regera/ImperialBlue.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO RegeraCon 
+ 
+			:RegeraJBYI  
+			set tempcarname=Koenigsegg_RegeraRewardRecycled_2016JBYI 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Koenigsegg/Regera/JetBlackYellowInterior.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO RegeraCon 
+ 
+			:RegeraLBSGE  
+			set tempcarname=Koenigsegg_RegeraRewardRecycled_2016LBSGE 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Koenigsegg/Regera/LightBlueSportGenevaEdition.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO RegeraCon 
+ 
+			:RegeraMY  
+			set tempcarname=Koenigsegg_RegeraRewardRecycled_2016MY 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Koenigsegg/Regera/MellowYellow.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO RegeraCon 
+ 
+			:RegeraMG  
+			set tempcarname=Koenigsegg_RegeraRewardRecycled_2016MG 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Koenigsegg/Regera/MoonGrey.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO RegeraCon 
+ 
+			:RegeraNLCC  
+			set tempcarname=Koenigsegg_RegeraRewardRecycled_2016NLCC 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Koenigsegg/Regera/NordicLightwithCarbonCenter.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO RegeraCon 
+ 
+			:RegeraRBRAS  
+			set tempcarname=Koenigsegg_RegeraRewardRecycled_2016RBRAS 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Koenigsegg/Regera/RavenBlackRedAccentStripes.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO RegeraCon 
+ 
+			:RegeraSB  
+			set tempcarname=Koenigsegg_RegeraRewardRecycled_2016SB 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Koenigsegg/Regera/SkyBlue.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO RegeraCon 
+ 
+			:RegeraSM  
+			set tempcarname=Koenigsegg_RegeraRewardRecycled_2016SM 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Koenigsegg/Regera/SweetMandarine.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO RegeraCon 
+ 
+			:RegeraTO  
+			set tempcarname=Koenigsegg_RegeraRewardRecycled_2016TO 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Koenigsegg/Regera/TangerineOrange.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO RegeraCon 
+ 
+			:RegeraYY  
+			set tempcarname=Koenigsegg_RegeraRewardRecycled_2016YY 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Koenigsegg/Regera/YolkYellow.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO RegeraCon 
+ 
+			:RegeraGhostEdition 
+			set tempcarname=Koenigsegg_RegeraRewardGold_2016
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Koenigsegg/RegeraGhostEdition/GhostEdition.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO RegeraCon 
+ 
+			Rem start of KTM:
+			Rem start of X-Bow:
+			
+			:KTMBlack  
+			set tempcarname=KTM_XBowRRewardRecycled_2011Black 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/KTM/Black.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO KTMCon 
+ 
+			:KTMBlackL  
+			set tempcarname=KTM_XBowRRewardRecycled_2011BlackL 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/KTM/BlackwithLivery.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO KTMCon 
+ 
+			:KTMBlue  
+			set tempcarname=KTM_XBowRRewardRecycled_2011Blue 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/KTM/Blue.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO KTMCon 
+ 
+			:KTMBG  
+			set tempcarname=KTM_XBowRRewardRecycled_2011BG 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/KTM/BlueGauloise.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO KTMCon 
+ 
+			:KTMBGL  
+			set tempcarname=KTM_XBowRRewardRecycled_2011BGL 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/KTM/BlueGauloisewithLivery.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO KTMCon 
+ 
+			:KTMBlueL  
+			set tempcarname=KTM_XBowRRewardRecycled_2011BlueL 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/KTM/BluewithLivery.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO KTMCon 
+ 
+			:KTMFO  
+			set tempcarname=KTM_XBowRRewardRecycled_2011FO 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/KTM/FlameOrange.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO KTMCon 
+ 
+			:KTMFOL  
+			set tempcarname=KTM_XBowRRewardRecycled_2011FOL 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/KTM/FrameOrangewithLivery.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO KTMCon 
+ 
+			:KTMG  
+			set tempcarname=KTM_XBowRRewardRecycled_2011G 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/KTM/Green.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO KTMCon 
+ 
+			:KTMGL  
+			set tempcarname=KTM_XBowRRewardRecycled_2011GL 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/KTM/GreenwithLivery.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO KTMCon 
+ 
+			:KTMReward  
+			set tempcarname=KTM_XBowRRewardRecycled_2011Reward 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/KTM/Reward.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO KTMCon 
+ 
+			:KTMW  
+			set tempcarname=KTM_XBowRRewardRecycled_2011W 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/KTM/White.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO KTMCon 
+ 
+			:KTMWL  
+			set tempcarname=KTM_XBowRRewardRecycled_2011WL 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/KTM/WhitewithLivery.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO KTMCon 
+ 
+			:KTMY  
+			set tempcarname=KTM_XBowRRewardRecycled_2011Y 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/KTM/Yellow.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO KTMCon 
+ 
+			:KTMYL  
+			set tempcarname=KTM_XBowRRewardRecycled_2011YL 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/KTM/YellowwithLivery.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO KTMCon 
+ 
+			Rem start of Lamborghini:
+			Rem start of Aventador:
+			
+			:AventadorAPA  
+			set tempcarname=Lamborghini_AventadorLP7004_2011APA 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Lamborghini/Aventador/AdPersonamAzzurro.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO AventadorCon 
+ 
+			:AventadorAPABT  
+			set tempcarname=Lamborghini_AventadorLP7004_2011APABT 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Lamborghini/Aventador/AdPersonamAzzurroBlackTop.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO AventadorCon 
+ 
+			:AventadorAPBC  
+			set tempcarname=Lamborghini_AventadorLP7004_2011APBC 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Lamborghini/Aventador/AdPersonamBiancoCanopus.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO AventadorCon 
+ 
+			:AventadorAPGA  
+			set tempcarname=Lamborghini_AventadorLP7004_2011APGA 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Lamborghini/Aventador/AdPersonamGrigioAdmetus.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO AventadorCon 
+ 
+			:AventadorAPMA  
+			set tempcarname=Lamborghini_AventadorLP7004_2011APMA 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Lamborghini/Aventador/AdPersonamMarroneApus.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO AventadorCon 
+ 
+			:AventadorAPNN  
+			set tempcarname=Lamborghini_AventadorLP7004_2011APNN 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Lamborghini/Aventador/AdPersonamNeroNemesis.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO AventadorCon 
+ 
+			:AventadorAPRM  
+			set tempcarname=Lamborghini_AventadorLP7004_2011APRM 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Lamborghini/Aventador/AdPersonamRossoMars.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO AventadorCon 
+ 
+			:AventadorAPVM  
+			set tempcarname=Lamborghini_AventadorLP7004_2011APVM 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Lamborghini/Aventador/AdPersonamVerdeMantis.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO AventadorCon 
+ 
+			:AventadorAA  
+			set tempcarname=Lamborghini_AventadorLP7004_2011AA 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Lamborghini/Aventador/ArancioArgos.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO AventadorCon 
+ 
+			:AventadorBIBTRA  
+			set tempcarname=Lamborghini_AventadorLP7004_2011BIBTRA 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Lamborghini/Aventador/BiancoIsisBlackTopRedAccents.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO AventadorCon 
+ 
+			:AventadorBH  
+			set tempcarname=Lamborghini_AventadorLP7004_2011BH 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Lamborghini/Aventador/BluHera.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO AventadorCon 
+ 
+			:AventadorGO  
+			set tempcarname=Lamborghini_AventadorLP7004_2011GO 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Lamborghini/Aventador/GialloOrion.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO AventadorCon 
+ 
+			:AventadorGE  
+			set tempcarname=Lamborghini_AventadorLP7004_2011GE 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Lamborghini/Aventador/GrigioEstoque.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO AventadorCon 
+ 
+			:AventadorNNRA  
+			set tempcarname=Lamborghini_AventadorLP7004_2011NNRA 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Lamborghini/Aventador/NeroNoctisRedAccents.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO AventadorCon 
+ 
+			:AventadorNP  
+			set tempcarname=Lamborghini_AventadorLP7004_2011NP 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Lamborghini/Aventador/NeroPegaso.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO AventadorCon 
+ 
+			Rem start Aventador SV
+			
+			:AventadorSVAA  
+			set tempcarname=Lamborghini_AventadorLP7504Superveloce_2015AA 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Lamborghini/AventadorSV/ArancioAtlas.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO AventadorSVCon 
+ 
+			:AventadorSVBC  
+			set tempcarname=Lamborghini_AventadorLP7504Superveloce_2015BC 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Lamborghini/AventadorSV/BiancoCanopus.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO AventadorSVCon 
+ 
+			:AventadorSVBI  
+			set tempcarname=Lamborghini_AventadorLP7504Superveloce_2015BI 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Lamborghini/AventadorSV/BiancoIsis.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO AventadorSVCon 
+ 
+			:AventadorSVBS  
+			set tempcarname=Lamborghini_AventadorLP7504Superveloce_2015BS 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Lamborghini/AventadorSV/BluSideris.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO AventadorSVCon 
+ 
+			:AventadorSVGH  
+			set tempcarname=Lamborghini_AventadorLP7504Superveloce_2015GH 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Lamborghini/AventadorSV/GialloHorus.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO AventadorSVCon 
+ 
+			:AventadorSVGT  
+			set tempcarname=Lamborghini_AventadorLP7504Superveloce_2015GT 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Lamborghini/AventadorSV/GrigioTitans.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO AventadorSVCon 
+ 
+			:AventadorSVMA  
+			set tempcarname=Lamborghini_AventadorLP7504Superveloce_2015MA 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Lamborghini/AventadorSV/MarroneApus.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO AventadorSVCon 
+ 
+			:AventadorSVNA  
+			set tempcarname=Lamborghini_AventadorLP7504Superveloce_2015NA 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Lamborghini/AventadorSV/NeroAldebaran.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO AventadorSVCon 
+ 
+			:AventadorSVNN  
+			set tempcarname=Lamborghini_AventadorLP7504Superveloce_2015NN 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Lamborghini/AventadorSV/NeroNemesis.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO AventadorSVCon 
+ 
+			:AventadorSVNGO  
+			set tempcarname=Lamborghini_AventadorLP7504Superveloce_2015NGO 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Lamborghini/AventadorSV/NewGialloOrion.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO AventadorSVCon 
+ 
+			:AventadorSVRB  
+			set tempcarname=Lamborghini_AventadorLP7504Superveloce_2015RB 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Lamborghini/AventadorSV/RossoBia.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO AventadorSVCon 
+ 
+			:AventadorSVVI  
+			set tempcarname=Lamborghini_AventadorLP7504Superveloce_2015VI 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Lamborghini/AventadorSV/VerdeIthaca.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO AventadorSVCon 
+ 
+			Rem Start of Aventador SVJ:
+			
+			:AventadorSVJAPBC  
+			set tempcarname=Lamborghini_AventadorSVJRewardRecycled_2019APBC 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Lamborghini/AventadorSVJ/AdPersonamBluCepheus.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO AventadorSVJCon 
+ 
+			:AventadorSVJAPBN  
+			set tempcarname=Lamborghini_AventadorSVJRewardRecycled_2019APBN 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Lamborghini/AventadorSVJ/AdPersonamBluNethuns.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO AventadorSVJCon 
+ 
+			:AventadorSVJAPORWSL  
+			set tempcarname=Lamborghini_AventadorSVJRewardRecycled_2019APORWSL 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Lamborghini/AventadorSVJ/AdPersonamOroElioswithSVJLivery.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO AventadorSVJCon 
+ 
+			:AventadorSVJAPRE  
+			set tempcarname=Lamborghini_AventadorSVJRewardRecycled_2019APRE 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Lamborghini/AventadorSVJ/AdPersonamRossoEffesto.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO AventadorSVJCon 
+ 
+			:AventadorSVJAA  
+			set tempcarname=Lamborghini_AventadorSVJRewardRecycled_2019AA 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Lamborghini/AventadorSVJ/ArancioArgos.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO AventadorSVJCon 
+ 
+			:AventadorSVJAATLAS  
+			set tempcarname=Lamborghini_AventadorSVJRewardRecycled_2019AATLAS 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Lamborghini/AventadorSVJ/ArancioAtlas.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO AventadorSVJCon 
+ 
+			:AventadorSVJAT  
+			set tempcarname=Lamborghini_AventadorSVJRewardRecycled_2019AT 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Lamborghini/AventadorSVJ/AzzurroThetys.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO AventadorSVJCon 
+ 
+			:AventadorSVJBWWSL  
+			set tempcarname=Lamborghini_AventadorSVJRewardRecycled_2019BWWSL 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Lamborghini/AventadorSVJ/BalloonWhitewithSVJLivery.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO AventadorSVJCon 
+ 
+			:AventadorSVJBCWSL  
+			set tempcarname=Lamborghini_AventadorSVJRewardRecycled_2019BCWSL 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Lamborghini/AventadorSVJ/BiancoCanopuswithSVJLivery.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO AventadorSVJCon 
+ 
+			:AventadorSVJBI  
+			set tempcarname=Lamborghini_AventadorSVJRewardRecycled_2019BI 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Lamborghini/AventadorSVJ/BiancoIsis.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO AventadorSVJCon 
+ 
+			:AventadorSVJBP  
+			set tempcarname=Lamborghini_AventadorSVJRewardRecycled_2019BP 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Lamborghini/AventadorSVJ/BiancoPhanes.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO AventadorSVJCon 
+ 
+			:AventadorSVJBA  
+			set tempcarname=Lamborghini_AventadorSVJRewardRecycled_2019BA 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Lamborghini/AventadorSVJ/BluAegir.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO AventadorSVJCon 
+ 
+			:AventadorSVJBCWSL  
+			set tempcarname=Lamborghini_AventadorSVJRewardRecycled_2019BCWSL 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Lamborghini/AventadorSVJ/BluCaelumwithSVJLivery.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO AventadorSVJCon 
+ 
+			:AventadorSVJBFWSL  
+			set tempcarname=Lamborghini_AventadorSVJRewardRecycled_2019BFWSL 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Lamborghini/AventadorSVJ/BluFontuswithSVJLivery.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO AventadorSVJCon 
+ 
+			:AventadorSVJBG  
+			set tempcarname=Lamborghini_AventadorSVJRewardRecycled_2019BG 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Lamborghini/AventadorSVJ/BluGlauco.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO AventadorSVJCon 
+ 
+			:AventadorSVJBH  
+			set tempcarname=Lamborghini_AventadorSVJRewardRecycled_2019BH 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Lamborghini/AventadorSVJ/BluHera.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO AventadorSVJCon 
+ 
+			:AventadorSVJBLM  
+			set tempcarname=Lamborghini_AventadorSVJRewardRecycled_2019BLM 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Lamborghini/AventadorSVJ/BluLeMans.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO AventadorSVJCon 
+ 
+			:AventadorSVJBN  
+			set tempcarname=Lamborghini_AventadorSVJRewardRecycled_2019BN 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Lamborghini/AventadorSVJ/BluNereid.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO AventadorSVJCon 
+ 
+			:AventadorSVJBNWSL  
+			set tempcarname=Lamborghini_AventadorSVJRewardRecycled_2019BNWSL 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Lamborghini/AventadorSVJ/BluNilawithSVJLivery.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO AventadorSVJCon 
+ 
+			:AventadorSVJBS  
+			set tempcarname=Lamborghini_AventadorSVJRewardRecycled_2019BS 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Lamborghini/AventadorSVJ/BluSideris.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO AventadorSVJCon 
+ 
+			:AventadorSVJGEWSL  
+			set tempcarname=Lamborghini_AventadorSVJRewardRecycled_2019GEWSL 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Lamborghini/AventadorSVJ/GialloEvroswithSVJLivery.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO AventadorSVJCon 
+ 
+			:AventadorSVJGH  
+			set tempcarname=Lamborghini_AventadorSVJRewardRecycled_2019GH 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Lamborghini/AventadorSVJ/GialloHorus.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO AventadorSVJCon 
+ 
+			:AventadorSVJGSWSL  
+			set tempcarname=Lamborghini_AventadorSVJRewardRecycled_2019GSWSL 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Lamborghini/AventadorSVJ/GialloSpicawithSVJLivery.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO AventadorSVJCon 
+ 
+			:AventadorSVJGTWSL  
+			set tempcarname=Lamborghini_AventadorSVJRewardRecycled_2019GTWSL 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Lamborghini/AventadorSVJ/GialloTenerifewithSVJLivery.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO AventadorSVJCon 
+ 
+			:AventadorSVJGA  
+			set tempcarname=Lamborghini_AventadorSVJRewardRecycled_2019GA 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Lamborghini/AventadorSVJ/GrigioAdamas.txt.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO AventadorSVJCon 
+ 
+			:AventadorSVJGAntaresWSL  
+			set tempcarname=Lamborghini_AventadorSVJRewardRecycled_2019GAntaresWSL 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Lamborghini/AventadorSVJ/GrigioAntareswithSVJLivery.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO AventadorSVJCon 
+ 
+			:AventadorSVJGAterWSL  
+			set tempcarname=Lamborghini_AventadorSVJRewardRecycled_2019GAterWSL 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Lamborghini/AventadorSVJ/GrigioAterwithSVJLivery.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO AventadorSVJCon 
+ 
+			:AventadorSVJGE  
+			set tempcarname=Lamborghini_AventadorSVJRewardRecycled_2019GE 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Lamborghini/AventadorSVJ/GrigioEstoque.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO AventadorSVJCon 
+ 
+			:AventadorSVJGLiqueo  
+			set tempcarname=Lamborghini_AventadorSVJRewardRecycled_2019GLiqueo 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Lamborghini/AventadorSVJ/GrigioLiqueo.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO AventadorSVJCon 
+ 
+			:AventadorSVJGLynx  
+			set tempcarname=Lamborghini_AventadorSVJRewardRecycled_2019GLynx 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Lamborghini/AventadorSVJ/GrigioLynx.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO AventadorSVJCon 
+ 
+			:AventadorSVJGTeleWSL  
+			set tempcarname=Lamborghini_AventadorSVJRewardRecycled_2019GTeleWSL 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Lamborghini/AventadorSVJ/GrigioTelestowithSVJLivery.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO AventadorSVJCon 
+ 
+			:AventadorSVJGT  
+			set tempcarname=Lamborghini_AventadorSVJRewardRecycled_2019GT 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Lamborghini/AventadorSVJ/GrigioTitans.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO AventadorSVJCon 
+ 
+			:AventadorSVJMA  
+			set tempcarname=Lamborghini_AventadorSVJRewardRecycled_2019MA 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Lamborghini/AventadorSVJ/MarroneApus.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO AventadorSVJCon 
+ 
+			:AventadorSVJNA  
+			set tempcarname=Lamborghini_AventadorSVJRewardRecycled_2019NA 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Lamborghini/AventadorSVJ/NeroAldebaran.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO AventadorSVJCon 
+ 
+			:AventadorSVJNP  
+			set tempcarname=Lamborghini_AventadorSVJRewardRecycled_2019NP 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Lamborghini/AventadorSVJ/NeroPegaso.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO AventadorSVJCon 
+ 
+			:AventadorSVJNGOWSL  
+			set tempcarname=Lamborghini_AventadorSVJRewardRecycled_2019NGOWSL 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Lamborghini/AventadorSVJ/NewGialloOrionwithSVJLivery.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO AventadorSVJCon 
+ 
+			:AventadorSVJReward  
+			set tempcarname=Lamborghini_AventadorSVJReward_2019
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Lamborghini/AventadorSVJ/Reward.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO AventadorSVJCon 
+ 
+			:AventadorSVJRBWSL  
+			set tempcarname=Lamborghini_AventadorSVJRewardRecycled_2019RBWSL 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Lamborghini/AventadorSVJ/RossoBiawithSVJLivery.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO AventadorSVJCon 
+ 
+			:AventadorSVJRL  
+			set tempcarname=Lamborghini_AventadorSVJRewardRecycled_2019RL 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Lamborghini/AventadorSVJ/RossoLeto.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO AventadorSVJCon 
+ 
+			:AventadorSVJRM  
+			set tempcarname=Lamborghini_AventadorSVJRewardRecycled_2019RM 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Lamborghini/AventadorSVJ/RossoMars.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO AventadorSVJCon 
+ 
+			:AventadorSVJRMWSL  
+			set tempcarname=Lamborghini_AventadorSVJRewardRecycled_2019RMWSL 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Lamborghini/AventadorSVJ/RossoMimirwithSVJLivery.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO AventadorSVJCon 
+ 
+			:AventadorSVJVAWSL  
+			set tempcarname=Lamborghini_AventadorSVJRewardRecycled_2019VAWSL 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Lamborghini/AventadorSVJ/VerdeAlcheowithSVJLivery.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO AventadorSVJCon 
+ 
+			:AventadorSVJVE  
+			set tempcarname=Lamborghini_AventadorSVJRewardRecycled_2019VE 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Lamborghini/AventadorSVJ/VerdeErmes.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO AventadorSVJCon 
+ 
+			:AventadorSVJVI  
+			set tempcarname=Lamborghini_AventadorSVJRewardRecycled_2019VI 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Lamborghini/AventadorSVJ/VerdeIthaca.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO AventadorSVJCon 
+ 
+			:AventadorSVJVMWSL  
+			set tempcarname=Lamborghini_AventadorSVJRewardRecycled_2019VMWSL 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Lamborghini/AventadorSVJ/VerdeMantiswithSVJLivery.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO AventadorSVJCon 
+ 
+			:AventadorSVJVSWSL  
+			set tempcarname=Lamborghini_AventadorSVJRewardRecycled_2019VSWSL 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Lamborghini/AventadorSVJ/VerdeScandalwithSVJLivery.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO AventadorSVJCon 
+ 
+			:AventadorSVJVPWSL  
+			set tempcarname=Lamborghini_AventadorSVJRewardRecycled_2019VPWSL 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Lamborghini/AventadorSVJ/ViolaParsifaewithSVJLivery.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO AventadorSVJCon 
+ 
+			rem start of Centenario:
+			
+			:CentenarioAndroid  
+			set tempcarname=Lamborghini_CentenarioRoadster_2017AdPersonamArgento 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Lamborghini/Centenario/AdPersonamArgentoCentenario.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO CentenarioCon 
+ 
+			:CentenarioFormulaItalia  
+			set tempcarname=Lamborghini_CentenarioRoadster_2017AdPersonamBluCepheus
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Lamborghini/Centenario/AdPersonamBluCepheus.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO CentenarioCon 
+ 
+			:CentenarioiOS  
+			set tempcarname=Lamborghini_CentenarioRoadster_2017AdPersonamGialloInti
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Lamborghini/Centenario/AdPersonamGialloInti.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO CentenarioCon 
+
+			Rem start countach
+			
+			:CountachR
+			set tempcarname=Lamborghini_CountachClassic_1988
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Lamborghini/Countach/CountachRestored.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO Countach 
+
+			Rem start Huracan
+			
+			:HuracanAPAA  
+			set tempcarname=Lamborghini_HuracanLP6104_2014APAA 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Lamborghini/Huracan/AdPersonamArancioArgos.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO HuracanCon 
+ 
+			:HuracanAPABWSA  
+			set tempcarname=Lamborghini_HuracanLP6104_2014APABWSA 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Lamborghini/Huracan/AdPersonamAvioBlueWhiteStripeandAccents.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO HuracanCon 
+ 
+			:HuracanAPATOSA  
+			set tempcarname=Lamborghini_HuracanLP6104_2014APATOSA 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Lamborghini/Huracan/AdPersonamAvioTitaniumOrangeStripeandAccents.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO HuracanCon 
+ 
+			:HuracanAPAIS  
+			set tempcarname=Lamborghini_HuracanLP6104_2014APAIS 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Lamborghini/Huracan/AdPersonamAzzurroItaliaStripe.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO HuracanCon 
+ 
+			:HuracanAPBC  
+			set tempcarname=Lamborghini_HuracanLP6104_2014APBC 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Lamborghini/Huracan/AdPersonamBluCaelum.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO HuracanCon 
+ 
+			:HuracanAPGA  
+			set tempcarname=Lamborghini_HuracanLP6104_2014APGA 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Lamborghini/Huracan/AdPersonamGrigioAdmetus.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO HuracanCon 
+ 
+			:HuracanAPMA  
+			set tempcarname=Lamborghini_HuracanLP6104_2014APMA 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Lamborghini/Huracan/AdPersonamMarroneApus.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO HuracanCon 
+ 
+			:HuracanAB  
+			set tempcarname=Lamborghini_HuracanLP6104_2014AB 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Lamborghini/Huracan/ArancioBorealis.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO HuracanCon 
+ 
+			:HuracanBIIS  
+			set tempcarname=Lamborghini_HuracanLP6104_2014BIIS 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Lamborghini/Huracan/BiancoIsisItaliaStripe.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO HuracanCon 
+ 
+			:HuracanBC  
+			set tempcarname=Lamborghini_HuracanLP6104_2014BC 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Lamborghini/Huracan/BluCaelum.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO HuracanCon 
+ 
+			:HuracanGM  
+			set tempcarname=Lamborghini_HuracanLP6104_2014GM 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Lamborghini/Huracan/GialloMidas.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO HuracanCon 
+ 
+			:HuracanGL  
+			set tempcarname=Lamborghini_HuracanLP6104_2014GL 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Lamborghini/Huracan/GrigioLynx.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO HuracanCon 
+ 
+			:HuracanNS  
+			set tempcarname=Lamborghini_HuracanLP6104_2014NS 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Lamborghini/Huracan/NeroSerapis.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO HuracanCon 
+ 
+			:HuracanVM
+			set tempcarname=Lamborghini_HuracanLP6104_2014VM
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Lamborghini/Huracan/VerdeMantis.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO HuracanCon 
+ 
+			Rem Start of Huracan Performante
+			
+			:HuracanPerformanteADAA  
+			set tempcarname=Lamborghini_HuracanPerformanteRewardRecycled_2018ADAA 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Lamborghini/HuracanPerformante/AdPersonamArancioAnthaeus.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO HuracanPerformanteCon 
+ 
+			:HuracanPerformanteAPBiancoCanopus  
+			set tempcarname=Lamborghini_HuracanPerformanteRewardRecycled_2018APBiancoCanopus 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Lamborghini/HuracanPerformante/AdPersonamBluCepeus.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO HuracanPerformanteCon 
+ 
+			:HuracanPerformanteAPBluCepeus  
+			set tempcarname=Lamborghini_HuracanPerformanteRewardRecycled_2018APBluCepeus 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Lamborghini/HuracanPerformante/AdPersonamBluCepeus.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO HuracanPerformanteCon 
+ 
+			:HuracanPerformanteAPBN  
+			set tempcarname=Lamborghini_HuracanPerformanteRewardRecycled_2018APBN 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Lamborghini/HuracanPerformante/AdPersonamBluNethuns.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO HuracanPerformanteCon 
+ 
+			:HuracanPerformanteAPGH  
+			set tempcarname=Lamborghini_HuracanPerformanteRewardRecycled_2018APGH 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Lamborghini/HuracanPerformante/AdPersonamGialloHorus.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO HuracanPerformanteCon 
+ 
+			:HuracanPerformanteAPGT  
+			set tempcarname=Lamborghini_HuracanPerformanteRewardRecycled_2018APGT 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Lamborghini/HuracanPerformante/AdPersonamGrigioTitans.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO HuracanPerformanteCon 
+ 
+			:HuracanPerformanteAPNN  
+			set tempcarname=Lamborghini_HuracanPerformanteRewardRecycled_2018APNN 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Lamborghini/HuracanPerformante/AdPersonamNeroNemesis.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO HuracanPerformanteCon 
+ 
+			:HuracanPerformanteAPRE  
+			set tempcarname=Lamborghini_HuracanPerformanteRewardRecycled_2018APRE 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Lamborghini/HuracanPerformante/AdPersonamRossoEffesto.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO HuracanPerformanteCon 
+ 
+			:HuracanPerformanteAPVA  
+			set tempcarname=Lamborghini_HuracanPerformanteRewardRecycled_2018APVA 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Lamborghini/HuracanPerformante/AdPersonamVerdeArtemis.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO HuracanPerformanteCon 
+ 
+			:HuracanPerformanteAPVH  
+			set tempcarname=Lamborghini_HuracanPerformanteRewardRecycled_2018APVH 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Lamborghini/HuracanPerformante/AdPersonamVerdeHydra.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO HuracanPerformanteCon 
+ 
+			:HuracanPerformanteAPVSE30  
+			set tempcarname=Lamborghini_HuracanPerformanteRewardRecycled_2018APVSE30 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Lamborghini/HuracanPerformante/AdPersonamViolaSE30th.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO HuracanPerformanteCon 
+ 
+			:HuracanPerformanteAB  
+			set tempcarname=Lamborghini_HuracanPerformanteRewardRecycled_2018AB 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Lamborghini/HuracanPerformante/ArancioBorealis.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO HuracanPerformanteCon 
+ 
+			:HuracanPerformanteBI  
+			set tempcarname=Lamborghini_HuracanPerformanteRewardRecycled_2018BI 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Lamborghini/HuracanPerformante/BiancoIcarus.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO HuracanPerformanteCon 
+ 
+			:HuracanPerformanteGI  
+			set tempcarname=Lamborghini_HuracanPerformanteRewardRecycled_2018GI 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Lamborghini/HuracanPerformante/GialloInti.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO HuracanPerformanteCon 
+ 
+			:HuracanPerformanteGL  
+			set tempcarname=Lamborghini_HuracanPerformanteRewardRecycled_2018GL 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Lamborghini/HuracanPerformante/GrigioLynx.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO HuracanPerformanteCon 
+ 
+			:HuracanPerformanteGN  
+			set tempcarname=Lamborghini_HuracanPerformanteRewardRecycled_2018GN 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Lamborghini/HuracanPerformante/GrigioNimbus.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO HuracanPerformanteCon 
+ 
+			:HuracanPerformanteNH  
+			set tempcarname=Lamborghini_HuracanPerformanteRewardRecycled_2018NH 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Lamborghini/HuracanPerformante/NeroHelene.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO HuracanPerformanteCon 
+ 
+			:HuracanPerformanteReward  
+			set tempcarname=Lamborghini_HuracanPerformanteRewardRecycled_2018Reward 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Lamborghini/HuracanPerformante/Reward.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO HuracanPerformanteCon 
+ 
+			:HuracanPerformanteRM  
+			set tempcarname=Lamborghini_HuracanPerformanteRewardRecycled_2018RM 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Lamborghini/HuracanPerformante/RossoMars.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO HuracanPerformanteCon 
+ 
+			:HuracanPerformanteVM  
+			set tempcarname=Lamborghini_HuracanPerformanteRewardRecycled_2018VM 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Lamborghini/HuracanPerformante/VerdeMantis.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO HuracanPerformanteCon 
+ 
+			Rem Start of Huracan Performante Spyder
+			
+			:HuracanPerformanteSpyderAPAA  
+			set tempcarname=Lamborghini_HuracanPerformanteSpyder_2019APAA 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Lamborghini/HuracanPerformanteSpyder/AdPersonamArancioAnthaeus.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO HuracanPerformanteSpyderCon 
+ 
+			:HuracanPerformanteSpyderAPBC  
+			set tempcarname=Lamborghini_HuracanPerformanteSpyder_2019APBC 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Lamborghini/HuracanPerformanteSpyder/AdPersonamBiancoCanopus.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO HuracanPerformanteSpyderCon 
+ 
+			:HuracanPerformanteSpyderAPBA  
+			set tempcarname=Lamborghini_HuracanPerformanteSpyder_2019APBA 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Lamborghini/HuracanPerformanteSpyder/AdPersonamBluAegeus.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO HuracanPerformanteSpyderCon 
+ 
+			:HuracanPerformanteSpyderAPBluC  
+			set tempcarname=Lamborghini_HuracanPerformanteSpyder_2019APBluC 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Lamborghini/HuracanPerformanteSpyder/AdPersonamBluCepeus.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO HuracanPerformanteSpyderCon 
+ 
+			:HuracanPerformanteSpyderAPGH  
+			set tempcarname=Lamborghini_HuracanPerformanteSpyder_2019APGH 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Lamborghini/HuracanPerformanteSpyder/AdPersonamGialloHorus.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO HuracanPerformanteSpyderCon 
+ 
+			:HuracanPerformanteSpyderAPGT  
+			set tempcarname=Lamborghini_HuracanPerformanteSpyder_2019APGT 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Lamborghini/HuracanPerformanteSpyder/AdPersonamGrigioTitans.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO HuracanPerformanteSpyderCon 
+ 
+			:HuracanPerformanteSpyderAPNN  
+			set tempcarname=Lamborghini_HuracanPerformanteSpyder_2019APNN 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Lamborghini/HuracanPerformanteSpyder/AdPersonamNeroNemesis.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO HuracanPerformanteSpyderCon 
+ 
+			:HuracanPerformanteSpyderAB  
+			set tempcarname=Lamborghini_HuracanPerformanteSpyder_2019AB 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Lamborghini/HuracanPerformanteSpyder/ArancioBorealis.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO HuracanPerformanteSpyderCon 
+ 
+			:HuracanPerformanteSpyderBI  
+			set tempcarname=Lamborghini_HuracanPerformanteSpyder_2019BI 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Lamborghini/HuracanPerformanteSpyder/BiancoIcarus.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO HuracanPerformanteSpyderCon 
+ 
+			:HuracanPerformanteSpyderBM  
+			set tempcarname=Lamborghini_HuracanPerformanteSpyder_2019BM 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Lamborghini/HuracanPerformanteSpyder/BiancoMonocerus.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO HuracanPerformanteSpyderCon 
+ 
+			:HuracanPerformanteSpyderGI  
+			set tempcarname=Lamborghini_HuracanPerformanteSpyder_2019GI 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Lamborghini/HuracanPerformanteSpyder/GialloInti.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO HuracanPerformanteSpyderCon 
+ 
+			:HuracanPerformanteSpyderGL  
+			set tempcarname=Lamborghini_HuracanPerformanteSpyder_2019GL 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Lamborghini/HuracanPerformanteSpyder/GrigioLynx.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO HuracanPerformanteSpyderCon 
+ 
+			:HuracanPerformanteSpyderGN  
+			set tempcarname=Lamborghini_HuracanPerformanteSpyder_2019GN 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Lamborghini/HuracanPerformanteSpyder/GrigioNimbus.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO HuracanPerformanteSpyderCon 
+ 
+			:HuracanPerformanteSpyderNH  
+			set tempcarname=Lamborghini_HuracanPerformanteSpyder_2019NH 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Lamborghini/HuracanPerformanteSpyder/NeroHelene.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO HuracanPerformanteSpyderCon 
+ 
+			:HuracanPerformanteSpyderNN  
+			set tempcarname=Lamborghini_HuracanPerformanteSpyder_2019NN 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Lamborghini/HuracanPerformanteSpyder/NeroNoctis.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO HuracanPerformanteSpyderCon 
+ 
+			:HuracanPerformanteSpyderRM  
+			set tempcarname=Lamborghini_HuracanPerformanteSpyder_2019RM 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Lamborghini/HuracanPerformanteSpyder/RossoMars.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO HuracanPerformanteSpyderCon 
+ 
+			:HuracanPerformanteSpyderVM  
+			set tempcarname=Lamborghini_HuracanPerformanteSpyder_2019VM 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Lamborghini/HuracanPerformanteSpyder/VerdeMantis.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO HuracanPerformanteSpyderCon 
+ 
+			Rem Start of Liberty Walk Aventador:
+			
+			:LBAventadorReward  
+			set tempcarname=Lamborghini_LBAventadorLP7004Reward_2011 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Lamborghini/LBAventador/Reward.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO LBAventadorCon 
+ 
+			:LBAventadorVIPReward  
+			set tempcarname=Lamborghini_LBAventadorLP7004RewardVIP_2011
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Lamborghini/LBAventador/VIPReward.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO LBAventadorCon 
+ 
+			:LBAventadorEvoPrize  
+			set tempcarname=Lamborghini_LBAventadorLP7004RewardGold_2011 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Lamborghini/LBAventador/LimitedEditionEvoPrize.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO LBAventadorCon 
+ 
+			:LBAventadorABWMT  
+			set tempcarname=Lamborghini_LBAventadorLP7004RewardRecycled_2011ABWMT 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Lamborghini/LBAventador/AstralBlackWheelsMatchingTires.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO LBAventadorCon 
+ 
+			:LBAventadorABWWT  
+			set tempcarname=Lamborghini_LBAventadorLP7004RewardRecycled_2011ABWWT 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Lamborghini/LBAventador/AstralBlackWheelsWhiteTires.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO LBAventadorCon 
+ 
+			:LBAventadorAWW  
+			set tempcarname=Lamborghini_LBAventadorLP7004RewardRecycled_2011AWW 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Lamborghini/LBAventador/AstralWhiteWheels.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO LBAventadorCon 
+ 
+			:LBAventadorBBGW  
+			set tempcarname=Lamborghini_LBAventadorLP7004RewardRecycled_2011BBGW 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Lamborghini/LBAventador/BlackBlackandGoldWheels.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO LBAventadorCon 
+ 
+			:LBAventadorBBRW  
+			set tempcarname=Lamborghini_LBAventadorLP7004RewardRecycled_2011BBRW 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Lamborghini/LBAventador/BlackBlackandRedWheels.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO LBAventadorCon 
+ 
+			:LBAventadorBBW  
+			set tempcarname=Lamborghini_LBAventadorLP7004RewardRecycled_2011BBW 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Lamborghini/LBAventador/BlackBlackWheels.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO LBAventadorCon 
+ 
+			:LBAventadorBWW  
+			set tempcarname=Lamborghini_LBAventadorLP7004RewardRecycled_2011BWW 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Lamborghini/LBAventador/BlackWhiteWheels.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO LBAventadorCon 
+ 
+			:LBAventadorCBBGW  
+			set tempcarname=Lamborghini_LBAventadorLP7004RewardRecycled_2011CBBGW 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Lamborghini/LBAventador/CatalinaBlueBlackandGoldWheels.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO LBAventadorCon 
+ 
+			:LBAventadorCBBlackW  
+			set tempcarname=Lamborghini_LBAventadorLP7004RewardRecycled_2011CBBlackW 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Lamborghini/LBAventador/CatalinaBlueBlackWheels.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO LBAventadorCon 
+ 
+			:LBAventadorCBBlueW  
+			set tempcarname=Lamborghini_LBAventadorLP7004RewardRecycled_2011CBBlueW 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Lamborghini/LBAventador/CatalinaBlueBlueWheels.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO LBAventadorCon 
+ 
+			:LBAventadorCBWW  
+			set tempcarname=Lamborghini_LBAventadorLP7004RewardRecycled_2011CBWW 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Lamborghini/LBAventador/CatalinaBlueWhiteWheels.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO LBAventadorCon 
+ 
+			:LBAventadorLLBGW  
+			set tempcarname=Lamborghini_LBAventadorLP7004RewardRecycled_2011LLBGW 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Lamborghini/LBAventador/LimeLightBlackandGreenWheels.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO LBAventadorCon 
+ 
+			:LBAventadorMBW  
+			set tempcarname=Lamborghini_LBAventadorLP7004RewardRecycled_2011MBW 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Lamborghini/LBAventador/MercuryBlackWheels.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO LBAventadorCon 
+ 
+			:LBAventadorMWBRW  
+			set tempcarname=Lamborghini_LBAventadorLP7004RewardRecycled_2011MWBRW 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Lamborghini/LBAventador/MiamiWhiteBlackandRedWheels.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO LBAventadorCon 
+ 
+			:LBAventadorMWBW  
+			set tempcarname=Lamborghini_LBAventadorLP7004RewardRecycled_2011MWBW 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Lamborghini/LBAventador/MiamiWhiteBlueWheels.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO LBAventadorCon 
+ 
+			:LBAventadorPBW  
+			set tempcarname=Lamborghini_LBAventadorLP7004RewardRecycled_2011PBW 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Lamborghini/LBAventador/PohutukawaBlackWheels.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO LBAventadorCon 
+ 
+			:LBAventadorRBGW  
+			set tempcarname=Lamborghini_LBAventadorLP7004RewardRecycled_2011RBGW 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Lamborghini/LBAventador/RuddyBlackandGoldWheels.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO LBAventadorCon 
+ 
+			:LBAventadorRBRW  
+			set tempcarname=Lamborghini_LBAventadorLP7004RewardRecycled_2011RBRW 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Lamborghini/LBAventador/RuddyBlackandRedWheels.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO LBAventadorCon 
+ 
+			:LBAventadorRBWYT  
+			set tempcarname=Lamborghini_LBAventadorLP7004RewardRecycled_2011RBWYT 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Lamborghini/LBAventador/RuddyBlackYellowTires.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO LBAventadorCon 
+ 
+			:LBAventadorRRW  
+			set tempcarname=Lamborghini_LBAventadorLP7004RewardRecycled_2011RRW 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Lamborghini/LBAventador/RuddyRedWheels.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO LBAventadorCon 
+ 
+			:LBAventadorRWW  
+			set tempcarname=Lamborghini_LBAventadorLP7004RewardRecycled_2011RWW 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Lamborghini/LBAventador/RuddyWhiteWheels.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO LBAventadorCon 
+ 
+			:LBAventadorSOBWOW  
+			set tempcarname=Lamborghini_LBAventadorLP7004RewardRecycled_2011SOBWOW 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Lamborghini/LBAventador/SafetyOangeBWandOWheels.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO LBAventadorCon 
+ 
+			:LBAventadorSOBW  
+			set tempcarname=Lamborghini_LBAventadorLP7004RewardRecycled_2011SOBW 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Lamborghini/LBAventador/SafetyOrangeBlackWheels.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO LBAventadorCon 
+ 
+			:LBAventadorSYW  
+			set tempcarname=Lamborghini_LBAventadorLP7004RewardRecycled_2011SYW 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Lamborghini/LBAventador/SupernovaYellowWheels.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO LBAventadorCon 
+ 
+			:LBAventadorWPWPW  
+			set tempcarname=Lamborghini_LBAventadorLP7004RewardRecycled_2011WPWPW 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Lamborghini/LBAventador/WarriorPinkWhiteandPinkWheels.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO LBAventadorCon 
+ 
+			Rem Start of Liberty Walk Huracan
+			
+			:LBHuracanReward  
+			set tempcarname=Lamborghini_HuracanLP6104Reward_2014 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Lamborghini/LBHuracan/RewardSharkEdition.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO LBHuracanCon 
+ 
+			:LBHuracanAPRM  
+			set tempcarname=Lamborghini_HuracanLP6104RewardRecycled_2014APRM 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Lamborghini/LBHuracan/AdPersonamRossoMars.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO LBHuracanCon 
+ 
+			:LBHuracanBI  
+			set tempcarname=Lamborghini_HuracanLP6104RewardRecycled_2014BI 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Lamborghini/LBHuracan/BiancoIcarus.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO LBHuracanCon 
+ 
