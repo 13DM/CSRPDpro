@@ -100,6 +100,8 @@
       "need": 
       "crdb": "BMW_LBM4CoupeCrew_2014",
       "need": 
+      "crdb": "BMW_LBi8_2017",
+      "need": 
       "crdb": "BMW_M235iCoupe_2014",
       "need": 
       "crdb": "BMW_M2Competition_2018",
@@ -115,6 +117,10 @@
       "crdb": "BMW_M5CompetitionRewardRecycled_2019",
       "need": 
       "crdb": "BMW_M5CompetitionReward_2019",
+      "need": 
+      "crdb": "BMW_M8RewardRecycled_2020",
+      "need": 
+      "crdb": "BMW_M8Reward_2020",
       "need": 
       "crdb": "BMW_Z4MCoupeCrew_2006",
       "need": 
@@ -147,6 +153,8 @@
       "crdb": "Chevrolet_AlphaSixCamaroSSCrewRecycled_2016",
       "need": 
       "crdb": "Chevrolet_AlphaSixCamaroSSCrew_2016",
+      "need": 
+      "crdb": "Chevrolet_C10Halloween_2016",
       "need": 
       "crdb": "Chevrolet_C10RewardRecycled_2016",
       "need": 
@@ -346,6 +354,8 @@
       "need": 
       "crdb": "Ford_ShelbyGT350R_2016",
       "need": 
+      "crdb": "Ginetta_Akula_2019",
+      "need": 
       "crdb": "GTA_SpanoCrewRecycled_2015",
       "need": 
       "crdb": "GTA_SpanoCrew_2015",
@@ -436,6 +446,8 @@
       "need": 
       "crdb": "Lamborghini_CountachClassic_1988",
       "need": 
+      "crdb": "Lamborghini_FewOff_2020",
+      "need": 
       "crdb": "Lamborghini_HuracanLP6104RewardRecycled_2014",
       "need": 
       "crdb": "Lamborghini_HuracanLP6104Reward_2014",
@@ -482,6 +494,10 @@
       "need": 
       "crdb": "LocalMotor_RallyFighter_2013",
       "need": 
+      "crdb": "Lotus_EvoraGT430Reward_2018",
+      "need": 
+      "crdb": "Lotus_EvoraGT430RewardRecycled_2018",
+      "need": 
       "crdb": "Lotus_Exige360CupCrewRecycled_2016",
       "need": 
       "crdb": "Lotus_Exige360CupCrew_2016",
@@ -524,6 +540,10 @@
       "need": 
       "crdb": "McLaren_675LTSpiderReward_2016",
       "need": 
+      "crdb": "McLaren_720SSpiderRewardRecycled_2019",
+      "need": 
+      "crdb": "McLaren_720SSpiderReward_2019",
+      "need": 
       "crdb": "McLaren_F1_1993",
       "need": 
       "crdb": "McLaren_LB650SRewardGold_2015",
@@ -546,7 +566,11 @@
       "need": 
       "crdb": "McLaren_P1_2014",
       "need": 
+      "crdb": "McLaren_Senna_2018",
+      "need": 
       "crdb": "McLaren_SLR722EditionCrew_2007",
+      "need": 
+      "crdb": "McLaren_Speedtail_2019",
       "need": 
       "crdb": "McLaren_Vorsteiner570VXRewardRecycled_2016",
       "need": 
@@ -610,9 +634,15 @@
       "need": 
       "crdb": "Nissan_SkylineGTRR34F2_1999",
       "need": 
+      "crdb": "Noble_M600CarbonSport_2017",
+      "need": 
       "crdb": "Pagani_HuayraBCRewardRecycled_2016",
       "need": 
       "crdb": "Pagani_HuayraBCReward_2016",
+      "need": 
+      "crdb": "Pagani_HuayraBCRoadsterLS_2019",
+      "need": 
+      "crdb": "Pagani_HuayraBCRoadsterPB_2019",
       "need": 
       "crdb": "Pagani_HuayraElite_2014",
       "need": 
@@ -621,6 +651,8 @@
       "crdb": "Pagani_HuayraRoadsterReward_2017",
       "need": 
       "crdb": "Pagani_Huayra_2014",
+      "need": 
+      "crdb": "Pagani_ZondaBarchetta_2018",
       "need": 
       "crdb": "Pagani_ZondaRevolucion_2013",
       "need": 
@@ -637,6 +669,8 @@
       "crdb": "Pontiac_GTOTheJudgeClassic_1969",
       "need": 
       "crdb": "Porsche_718BoxsterS_2017",
+      "need": 
+      "crdb": "Porsche_718BoxsterSpyder_2020",
       "need": 
       "crdb": "Porsche_911Carrera4SCabrioletRewardRecycled_2020",
       "need": 
@@ -730,7 +764,15 @@
       "need": 
       "crdb": "Subaru_WRXSTIF8_2018",
       "need": 
+      "crdb": "Toyota_SupraGRReward_2020",
+      "need": 
+      "crdb": "Toyota_SupraGRRewardRecycled_2020",
+      "need": 
       "crdb": "Toyota_SupraMKIVF1_1994",
+      "need": 
+      "crdb": "TVR_Sagaris_2006",
+      "need": 
+      "crdb": "Ultima_RS_2020",
       "need": 
       "crdb": "Volkswagen_RocketBunnyGolfGTI_2014",
       "need": 
