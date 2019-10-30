@@ -15195,7 +15195,7 @@ echo                                                           /___/
 		if !SupraGRType! == 6 goto SupraGRALERT
 		if !SupraGRType! == 7 goto SupraGRALERT
 		if !SupraGRType! == 8 goto SupraGRALERT
-		if !SupraGRType! == 9 goto SupraGRRALERT
+		if !SupraGRType! == 9 goto SupraGRALERT
 		if !SupraGRType! == 10 goto SupraGRALERT
 		if !SupraGRType! == 11 goto SupraGRALERT
 		if !SupraGRType! == 12 goto SupraGRALERT
