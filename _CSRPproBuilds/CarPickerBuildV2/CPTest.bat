@@ -15177,18 +15177,54 @@ echo                                                           /___/
 		set /p SupraGRType="Select Choice and press Enter: "  
 
 		if !SupraGRType! == 1 goto ToyotaCon 
-		if !SupraGRType! == 2 goto SupraGRAZ
-		if !SupraGRType! == 3 goto SupraGRAZLE
-		if !SupraGRType! == 4 goto SupraGRDB
-		if !SupraGRType! == 5 goto SupraGRNY
-		if !SupraGRType! == 6 goto SupraGRN
-		if !SupraGRType! == 7 goto SupraGRNLE
-		if !SupraGRType! == 8 goto SupraGRP
-		if !SupraGRType! == 9 goto SupraGRRR20
-		if !SupraGRType! == 10 goto SupraGRRR20LE
-		if !SupraGRType! == 11 goto SupraGRT
-		if !SupraGRType! == 12 goto SupraGRTG
+		REM if !SupraGRType! == 2 goto SupraGRAZ
+		REM if !SupraGRType! == 3 goto SupraGRAZLE
+		REM if !SupraGRType! == 4 goto SupraGRDB
+		REM if !SupraGRType! == 5 goto SupraGRNY
+		REM if !SupraGRType! == 6 goto SupraGRN
+		REM if !SupraGRType! == 7 goto SupraGRNLE
+		REM if !SupraGRType! == 8 goto SupraGRP
+		REM if !SupraGRType! == 9 goto SupraGRRR20
+		REM if !SupraGRType! == 10 goto SupraGRRR20LE
+		REM if !SupraGRType! == 11 goto SupraGRT
+		REM if !SupraGRType! == 12 goto SupraGRTG
+
+		if !SupraGRType! == 2 goto SupraGRALERT
+		if !SupraGRType! == 3 goto SupraGRALERT
+		if !SupraGRType! == 4 goto SupraGRALERT
+		if !SupraGRType! == 5 goto SupraGRALERT
+		if !SupraGRType! == 6 goto SupraGRALERT
+		if !SupraGRType! == 7 goto SupraGRALERT
+		if !SupraGRType! == 8 goto SupraGRALERT
+		if !SupraGRType! == 9 goto SupraGRRALERT
+		if !SupraGRType! == 10 goto SupraGRALERT
+		if !SupraGRType! == 11 goto SupraGRALERT
+		if !SupraGRType! == 12 goto SupraGRALERT
 		goto SupraGRCon 
+
+			:SupraGRALERT
+			cls
+	
+echo    ______              ____  _      __            
+echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___
+echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  /
+echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ / 
+echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/  
+echo                                                           /___/      
+			echo.
+			echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
+			echo.
+			echo Selected Manufacture:  %CurrentManuChoice%
+			echo Selected Car:          %CurrentCarChoice%
+			echo.
+			echo - Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 - 
+			echo.
+			echo             Note: Car not available yet. Has only been found in game files to be released in later updates.
+			echo.
+			echo                                 Press enter to return to the previous screen.
+			echo.
+			pause >nul
+			goto SupraGR
 
 		:SupraMKIV
 		CLS
