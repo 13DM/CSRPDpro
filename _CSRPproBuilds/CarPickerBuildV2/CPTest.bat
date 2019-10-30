@@ -28,7 +28,6 @@ echo                                                           /___/
 	echo.
 	echo - Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 - 
 	echo.
-	echo 
 	echo (1.)^< Previous - (2.) Next ^> - (3.)^<^< Fast Skip Previous - (4.) Fast Skip Next ^>^> - (5.) Select - (6.)Main Menu
 	echo.
 	CHOICE /C 123456 /M "" >nul
