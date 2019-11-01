@@ -10947,6 +10947,14 @@
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
 			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
 			GOTO AgeraRSCon 
+
+			:AgeraRSOBWOA 
+			set tempcarname=Koenigsegg_AgeraRSRewardRecycled_2017OBWOA
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Koenigsegg/AgeraRS/OceanBluewithwithOrangeAccents.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO AgeraRSCon 
  
 			:AgeraRSPWCB  
 			set tempcarname=Koenigsegg_AgeraRSRewardRecycled_2017PWCB 
