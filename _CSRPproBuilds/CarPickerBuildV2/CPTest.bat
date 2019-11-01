@@ -8778,33 +8778,23 @@ echo                                                           /___/
 		echo.
 		echo - Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 - 
 		echo.
-		echo 1.) Back         
+		echo 1.) Back                                         9.) Ocean Blue with Orange Accents
 		echo.
-		echo 2.) Reward        
+		echo 2.) Reward                                       10.) Ocean Blue with White Accents and Light Blue Accent Wheels        
 		echo.
-		echo 3.) Apple Silver with Orange Accents        
+		echo 3.) Apple Silver with Orange Accents             11.) Pebble White with Carbon Body        
 		echo.
-		echo 4.) Cone Orange        
+		echo 4.) Cone Orange                                  12.) Pebble White with Light Blue Accents        
 		echo.
-		echo 5.) Cone Orange with Carbon Body        
+		echo 5.) Cone Orange with Carbon Body                 13.) Pebble White with Red Accents        
 		echo.
-		echo 6.) Granite with Yellow and Blue Accents and Yellow Accent Wheels        
+		echo 6.) Granite with Yellow and Blue Accents         14.) Suede Yellow with Red Accents and ML Edition Wheels        
+		echo     and Yellow Accent Wheels
+		echo                                                  15.) Zijin Purple with Yellow Accents
+		echo 7.) Jet Black with Red Accents
 		echo.
-		echo 7.) Jet Black with Red Accents        
-		echo.
-		echo 8.) Naraya Gold with Carbon Body and Naraya Edition Wheels        
-		echo.
-		echo 9.) Ocean Blue with White Accents and Light Blue Accent Wheels        
-		echo.
-		echo 10.) Pebble White with Carbon Body        
-		echo.
-		echo 11.) Pebble White with Light Blue Accents        
-		echo.
-		echo 12.) Pebble White with Red Accents        
-		echo.
-		echo 13.) Suede Yellow with Red Accents and ML Edition Wheels        
-		echo.
-		echo 14.) Zijin Purple with Yellow Accents        
+		echo 8.) Naraya Gold with Carbon Body and 
+		echo     Naraya Edition Wheels        
 		echo.
 		set /p AgeraRSType="Select Choice and press Enter: "  
 
@@ -8816,12 +8806,13 @@ echo                                                           /___/
 		if !AgeraRSType! == 6 goto AgeraRSGYBAYSW  
 		if !AgeraRSType! == 7 goto AgeraRSJBRA  
 		if !AgeraRSType! == 8 goto AgeraRSNGCBNW  
-		if !AgeraRSType! == 9 goto AgeraRSOBWABSW  
-		if !AgeraRSType! == 10 goto AgeraRSPWCB  
-		if !AgeraRSType! == 11 goto AgeraRSPWLBA  
-		if !AgeraRSType! == 12 goto AgeraRSPWRA  
-		if !AgeraRSType! == 13 goto AgeraRSSYRAMLEW  
-		if !AgeraRSType! == 14 goto AgeraRSZPYA  
+		if !AgeraRSType! == 9 goto AgeraRSOBWOA
+		if !AgeraRSType! == 10 goto AgeraRSOBWABSW  
+		if !AgeraRSType! == 11 goto AgeraRSPWCB  
+		if !AgeraRSType! == 12 goto AgeraRSPWLBA  
+		if !AgeraRSType! == 13 goto AgeraRSPWRA  
+		if !AgeraRSType! == 14 goto AgeraRSSYRAMLEW  
+		if !AgeraRSType! == 15 goto AgeraRSZPYA  
 		goto AgeraRSCon 
 	    
 		:Jesko
