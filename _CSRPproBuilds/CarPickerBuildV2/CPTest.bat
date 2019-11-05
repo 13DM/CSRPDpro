@@ -15,13 +15,7 @@ SET CurrentCarChoice=
 	:CarPickerManuType
 	::This is where you can select a car, and load it up directly to notepad++ for easy copying files to an nsb.
 	cls
-echo    ______              ____  _      __            
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  /
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ / 
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/  
-echo                                                           /___/      
-	echo.
+Call :CPLogo
 	echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 	echo.
 	echo Selected Manufacture:  !CurrentManuChoice!
@@ -206,13 +200,7 @@ echo                                                           /___/
 		CLS
 		SET Abarth500Choice=0
 
-echo    ______              ____  _      __            
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  /
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ / 
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/  
-echo                                                           /___/      
-		echo.
+Call :CPLogo
 		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 		echo.
 		echo Selected Manufacture:  !CurrentManuChoice!
@@ -262,13 +250,7 @@ echo                                                           /___/
 	set CurrentCarChoice=4C Coupe
 	:AlfaRomeo1
 	cls
-echo    ______              ____  _      __            
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  /
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ / 
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/  
-echo                                                           /___/      
-	echo.
+Call :CPLogo
 	echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 	echo.
 	echo.
@@ -319,13 +301,7 @@ echo                                                           /___/
 		CLS
 		SET 4CCoupeChoice=0
 
-echo    ______              ____  _      __            
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  /
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ / 
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/  
-echo                                                           /___/      
-		echo.
+Call :CPLogo
 		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 		echo.
 		echo Selected Manufacture:  !CurrentManuChoice!
@@ -368,13 +344,7 @@ echo                                                           /___/
 		CLS
 		SET 4CSpyderChoice=0
 
-echo    ______              ____  _      __            
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  /
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ / 
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/  
-echo                                                           /___/      
-		echo.
+Call :CPLogo
 		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 		echo.
 		echo Selected Manufacture:  !CurrentManuChoice!
@@ -411,13 +381,7 @@ echo                                                           /___/
 		CLS
 		SET 8CCompetizioneChoice=0
 
-echo    ______              ____  _      __            
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  /
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ / 
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/  
-echo                                                           /___/      
-		echo.
+Call :CPLogo
 		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 		echo.
 		echo Selected Manufacture:  !CurrentManuChoice!
@@ -442,13 +406,7 @@ echo                                                           /___/
 		CLS
 		SET GiuliaQuadrifoglioChoice=0
 
-echo    ______              ____  _      __            
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  /
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ / 
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/  
-echo                                                           /___/      
-		echo.
+Call :CPLogo
 		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 		echo.
 		echo Selected Manufacture:  !CurrentManuChoice!
@@ -498,13 +456,7 @@ echo                                                           /___/
 	set CurrentCarChoice=A110 Blanc Glacier
 	:Alpine1
 	cls
-echo    ______              ____  _      __            
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  /
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ / 
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/  
-echo                                                           /___/      
-	echo.
+Call :CPLogo
 	echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 	echo.
 	echo.
@@ -551,13 +503,7 @@ echo                                                           /___/
 	:Alpine2Con
 
 	cls
-echo    ______              ____  _      __            
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  /
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ / 
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/  
-echo                                                           /___/      
-	echo.
+Call :CPLogo
 	echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 	echo.
 	echo.
@@ -624,13 +570,7 @@ echo                                                           /___/
 	SET AMCChoice=1
 	set CurrentCarChoice=Javelin Defiant
 
-echo    ______              ____  _      __            
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  /
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ / 
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/  
-echo                                                           /___/      
-	echo.
+Call :CPLogo
 	echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 	echo.
 	echo Selected Manufacture:  !CurrentManuChoice!
@@ -657,13 +597,7 @@ echo                                                           /___/
 	
 	:ApolloCon
 	cls
-echo    ______              ____  _      __            
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  /
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ / 
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/  
-echo                                                           /___/      
-	echo.
+Call :CPLogo
 	echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 	echo.
 	echo Selected Manufacture:  !CurrentManuChoice!
@@ -715,13 +649,7 @@ echo                                                           /___/
 	
 	:AstonMartinCon
 	cls
-echo    ______              ____  _      __            
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  /
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ / 
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/  
-echo                                                           /___/      
-	echo.
+Call :CPLogo
 	echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 	echo.
 	echo Selected Manufacture:  !CurrentManuChoice!
@@ -826,13 +754,7 @@ REM echo                                                           /___/
 		REM echo.
 		REM set /p DB11Type="Select Choice and press Enter: " 
 		
-echo    ______              ____  _      __            
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  /
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ / 
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/  
-echo                                                           /___/      
-		echo.
+Call :CPLogo
 		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 		echo.
 		echo Selected Manufacture:  !CurrentManuChoice!
@@ -920,13 +842,7 @@ echo                                                           /___/
 		:One77Con
 		cls
 		
-echo    ______              ____  _      __            
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  /
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ / 
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/  
-echo                                                           /___/      
-		echo.
+Call :CPLogo
 		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 		echo.
 		echo Selected Manufacture:  !CurrentManuChoice!
@@ -989,13 +905,7 @@ echo                                                           /___/
 		:DBSSuperleggeraCon
 		cls
 		
-echo    ______              ____  _      __            
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  /
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ / 
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/  
-echo                                                           /___/      
-		echo.
+Call :CPLogo
 		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 		echo.
 		echo Selected Manufacture:  !CurrentManuChoice!
@@ -1035,13 +945,7 @@ echo                                                           /___/
 		:VanquishCon
 		cls
 		
-echo    ______              ____  _      __            
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  /
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ / 
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/  
-echo                                                           /___/      
-		echo.
+Call :CPLogo
 		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 		echo.
 		echo Selected Manufacture:  !CurrentManuChoice!
@@ -1098,13 +1002,7 @@ echo                                                           /___/
 		:VantageCon
 		cls
 		
-echo    ______              ____  _      __            
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  /
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ / 
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/  
-echo                                                           /___/      
-		echo.
+Call :CPLogo
 		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 		echo.
 		echo Selected Manufacture:  !CurrentManuChoice!
@@ -1152,13 +1050,7 @@ echo                                                           /___/
 		:VulcanCon 
 		cls 
 
-echo    ______              ____  _      __             
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___ 
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  / 
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ /  
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/   
-echo                                                           /___/       
-		echo.
+Call :CPLogo
 		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 		echo.
 		echo Selected Manufacture:  !CurrentManuChoice! 
@@ -1206,13 +1098,7 @@ echo                                                           /___/
 		SET DB5Choice=1
 
 
-echo    ______              ____  _      __            
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  /
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ / 
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/  
-echo                                                           /___/      
-		echo.
+Call :CPLogo
 		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 		echo.
 		echo Selected Manufacture:  !CurrentManuChoice!
@@ -1238,13 +1124,7 @@ echo                                                           /___/
 		:ZagatoCon
 		cls
 		
-echo    ______              ____  _      __            
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  /
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ / 
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/  
-echo                                                           /___/      
-		echo.
+Call :CPLogo
 		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 		echo.
 		echo Selected Manufacture:  !CurrentManuChoice!
@@ -1274,13 +1154,7 @@ echo                                                           /___/
 	:ATSAutomobili
 	::This opens the first page of the ATSAutomobili 
 	CLS
-echo    ______              ____  _      __            
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  /
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ / 
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/  
-echo                                                           /___/      
-	echo.
+Call :CPLogo
 	echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 	echo.
 	echo Selected Manufacture:  !CurrentManuChoice!
@@ -1313,13 +1187,7 @@ echo                                                           /___/
 	
 	:AudiCon
 	cls
-echo    ______              ____  _      __            
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  /
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ / 
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/  
-echo                                                           /___/      
-	echo.
+Call :CPLogo
 	echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 	echo.
 	echo Selected Manufacture:  !CurrentManuChoice!
@@ -1377,13 +1245,7 @@ echo                                                           /___/
 		CLS
 		SET 2014R8Choice=0
 
-echo    ______              ____  _      __            
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  /
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ / 
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/  
-echo                                                           /___/      
-		echo.
+Call :CPLogo
 		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 		echo.
 		echo Selected Manufacture:  !CurrentManuChoice!
@@ -1430,13 +1292,7 @@ echo                                                           /___/
 		CLS
 		SET 2016R8Choice=0
 
-echo    ______              ____  _      __            
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  /
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ / 
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/  
-echo                                                           /___/      
-		echo.
+Call :CPLogo
 		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 		echo.
 		echo Selected Manufacture:  !CurrentManuChoice!
@@ -1485,13 +1341,7 @@ echo                                                           /___/
 		CLS
 		SET LBR8Choice=0
 
-echo    ______              ____  _      __            
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  /
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ / 
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/  
-echo                                                           /___/      
-		echo.
+Call :CPLogo
 		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 		echo.
 		echo Selected Manufacture:  !CurrentManuChoice!
@@ -1543,13 +1393,7 @@ echo                                                           /___/
 		CLS
 		SET LBRS5Choice=0
 
-echo    ______              ____  _      __            
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  /
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ / 
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/  
-echo                                                           /___/      
-		echo.
+Call :CPLogo
 		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 		echo.
 		echo Selected Manufacture:  !CurrentManuChoice!
@@ -1602,13 +1446,7 @@ echo                                                           /___/
 		CLS
 		SET RS5Choice=0
 
-echo    ______              ____  _      __            
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  /
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ / 
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/  
-echo                                                           /___/      
-		echo.
+Call :CPLogo
 		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 		echo.
 		echo Selected Manufacture:  !CurrentManuChoice!
@@ -1659,13 +1497,7 @@ echo                                                           /___/
 		CLS
 		SET TTRSChoice=0
 
-echo    ______              ____  _      __            
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  /
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ / 
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/  
-echo                                                           /___/      
-		echo.
+Call :CPLogo
 		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 		echo.
 		echo Selected Manufacture:  !CurrentManuChoice!
@@ -1712,13 +1544,7 @@ echo                                                           /___/
 		CLS
 		SET R8VRSChoice=0
 
-echo    ______              ____  _      __            
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  /
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ / 
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/  
-echo                                                           /___/      
-		echo.
+Call :CPLogo
 		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 		echo.
 		echo Selected Manufacture:  !CurrentManuChoice!
@@ -1748,13 +1574,7 @@ echo                                                           /___/
 	CLS
 	SET BACMonoChoice=0
 
-echo    ______              ____  _      __            
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  /
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ / 
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/  
-echo                                                           /___/      
-	echo.
+Call :CPLogo
 	echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 	echo.
 	echo Selected Manufacture:  !CurrentManuChoice!
@@ -1810,13 +1630,7 @@ echo                                                           /___/
 	
 	:BentleyCon
 	cls
-echo    ______              ____  _      __            
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  /
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ / 
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/  
-echo                                                           /___/      
-	echo.
+Call :CPLogo
 	echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 	echo.
 	echo Selected Manufacture:  !CurrentManuChoice!
@@ -1871,13 +1685,7 @@ echo                                                           /___/
 		:BentaygaCon
 		cls
 	
-echo    ______              ____  _      __            
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  /
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ / 
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/  
-echo                                                           /___/      
-		echo.
+Call :CPLogo
 		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 		echo.
 		echo Selected Manufacture:  !CurrentManuChoice!
@@ -1991,13 +1799,7 @@ echo                                                           /___/
 		:GT1Con
 		cls
 	
-echo    ______              ____  _      __            
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  /
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ / 
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/  
-echo                                                           /___/      
-		echo.
+Call :CPLogo
 		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 		echo.
 		echo Selected Manufacture:  !CurrentManuChoice!
@@ -2031,13 +1833,7 @@ echo                                                           /___/
 		:GT3RCon
 		cls
 	
-echo    ______              ____  _      __            
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  /
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ / 
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/  
-echo                                                           /___/      
-		echo.
+Call :CPLogo
 		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 		echo.
 		echo Selected Manufacture:  !CurrentManuChoice!
@@ -2082,13 +1878,7 @@ echo                                                           /___/
 		:GTSpeedCon
 		cls
 	
-echo    ______              ____  _      __            
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  /
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ / 
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/  
-echo                                                           /___/      
-		echo.
+Call :CPLogo
 		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 		echo.
 		echo Selected Manufacture:  !CurrentManuChoice!
@@ -2160,13 +1950,7 @@ echo                                                           /___/
 	
 	:BMWCon
 	cls
-echo    ______              ____  _      __            
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  /
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ / 
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/  
-echo                                                           /___/      
-	echo.
+Call :CPLogo
 	echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 	echo.
 	echo Selected Manufacture:  !CurrentManuChoice!
@@ -2235,13 +2019,7 @@ echo                                                           /___/
 		:BMW235ICon
 		cls
 	
-echo    ______              ____  _      __            
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  /
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ / 
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/  
-echo                                                           /___/      
-		echo.
+Call :CPLogo
 		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 		echo.
 		echo Selected Manufacture:  !CurrentManuChoice!
@@ -2297,13 +2075,7 @@ echo                                                           /___/
 		:ACS2Con
 		cls
 	
-echo    ______              ____  _      __            
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  /
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ / 
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/  
-echo                                                           /___/      
-		echo.
+Call :CPLogo
 		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 		echo.
 		echo Selected Manufacture:  !CurrentManuChoice!
@@ -2346,13 +2118,7 @@ echo                                                           /___/
 		if %ACS2Type% == 6 set CurrentCarColorChoice=Sunset Orange
 				
 		cls
-echo    ______              ____  _      __            
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  /
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ / 
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/  
-echo                                                           /___/      
-		echo.
+Call :CPLogo
 		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 		echo.
 		echo Selected Manufacture:  %CurrentManuChoice%
@@ -2417,13 +2183,7 @@ echo                                                           /___/
 		:M2COMPCon
 		cls
 	
-echo    ______              ____  _      __            
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  /
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ / 
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/  
-echo                                                           /___/      
-		echo.
+Call :CPLogo
 		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 		echo.
 		echo Selected Manufacture:  !CurrentManuChoice!
@@ -2462,13 +2222,7 @@ echo                                                           /___/
 		:LBM3Con
 		cls
 	
-echo    ______              ____  _      __            
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  /
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ / 
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/  
-echo                                                           /___/      
-		echo.
+Call :CPLogo
 		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 		echo.
 		echo Selected Manufacture:  !CurrentManuChoice!
@@ -2539,13 +2293,7 @@ echo                                                           /___/
 		:LBM4Con
 		cls
 	
-echo    ______              ____  _      __            
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  /
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ / 
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/  
-echo                                                           /___/      
-		echo.
+Call :CPLogo
 		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 		echo.
 		echo Selected Manufacture:  !CurrentManuChoice!
@@ -2592,13 +2340,7 @@ echo                                                           /___/
 		:M4Con
 		cls
 	
-echo    ______              ____  _      __            
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  /
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ / 
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/  
-echo                                                           /___/      
-		echo.
+Call :CPLogo
 		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 		echo.
 		echo Selected Manufacture:  !CurrentManuChoice!
@@ -2647,13 +2389,7 @@ echo                                                           /___/
 		:M4GTSCon
 		cls
 	
-echo    ______              ____  _      __            
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  /
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ / 
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/  
-echo                                                           /___/      
-		echo.
+Call :CPLogo
 		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 		echo.
 		echo Selected Manufacture:  !CurrentManuChoice!
@@ -2689,13 +2425,7 @@ echo                                                           /___/
 		:M5COMPCon
 		cls
 	
-echo    ______              ____  _      __            
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  /
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ / 
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/  
-echo                                                           /___/      
-		echo.
+Call :CPLogo
 		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 		echo.
 		echo Selected Manufacture:  !CurrentManuChoice!
@@ -2740,13 +2470,7 @@ echo                                                           /___/
 		:M8Con 
 		cls 
 
-echo    ______              ____  _      __             
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___ 
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  / 
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ /  
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/   
-echo                                                           /___/       
-		echo.
+Call :CPLogo
 		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 		echo.
 		echo Selected Manufacture:  !CurrentManuChoice! 
@@ -2797,13 +2521,7 @@ echo                                                           /___/
 		:I8OPTIONSCon
 
 		cls
-echo    ______              ____  _      __            
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  /
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ / 
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/  
-echo                                                           /___/      
-		echo.
+Call :CPLogo
 		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 		echo.
 		echo Selected Manufacture:  %CurrentManuChoice%
@@ -2855,13 +2573,7 @@ echo                                                           /___/
 			:I8SILVERCon
 			cls
 	
-echo    ______              ____  _      __            
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  /
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ / 
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/  
-echo                                                           /___/      
-			echo.
+Call :CPLogo
 			echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 			echo.
 			echo Selected Manufacture:  %CurrentManuChoice%
@@ -2913,13 +2625,7 @@ echo                                                           /___/
 			:I8RECYCLEDCon
 			cls
 	
-echo    ______              ____  _      __            
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  /
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ / 
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/  
-echo                                                           /___/      
-			echo.
+Call :CPLogo
 			echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 			echo.
 			echo Selected Manufacture:  %CurrentManuChoice%
@@ -2970,13 +2676,7 @@ echo                                                           /___/
 			:I8REWARDCon
 			cls
 	
-echo    ______              ____  _      __            
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  /
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ / 
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/  
-echo                                                           /___/      
-			echo.
+Call :CPLogo
 			echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 			echo.
 			echo Selected Manufacture:  %CurrentManuChoice%
@@ -3007,13 +2707,7 @@ echo                                                           /___/
 			:LBI8Con
 			cls
 	
-echo    ______              ____  _      __            
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  /
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ / 
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/  
-echo                                                           /___/      
-			echo.
+Call :CPLogo
 			echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 			echo.
 			echo Selected Manufacture:  %CurrentManuChoice%
@@ -3040,13 +2734,7 @@ echo                                                           /___/
 			:LBI8ALERT
 			cls
 	
-echo    ______              ____  _      __            
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  /
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ / 
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/  
-echo                                                           /___/      
-			echo.
+Call :CPLogo
 			echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 			echo.
 			echo Selected Manufacture:  %CurrentManuChoice%
@@ -3069,13 +2757,7 @@ echo                                                           /___/
 		:Z4Con
 		cls
 	
-echo    ______              ____  _      __            
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  /
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ / 
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/  
-echo                                                           /___/      
-		echo.
+Call :CPLogo
 		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 		echo.
 		echo Selected Manufacture:  !CurrentManuChoice!
@@ -3132,13 +2814,7 @@ echo                                                           /___/
 	CLS
 	SET BrabhamChoice=1
 
-echo    ______              ____  _      __            
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  /
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ / 
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/  
-echo                                                           /___/      
-	echo.
+Call :CPLogo
 	echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 	echo.
 	echo Selected Manufacture:  !CurrentManuChoice!
@@ -3165,13 +2841,7 @@ echo                                                           /___/
 	
 	:BugattiCon
 	cls
-echo    ______              ____  _      __            
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  /
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ / 
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/  
-echo                                                           /___/      
-	echo.
+Call :CPLogo
 	echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 	echo.
 	echo Selected Manufacture:  !CurrentManuChoice!
@@ -3226,13 +2896,7 @@ echo                                                           /___/
 		:ChironCon
 		cls
 	
-echo    ______              ____  _      __            
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  /
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ / 
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/  
-echo                                                           /___/      
-		echo.
+Call :CPLogo
 		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 		echo.
 		echo Selected Manufacture:  !CurrentManuChoice!
@@ -3341,13 +3005,7 @@ echo                                                           /___/
 		CLS
 		SET DivoChoice=1
 
-echo    ______              ____  _      __            
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  /
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ / 
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/  
-echo                                                           /___/      
-		echo.
+Call :CPLogo
 		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 		echo.
 		echo Selected Manufacture:  !CurrentManuChoice!
@@ -3371,13 +3029,7 @@ echo                                                           /___/
 		CLS
 		SET EB110SSChoice=1
 
-echo    ______              ____  _      __            
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  /
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ / 
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/  
-echo                                                           /___/      
-		echo.
+Call :CPLogo
 		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 		echo.
 		echo Selected Manufacture:  !CurrentManuChoice!
@@ -3403,13 +3055,7 @@ echo                                                           /___/
 		:VeyronCon
 		cls
 	
-echo    ______              ____  _      __            
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  /
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ / 
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/  
-echo                                                           /___/      
-		echo.
+Call :CPLogo
 		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 		echo.
 		echo Selected Manufacture:  !CurrentManuChoice!
@@ -3456,13 +3102,7 @@ echo                                                           /___/
 	CLS
 	SET CadillacCSTVChoice=0
 
-echo    ______              ____  _      __            
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  /
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ / 
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/  
-echo                                                           /___/      
-	echo.
+Call :CPLogo
 	echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 	echo.
 	echo Selected Manufacture:  !CurrentManuChoice!
@@ -3518,13 +3158,7 @@ echo                                                           /___/
 	
 	:ChevroletCon
 	cls
-echo    ______              ____  _      __            
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  /
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ / 
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/  
-echo                                                           /___/      
-	echo.
+Call :CPLogo
 	echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 	echo.
 	echo Selected Manufacture:  !CurrentManuChoice!
@@ -3577,13 +3211,7 @@ echo                                                           /___/
 	
 		:C10Con
 		cls
-echo    ______              ____  _      __            
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  /
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ / 
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/  
-echo                                                           /___/      
-		echo.
+Call :CPLogo
 		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 		echo.
 		echo Selected Manufacture:  !CurrentManuChoice!
@@ -3643,13 +3271,7 @@ echo                                                           /___/
 	
 		:CamaroCon
 		cls
-echo    ______              ____  _      __            
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  /
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ / 
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/  
-echo                                                           /___/      
-		echo.
+Call :CPLogo
 		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 		echo.
 		echo Selected Manufacture:  !CurrentManuChoice!
@@ -3715,13 +3337,7 @@ echo                                                           /___/
 	
 		:CorvetteCon
 		cls
-echo    ______              ____  _      __            
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  /
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ / 
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/  
-echo                                                           /___/      
-		echo.
+Call :CPLogo
 		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 		echo.
 		echo Selected Manufacture:  !CurrentManuChoice!
@@ -3779,13 +3395,7 @@ echo                                                           /___/
 			:QBCCon
 			cls
 	
-echo    ______              ____  _      __            
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  /
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ / 
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/  
-echo                                                           /___/      
-			echo.
+Call :CPLogo
 			echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 			echo.
 			echo Selected Manufacture:  !CurrentManuChoice!
@@ -3814,13 +3424,7 @@ echo                                                           /___/
 			:CamaroZ28Con
 			cls
 	
-echo    ______              ____  _      __            
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  /
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ / 
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/  
-echo                                                           /___/      
-			echo.
+Call :CPLogo
 			echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 			echo.
 			echo Selected Manufacture:  !CurrentManuChoice!
@@ -3858,13 +3462,7 @@ echo                                                           /___/
 			:Z28ASCCon
 			cls
 	
-echo    ______              ____  _      __            
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  /
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ / 
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/  
-echo                                                           /___/      
-			echo.
+Call :CPLogo
 			echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 			echo.
 			echo Selected Manufacture:  !CurrentManuChoice!
@@ -3915,13 +3513,7 @@ echo                                                           /___/
 			:CamaroSSCon
 			cls
 	
-echo    ______              ____  _      __            
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  /
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ / 
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/  
-echo                                                           /___/      
-			echo.
+Call :CPLogo
 			echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 			echo.
 			echo Selected Manufacture:  !CurrentManuChoice!
@@ -3984,13 +3576,7 @@ echo                                                           /___/
 			:Alpha6Con
 			cls
 	
-echo    ______              ____  _      __            
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  /
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ / 
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/  
-echo                                                           /___/      
-			echo.
+Call :CPLogo
 			echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 			echo.
 			echo Selected Manufacture:  !CurrentManuChoice!
@@ -4021,13 +3607,7 @@ echo                                                           /___/
 			:UPCamaroCon
 			cls
 	
-echo    ______              ____  _      __            
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  /
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ / 
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/  
-echo                                                           /___/      
-			echo.
+Call :CPLogo
 			echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 			echo.
 			echo Selected Manufacture:  !CurrentManuChoice!
@@ -4056,13 +3636,7 @@ echo                                                           /___/
 			:ZL1Con
 			cls
 	
-echo    ______              ____  _      __            
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  /
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ / 
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/  
-echo                                                           /___/      
-			echo.
+Call :CPLogo
 			echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 			echo.
 			echo Selected Manufacture:  !CurrentManuChoice!
@@ -4118,13 +3692,7 @@ echo                                                           /___/
 			:1LECon
 			cls
 	
-echo    ______              ____  _      __            
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  /
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ / 
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/  
-echo                                                           /___/      
-			echo.
+Call :CPLogo
 			echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 			echo.
 			echo Selected Manufacture:  !CurrentManuChoice!
@@ -4165,13 +3733,7 @@ echo                                                           /___/
 			:COPOCon
 			cls
 	
-echo    ______              ____  _      __            
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  /
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ / 
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/  
-echo                                                           /___/      
-			echo.
+Call :CPLogo
 			echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 			echo.
 			echo Selected Manufacture:  !CurrentManuChoice!
@@ -4222,13 +3784,7 @@ echo                                                           /___/
 			CLS
 			SET ZR1ClassicRestoredChoice=1
 
-echo    ______              ____  _      __            
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  /
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ / 
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/  
-echo                                                           /___/      
-			echo.
+Call :CPLogo
 			echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 			echo.
 			echo Selected Manufacture:  !CurrentManuChoice!
@@ -4254,13 +3810,7 @@ echo                                                           /___/
 			:StingrayCon
 			cls
 	
-echo    ______              ____  _      __            
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  /
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ / 
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/  
-echo                                                           /___/      
-			echo.
+Call :CPLogo
 			echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 			echo.
 			echo Selected Manufacture:  !CurrentManuChoice!
@@ -4322,13 +3872,7 @@ echo                                                           /___/
 			:Z06C7Con
 			cls
 	
-echo    ______              ____  _      __            
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  /
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ / 
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/  
-echo                                                           /___/      
-			echo.
+Call :CPLogo
 			echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 			echo.
 			echo Selected Manufacture:  !CurrentManuChoice!
@@ -4390,13 +3934,7 @@ echo                                                           /___/
 			:18ZR1Con
 			cls
 	
-echo    ______              ____  _      __            
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  /
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ / 
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/  
-echo                                                           /___/      
-			echo.
+Call :CPLogo
 			echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 			echo.
 			echo Selected Manufacture:  !CurrentManuChoice!
@@ -4455,13 +3993,7 @@ echo                                                           /___/
 			CLS
 			SET GrandsportChoice=1
 
-echo    ______              ____  _      __            
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  /
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ / 
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/  
-echo                                                           /___/      
-			echo.
+Call :CPLogo
 			echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 			echo.
 			echo Selected Manufacture:  !CurrentManuChoice!
@@ -4489,13 +4021,7 @@ echo                                                           /___/
 	
 	:DodgeCon
 	cls
-echo    ______              ____  _      __            
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  /
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ / 
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/  
-echo                                                           /___/      
-	echo.
+Call :CPLogo
 	echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 	echo.
 	echo Selected Manufacture:  !CurrentManuChoice!
@@ -4560,13 +4086,7 @@ echo                                                           /___/
 		:DemonCon
 		cls
 	
-echo    ______              ____  _      __            
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  /
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ / 
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/  
-echo                                                           /___/      
-		echo.
+Call :CPLogo
 		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 		echo.
 		echo Selected Manufacture:  !CurrentManuChoice!
@@ -4618,13 +4138,7 @@ echo                                                           /___/
 		CLS
 		SET DemonHPE1200Choice=1
 
-echo    ______              ____  _      __            
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  /
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ / 
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/  
-echo                                                           /___/      
-		echo.
+Call :CPLogo
 		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 		echo.
 		echo Selected Manufacture:  !CurrentManuChoice!
@@ -4650,13 +4164,7 @@ echo                                                           /___/
 		:SRTHellcatCon
 		cls
 	
-echo    ______              ____  _      __            
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  /
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ / 
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/  
-echo                                                           /___/      
-		echo.
+Call :CPLogo
 		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 		echo.
 		echo Selected Manufacture:  !CurrentManuChoice!
@@ -4706,13 +4214,7 @@ echo                                                           /___/
 		:LBHellcatCon
 		cls
 	
-echo    ______              ____  _      __            
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  /
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ / 
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/  
-echo                                                           /___/      
-		echo.
+Call :CPLogo
 		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 		echo.
 		echo Selected Manufacture:  !CurrentManuChoice!
@@ -4770,13 +4272,7 @@ echo                                                           /___/
 		CLS
 
 
-echo    ______              ____  _      __            
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  /
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ / 
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/  
-echo                                                           /___/      
-		echo.
+Call :CPLogo
 		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 		echo.
 		echo Selected Manufacture:  !CurrentManuChoice!
@@ -4799,13 +4295,7 @@ echo                                                           /___/
 		:ViperACRCon
 		cls
 	
-echo    ______              ____  _      __            
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  /
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ / 
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/  
-echo                                                           /___/      
-		echo.
+Call :CPLogo
 		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 		echo.
 		echo Selected Manufacture:  !CurrentManuChoice!
@@ -4865,13 +4355,7 @@ echo                                                           /___/
 		CLS
 		SET ACRExtremeChoice=1
 
-echo    ______              ____  _      __            
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  /
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ / 
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/  
-echo                                                           /___/      
-		echo.
+Call :CPLogo
 		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 		echo.
 		echo Selected Manufacture:  !CurrentManuChoice!
@@ -4897,13 +4381,7 @@ echo                                                           /___/
 		:ViperGTSCon
 		cls
 	
-echo    ______              ____  _      __            
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  /
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ / 
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/  
-echo                                                           /___/      
-		echo.
+Call :CPLogo
 		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 		echo.
 		echo Selected Manufacture:  !CurrentManuChoice!
@@ -4955,13 +4433,7 @@ echo                                                           /___/
 		CLS
 		SET SnakeskinGTCChoice=1
 
-echo    ______              ____  _      __            
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  /
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ / 
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/  
-echo                                                           /___/      
-		echo.
+Call :CPLogo
 		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 		echo.
 		echo Selected Manufacture:  !CurrentManuChoice!
@@ -4987,13 +4459,7 @@ echo                                                           /___/
 		:DonkervoortCon
 		cls
 	
-echo    ______              ____  _      __            
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  /
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ / 
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/  
-echo                                                           /___/      
-		echo.
+Call :CPLogo
 		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 		echo.
 		echo Selected Manufacture:  !CurrentManuChoice!
@@ -5049,13 +4515,7 @@ echo                                                           /___/
 	
 	:FerrariCon
 	cls
-echo    ______              ____  _      __            
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  /
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ / 
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/  
-echo                                                           /___/      
-	echo.
+Call :CPLogo
 	echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 	echo.
 	echo Selected Manufacture:  !CurrentManuChoice!
@@ -5138,13 +4598,7 @@ echo                                                           /___/
 		:70thAnnCon
 
 		cls
-echo    ______              ____  _      __            
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  /
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ / 
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/  
-echo                                                           /___/      
-		echo.
+Call :CPLogo
 		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 		echo.
 		echo Selected Manufacture:  %CurrentManuChoice%
@@ -5198,13 +4652,7 @@ echo                                                           /___/
 		CLS
 		SET 250GTOChoice=1
 
-echo    ______              ____  _      __            
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  /
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ / 
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/  
-echo                                                           /___/      
-		echo.
+Call :CPLogo
 		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 		echo.
 		echo Selected Manufacture:  !CurrentManuChoice!
@@ -5230,13 +4678,7 @@ echo                                                           /___/
 		:458SpecialeCon
 		cls
 	
-echo    ______              ____  _      __            
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  /
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ / 
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/  
-echo                                                           /___/      
-		echo.
+Call :CPLogo
 		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 		echo.
 		echo Selected Manufacture:  !CurrentManuChoice!
@@ -5276,13 +4718,7 @@ echo                                                           /___/
 		:488PistaCon
 		cls
 	
-echo    ______              ____  _      __            
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  /
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ / 
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/  
-echo                                                           /___/      
-		echo.
+Call :CPLogo
 		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 		echo.
 		echo Selected Manufacture:  !CurrentManuChoice!
@@ -5336,13 +4772,7 @@ echo                                                           /___/
 		:488PistaSpiderCon
 		cls
 	
-echo    ______              ____  _      __            
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  /
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ / 
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/  
-echo                                                           /___/      
-		echo.
+Call :CPLogo
 		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 		echo.
 		echo Selected Manufacture:  !CurrentManuChoice!
@@ -5403,13 +4833,7 @@ echo                                                           /___/
 		:488SpiderCon
 		cls
 	
-echo    ______              ____  _      __            
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  /
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ / 
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/  
-echo                                                           /___/      
-		echo.
+Call :CPLogo
 		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 		echo.
 		echo Selected Manufacture:  !CurrentManuChoice!
@@ -5459,13 +4883,7 @@ echo                                                           /___/
 		:599GTOCon
 		cls
 	
-echo    ______              ____  _      __            
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  /
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ / 
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/  
-echo                                                           /___/      
-		echo.
+Call :CPLogo
 		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 		echo.
 		echo Selected Manufacture:  !CurrentManuChoice!
@@ -5535,13 +4953,7 @@ echo                                                           /___/
 		:812SuperfastCon
 		cls
 	
-echo    ______              ____  _      __            
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  /
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ / 
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/  
-echo                                                           /___/      
-		echo.
+Call :CPLogo
 		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 		echo.
 		echo Selected Manufacture:  !CurrentManuChoice!
@@ -5616,13 +5028,7 @@ echo                                                           /___/
 		:CaliforniaCon
 		cls
 	
-echo    ______              ____  _      __            
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  /
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ / 
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/  
-echo                                                           /___/      
-		echo.
+Call :CPLogo
 		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 		echo.
 		echo Selected Manufacture:  !CurrentManuChoice!
@@ -5697,13 +5103,7 @@ echo                                                           /___/
 		:F12BerlinettaCon
 		cls
 	
-echo    ______              ____  _      __            
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  /
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ / 
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/  
-echo                                                           /___/      
-		echo.
+Call :CPLogo
 		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 		echo.
 		echo Selected Manufacture:  !CurrentManuChoice!
@@ -5753,13 +5153,7 @@ echo                                                           /___/
 		:F12TDFCon
 		cls
 	
-echo    ______              ____  _      __            
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  /
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ / 
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/  
-echo                                                           /___/      
-		echo.
+Call :CPLogo
 		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 		echo.
 		echo Selected Manufacture:  !CurrentManuChoice!
@@ -5811,13 +5205,7 @@ echo                                                           /___/
 		:F40Con
 		cls
 	
-echo    ______              ____  _      __            
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  /
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ / 
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/  
-echo                                                           /___/      
-		echo.
+Call :CPLogo
 		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 		echo.
 		echo Selected Manufacture:  !CurrentManuChoice!
@@ -5851,13 +5239,7 @@ echo                                                           /___/
 		:F50Con
 		cls
 	
-echo    ______              ____  _      __            
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  /
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ / 
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/  
-echo                                                           /___/      
-		echo.
+Call :CPLogo
 		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 		echo.
 		echo Selected Manufacture:  !CurrentManuChoice!
@@ -5897,13 +5279,7 @@ echo                                                           /___/
 		:F8TRIBUTOCon
 		cls
 	
-echo    ______              ____  _      __            
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  /
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ / 
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/  
-echo                                                           /___/      
-		echo.
+Call :CPLogo
 		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 		echo.
 		echo Selected Manufacture:  !CurrentManuChoice!
@@ -5961,13 +5337,7 @@ echo                                                           /___/
 		:FXXKCon
 		cls
 	
-echo    ______              ____  _      __            
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  /
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ / 
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/  
-echo                                                           /___/      
-		echo.
+Call :CPLogo
 		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 		echo.
 		echo Selected Manufacture:  !CurrentManuChoice!
@@ -6010,13 +5380,7 @@ echo                                                           /___/
 		:GTC4LussoCon
 		cls
 	
-echo    ______              ____  _      __            
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  /
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ / 
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/  
-echo                                                           /___/      
-		echo.
+Call :CPLogo
 		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 		echo.
 		echo Selected Manufacture:  !CurrentManuChoice!
@@ -6047,13 +5411,7 @@ echo                                                           /___/
 		:LaFCon
 		cls
 	
-echo    ______              ____  _      __            
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  /
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ / 
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/  
-echo                                                           /___/      
-		echo.
+Call :CPLogo
 		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 		echo.
 		echo Selected Manufacture:  !CurrentManuChoice!
@@ -6105,13 +5463,7 @@ echo                                                           /___/
 		:PortofinoCon
 		cls
 	
-echo    ______              ____  _      __            
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  /
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ / 
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/  
-echo                                                           /___/      
-		echo.
+Call :CPLogo
 		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 		echo.
 		echo Selected Manufacture:  !CurrentManuChoice!
@@ -6170,13 +5522,7 @@ echo                                                           /___/
 	
 	:FnFCarsCon
 	cls
-echo    ______              ____  _      __            
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  /
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ / 
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/  
-echo                                                           /___/      
-	echo.
+Call :CPLogo
 	echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 	echo.
 	echo Selected Category:     !CurrentManuChoice!
@@ -6294,13 +5640,7 @@ echo                                                           /___/
 	
 	:FordCon
 	cls
-echo    ______              ____  _      __            
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  /
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ / 
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/  
-echo                                                           /___/      
-	echo.
+Call :CPLogo
 	echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 	echo.
 	echo Selected Manufacture:  !CurrentManuChoice!
@@ -6371,13 +5711,7 @@ echo                                                           /___/
 		:Boss302Con
 		cls
 	
-echo    ______              ____  _      __            
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  /
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ / 
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/  
-echo                                                           /___/      
-		echo.
+Call :CPLogo
 		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 		echo.
 		echo Selected Manufacture:  !CurrentManuChoice!
@@ -6429,13 +5763,7 @@ echo                                                           /___/
 		CLS
 		SET Durty30Choice=1
 
-echo    ______              ____  _      __            
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  /
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ / 
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/  
-echo                                                           /___/      
-		echo.
+Call :CPLogo
 		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 		echo.
 		echo Selected Manufacture:  !CurrentManuChoice!
@@ -6461,13 +5789,7 @@ echo                                                           /___/
 		:F150RaptorCon
 		cls
 	
-echo    ______              ____  _      __            
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  /
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ / 
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/  
-echo                                                           /___/      
-		echo.
+Call :CPLogo
 		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 		echo.
 		echo Selected Manufacture:  !CurrentManuChoice!
@@ -6495,13 +5817,7 @@ echo                                                           /___/
 		:FocusRSCon
 		cls
 	
-echo    ______              ____  _      __            
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  /
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ / 
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/  
-echo                                                           /___/      
-		echo.
+Call :CPLogo
 		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 		echo.
 		echo Selected Manufacture:  !CurrentManuChoice!
@@ -6547,13 +5863,7 @@ echo                                                           /___/
 		:FocusSTCon
 		cls
 	
-echo    ______              ____  _      __            
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  /
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ / 
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/  
-echo                                                           /___/      
-		echo.
+Call :CPLogo
 		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 		echo.
 		echo Selected Manufacture:  !CurrentManuChoice!
@@ -6584,13 +5894,7 @@ echo                                                           /___/
 		CLS
 		SET GT40Choice=1
 
-echo    ______              ____  _      __            
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  /
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ / 
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/  
-echo                                                           /___/      
-		echo.
+Call :CPLogo
 		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 		echo.
 		echo Selected Manufacture:  !CurrentManuChoice!
@@ -6616,13 +5920,7 @@ echo                                                           /___/
 		:FordGTCon
 		cls
 	
-echo    ______              ____  _      __            
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  /
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ / 
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/  
-echo                                                           /___/      
-		echo.
+Call :CPLogo
 		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 		echo.
 		echo Selected Manufacture:  !CurrentManuChoice!
@@ -6688,13 +5986,7 @@ echo                                                           /___/
 		:HPE750Con
 		cls
 	
-echo    ______              ____  _      __            
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  /
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ / 
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/  
-echo                                                           /___/      
-		echo.
+Call :CPLogo
 		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 		echo.
 		echo Selected Manufacture:  !CurrentManuChoice!
@@ -6743,13 +6035,7 @@ echo                                                           /___/
 		:MustangGTCon
 		cls
 	
-echo    ______              ____  _      __            
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  /
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ / 
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/  
-echo                                                           /___/      
-		echo.
+Call :CPLogo
 		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 		echo.
 		echo Selected Manufacture:  !CurrentManuChoice!
@@ -6804,13 +6090,7 @@ echo                                                           /___/
 		:GT500Con
 		set GT500ColorType=0
 		cls
-echo    ______              ____  _      __            
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  /
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ / 
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/  
-echo                                                           /___/      
-		echo.
+Call :CPLogo
 		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 		echo.
 		echo Selected Manufacture:  %CurrentManuChoice%
@@ -6873,13 +6153,7 @@ echo                                                           /___/
 			:GT500DHG
 			cls
 	
-echo    ______              ____  _      __            
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  /
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ / 
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/  
-echo                                                           /___/      
-			echo.
+Call :CPLogo
 			echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 			echo.
 			echo Selected Manufacture:  %CurrentManuChoice%
@@ -6910,13 +6184,7 @@ echo                                                           /___/
 			:GT500GL
 			cls
 	
-echo    ______              ____  _      __            
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  /
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ / 
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/  
-echo                                                           /___/      
-			echo.
+Call :CPLogo
 			echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 			echo.
 			echo Selected Manufacture:  %CurrentManuChoice%
@@ -6947,13 +6215,7 @@ echo                                                           /___/
 			:GT500IS
 			cls
 	
-echo    ______              ____  _      __            
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  /
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ / 
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/  
-echo                                                           /___/      
-			echo.
+Call :CPLogo
 			echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 			echo.
 			echo Selected Manufacture:  %CurrentManuChoice%
@@ -6984,13 +6246,7 @@ echo                                                           /___/
 			:GT500KB
 			cls
 	
-echo    ______              ____  _      __            
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  /
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ / 
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/  
-echo                                                           /___/      
-			echo.
+Call :CPLogo
 			echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 			echo.
 			echo Selected Manufacture:  %CurrentManuChoice%
@@ -7018,13 +6274,7 @@ echo                                                           /___/
 			:GT500M
 			cls
 	
-echo    ______              ____  _      __            
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  /
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ / 
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/  
-echo                                                           /___/      
-			echo.
+Call :CPLogo
 			echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 			echo.
 			echo Selected Manufacture:  %CurrentManuChoice%
@@ -7055,13 +6305,7 @@ echo                                                           /___/
 			:GT500OW
 			cls
 	
-echo    ______              ____  _      __            
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  /
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ / 
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/  
-echo                                                           /___/      
-			echo.
+Call :CPLogo
 			echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 			echo.
 			echo Selected Manufacture:  %CurrentManuChoice%
@@ -7095,13 +6339,7 @@ echo                                                           /___/
 			:GT500RR
 			cls
 	
-echo    ______              ____  _      __            
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  /
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ / 
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/  
-echo                                                           /___/      
-			echo.
+Call :CPLogo
 			echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 			echo.
 			echo Selected Manufacture:  %CurrentManuChoice%
@@ -7132,13 +6370,7 @@ echo                                                           /___/
 			:GT500SB
 			cls
 	
-echo    ______              ____  _      __            
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  /
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ / 
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/  
-echo                                                           /___/      
-			echo.
+Call :CPLogo
 			echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 			echo.
 			echo Selected Manufacture:  %CurrentManuChoice%
@@ -7166,13 +6398,7 @@ echo                                                           /___/
 			:GT500TO
 			cls
 	
-echo    ______              ____  _      __            
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  /
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ / 
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/  
-echo                                                           /___/      
-			echo.
+Call :CPLogo
 			echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 			echo.
 			echo Selected Manufacture:  %CurrentManuChoice%
@@ -7203,13 +6429,7 @@ echo                                                           /___/
 			:GT500VB
 			cls
 	
-echo    ______              ____  _      __            
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  /
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ / 
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/  
-echo                                                           /___/      
-			echo.
+Call :CPLogo
 			echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 			echo.
 			echo Selected Manufacture:  %CurrentManuChoice%
@@ -7288,13 +6508,7 @@ echo                                                           /___/
 		:GT350RCon
 		cls
 	
-echo    ______              ____  _      __            
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  /
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ / 
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/  
-echo                                                           /___/      
-		echo.
+Call :CPLogo
 		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 		echo.
 		echo Selected Manufacture:  !CurrentManuChoice!
@@ -7346,13 +6560,7 @@ echo                                                           /___/
 		:RoushS3Con
 		cls
 	
-echo    ______              ____  _      __            
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  /
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ / 
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/  
-echo                                                           /___/      
-		echo.
+Call :CPLogo
 		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 		echo.
 		echo Selected Manufacture:  !CurrentManuChoice!
@@ -7393,13 +6601,7 @@ echo                                                           /___/
 		
 	:Ginetta
 	CLS
-echo    ______              ____  _      __            
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  /
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ / 
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/  
-echo                                                           /___/      
-	echo.
+Call :CPLogo
 	echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 	echo.
 	echo Selected Manufacture:  !CurrentManuChoice!
@@ -7423,13 +6625,7 @@ echo                                                           /___/
 	CLS
 	SET GTAChoice=0
 
-echo    ______              ____  _      __            
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  /
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ / 
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/  
-echo                                                           /___/      
-	echo.
+Call :CPLogo
 	echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 	echo.
 	echo Selected Manufacture:  !CurrentManuChoice!
@@ -7467,13 +6663,7 @@ echo                                                           /___/
 	
 	:HennesseyCon
 	cls
-echo    ______              ____  _      __            
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  /
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ / 
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/  
-echo                                                           /___/      
-	echo.
+Call :CPLogo
 	echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 	echo.
 	echo Selected Manufacture:  !CurrentManuChoice!
@@ -7526,13 +6716,7 @@ echo                                                           /___/
 		:ExorcistCon 
 		cls 
 
-echo    ______              ____  _      __            
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  /
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ / 
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/  
-echo                                                           /___/ 
-		echo.
+Call :CPLogo
 		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 		echo.
 		echo Selected Manufacture:  !CurrentManuChoice! 
@@ -7587,13 +6771,7 @@ echo                                                           /___/
 		:VenomGTCon 
 		cls 
 
-echo    ______              ____  _      __             
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___ 
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  / 
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ /  
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/   
-echo                                                           /___/       
-		echo.
+Call :CPLogo
 		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 		echo.
 		echo Selected Manufacture:  !CurrentManuChoice! 
@@ -7630,13 +6808,7 @@ echo                                                           /___/
 		:VenomGTSpyderCon 
 		cls 
 
-echo    ______              ____  _      __             
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___ 
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  / 
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ /  
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/   
-echo                                                           /___/       
-		echo.
+Call :CPLogo
 		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 		echo.
 		echo Selected Manufacture:  !CurrentManuChoice! 
@@ -7689,13 +6861,7 @@ echo                                                           /___/
 	
 	:HondaCon
 	cls
-echo    ______              ____  _      __            
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  /
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ / 
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/  
-echo                                                           /___/      
-	echo.
+Call :CPLogo
 	echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 	echo.
 	echo Selected Manufacture:  !CurrentManuChoice!
@@ -7754,13 +6920,7 @@ echo                                                           /___/
 		:Civic15Con 
 		cls 
 
-echo    ______              ____  _      __             
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___ 
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  / 
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ /  
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/   
-echo                                                           /___/       
-		echo.
+Call :CPLogo
 		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 		echo.
 		echo Selected Manufacture:  !CurrentManuChoice! 
@@ -7801,13 +6961,7 @@ echo                                                           /___/
 		:CivicTypeRCon 
 		cls 
 
-echo    ______              ____  _      __             
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___ 
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  / 
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ /  
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/   
-echo                                                           /___/       
-		echo.
+Call :CPLogo
 		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 		echo.
 		echo Selected Manufacture:  !CurrentManuChoice! 
@@ -7842,13 +6996,7 @@ echo                                                           /___/
 		CLS
 		SET NSXClassicChoice=1
 
-echo    ______              ____  _      __            
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  /
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ / 
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/  
-echo                                                           /___/      
-		echo.
+Call :CPLogo
 		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 		echo.
 		echo Selected Manufacture:  !CurrentManuChoice!
@@ -7876,13 +7024,7 @@ echo                                                           /___/
 
 
 
-echo    ______              ____  _      __             
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___ 
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  / 
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ /  
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/   
-echo                                                           /___/       
-		echo.
+Call :CPLogo
 		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 		echo.
 		echo Selected Manufacture:  !CurrentManuChoice! 
@@ -7934,13 +7076,7 @@ echo                                                           /___/
 		:LBNSXCon 
 		cls 
 
-echo    ______              ____  _      __             
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___ 
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  / 
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ /  
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/   
-echo                                                           /___/       
-		echo.
+Call :CPLogo
 		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 		echo.
 		echo Selected Manufacture:  !CurrentManuChoice! 
@@ -8014,13 +7150,7 @@ echo                                                           /___/
 		CLS
 		SET SukiS2kChoice=1
 
-echo    ______              ____  _      __            
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  /
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ / 
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/  
-echo                                                           /___/      
-		echo.
+Call :CPLogo
 		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 		echo.
 		echo Selected Manufacture:  !CurrentManuChoice!
@@ -8046,13 +7176,7 @@ echo                                                           /___/
 	
 	:HyundaiCon
 	cls
-echo    ______              ____  _      __            
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  /
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ / 
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/  
-echo                                                           /___/      
-	echo.
+Call :CPLogo
 	echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 	echo.
 	echo Selected Manufacture:  !CurrentManuChoice!
@@ -8103,13 +7227,7 @@ echo                                                           /___/
 		:VelosterCon 
 		cls 
 
-echo    ______              ____  _      __             
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___ 
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  / 
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ /  
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/   
-echo                                                           /___/       
-		echo.
+Call :CPLogo
 		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 		echo.
 		echo Selected Manufacture:  !CurrentManuChoice! 
@@ -8164,13 +7282,7 @@ echo                                                           /___/
 		:VelosterARKPerfCon 
 		cls 
 
-echo    ______              ____  _      __             
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___ 
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  / 
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ /  
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/   
-echo                                                           /___/       
-		echo.
+Call :CPLogo
 		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 		echo.
 		echo Selected Manufacture:  !CurrentManuChoice! 
@@ -8205,13 +7317,7 @@ echo                                                           /___/
 	
 	:JaguarCon
 	cls
-echo    ______              ____  _      __            
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  /
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ / 
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/  
-echo                                                           /___/      
-	echo.
+Call :CPLogo
 	echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 	echo.
 	echo Selected Manufacture:  !CurrentManuChoice!
@@ -8272,13 +7378,7 @@ echo                                                           /___/
 		:CX75Con 
 		cls 
 
-echo    ______              ____  _      __             
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___ 
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  / 
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ /  
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/   
-echo                                                           /___/       
-		echo.
+Call :CPLogo
 		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 		echo.
 		echo Selected Manufacture:  !CurrentManuChoice! 
@@ -8327,13 +7427,7 @@ echo                                                           /___/
 		:FTypeRCon 
 		cls 
 
-echo    ______              ____  _      __             
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___ 
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  / 
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ /  
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/   
-echo                                                           /___/       
-		echo.
+Call :CPLogo
 		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 		echo.
 		echo Selected Manufacture:  !CurrentManuChoice! 
@@ -8397,13 +7491,7 @@ echo                                                           /___/
 		:FTypeSVRCon 
 		cls 
 
-echo    ______              ____  _      __             
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___ 
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  / 
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ /  
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/   
-echo                                                           /___/       
-		echo.
+Call :CPLogo
 		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 		echo.
 		echo Selected Manufacture:  !CurrentManuChoice! 
@@ -8461,13 +7549,7 @@ echo                                                           /___/
 		CLS
 		SET Project7BossChoice=1
 
-echo    ______              ____  _      __            
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  /
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ / 
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/  
-echo                                                           /___/      
-		echo.
+Call :CPLogo
 		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 		echo.
 		echo Selected Manufacture:  !CurrentManuChoice!
@@ -8490,13 +7572,7 @@ echo                                                           /___/
 		CLS
 		SET Project7VIPChoice=1
 
-echo    ______              ____  _      __            
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  /
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ / 
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/  
-echo                                                           /___/      
-		echo.
+Call :CPLogo
 		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 		echo.
 		echo Selected Manufacture:  !CurrentManuChoice!
@@ -8522,13 +7598,7 @@ echo                                                           /___/
 		:XESVProject8Con 
 		cls 
 
-echo    ______              ____  _      __             
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___ 
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  / 
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ /  
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/   
-echo                                                           /___/       
-		echo.
+Call :CPLogo
 		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 		echo.
 		echo Selected Manufacture:  !CurrentManuChoice! 
@@ -8576,13 +7646,7 @@ echo                                                           /___/
 		CLS
 		SET XJ220Choice=1
 
-echo    ______              ____  _      __            
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  /
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ / 
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/  
-echo                                                           /___/      
-		echo.
+Call :CPLogo
 		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 		echo.
 		echo Selected Manufacture:  !CurrentManuChoice!
@@ -8609,13 +7673,7 @@ echo                                                           /___/
 		:JeepCon 
 		cls 
 
-echo    ______              ____  _      __             
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___ 
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  / 
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ /  
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/   
-echo                                                           /___/       
-		echo.
+Call :CPLogo
 		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 		echo.
 		echo Selected Manufacture:  !CurrentManuChoice! 
@@ -8674,13 +7732,7 @@ echo                                                           /___/
 	
 	:KoenigseggCon
 	cls
-echo    ______              ____  _      __            
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  /
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ / 
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/  
-echo                                                           /___/      
-	echo.
+Call :CPLogo
 	echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 	echo.
 	echo Selected Manufacture:  !CurrentManuChoice!
@@ -8734,13 +7786,7 @@ echo                                                           /___/
 
 		:AgeraR
 		CLS
-echo    ______              ____  _      __            
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  /
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ / 
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/  
-echo                                                           /___/      
-		echo.
+Call :CPLogo
 		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 		echo.
 		echo Selected Manufacture:  !CurrentManuChoice!
@@ -8766,13 +7812,7 @@ echo                                                           /___/
 		:AgeraRSCon 
 		cls 
 
-echo    ______              ____  _      __             
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___ 
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  / 
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ /  
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/   
-echo                                                           /___/       
-		echo.
+Call :CPLogo
 		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 		echo.
 		echo Selected Manufacture:  !CurrentManuChoice! 
@@ -8819,13 +7859,7 @@ echo                                                           /___/
 	    
 		:Jesko
 		CLS
-echo    ______              ____  _      __            
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  /
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ / 
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/  
-echo                                                           /___/      
-		echo.
+Call :CPLogo
 		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 		echo.
 		echo Selected Manufacture:  !CurrentManuChoice!
@@ -8851,13 +7885,7 @@ echo                                                           /___/
 		:One1Con 
 		cls 
 
-echo    ______              ____  _      __             
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___ 
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  / 
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ /  
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/   
-echo                                                           /___/       
-		echo.
+Call :CPLogo
 		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 		echo.
 		echo Selected Manufacture:  !CurrentManuChoice! 
@@ -8897,13 +7925,7 @@ echo                                                           /___/
 		:RegeraCon 
 		cls 
 
-echo    ______              ____  _      __             
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___ 
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  / 
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ /  
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/   
-echo                                                           /___/       
-		echo.
+Call :CPLogo
 		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 		echo.
 		echo Selected Manufacture:  !CurrentManuChoice! 
@@ -8971,13 +7993,7 @@ echo                                                           /___/
 
 		:RegeraGhost
 		CLS
-echo    ______              ____  _      __            
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  /
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ / 
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/  
-echo                                                           /___/      
-		echo.
+Call :CPLogo
 		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 		echo.
 		echo Selected Manufacture:  !CurrentManuChoice!
@@ -9004,13 +8020,7 @@ echo                                                           /___/
 		:KTMCon 
 		cls 
 
-echo    ______              ____  _      __             
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___ 
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  / 
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ /  
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/   
-echo                                                           /___/       
-		echo.
+Call :CPLogo
 		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 		echo.
 		echo Selected Manufacture:  !CurrentManuChoice! 
@@ -9063,13 +8073,7 @@ echo                                                           /___/
 	
 	:LamborghiniCon
 	cls
-echo    ______              ____  _      __            
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  /
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ / 
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/  
-echo                                                           /___/      
-	echo.
+Call :CPLogo
 	echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 	echo.
 	echo Selected Manufacture:  !CurrentManuChoice!
@@ -9148,13 +8152,7 @@ echo                                                           /___/
 		:AventadorCon 
 		cls 
 
-echo    ______              ____  _      __             
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___ 
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  / 
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ /  
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/   
-echo                                                           /___/       
-		echo.
+Call :CPLogo
 		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 		echo.
 		echo Selected Manufacture:  !CurrentManuChoice! 
@@ -9205,13 +8203,7 @@ echo                                                           /___/
 		:AventadorSVCon 
 		cls 
 
-echo    ______              ____  _      __             
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___ 
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  / 
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ /  
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/   
-echo                                                           /___/       
-		echo.
+Call :CPLogo
 		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 		echo.
 		echo Selected Manufacture:  !CurrentManuChoice! 
@@ -9269,13 +8261,7 @@ echo                                                           /___/
 		:AventadorSVJCon 
 		cls 
 
-echo    ______              ____  _      __             
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___ 
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  / 
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ /  
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/   
-echo                                                           /___/       
-		echo.
+Call :CPLogo
 		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 		echo.
 		echo Selected Manufacture:  !CurrentManuChoice! 
@@ -9368,13 +8354,7 @@ echo                                                           /___/
 		:CentenarioCon 
 		cls 
 
-echo    ______              ____  _      __             
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___ 
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  / 
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ /  
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/   
-echo                                                           /___/       
-		echo.
+Call :CPLogo
 		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 		echo.
 		echo Selected Manufacture:  !CurrentManuChoice! 
@@ -9400,13 +8380,7 @@ echo                                                           /___/
 	    
 		:Countach
 		CLS
-echo    ______              ____  _      __            
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  /
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ / 
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/  
-echo                                                           /___/      
-		echo.
+Call :CPLogo
 		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 		echo.
 		echo Selected Manufacture:  !CurrentManuChoice!
@@ -9432,13 +8406,7 @@ echo                                                           /___/
 		:HuracanCon 
 		cls 
 
-echo    ______              ____  _      __             
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___ 
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  / 
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ /  
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/   
-echo                                                           /___/       
-		echo.
+Call :CPLogo
 		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 		echo.
 		echo Selected Manufacture:  !CurrentManuChoice! 
@@ -9490,13 +8458,7 @@ echo                                                           /___/
 		:HuracanPerformanteCon 
 		cls 
 
-echo    ______              ____  _      __             
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___ 
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  / 
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ /  
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/   
-echo                                                           /___/       
-		echo.
+Call :CPLogo
 		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 		echo.
 		echo Selected Manufacture:  !CurrentManuChoice! 
@@ -9567,13 +8529,7 @@ echo                                                           /___/
 		:HuracanPerformanteSpyderCon 
 		cls 
 
-echo    ______              ____  _      __             
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___ 
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  / 
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ /  
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/   
-echo                                                           /___/       
-		echo.
+Call :CPLogo
 		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 		echo.
 		echo Selected Manufacture:  !CurrentManuChoice! 
@@ -9629,13 +8585,7 @@ echo                                                           /___/
 		:LBAventadorCon 
 		cls 
 
-echo    ______              ____  _      __             
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___ 
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  / 
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ /  
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/   
-echo                                                           /___/       
-		echo.
+Call :CPLogo
 		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 		echo.
 		echo Selected Manufacture:  !CurrentManuChoice! 
@@ -9713,13 +8663,7 @@ echo                                                           /___/
 		:LBHuracanCon 
 		cls 
 
-echo    ______              ____  _      __             
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___ 
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  / 
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ /  
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/   
-echo                                                           /___/       
-		echo.
+Call :CPLogo
 		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 		echo.
 		echo Selected Manufacture:  !CurrentManuChoice! 
@@ -9752,13 +8696,7 @@ echo                                                           /___/
 		:MurcielagoSVCon 
 		cls 
 
-echo    ______              ____  _      __             
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___ 
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  / 
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ /  
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/   
-echo                                                           /___/       
-		echo.
+Call :CPLogo
 		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 		echo.
 		echo Selected Manufacture:  !CurrentManuChoice! 
@@ -9809,13 +8747,7 @@ echo                                                           /___/
 	    
 		:SC18
 		CLS
-echo    ______              ____  _      __            
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  /
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ / 
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/  
-echo                                                           /___/      
-		echo.
+Call :CPLogo
 		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 		echo.
 		echo Selected Manufacture:  !CurrentManuChoice!
@@ -9836,13 +8768,7 @@ echo                                                           /___/
 		
 		:Sian
 		CLS
-echo    ______              ____  _      __            
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  /
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ / 
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/  
-echo                                                           /___/      
-		echo.
+Call :CPLogo
 		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 		echo.
 		echo Selected Manufacture:  !CurrentManuChoice!
@@ -9868,13 +8794,7 @@ echo                                                           /___/
 		:SestoCon 
 		cls 
 
-echo    ______              ____  _      __             
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___ 
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  / 
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ /  
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/   
-echo                                                           /___/       
-		echo.
+Call :CPLogo
 		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 		echo.
 		echo Selected Manufacture:  !CurrentManuChoice! 
@@ -9914,13 +8834,7 @@ echo                                                           /___/
 		:UrusCon 
 		cls 
 
-echo    ______              ____  _      __             
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___ 
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  / 
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ /  
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/   
-echo                                                           /___/       
-		echo.
+Call :CPLogo
 		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 		echo.
 		echo Selected Manufacture:  !CurrentManuChoice! 
@@ -9982,13 +8896,7 @@ echo                                                           /___/
 	    
 		:Veneno
 		CLS
-echo    ______              ____  _      __            
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  /
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ / 
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/  
-echo                                                           /___/      
-		echo.
+Call :CPLogo
 		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 		echo.
 		echo Selected Manufacture:  !CurrentManuChoice!
@@ -10015,13 +8923,7 @@ echo                                                           /___/
 		:LandRoverCon 
 		cls 
 
-echo    ______              ____  _      __             
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___ 
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  / 
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ /  
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/   
-echo                                                           /___/       
-		echo.
+Call :CPLogo
 		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 		echo.
 		echo Selected Manufacture:  !CurrentManuChoice! 
@@ -10090,13 +8992,7 @@ echo                                                           /___/
 		:LocalMotorsCon 
 		cls 
 
-echo    ______              ____  _      __             
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___ 
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  / 
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ /  
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/   
-echo                                                           /___/       
-		echo.
+Call :CPLogo
 		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 		echo.
 		echo Selected Manufacture:  !CurrentManuChoice! 
@@ -10164,13 +9060,7 @@ echo                                                           /___/
 	
 	:LotusCon
 	cls
-echo    ______              ____  _      __            
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  /
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ / 
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/  
-echo                                                           /___/      
-	echo.
+Call :CPLogo
 	echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 	echo.
 	echo Selected Manufacture:  !CurrentManuChoice!
@@ -10225,13 +9115,7 @@ echo                                                           /___/
 		:Exige350Con 
 		cls 
 
-echo    ______              ____  _      __             
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___ 
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  / 
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ /  
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/   
-echo                                                           /___/       
-		echo.
+Call :CPLogo
 		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 		echo.
 		echo Selected Manufacture:  !CurrentManuChoice! 
@@ -10279,13 +9163,7 @@ echo                                                           /___/
 		:Exige360Con 
 		cls 
 
-echo    ______              ____  _      __             
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___ 
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  / 
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ /  
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/   
-echo                                                           /___/       
-		echo.
+Call :CPLogo
 		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 		echo.
 		echo Selected Manufacture:  !CurrentManuChoice! 
@@ -10315,13 +9193,7 @@ echo                                                           /___/
 	    
 		:ExigeLF1
 		CLS
-echo    ______              ____  _      __            
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  /
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ / 
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/  
-echo                                                           /___/      
-		echo.
+Call :CPLogo
 		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 		echo.
 		echo Selected Manufacture:  !CurrentManuChoice!
@@ -10347,13 +9219,7 @@ echo                                                           /___/
 		:EvoraGT430Con 
 		cls 
 
-echo    ______              ____  _      __             
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___ 
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  / 
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ /  
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/   
-echo                                                           /___/       
-		echo.
+Call :CPLogo
 		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 		echo.
 		echo Selected Manufacture:  !CurrentManuChoice! 
@@ -10411,13 +9277,7 @@ echo                                                           /___/
 	
 	:MaseratiCon
 	cls
-echo    ______              ____  _      __            
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  /
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ / 
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/  
-echo                                                           /___/      
-	echo.
+Call :CPLogo
 	echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 	echo.
 	echo Selected Manufacture:  !CurrentManuChoice!
@@ -10470,13 +9330,7 @@ echo                                                           /___/
 		:GhibliCon 
 		cls 
 
-echo    ______              ____  _      __             
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___ 
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  / 
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ /  
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/   
-echo                                                           /___/       
-		echo.
+Call :CPLogo
 		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 		echo.
 		echo Selected Manufacture:  !CurrentManuChoice! 
@@ -10538,13 +9392,7 @@ echo                                                           /___/
 		:GranTurismoCon 
 		cls 
 
-echo    ______              ____  _      __             
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___ 
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  / 
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ /  
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/   
-echo                                                           /___/       
-		echo.
+Call :CPLogo
 		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 		echo.
 		echo Selected Manufacture:  !CurrentManuChoice! 
@@ -10593,13 +9441,7 @@ echo                                                           /___/
 	    
 		:MC12
 		CLS
-echo    ______              ____  _      __            
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  /
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ / 
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/  
-echo                                                           /___/      
-		echo.
+Call :CPLogo
 		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 		echo.
 		echo Selected Manufacture:  !CurrentManuChoice!
@@ -10626,13 +9468,7 @@ echo                                                           /___/
 	
 	:MazdaCon
 	cls
-echo    ______              ____  _      __            
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  /
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ / 
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/  
-echo                                                           /___/      
-	echo.
+Call :CPLogo
 	echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 	echo.
 	echo Selected Manufacture:  !CurrentManuChoice!
@@ -10683,13 +9519,7 @@ echo                                                           /___/
 		:MX5Con 
 		cls 
 
-echo    ______              ____  _      __             
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___ 
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  / 
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ /  
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/   
-echo                                                           /___/       
-		echo.
+Call :CPLogo
 		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 		echo.
 		echo Selected Manufacture:  !CurrentManuChoice! 
@@ -10744,13 +9574,7 @@ echo                                                           /___/
 		:RX7Con 
 		cls 
 
-echo    ______              ____  _      __             
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___ 
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  / 
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ /  
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/   
-echo                                                           /___/       
-		echo.
+Call :CPLogo
 		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 		echo.
 		echo Selected Manufacture:  !CurrentManuChoice! 
@@ -10816,13 +9640,7 @@ echo                                                           /___/
 	CLS
 	SET MazzantiChoice=1
 
-echo    ______              ____  _      __            
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  /
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ / 
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/  
-echo                                                           /___/      
-	echo.
+Call :CPLogo
 	echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 	echo.
 	echo Selected Manufacture:  !CurrentManuChoice!
@@ -10849,13 +9667,7 @@ echo                                                           /___/
 	
 	:McLarenCon
 	cls
-echo    ______              ____  _      __            
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  /
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ / 
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/  
-echo                                                           /___/      
-	echo.
+Call :CPLogo
 	echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 	echo.
 	echo Selected Manufacture:  !CurrentManuChoice!
@@ -10932,13 +9744,7 @@ echo                                                           /___/
 		:570SCon 
 		cls 
 
-echo    ______              ____  _      __             
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___ 
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  / 
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ /  
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/   
-echo                                                           /___/       
-		echo.
+Call :CPLogo
 		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 		echo.
 		echo Selected Manufacture:  !CurrentManuChoice! 
@@ -10989,13 +9795,7 @@ echo                                                           /___/
 		:600LTCon 
 		cls 
 
-echo    ______              ____  _      __             
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___ 
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  / 
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ /  
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/   
-echo                                                           /___/       
-		echo.
+Call :CPLogo
 		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 		echo.
 		echo Selected Manufacture:  !CurrentManuChoice! 
@@ -11026,13 +9826,7 @@ echo                                                           /___/
 		:650SCon 
 		cls 
 
-echo    ______              ____  _      __             
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___ 
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  / 
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ /  
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/   
-echo                                                           /___/       
-		echo.
+Call :CPLogo
 		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 		echo.
 		echo Selected Manufacture:  !CurrentManuChoice! 
@@ -11094,13 +9888,7 @@ echo                                                           /___/
 		:LB650SCon 
 		cls 
 
-echo    ______              ____  _      __             
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___ 
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  / 
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ /  
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/   
-echo                                                           /___/       
-		echo.
+Call :CPLogo
 		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 		echo.
 		echo Selected Manufacture:  !CurrentManuChoice! 
@@ -11150,13 +9938,7 @@ echo                                                           /___/
 		:675LTSpiderCon 
 		cls 
 
-echo    ______              ____  _      __             
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___ 
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  / 
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ /  
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/   
-echo                                                           /___/       
-		echo.
+Call :CPLogo
 		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 		echo.
 		echo Selected Manufacture:  !CurrentManuChoice! 
@@ -11215,13 +9997,7 @@ echo                                                           /___/
 		:720SCon 
 		cls 
 
-echo    ______              ____  _      __             
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___ 
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  / 
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ /  
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/   
-echo                                                           /___/       
-		echo.
+Call :CPLogo
 		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 		echo.
 		echo Selected Manufacture:  !CurrentManuChoice! 
@@ -11308,13 +10084,7 @@ echo                                                           /___/
 		:720SSpiderCon 
 		cls 
 
-echo    ______              ____  _      __             
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___ 
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  / 
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ /  
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/   
-echo                                                           /___/       
-		echo.
+Call :CPLogo
 		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 		echo.
 		echo Selected Manufacture:  !CurrentManuChoice! 
@@ -11343,13 +10113,7 @@ echo                                                           /___/
 		
 		:F1
 		CLS
-echo    ______              ____  _      __            
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  /
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ / 
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/  
-echo                                                           /___/      
-		echo.
+Call :CPLogo
 		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 		echo.
 		echo Selected Manufacture:  !CurrentManuChoice!
@@ -11375,13 +10139,7 @@ echo                                                           /___/
 		:P1Con 
 		cls 
 
-echo    ______              ____  _      __             
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___ 
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  / 
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ /  
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/   
-echo                                                           /___/       
-		echo.
+Call :CPLogo
 		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 		echo.
 		echo Selected Manufacture:  !CurrentManuChoice! 
@@ -11440,13 +10198,7 @@ echo                                                           /___/
 		:P1GTRCon 
 		cls 
 
-echo    ______              ____  _      __             
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___ 
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  / 
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ /  
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/   
-echo                                                           /___/       
-		echo.
+Call :CPLogo
 		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 		echo.
 		echo Selected Manufacture:  !CurrentManuChoice! 
@@ -11473,13 +10225,7 @@ echo                                                           /___/
 	    
 		:SLR722
 		CLS
-echo    ______              ____  _      __            
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  /
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ / 
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/  
-echo                                                           /___/      
-		echo.
+Call :CPLogo
 		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 		echo.
 		echo Selected Manufacture:  !CurrentManuChoice!
@@ -11500,13 +10246,7 @@ echo                                                           /___/
 	    
 		:Senna
 		CLS
-echo    ______              ____  _      __            
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  /
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ / 
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/  
-echo                                                           /___/      
-		echo.
+Call :CPLogo
 		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 		echo.
 		echo Selected Manufacture:  !CurrentManuChoice!
@@ -11527,13 +10267,7 @@ echo                                                           /___/
 		
 		:Speedtail
 		CLS
-echo    ______              ____  _      __            
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  /
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ / 
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/  
-echo                                                           /___/      
-		echo.
+Call :CPLogo
 		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 		echo.
 		echo Selected Manufacture:  !CurrentManuChoice!
@@ -11559,13 +10293,7 @@ echo                                                           /___/
 		:570VXCon 
 		cls 
 
-echo    ______              ____  _      __             
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___ 
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  / 
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ /  
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/   
-echo                                                           /___/       
-		echo.
+Call :CPLogo
 		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 		echo.
 		echo Selected Manufacture:  !CurrentManuChoice! 
@@ -11626,13 +10354,7 @@ echo                                                           /___/
 		:V720SCon 
 		cls 
 
-echo    ______              ____  _      __             
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___ 
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  / 
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ /  
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/   
-echo                                                           /___/       
-		echo.
+Call :CPLogo
 		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 		echo.
 		echo Selected Manufacture:  !CurrentManuChoice! 
@@ -11661,13 +10383,7 @@ echo                                                           /___/
 	
 	:MercedesCon
 	cls
-echo    ______              ____  _      __            
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  /
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ / 
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/  
-echo                                                           /___/      
-	echo.
+Call :CPLogo
 	echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 	echo.
 	echo Selected Manufacture:  !CurrentManuChoice!
@@ -11730,13 +10446,7 @@ echo                                                           /___/
 		:AMGGTCon 
 		cls 
 
-echo    ______              ____  _      __             
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___ 
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  / 
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ /  
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/   
-echo                                                           /___/       
-		echo.
+Call :CPLogo
 		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 		echo.
 		echo Selected Manufacture:  !CurrentManuChoice! 
@@ -11798,13 +10508,7 @@ echo                                                           /___/
 		:AMGGTRCon 
 		cls 
 
-echo    ______              ____  _      __             
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___ 
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  / 
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ /  
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/   
-echo                                                           /___/       
-		echo.
+Call :CPLogo
 		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 		echo.
 		echo Selected Manufacture:  !CurrentManuChoice! 
@@ -11850,13 +10554,7 @@ echo                                                           /___/
 	    
 		:300SL
 		CLS
-echo    ______              ____  _      __            
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  /
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ / 
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/  
-echo                                                           /___/      
-		echo.
+Call :CPLogo
 		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 		echo.
 		echo Selected Manufacture:  !CurrentManuChoice!
@@ -11877,13 +10575,7 @@ echo                                                           /___/
 	    
 		:A45AMG
 		CLS
-echo    ______              ____  _      __            
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  /
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ / 
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/  
-echo                                                           /___/      
-		echo.
+Call :CPLogo
 		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 		echo.
 		echo Selected Manufacture:  !CurrentManuChoice!
@@ -11909,13 +10601,7 @@ echo                                                           /___/
 		:C63BSCon 
 		cls 
 
-echo    ______              ____  _      __             
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___ 
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  / 
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ /  
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/   
-echo                                                           /___/       
-		echo.
+Call :CPLogo
 		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 		echo.
 		echo Selected Manufacture:  !CurrentManuChoice! 
@@ -11944,13 +10630,7 @@ echo                                                           /___/
 		:C63E507Con 
 		cls 
 
-echo    ______              ____  _      __             
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___ 
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  / 
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ /  
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/   
-echo                                                           /___/       
-		echo.
+Call :CPLogo
 		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 		echo.
 		echo Selected Manufacture:  !CurrentManuChoice! 
@@ -11984,13 +10664,7 @@ echo                                                           /___/
 		:LBC63Con 
 		cls 
 
-echo    ______              ____  _      __             
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___ 
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  / 
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ /  
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/   
-echo                                                           /___/       
-		echo.
+Call :CPLogo
 		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 		echo.
 		echo Selected Manufacture:  !CurrentManuChoice! 
@@ -12061,13 +10735,7 @@ echo                                                           /___/
 		:SLSCon 
 		cls 
 
-echo    ______              ____  _      __             
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___ 
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  / 
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ /  
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/   
-echo                                                           /___/       
-		echo.
+Call :CPLogo
 		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 		echo.
 		echo Selected Manufacture:  !CurrentManuChoice! 
@@ -12110,13 +10778,7 @@ echo                                                           /___/
 		:MiniCon 
 		cls 
 
-echo    ______              ____  _      __             
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___ 
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  / 
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ /  
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/   
-echo                                                           /___/       
-		echo.
+Call :CPLogo
 		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 		echo.
 		echo Selected Manufacture:  !CurrentManuChoice! 
@@ -12168,13 +10830,7 @@ echo                                                           /___/
 	
 	:MitsubishiCon
 	cls
-echo    ______              ____  _      __            
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  /
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ / 
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/  
-echo                                                           /___/      
-	echo.
+Call :CPLogo
 	echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 	echo.
 	echo Selected Manufacture:  !CurrentManuChoice!
@@ -12225,13 +10881,7 @@ echo                                                           /___/
 	
 	:NissanCon
 	cls
-echo    ______              ____  _      __            
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  /
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ / 
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/  
-echo                                                           /___/      
-	echo.
+Call :CPLogo
 	echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 	echo.
 	echo Selected Manufacture:  !CurrentManuChoice!
@@ -12293,13 +10943,7 @@ echo                                                           /___/
 		:15GTRCon 
 		cls 
 
-echo    ______              ____  _      __             
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___ 
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  / 
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ /  
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/   
-echo                                                           /___/       
-		echo.
+Call :CPLogo
 		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 		echo.
 		echo Selected Manufacture:  !CurrentManuChoice! 
@@ -12361,13 +11005,7 @@ echo                                                           /___/
 		:17GTRCon 
 		cls 
 
-echo    ______              ____  _      __             
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___ 
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  / 
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ /  
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/   
-echo                                                           /___/       
-		echo.
+Call :CPLogo
 		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 		echo.
 		echo Selected Manufacture:  !CurrentManuChoice! 
@@ -12411,13 +11049,7 @@ echo                                                           /___/
 		:GTRNismoCon 
 		cls 
 
-echo    ______              ____  _      __             
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___ 
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  / 
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ /  
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/   
-echo                                                           /___/       
-		echo.
+Call :CPLogo
 		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 		echo.
 		echo Selected Manufacture:  !CurrentManuChoice! 
@@ -12452,13 +11084,7 @@ echo                                                           /___/
 		:GTRNAttackCon 
 		cls 
 
-echo    ______              ____  _      __             
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___ 
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  / 
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ /  
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/   
-echo                                                           /___/       
-		echo.
+Call :CPLogo
 		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 		echo.
 		echo Selected Manufacture:  !CurrentManuChoice! 
@@ -12496,13 +11122,7 @@ echo                                                           /___/
 		:LBGTRCon 
 		cls 
 
-echo    ______              ____  _      __             
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___ 
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  / 
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ /  
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/   
-echo                                                           /___/       
-		echo.
+Call :CPLogo
 		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 		echo.
 		echo Selected Manufacture:  !CurrentManuChoice! 
@@ -12573,13 +11193,7 @@ echo                                                           /___/
 		:S15Con 
 		cls 
 
-echo    ______              ____  _      __             
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___ 
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  / 
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ /  
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/   
-echo                                                           /___/       
-		echo.
+Call :CPLogo
 		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 		echo.
 		echo Selected Manufacture:  !CurrentManuChoice! 
@@ -12614,13 +11228,7 @@ echo                                                           /___/
 		:RBS15Con
 
 		cls
-echo    ______              ____  _      __            
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  /
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ / 
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/  
-echo                                                           /___/      
-		echo.
+Call :CPLogo
 		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 		echo.
 		echo Selected Manufacture:  %CurrentManuChoice%
@@ -12674,13 +11282,7 @@ echo                                                           /___/
 		:RBS152
 
 		cls
-echo    ______              ____  _      __            
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  /
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ / 
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/  
-echo                                                           /___/      
-		echo.
+Call :CPLogo
 		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 		echo.
 		echo Selected Manufacture:  %CurrentManuChoice%
@@ -13004,13 +11606,7 @@ echo                                                           /___/
 
 		:Noble
 		CLS
-echo    ______              ____  _      __            
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  /
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ / 
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/  
-echo                                                           /___/      
-		echo.
+Call :CPLogo
 		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 		echo.
 		echo Selected Manufacture:  !CurrentManuChoice!
@@ -13037,13 +11633,7 @@ echo                                                           /___/
  
     :PaganiCon 
     cls 
-echo    ______              ____  _      __            
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  /
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ / 
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/  
-echo                                                           /___/      
-    echo. 
+Call :CPLogo
     echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
     echo. 
     echo Selected Manufacture:  !CurrentManuChoice! 
@@ -13102,13 +11692,7 @@ echo                                                           /___/
 		:HuayraCon 
 		cls 
 
-echo    ______              ____  _      __             
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___ 
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  / 
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ /  
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/   
-echo                                                           /___/       
-		echo.
+Call :CPLogo
 		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 		echo.
 		echo Selected Manufacture:  !CurrentManuChoice! 
@@ -13159,13 +11743,7 @@ echo                                                           /___/
 		:HuayraBCCon 
 		cls 
 
-echo    ______              ____  _      __             
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___ 
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  / 
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ /  
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/   
-echo                                                           /___/       
-		echo.
+Call :CPLogo
 		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 		echo.
 		echo Selected Manufacture:  !CurrentManuChoice! 
@@ -13206,13 +11784,7 @@ echo                                                           /___/
 		:HuayraRoadsterCon 
 		cls 
 
-echo    ______              ____  _      __             
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___ 
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  / 
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ /  
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/   
-echo                                                           /___/       
-		echo.
+Call :CPLogo
 		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 		echo.
 		echo Selected Manufacture:  !CurrentManuChoice! 
@@ -13258,13 +11830,7 @@ echo                                                           /___/
 		:HuayraRoadsterBCCon 
 		cls 
 
-echo    ______              ____  _      __             
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___ 
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  / 
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ /  
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/   
-echo                                                           /___/       
-		echo.
+Call :CPLogo
 		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 		echo.
 		echo Selected Manufacture:  !CurrentManuChoice! 
@@ -13287,13 +11853,7 @@ echo                                                           /___/
 
 		:ZondaBarchetta
 		CLS
-echo    ______              ____  _      __            
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  /
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ / 
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/  
-echo                                                           /___/      
-		echo.
+Call :CPLogo
 		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 		echo.
 		echo Selected Manufacture:  !CurrentManuChoice!
@@ -13314,13 +11874,7 @@ echo                                                           /___/
 		
 		:ZondaRevolucion
 		CLS
-echo    ______              ____  _      __            
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  /
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ / 
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/  
-echo                                                           /___/      
-		echo.
+Call :CPLogo
 		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 		echo.
 		echo Selected Manufacture:  !CurrentManuChoice!
@@ -13341,13 +11895,7 @@ echo                                                           /___/
 
 	:Pontiac
 	CLS
-echo    ______              ____  _      __            
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  /
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ / 
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/  
-echo                                                           /___/      
-	echo.
+Call :CPLogo
 	echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 	echo.
 	echo Selected Manufacture:  !CurrentManuChoice!
@@ -13373,13 +11921,7 @@ echo                                                           /___/
  
     :PlymouthCon 
     cls 
-    echo    ______              ____  _      __             
-    echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___ 
-    echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  / 
-    echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ /  
-    echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/   
-    echo                                                           /___/       
-    echo. 
+Call :CPLogo
     echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
     echo. 
     echo Selected Manufacture:  !CurrentManuChoice! 
@@ -13427,13 +11969,7 @@ echo                                                           /___/
 	 
 		:GTX
 		CLS
-echo    ______              ____  _      __            
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  /
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ / 
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/  
-echo                                                           /___/      
-		echo.
+Call :CPLogo
 		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 		echo.
 		echo Selected Manufacture:  !CurrentManuChoice!
@@ -13459,13 +11995,7 @@ echo                                                           /___/
 		:TorcCon 
 		cls 
 
-echo    ______              ____  _      __             
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___ 
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  / 
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ /  
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/   
-echo                                                           /___/       
-		echo.
+Call :CPLogo
 		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 		echo.
 		echo Selected Manufacture:  !CurrentManuChoice! 
@@ -13491,13 +12021,7 @@ echo                                                           /___/
 
 		:Cuda
 		CLS
-echo    ______              ____  _      __            
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  /
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ / 
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/  
-echo                                                           /___/      
-		echo.
+Call :CPLogo
 		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 		echo.
 		echo Selected Manufacture:  !CurrentManuChoice!
@@ -13524,13 +12048,7 @@ echo                                                           /___/
  
     :PorscheCon 
     cls 
-    echo    ______              ____  _      __             
-    echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___ 
-    echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  / 
-    echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ /  
-    echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/   
-    echo                                                           /___/       
-    echo. 
+Call :CPLogo
     echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
     echo. 
     echo Selected Manufacture:  !CurrentManuChoice! 
@@ -13611,13 +12129,7 @@ echo                                                           /___/
 		:718BoxsterCon 
 		cls 
 
-echo    ______              ____  _      __             
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___ 
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  / 
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ /  
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/   
-echo                                                           /___/       
-		echo.
+Call :CPLogo
 		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 		echo.
 		echo Selected Manufacture:  !CurrentManuChoice! 
@@ -13672,13 +12184,7 @@ echo                                                           /___/
 		:718Boxster2020Con 
 		cls 
 
-echo    ______              ____  _      __             
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___ 
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  / 
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ /  
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/   
-echo                                                           /___/       
-		echo.
+Call :CPLogo
 		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 		echo.
 		echo Selected Manufacture:  !CurrentManuChoice! 
@@ -13701,13 +12207,7 @@ echo                                                           /___/
 		:911Carrera4SCabrioletCon 
 		cls 
 
-echo    ______              ____  _      __             
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___ 
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  / 
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ /  
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/   
-echo                                                           /___/       
-		echo.
+Call :CPLogo
 		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 		echo.
 		echo Selected Manufacture:  !CurrentManuChoice! 
@@ -13747,13 +12247,7 @@ echo                                                           /___/
 		:911GT3Con 
 		cls 
 
-echo    ______              ____  _      __             
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___ 
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  / 
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ /  
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/   
-echo                                                           /___/       
-		echo.
+Call :CPLogo
 		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 		echo.
 		echo Selected Manufacture:  !CurrentManuChoice! 
@@ -13790,13 +12284,7 @@ echo                                                           /___/
 		:911RCon 
 		cls 
 
-echo    ______              ____  _      __             
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___ 
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  / 
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ /  
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/   
-echo                                                           /___/       
-		echo.
+Call :CPLogo
 		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 		echo.
 		echo Selected Manufacture:  !CurrentManuChoice! 
@@ -13850,13 +12338,7 @@ echo                                                           /___/
 		:911SpeedsterCon 
 		cls 
 
-echo    ______              ____  _      __             
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___ 
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  / 
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ /  
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/   
-echo                                                           /___/       
-		echo.
+Call :CPLogo
 		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 		echo.
 		echo Selected Manufacture:  !CurrentManuChoice! 
@@ -13917,13 +12399,7 @@ echo                                                           /___/
 		:911TurboSCon 
 		cls 
 
-echo    ______              ____  _      __             
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___ 
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  / 
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ /  
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/   
-echo                                                           /___/       
-		echo.
+Call :CPLogo
 		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 		echo.
 		echo Selected Manufacture:  !CurrentManuChoice! 
@@ -13972,13 +12448,7 @@ echo                                                           /___/
 
 		:911UrbanOutlaw
 		CLS
-echo    ______              ____  _      __            
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  /
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ / 
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/  
-echo                                                           /___/      
-		echo.
+Call :CPLogo
 		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 		echo.
 		echo Selected Manufacture:  !CurrentManuChoice!
@@ -14004,13 +12474,7 @@ echo                                                           /___/
 		:918SpyderCon 
 		cls 
 
-echo    ______              ____  _      __             
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___ 
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  / 
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ /  
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/   
-echo                                                           /___/       
-		echo.
+Call :CPLogo
 		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 		echo.
 		echo Selected Manufacture:  !CurrentManuChoice! 
@@ -14059,13 +12523,7 @@ echo                                                           /___/
 
 		:959SC
 		CLS
-echo    ______              ____  _      __            
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  /
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ / 
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/  
-echo                                                           /___/      
-		echo.
+Call :CPLogo
 		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 		echo.
 		echo Selected Manufacture:  !CurrentManuChoice!
@@ -14091,13 +12549,7 @@ echo                                                           /___/
 		:CaymanGT4Con 
 		cls 
 
-echo    ______              ____  _      __             
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___ 
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  / 
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ /  
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/   
-echo                                                           /___/       
-		echo.
+Call :CPLogo
 		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 		echo.
 		echo Selected Manufacture:  !CurrentManuChoice! 
@@ -14158,13 +12610,7 @@ echo                                                           /___/
 		:GT2RSCon 
 		cls 
 
-echo    ______              ____  _      __             
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___ 
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  / 
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ /  
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/   
-echo                                                           /___/       
-		echo.
+Call :CPLogo
 		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 		echo.
 		echo Selected Manufacture:  !CurrentManuChoice! 
@@ -14198,13 +12644,7 @@ echo                                                           /___/
 		:GT3RS2016Con 
 		cls 
 
-echo    ______              ____  _      __             
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___ 
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  / 
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ /  
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/   
-echo                                                           /___/       
-		echo.
+Call :CPLogo
 		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 		echo.
 		echo Selected Manufacture:  !CurrentManuChoice! 
@@ -14238,13 +12678,7 @@ echo                                                           /___/
 		:GT3RS2018WeissachPackageCon 
 		cls 
 
-echo    ______              ____  _      __             
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___ 
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  / 
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ /  
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/   
-echo                                                           /___/       
-		echo.
+Call :CPLogo
 		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 		echo.
 		echo Selected Manufacture:  !CurrentManuChoice! 
@@ -14290,13 +12724,7 @@ echo                                                           /___/
 		:RWB993Con 
 		cls 
 
-echo    ______              ____  _      __             
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___ 
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  / 
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ /  
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/   
-echo                                                           /___/       
-		echo.
+Call :CPLogo
 		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 		echo.
 		echo Selected Manufacture:  !CurrentManuChoice! 
@@ -14358,13 +12786,7 @@ echo                                                           /___/
 		:VorsteinerGT4VCSCon 
 		cls 
 
-echo    ______              ____  _      __             
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___ 
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  / 
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ /  
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/   
-echo                                                           /___/       
-		echo.
+Call :CPLogo
 		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 		echo.
 		echo Selected Manufacture:  !CurrentManuChoice! 
@@ -14410,13 +12832,7 @@ echo                                                           /___/
 
 		:Carrera
 		CLS
-echo    ______              ____  _      __            
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  /
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ / 
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/  
-echo                                                           /___/      
-		echo.
+Call :CPLogo
 		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 		echo.
 		echo Selected Manufacture:  !CurrentManuChoice!
@@ -14443,13 +12859,7 @@ echo                                                           /___/
  
     :SaleenCon 
     cls 
-    echo    ______              ____  _      __             
-    echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___ 
-    echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  / 
-    echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ /  
-    echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/   
-    echo                                                           /___/       
-    echo. 
+Call :CPLogo
     echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
     echo. 
     echo Selected Manufacture:  !CurrentManuChoice! 
@@ -14500,13 +12910,7 @@ echo                                                           /___/
 		:S1Con 
 		cls 
 
-echo    ______              ____  _      __             
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___ 
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  / 
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ /  
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/   
-echo                                                           /___/       
-		echo.
+Call :CPLogo
 		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 		echo.
 		echo Selected Manufacture:  !CurrentManuChoice! 
@@ -14553,13 +12957,7 @@ echo                                                           /___/
 
 		:S7
 		CLS
-echo    ______              ____  _      __            
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  /
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ / 
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/  
-echo                                                           /___/      
-		echo.
+Call :CPLogo
 		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 		echo.
 		echo Selected Manufacture:  !CurrentManuChoice!
@@ -14586,13 +12984,7 @@ echo                                                           /___/
  
     :SCGCon 
     cls 
-    echo    ______              ____  _      __             
-    echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___ 
-    echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  / 
-    echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ /  
-    echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/   
-    echo                                                           /___/       
-    echo. 
+Call :CPLogo
     echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
     echo. 
     echo Selected Manufacture:  !CurrentManuChoice! 
@@ -14637,13 +13029,7 @@ echo                                                           /___/
 
 		:SCG003S
 		CLS
-echo    ______              ____  _      __            
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  /
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ / 
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/  
-echo                                                           /___/      
-		echo.
+Call :CPLogo
 		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 		echo.
 		echo Selected Manufacture:  !CurrentManuChoice!
@@ -14669,13 +13055,7 @@ echo                                                           /___/
 		:SCG004CCon 
 		cls 
 
-echo    ______              ____  _      __             
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___ 
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  / 
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ /  
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/   
-echo                                                           /___/       
-		echo.
+Call :CPLogo
 		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 		echo.
 		echo Selected Manufacture:  !CurrentManuChoice! 
@@ -14704,13 +13084,7 @@ echo                                                           /___/
  
     :ShelbyCon 
     cls 
-    echo    ______              ____  _      __             
-    echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___ 
-    echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  / 
-    echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ /  
-    echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/   
-    echo                                                           /___/       
-    echo. 
+Call :CPLogo
     echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
     echo. 
     echo Selected Manufacture:  !CurrentManuChoice! 
@@ -14756,13 +13130,7 @@ echo                                                           /___/
 
 		:Cobra
 		CLS
-echo    ______              ____  _      __            
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  /
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ / 
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/  
-echo                                                           /___/      
-		echo.
+Call :CPLogo
 		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 		echo.
 		echo Selected Manufacture:  !CurrentManuChoice!
@@ -14788,13 +13156,7 @@ echo                                                           /___/
 		:SuperSnakeCon 
 		cls 
 
-echo    ______              ____  _      __             
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___ 
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  / 
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ /  
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/   
-echo                                                           /___/       
-		echo.
+Call :CPLogo
 		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 		echo.
 		echo Selected Manufacture:  !CurrentManuChoice! 
@@ -14852,13 +13214,7 @@ echo                                                           /___/
 		:SpykerCon 
 		cls 
 
-echo    ______              ____  _      __             
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___ 
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  / 
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ /  
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/   
-echo                                                           /___/       
-		echo.
+Call :CPLogo
 		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 		echo.
 		echo Selected Manufacture:  !CurrentManuChoice! 
@@ -14884,13 +13240,7 @@ echo                                                           /___/
 	
 		:SCC
 		CLS
-echo    ______              ____  _      __            
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  /
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ / 
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/  
-echo                                                           /___/      
-		echo.
+Call :CPLogo
 		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 		echo.
 		echo Selected Manufacture:  !CurrentManuChoice!
@@ -14916,13 +13266,7 @@ echo                                                           /___/
  
     :SubaruCon 
     cls 
-    echo    ______              ____  _      __             
-    echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___ 
-    echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  / 
-    echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ /  
-    echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/   
-    echo                                                           /___/       
-    echo. 
+Call :CPLogo
     echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
     echo. 
     echo Selected Manufacture:  !CurrentManuChoice! 
@@ -14973,13 +13317,7 @@ echo                                                           /___/
 		:RBBRZCon 
 		cls 
 
-echo    ______              ____  _      __             
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___ 
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  / 
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ /  
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/   
-echo                                                           /___/       
-		echo.
+Call :CPLogo
 		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 		echo.
 		echo Selected Manufacture:  !CurrentManuChoice! 
@@ -15022,13 +13360,7 @@ echo                                                           /___/
 		:WRXSTICon 
 		cls 
 
-echo    ______              ____  _      __             
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___ 
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  / 
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ /  
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/   
-echo                                                           /___/       
-		echo.
+Call :CPLogo
 		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 		echo.
 		echo Selected Manufacture:  !CurrentManuChoice! 
@@ -15077,13 +13409,7 @@ echo                                                           /___/
  
     :ToyotaCon 
     cls 
-    echo    ______              ____  _      __             
-    echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___ 
-    echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  / 
-    echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ /  
-    echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/   
-    echo                                                           /___/       
-    echo. 
+Call :CPLogo
     echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
     echo. 
     echo Selected Manufacture:  !CurrentManuChoice! 
@@ -15136,13 +13462,7 @@ echo                                                           /___/
 		:GT86Con 
 		cls 
 
-echo    ______              ____  _      __             
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___ 
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  / 
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ /  
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/   
-echo                                                           /___/       
-		echo.
+Call :CPLogo
 		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 		echo.
 		echo Selected Manufacture:  !CurrentManuChoice! 
@@ -15197,13 +13517,7 @@ echo                                                           /___/
 		:SupraGRCon 
 		cls 
 
-echo    ______              ____  _      __             
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___ 
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  / 
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ /  
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/   
-echo                                                           /___/       
-		echo.
+Call :CPLogo
 		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 		echo.
 		echo Selected Manufacture:  !CurrentManuChoice! 
@@ -15266,13 +13580,7 @@ echo                                                           /___/
 			:SupraGRALERT
 			cls
 	
-echo    ______              ____  _      __            
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  /
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ / 
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/  
-echo                                                           /___/      
-			echo.
+Call :CPLogo
 			echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 			echo.
 			echo Selected Manufacture:  %CurrentManuChoice%
@@ -15289,13 +13597,7 @@ echo                                                           /___/
 
 		:SupraMKIV
 		CLS
-echo    ______              ____  _      __            
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  /
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ / 
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/  
-echo                                                           /___/      
-		echo.
+Call :CPLogo
 		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 		echo.
 		echo Selected Manufacture:  !CurrentManuChoice!
@@ -15316,13 +13618,7 @@ echo                                                           /___/
 
 	:TVR
 	CLS
-echo    ______              ____  _      __            
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  /
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ / 
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/  
-echo                                                           /___/      
-	echo.
+Call :CPLogo
 	echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 	echo.
 	echo Selected Manufacture:  !CurrentManuChoice!
@@ -15343,13 +13639,7 @@ echo                                                           /___/
 
 		:Ultima
 		CLS
-echo    ______              ____  _      __            
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  /
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ / 
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/  
-echo                                                           /___/      
-		echo.
+Call :CPLogo
 		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 		echo.
 		echo Selected Manufacture:  !CurrentManuChoice!
@@ -15375,13 +13665,7 @@ echo                                                           /___/
  
     :VolkswagenCon 
     cls 
-    echo    ______              ____  _      __             
-    echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___ 
-    echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  / 
-    echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ /  
-    echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/   
-    echo                                                           /___/       
-    echo. 
+Call :CPLogo
     echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
     echo. 
     echo Selected Manufacture:  !CurrentManuChoice! 
@@ -15436,13 +13720,7 @@ echo                                                           /___/
 		:GolfGTICon 
 		cls 
 
-echo    ______              ____  _      __             
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___ 
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  / 
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ /  
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/   
-echo                                                           /___/       
-		echo.
+Call :CPLogo
 		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 		echo.
 		echo Selected Manufacture:  !CurrentManuChoice! 
@@ -15497,13 +13775,7 @@ echo                                                           /___/
 		:GolfMKICon 
 		cls 
 
-echo    ______              ____  _      __             
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___ 
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  / 
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ /  
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/   
-echo                                                           /___/       
-		echo.
+Call :CPLogo
 		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 		echo.
 		echo Selected Manufacture:  !CurrentManuChoice! 
@@ -15543,13 +13815,7 @@ echo                                                           /___/
 		:RBGolfGTICon 
 		cls 
 
-echo    ______              ____  _      __             
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___ 
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  / 
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ /  
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/   
-echo                                                           /___/       
-		echo.
+Call :CPLogo
 		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 		echo.
 		echo Selected Manufacture:  !CurrentManuChoice! 
@@ -15607,13 +13873,7 @@ echo                                                           /___/
 		:SciroccoRCon 
 		cls 
 
-echo    ______              ____  _      __             
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___ 
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  / 
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ /  
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/   
-echo                                                           /___/       
-		echo.
+Call :CPLogo
 		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 		echo.
 		echo Selected Manufacture:  !CurrentManuChoice! 
@@ -15659,13 +13919,7 @@ echo                                                           /___/
  
     :WmotorsCon 
     cls 
-    echo    ______              ____  _      __             
-    echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___ 
-    echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  / 
-    echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ /  
-    echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/   
-    echo                                                           /___/       
-    echo. 
+Call :CPLogo
     echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
     echo. 
     echo Selected Manufacture:  !CurrentManuChoice! 
@@ -15716,13 +13970,7 @@ echo                                                           /___/
 		:FenyrSupersportCon 
 		cls 
 
-echo    ______              ____  _      __             
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___ 
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  / 
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ /  
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/   
-echo                                                           /___/       
-		echo.
+Call :CPLogo
 		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 		echo.
 		echo Selected Manufacture:  !CurrentManuChoice! 
@@ -15780,13 +14028,7 @@ echo                                                           /___/
 		:LykanHypersportCon 
 		cls 
 
-echo    ______              ____  _      __             
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___ 
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  / 
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ /  
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/   
-echo                                                           /___/       
-		echo.
+Call :CPLogo
 		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 		echo.
 		echo Selected Manufacture:  !CurrentManuChoice! 
@@ -15841,13 +14083,7 @@ echo                                                           /___/
  
     :ZenvoCon 
     cls 
-    echo    ______              ____  _      __             
-    echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___ 
-    echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  / 
-    echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ /  
-    echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/   
-    echo                                                           /___/       
-    echo. 
+Call :CPLogo
     echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
     echo. 
     echo Selected Manufacture:  !CurrentManuChoice! 
@@ -15900,13 +14136,7 @@ echo                                                           /___/
 		:TS1GTCon 
 		cls 
 
-echo    ______              ____  _      __             
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___ 
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  / 
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ /  
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/   
-echo                                                           /___/       
-		echo.
+Call :CPLogo
 		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 		echo.
 		echo Selected Manufacture:  !CurrentManuChoice! 
@@ -15964,13 +14194,7 @@ echo                                                           /___/
 		:TS1GTSleipnir10thAnneversaryCon 
 		cls 
 
-echo    ______              ____  _      __             
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___ 
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  / 
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ /  
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/   
-echo                                                           /___/       
-		echo.
+Call :CPLogo
 		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 		echo.
 		echo Selected Manufacture:  !CurrentManuChoice! 
@@ -15993,13 +14217,7 @@ echo                                                           /___/
 
 		:TSRS
 		CLS
-echo    ______              ____  _      __            
-echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___
-echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  /
-echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ / 
-echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/  
-echo                                                           /___/      
-		echo.
+Call :CPLogo
 		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 		echo.
 		echo Selected Manufacture:  !CurrentManuChoice!
@@ -16020,4 +14238,18 @@ echo                                                           /___/
 	 
 :MainMenuBack
 endlocal
+exit /b
+
+rem ----------------------------------------------------------------------------------------------------------------------------------
+rem                                          BELOW ARE ASSETS USED FOR UI PURPOSES
+rem ----------------------------------------------------------------------------------------------------------------------------------
+
+:CPLogo
+echo    ______              ____  _      __            
+echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___
+echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  /
+echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ / 
+echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/  
+echo                                                           /___/      
+echo.
 exit /b
