@@ -91,36 +91,36 @@ echo                                                           /___/
 	if !CurrentManuLevel! == 24 set CurrentManuChoice=Honda
 	if !CurrentManuLevel! == 25 set CurrentManuChoice=Hyundai
 	if !CurrentManuLevel! == 26 set CurrentManuChoice=Jaguar
-	if !CurrentManuLevel! == 27 set CurrentManuChoice=Koenigsegg
-	if !CurrentManuLevel! == 28 set CurrentManuChoice=KTM
-	if !CurrentManuLevel! == 29 set CurrentManuChoice=Lamborghini
-	if !CurrentManuLevel! == 30 set CurrentManuChoice=Land Rover
-	if !CurrentManuLevel! == 31 set CurrentManuChoice=Local Motors
-	if !CurrentManuLevel! == 32 set CurrentManuChoice=Lotus
-	if !CurrentManuLevel! == 33 set CurrentManuChoice=Maserati
-	if !CurrentManuLevel! == 34 set CurrentManuChoice=Mazda
-	if !CurrentManuLevel! == 35 set CurrentManuChoice=Mazzanti
-	if !CurrentManuLevel! == 36 set CurrentManuChoice=McLaren
-	if !CurrentManuLevel! == 37 set CurrentManuChoice=Mercedes Benz
-	if !CurrentManuLevel! == 38 set CurrentManuChoice=Mini
-	if !CurrentManuLevel! == 39 set CurrentManuChoice=Mitsubishi
-	if !CurrentManuLevel! == 40 set CurrentManuChoice=Nissan
-	if !CurrentManuLevel! == 41 set CurrentManuChoice=Noble
-	if !CurrentManuLevel! == 42 set CurrentManuChoice=Pagani
-	if !CurrentManuLevel! == 43 set CurrentManuChoice=Plymouth
-	if !CurrentManuLevel! == 44 set CurrentManuChoice=Porsche
-	if !CurrentManuLevel! == 45 set CurrentManuChoice=RangeRover
-	if !CurrentManuLevel! == 46 set CurrentManuChoice=Saleen
-	if !CurrentManuLevel! == 47 set CurrentManuChoice=SCG
-	if !CurrentManuLevel! == 48 set CurrentManuChoice=Spyker
-	if !CurrentManuLevel! == 49 set CurrentManuChoice=SSC
-	if !CurrentManuLevel! == 50 set CurrentManuChoice=Subaru
-	if !CurrentManuLevel! == 51 set CurrentManuChoice=Toyota
-	if !CurrentManuLevel! == 52 set CurrentManuChoice=TVR
-	if !CurrentManuLevel! == 53 set CurrentManuChoice=Volkswagen
-	if !CurrentManuLevel! == 54 set CurrentManuChoice=WMotors
-	if !CurrentManuLevel! == 55 set CurrentManuChoice=Zenvo
-	if !CurrentManuLevel! == 56 set CurrentManuChoice=Fusions And Parts
+	if !CurrentManuLevel! == 27 set CurrentManuChoice=Jeep
+	if !CurrentManuLevel! == 28 set CurrentManuChoice=Koenigsegg
+	if !CurrentManuLevel! == 29 set CurrentManuChoice=KTM
+	if !CurrentManuLevel! == 30 set CurrentManuChoice=Lamborghini
+	if !CurrentManuLevel! == 31 set CurrentManuChoice=Land Rover
+	if !CurrentManuLevel! == 32 set CurrentManuChoice=Local Motors
+	if !CurrentManuLevel! == 33 set CurrentManuChoice=Lotus
+	if !CurrentManuLevel! == 34 set CurrentManuChoice=Maserati
+	if !CurrentManuLevel! == 35 set CurrentManuChoice=Mazda
+	if !CurrentManuLevel! == 36 set CurrentManuChoice=Mazzanti
+	if !CurrentManuLevel! == 37 set CurrentManuChoice=McLaren
+	if !CurrentManuLevel! == 38 set CurrentManuChoice=Mercedes Benz
+	if !CurrentManuLevel! == 39 set CurrentManuChoice=Mini
+	if !CurrentManuLevel! == 40 set CurrentManuChoice=Mitsubishi
+	if !CurrentManuLevel! == 41 set CurrentManuChoice=Nissan
+	if !CurrentManuLevel! == 42 set CurrentManuChoice=Noble
+	if !CurrentManuLevel! == 43 set CurrentManuChoice=Pagani
+	if !CurrentManuLevel! == 44 set CurrentManuChoice=Plymouth
+	if !CurrentManuLevel! == 45 set CurrentManuChoice=Pontiac
+	if !CurrentManuLevel! == 46 set CurrentManuChoice=Porsche
+	if !CurrentManuLevel! == 47 set CurrentManuChoice=Saleen
+	if !CurrentManuLevel! == 48 set CurrentManuChoice=SCG
+	if !CurrentManuLevel! == 49 set CurrentManuChoice=Spyker
+	if !CurrentManuLevel! == 50 set CurrentManuChoice=SSC
+	if !CurrentManuLevel! == 51 set CurrentManuChoice=Subaru
+	if !CurrentManuLevel! == 52 set CurrentManuChoice=Toyota
+	if !CurrentManuLevel! == 53 set CurrentManuChoice=TVR
+	if !CurrentManuLevel! == 54 set CurrentManuChoice=Volkswagen
+	if !CurrentManuLevel! == 55 set CurrentManuChoice=WMotors
+	if !CurrentManuLevel! == 56 set CurrentManuChoice=Zenvo
 	if !CurrentManuLevel! == 57 set CurrentManuChoice=PUPR
 	if !CurrentManuLevel! == 58 set CurrentManuChoice=Master ID List
 	if !CurrentManuLevel! == 59 GOTO CPManuCHECKUE
@@ -168,36 +168,36 @@ echo                                                           /___/
 	if !CurrentManuLevel! == 24 GOTO Honda
 	if !CurrentManuLevel! == 25 GOTO Hyundai
 	if !CurrentManuLevel! == 26 GOTO Jaguar
-	if !CurrentManuLevel! == 27 GOTO Koenigsegg
-	if !CurrentManuLevel! == 28 GOTO KTM
-	if !CurrentManuLevel! == 29 GOTO Lamborghini
-	if !CurrentManuLevel! == 30 GOTO LandRover
-	if !CurrentManuLevel! == 31 GOTO LocalMotors
-	if !CurrentManuLevel! == 32 GOTO Lotus
-	if !CurrentManuLevel! == 33 GOTO Maserati
-	if !CurrentManuLevel! == 34 GOTO Mazda
-	if !CurrentManuLevel! == 35 GOTO Mazzanti
-	if !CurrentManuLevel! == 36 GOTO McLaren
-	if !CurrentManuLevel! == 37 GOTO Mercedes
-	if !CurrentManuLevel! == 38 GOTO Mini
-	if !CurrentManuLevel! == 39 GOTO Mitsubishi
-	if !CurrentManuLevel! == 40 GOTO Nissan
-	if !CurrentManuLevel! == 41 GOTO Noble
-	if !CurrentManuLevel! == 42 GOTO Pagani
-	if !CurrentManuLevel! == 43 GOTO Plymouth
-	if !CurrentManuLevel! == 44 GOTO Porsche
-	if !CurrentManuLevel! == 45 GOTO RangeRover
-	if !CurrentManuLevel! == 46 GOTO Saleen
-	if !CurrentManuLevel! == 47 GOTO SCG
-	if !CurrentManuLevel! == 48 GOTO Spyker
-	if !CurrentManuLevel! == 49 GOTO SSC
-	if !CurrentManuLevel! == 50 GOTO Subaru
-	if !CurrentManuLevel! == 51 GOTO Toyota
-	if !CurrentManuLevel! == 52 GOTO TVR
-	if !CurrentManuLevel! == 53 GOTO Volkswagen
-	if !CurrentManuLevel! == 54 GOTO WMotors
-	if !CurrentManuLevel! == 55 GOTO Zenvo
-	if !CurrentManuLevel! == 56 GOTO FusionsAndParts
+	if !CurrentManuLevel! == 27 GOTO Jeep
+	if !CurrentManuLevel! == 28 GOTO Koenigsegg
+	if !CurrentManuLevel! == 29 GOTO KTM
+	if !CurrentManuLevel! == 30 GOTO Lamborghini
+	if !CurrentManuLevel! == 31 GOTO LandRover
+	if !CurrentManuLevel! == 32 GOTO LocalMotors
+	if !CurrentManuLevel! == 33 GOTO Lotus
+	if !CurrentManuLevel! == 34 GOTO Maserati
+	if !CurrentManuLevel! == 35 GOTO Mazda
+	if !CurrentManuLevel! == 36 GOTO Mazzanti
+	if !CurrentManuLevel! == 37 GOTO McLaren
+	if !CurrentManuLevel! == 38 GOTO Mercedes
+	if !CurrentManuLevel! == 39 GOTO Mini
+	if !CurrentManuLevel! == 40 GOTO Mitsubishi
+	if !CurrentManuLevel! == 41 GOTO Nissan
+	if !CurrentManuLevel! == 42 GOTO Noble
+	if !CurrentManuLevel! == 43 GOTO Pagani
+	if !CurrentManuLevel! == 44 GOTO Plymouth
+	if !CurrentManuLevel! == 45 GOTO Pontiac
+	if !CurrentManuLevel! == 46 GOTO Porsche
+	if !CurrentManuLevel! == 47 GOTO Saleen
+	if !CurrentManuLevel! == 48 GOTO SCG
+	if !CurrentManuLevel! == 49 GOTO Spyker
+	if !CurrentManuLevel! == 50 GOTO SSC
+	if !CurrentManuLevel! == 51 GOTO Subaru
+	if !CurrentManuLevel! == 52 GOTO Toyota
+	if !CurrentManuLevel! == 53 GOTO TVR
+	if !CurrentManuLevel! == 54 GOTO Volkswagen
+	if !CurrentManuLevel! == 55 GOTO WMotors
+	if !CurrentManuLevel! == 56 GOTO Zenvo
 	if !CurrentManuLevel! == 57 GOTO PUPR
 	if !CurrentManuLevel! == 58 GOTO MasterIDList
 
@@ -3619,11 +3619,12 @@ echo                                                           /___/
 		if !C10CarChoice! == 1 set CurrentCarChoice=C10 Reward Recycled (Green)
 		if !C10CarChoice! == 2 set CurrentCarChoice=C10 Reward (Orange)
 		if !C10CarChoice! == 3 set CurrentCarChoice=C10 Reward VIP (Black)
-		if !C10CarChoice! == 4 GOTO C10OD
+		if !C10CarChoice! == 3 set CurrentCarChoice=C10 Halloween (Green Purple Star)
+		if !C10CarChoice! == 5 GOTO C10OD
 		GOTO C10Con
 
 		:C10OD
-		set C10CarChoice=3
+		set C10CarChoice=4
 		goto C10CarChoice1
 	
 		:C101
@@ -3631,6 +3632,7 @@ echo                                                           /___/
 		if !C10CarChoice! == 1 goto C10G
 		if !C10CarChoice! == 2 goto C10O
 		if !C10CarChoice! == 3 goto C10B
+		if !C10CarChoice! == 4 goto C10H
 
 		GOTO C10Con
 		
@@ -8875,6 +8877,8 @@ echo                                                           /___/
 		echo.
 		echo 6.) Raven Black        
 		echo.
+		echo 7.) Suede Yellow
+		echo.
 		set /p One1Type="Select Choice and press Enter: "  
 
 		if !One1Type! == 1 goto KoenigseggCon 
@@ -8883,6 +8887,7 @@ echo                                                           /___/
 		if !One1Type! == 4 goto One1BO  
 		if !One1Type! == 5 goto One1KR  
 		if !One1Type! == 6 goto One1RB  
+		if !One1Type! == 7 goto One1SY  
 		goto One1Con 
 	    
 		:Regera 
@@ -9499,29 +9504,31 @@ echo                                                           /___/
 		echo.
 		echo - Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 - 
 		echo.
-		echo 1.) Back                                          13.) Ad Personam Viola SE 30th
+		echo 1.) Back                                           14.) Ad Personam Verde Hydra
 		echo.
-		echo 2.) Reward                                        14.) Arancio Borealis        
+		echo 2.) Reward                                         15.) Ad Personam Viola SE 30th
 		echo.
-		echo 3.) Ad Personam Arancio Anthaeus                  15.) Bianco Icarus        
+		echo 3.) Ad Personam Arancio Anthaeus                   16.) Arancio Borealis        
 		echo.
-		echo 4.) Ad Personam Bianco Canopus                    16.) Giallo Inti      
+		echo 4.) Ad Personam Bianco Canopus                     17.) Bianco Icarus        
 		echo.
-		echo 5.) Ad Personam Blu Cepeus                        17.) Grigio Lynx      
+		echo 5.) Ad Personam Blu Cepeus                         18.) Bianco Monocerus
 		echo.
-		echo 6.) Ad Personam Blu Nethuns                       18.) Grigio Nimbus      
+		echo 6.) Ad Personam Blu Nethuns                        19.) Giallo Inti      
 		echo.
-		echo 7.) Ad Personam Giallo Horus                      19.) Nero Helene      
+		echo 7.) Ad Personam Giallo Horus                       20.) Grigio Lynx           
 		echo.
-		echo 8.) Ad Personam Grigio Titans                     20.) Rosso Mars      
+		echo 8.) Ad Personam Grigio Thalasso                    21.) Grigio Nimbus      
+		echo. 
+		echo 9.) Ad Personam Grigio Titans                      22.) Nero Helene
 		echo.
-		echo 9.) Ad Personam Nero Nemesis                      21.) Verde Mantis      
+		echo 10.) Ad Personam Nero Nemesis                      23.) Nero Noctis
 		echo.
-		echo 10.) Ad Personam Rosso Effesto
+		echo 11.) Ad Personam Oro Elios                         24.) Rosso Mars      
 		echo.
-		echo 11.) Ad Personam Verde Artemis          
+		echo 12.) Ad Personam Rosso Effesto                     25.) Verde Mantis      
 		echo.
-		echo 12.) Ad Personam Verde Hydra
+		echo 13.) Ad Personam Verde Artemis
 		echo.
 		set /p HuracanPerformanteType="Select Choice and press Enter: "  
 
@@ -9532,20 +9539,24 @@ echo                                                           /___/
 		if !HuracanPerformanteType! == 5 goto HuracanPerformanteAPBluCepeus  
 		if !HuracanPerformanteType! == 6 goto HuracanPerformanteAPBN  
 		if !HuracanPerformanteType! == 7 goto HuracanPerformanteAPGH  
-		if !HuracanPerformanteType! == 8 goto HuracanPerformanteAPGT  
-		if !HuracanPerformanteType! == 9 goto HuracanPerformanteAPNN  
-		if !HuracanPerformanteType! == 10 goto HuracanPerformanteAPRE  
-		if !HuracanPerformanteType! == 11 goto HuracanPerformanteAPVA  
-		if !HuracanPerformanteType! == 12 goto HuracanPerformanteAPVH  
-		if !HuracanPerformanteType! == 13 goto HuracanPerformanteAPVSE30  
-		if !HuracanPerformanteType! == 14 goto HuracanPerformanteAB  
-		if !HuracanPerformanteType! == 15 goto HuracanPerformanteBI  
-		if !HuracanPerformanteType! == 16 goto HuracanPerformanteGI  
-		if !HuracanPerformanteType! == 17 goto HuracanPerformanteGL  
-		if !HuracanPerformanteType! == 18 goto HuracanPerformanteGN  
-		if !HuracanPerformanteType! == 19 goto HuracanPerformanteNH  
-		if !HuracanPerformanteType! == 20 goto HuracanPerformanteRM  
-		if !HuracanPerformanteType! == 21 goto HuracanPerformanteVM  
+		if !HuracanPerformanteType! == 8 goto HuracanPerformanteAPGTH
+		if !HuracanPerformanteType! == 9 goto HuracanPerformanteAPGT  
+		if !HuracanPerformanteType! == 10 goto HuracanPerformanteAPNN  
+		if !HuracanPerformanteType! == 11 goto HuracanPerformanteAPOE
+		if !HuracanPerformanteType! == 12 goto HuracanPerformanteAPRE  
+		if !HuracanPerformanteType! == 13 goto HuracanPerformanteAPVA  
+		if !HuracanPerformanteType! == 14 goto HuracanPerformanteAPVH  
+		if !HuracanPerformanteType! == 15 goto HuracanPerformanteAPVSE30  
+		if !HuracanPerformanteType! == 16 goto HuracanPerformanteAB  
+		if !HuracanPerformanteType! == 17 goto HuracanPerformanteBI  
+		if !HuracanPerformanteType! == 18 goto HuracanPerformanteBM
+		if !HuracanPerformanteType! == 19 goto HuracanPerformanteGI  
+		if !HuracanPerformanteType! == 20 goto HuracanPerformanteGL  
+		if !HuracanPerformanteType! == 21 goto HuracanPerformanteGN  
+		if !HuracanPerformanteType! == 22 goto HuracanPerformanteNH  
+		if !HuracanPerformanteType! == 23 goto HuracanPerformanteNN
+		if !HuracanPerformanteType! == 24 goto HuracanPerformanteRM  
+		if !HuracanPerformanteType! == 25 goto HuracanPerformanteVM  
 		goto HuracanPerformanteCon 
 
 	    
@@ -9823,6 +9834,32 @@ echo                                                           /___/
 		IF ERRORLEVEL == 1 GOTO SC18Alton
 		goto SC18
 		
+		:Sian
+		CLS
+echo    ______              ____  _      __            
+echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___
+echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  /
+echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ / 
+echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/  
+echo                                                           /___/      
+		echo.
+		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
+		echo.
+		echo Selected Manufacture:  !CurrentManuChoice!
+		echo Selected Car:          Sian ^"Few Off^"
+		echo.
+		echo - Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 - 
+		echo.
+		echo 1.) Sian ^"Few Off^"
+		echo.
+		echo 2.) Back
+		echo.			
+		echo (1.) Select - (2.) Back
+		echo.
+		CHOICE /C 12 /M "" >nul
+		IF ERRORLEVEL == 2 GOTO CarPickerManuReturn
+		IF ERRORLEVEL == 1 GOTO FewOff
+		goto Sian
 	    
 		:Sesto 
 		CLS 
@@ -10680,7 +10717,9 @@ echo                                                           /___/
 		echo.
 		echo 10.) Meteor Gray Mica with Tan Interior        
 		echo.
-		echo 11.) Soul Red        
+		echo 11.) Soul Red with Black Interior  
+		echo.
+		echo 12.) Soul Red with Tan Interior
 		echo.
 		set /p MX5Type="Select Choice and press Enter: "  
 
@@ -10694,7 +10733,8 @@ echo                                                           /___/
 		if !MX5Type! == 8 goto MX5JBTI  
 		if !MX5Type! == 9 goto MX5MGMBI  
 		if !MX5Type! == 10 goto MX5MGMTI  
-		if !MX5Type! == 11 goto MX5SR  
+		if !MX5Type! == 11 goto MX5SRBI
+		if !MX5Type! == 12 goto MX5SR
 		goto MX5Con 
 	    
 		:RX7 
@@ -11189,33 +11229,33 @@ echo                                                           /___/
 		echo.
 		echo - Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 - 
 		echo.
-		echo 1.) Back                           15.) Glacier White with Black Interior         29.) Pearl White   
+		echo 1.) Back                           15.) Glacier White with Black Interior         29.) Polaris Blue      
 		echo.
-		echo 2.) Reward                         16.) Glacier White with Purple Interior        30.) Polaris Blue   
+		echo 2.) Reward                         16.) Glacier White with Purple Interior        30.) Quartz   
 		echo.
-		echo 3.) Abyss Black                    17.) Glacier White with Red Interior           31.) Quartz   
+		echo 3.) Abyss Black                    17.) Glacier White with Red Interior           31.) Saros with Black Interior   
 		echo.
-		echo 4.) Amethyst Black                 18.) Lantana Purple                            32.) Saros with Black Interior   
+		echo 4.) Amethyst Black                 18.) Lantana Purple                            32.) Saros with White Interior   
 		echo.
-		echo 5.) Argon with Black Interior      19.) Lunar White                               33.) Saros with White Interior   
+		echo 5.) Argon with Black Interior      19.) Lunar White                               33.) Sarth Grey   
 		echo.
-		echo 6.) Argon with Matching Interior   20.) Mauvine Blue                              34.) Sarth Grey   
+		echo 6.) Argon with Matching Interior   20.) Mauvine Blue                              34.) Silica White   
 		echo.
-		echo 7.) Aurora Blue                    21.) McLaren Orange                            35.) Silica White   
+		echo 7.) Aurora Blue                    21.) McLaren Orange                            35.) Silver   
 		echo.
-		echo 8.) Blade Silver                   22.) Memphis Red with Black Wheels             36.) Silver   
+		echo 8.) Blade Silver                   22.) Memphis Red with Black Wheels             36.) Solis   
 		echo.
-		echo 9.) Blue                           23.) Memphis Red with Gold Wheels              37.) Solis   
+		echo 9.) Blue                           23.) Memphis Red with Gold Wheels              37.) Storm Grey 
 		echo.
-		echo 10.) Bourbon                       24.) Muriwai White                             38.) Storm Grey 
+		echo 10.) Bourbon                       24.) Muriwai White                             38.) Volcanic Yellow  
 		echo.
-		echo 11.) Burton Blue                   25.) Onyx Black                                39.) Volcanic Yellow  
+		echo 11.) Burton Blue                   25.) Onyx Black                                39.) White  
 		echo.
-		echo 12.) Ceramic Grey                  26.) Papaya Spark                              40.) White  
+		echo 12.) Ceramic Grey                  26.) Papaya Spark                              40.) Zenith Black  
 		echo.
-		echo 13.) Cosmos                        27.) Paris Blue with Black Interior            41.) Zenith Black  
+		echo 13.) Cosmos                        27.) Paris Blue
 		echo.
-		echo 14.) Fistral Blue                  28.) Paris Blue with Grey Interior      
+		echo 14.) Fistral Blue                  28.) Pearl White      
 		echo.
 		set /p 720SType="Select Choice and press Enter: "  
 
@@ -11246,20 +11286,19 @@ echo                                                           /___/
 		if !720SType! == 25 goto 720SOB  
 		if !720SType! == 26 goto 720SPS  
 		if !720SType! == 27 goto 720SPBBI  
-		if !720SType! == 28 goto 720SPBGI  
-		if !720SType! == 29 goto 720SPW  
-		if !720SType! == 30 goto 720SPB  
-		if !720SType! == 31 goto 720SQ  
-		if !720SType! == 32 goto 720SSBI  
-		if !720SType! == 33 goto 720SSWI  
-		if !720SType! == 34 goto 720SSG  
-		if !720SType! == 35 goto 720SSW  
-		if !720SType! == 36 goto 720SS  
-		if !720SType! == 37 goto 720SSolis  
-		if !720SType! == 38 goto 720SStormG  
-		if !720SType! == 39 goto 720SVY  
-		if !720SType! == 40 goto 720SW  
-		if !720SType! == 41 goto 720SZB  
+		if !720SType! == 28 goto 720SPW  
+		if !720SType! == 29 goto 720SPB  
+		if !720SType! == 30 goto 720SQ  
+		if !720SType! == 31 goto 720SSBI  
+		if !720SType! == 32 goto 720SSWI  
+		if !720SType! == 33 goto 720SSG  
+		if !720SType! == 34 goto 720SSW  
+		if !720SType! == 35 goto 720SS  
+		if !720SType! == 36 goto 720SSolis  
+		if !720SType! == 37 goto 720SStormG  
+		if !720SType! == 38 goto 720SVY  
+		if !720SType! == 39 goto 720SW  
+		if !720SType! == 40 goto 720SZB  
 		goto 720SCon 
 
 		:720SSpider 
@@ -13300,6 +13339,32 @@ echo                                                           /___/
 		IF ERRORLEVEL == 1 GOTO ZondaRevolucionR
 		goto ZondaRevolucion
 
+	:Pontiac
+	CLS
+echo    ______              ____  _      __            
+echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___
+echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  /
+echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ / 
+echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/  
+echo                                                           /___/      
+	echo.
+	echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
+	echo.
+	echo Selected Manufacture:  !CurrentManuChoice!
+	echo Selected Car:          GTO "The Judge" Restored
+	echo.
+	echo - Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 - 
+	echo.
+	echo 1.) GTO "The Judge" Restored
+	echo.
+	echo 2.) Back
+	echo.			
+	echo (1.) Select - (2.) Back
+	echo.
+	CHOICE /C 12 /M "" >nul
+	IF ERRORLEVEL == 2 GOTO CarPickerManuReturn
+	IF ERRORLEVEL == 1 GOTO JudgeGTO
+	goto Pontiac
 	 
     :Plymouth 
     CLS 
@@ -14109,18 +14174,21 @@ echo                                                           /___/
 		echo.
 		echo 1.) Back          
 		echo.
-		echo 2.) Gold Cup Weissach Package          
+		echo 2.) IAP "Mark Webber" Weissach Package          
 		echo.
-		echo 3.) VIP Weissach Package          
+		echo 3.) IAP "GT Silver" Unofficial Second Variant          
 		echo.
-		echo 4.) Miami Blue          
+		echo 4.) VIP Weissach Package          
+		echo.
+		echo 5.) Miami Blue "Gold Cup Car"       
 		echo.
 		set /p GT2RSType="Select Choice and press Enter: "  
 
 		if !GT2RSType! == 1 goto PorscheCon 
-		if !GT2RSType! == 2 goto GT2RSGold  
-		if !GT2RSType! == 3 goto GT2RSVIP  
-		if !GT2RSType! == 4 goto GT2RSMB  
+		if !GT2RSType! == 2 goto GT2RSIAP
+		if !GT2RSType! == 3 goto GT2RSSIAP
+		if !GT2RSType! == 4 goto GT2RSVIP  
+		if !GT2RSType! == 5 goto GT2RSMB  
 		goto GT2RSCon 
 
 		:GT3RS2016 
@@ -14200,6 +14268,8 @@ echo                                                           /___/
 		echo.
 		echo 8.) White          
 		echo.
+		echo 9.) GT Silver
+		echo.
 		set /p GT3RS2018WeissachPackageType="Select Choice and press Enter: "  
 
 		if !GT3RS2018WeissachPackageType! == 1 goto PorscheCon 
@@ -14210,6 +14280,7 @@ echo                                                           /___/
 		if !GT3RS2018WeissachPackageType! == 6 goto GT3RS2018WeissachPackageMB  
 		if !GT3RS2018WeissachPackageType! == 7 goto GT3RS2018WeissachPackageRY  
 		if !GT3RS2018WeissachPackageType! == 8 goto GT3RS2018WeissachPackageW  
+		if !GT3RS2018WeissachPackageType! == 9 goto GT3RS2018WeissachPackageGTS  
 		goto GT3RS2018WeissachPackageCon 
 
 		:RWB993 
@@ -15947,14 +16018,6 @@ echo                                                           /___/
 		IF ERRORLEVEL == 1 GOTO TSRSLR
 		goto TSRS
 	 
-	:PUPR
-	START "" "%MYFILES%\IAPpuprtaglist.xlsx"
-	GOTO CarPickerManuType
-
-	:MasterIDList
-	START "" "%MYFILES%\CSR2MasterIDList.xlsx"
-	GOTO CarPickerManuType
-
 :MainMenuBack
 endlocal
 exit /b
