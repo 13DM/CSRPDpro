@@ -3103,7 +3103,7 @@
 			REM Start of BT62:
 			
 			:BT62
-			set tempcarname=
+			set tempcarname=Brabham_BT62_2019
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Brabham/BT62/BT62.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
             Call :cpFinishCode
 			GOTO Brabham
@@ -3496,7 +3496,7 @@
 			GOTO Stingray
 
 			:STINGRAYCRT
-			set tempcarname=CRT
+			set tempcarname=Chevrolet_CorvetteStingray_2015CRT
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Chevy/15Stingray/StingrayCrystalRedTintcoat.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
             Call :cpFinishCode
 			GOTO Stingray
@@ -3508,7 +3508,7 @@
 			GOTO Stingray
 
 			:STINGRAYGRTBRS
-			set tempcarname=GRTBRS
+			set tempcarname=Chevrolet_CorvetteStingray_2015GRTBRS
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Chevy/15Stingray/StingrayGarnetRedTintcoatBlackRacingStripes.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
             Call :cpFinishCode
 			GOTO Stingray
@@ -3520,7 +3520,7 @@
 			GOTO Stingray
 
 			:STINGRAYLBT
-			set tempcarname=LBT
+			set tempcarname=Chevrolet_CorvetteStingray_2015LBT
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Chevy/15Stingray/StingrayLagunaBlueTintcoat.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
             Call :cpFinishCode
 			GOTO Stingray
@@ -3532,7 +3532,7 @@
 			GOTO Stingray
 
 			:STINGRAYNGORS
-			set tempcarname=NGORS
+			set tempcarname=Chevrolet_CorvetteStingray_2015NGORS
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Chevy/15Stingray/StingrayNightfallGrayOrangeRacingStripes.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
             Call :cpFinishCode
 			GOTO Stingray
@@ -4759,7 +4759,7 @@
 			REM Start of 250 GTO Classic:
 			
 			:250GTORestored
-			set tempcarname=
+			set tempcarname=Ferrari_250GTOClassic_1962
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ferrari/250GTO/250GTORestored.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
             Call :cpFinishCode
 			GOTO 250GTO

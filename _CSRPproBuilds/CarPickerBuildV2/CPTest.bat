@@ -212,17 +212,17 @@ Call :CPLogo
 		echo.
 		echo 1.) Back.                                               8.) Abarth 500 Performance with White No Livery
 		echo.
-		echo 2.) Abarth 500 Circuit Grey                             9.) Abarth 500 Performance with White Red Livery
+		echo 2.) Circuit Grey                                        9.) Performance with White Red Livery
 		echo.
-		echo 3.) Abarth 500 Cordolo Red                              10.) Abarth 500 Podium Blue with White Livery
+		echo 3.) Cordolo Red                                        10.) Podium Blue with White Livery
 		echo.
-		echo 4.) Abarth 500 Legends Blue                             11.) Abarth 500 Rally Beige
+		echo 4.) Legends Blue                                       11.) Rally Beige
 		echo.
-		echo 5.) Abarth 500 Performance with Black No Livery         12.) Abarth 500 Scorpione Black
+		echo 5.) Performance with Black No Livery                   12.) Scorpione Black
 		echo.
-		echo 6.) Abarth 500 Performance with Black Red Livery        13.) Abarth 500 Trofeo Grey
+		echo 6.) Performance with Black Red Livery                  13.) Trofeo Grey
 		echo.
-		echo 7.) Abarth 500 Performance Grey                         14.) Abarth 500 Yellow with Black Livery
+		echo 7.) Performance Grey                                   14.) Yellow with Black Livery
 		echo.
 
 		set /p Abarth500Choice="Select Choice and press Enter: " 
@@ -309,19 +309,19 @@ Call :CPLogo
 		echo.
 		echo - Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 - 
 		echo.
-		echo 1.) 4c Coupe Crew
+		echo 1.) Crew
 		echo.
-		echo 2.) 4c Coupe Basalt Gray
+		echo 2.) Basalt Gray
 		echo.
-		echo 3.) 4c Coupe Black
+		echo 3.) Black
 		echo.
-		echo 4.) 4c Coupe Giallo
+		echo 4.) Giallo
 		echo.
-		echo 5.) 4c Coupe Rosso Alfa
+		echo 5.) Rosso Alfa
 		echo.
-		echo 6.) 4c Coupe Rosso Competizione
+		echo 6.) Rosso Competizione
 		echo.
-		echo 7.) 4c Coupe White
+		echo 7.) White
 		echo.
 		echo 8.) Back
 		echo.
@@ -352,15 +352,15 @@ Call :CPLogo
 		echo.
 		echo - Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 - 
 		echo.
-		echo 1. 4c Spyder Alfa Red Carbon Livery
+		echo 1. Alfa Red Carbon Livery
 		echo.
-		echo 2. 4c Spyder Carrera White Carbon Livery
+		echo 2. Carrera White Carbon Livery
 		echo.
-		echo 3. 4c Spyder Concept Red Full Satin Livery
+		echo 3. Concept Red Full Satin Livery
 		echo.
-		echo 4. 4c Spyder Etna Black Carbon Livery
+		echo 4. Etna Black Carbon Livery
 		echo.
-		echo 5. 4c Spyder Tornado Blue No Livery
+		echo 5. Tornado Blue No Livery
 		echo.
 		echo 6. Back
 		echo.			
@@ -414,23 +414,23 @@ Call :CPLogo
 		echo.
 		echo - Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 - 
 		echo.
-		echo 1. Giulia Quadrifoglio Alfa Red
+		echo 1. Alfa Red
 		echo.
-		echo 2. Giulia Quadrifoglio Misano Blue
+		echo 2. Misano Blue
 		echo.
-		echo 3. Giulia Quadrifoglio Montecarlo Blue
+		echo 3. Montecarlo Blue
 		echo.
-		echo 4. Giulia Quadrifoglio Rosso Competizione
+		echo 4. Rosso Competizione
 		echo.
-		echo 5. Giulia Quadrifoglio Silverstone
+		echo 5. Silverstone
 		echo.
-		echo 6. Giulia Quadrifoglio Trofeo White
+		echo 6. Trofeo White
 		echo.
-		echo 7. Giulia Quadrifoglio Vesuvio Grey
+		echo 7. Vesuvio Grey
 		echo.
-		echo 8. Giulia Quadrifoglio Volcanic Black All Black Interior
+		echo 8. Volcanic Black All Black Interior
 		echo.
-		echo 9. Giulia Quadrifoglio Volcanic Black Black and Red Interior
+		echo 9. Volcanic Black Black and Red Interior
 		echo.
 		echo 10. Back
 		echo.
