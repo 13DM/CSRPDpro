@@ -1062,34 +1062,37 @@ Call :CPLogo
 		echo.
 		echo 2.) AMR Reward          
 		echo.
-		echo 3.) Evo Cup Prize          
+		echo 3.) AMR Reward Secondary (Q by Aston Marting Satin Jet Black)
 		echo.
-		echo 4.) Carbon Black with Gold Livery          
+		echo 4.) Evo Cup Prize          
 		echo.
-		echo 5.) Carbon Black with Red Livery          
+		echo 5.) Carbon Black with Gold Livery          
 		echo.
-		echo 6.) Fiamma Red          
+		echo 6.) Carbon Black with Red Livery          
 		echo.
-		echo 7.) Verde Ithica (AMR Look-a-like)          
+		echo 7.) Fiamma Red          
 		echo.
-		echo 8.) Appletreen Green with Orange Livery          
+		echo 8.) Verde Ithica (AMR Look-a-like)          
 		echo.
-		echo 9.) Milestone Diavolo Red with White Livery          
+		echo 9.) Appletreen Green with Orange Livery          
 		echo.
-		echo 10.) Q by Aston Martin White with Blue Livery        
+		echo 10.) Milestone Diavolo Red with White Livery          
+		echo.
+		echo 11.) Q by Aston Martin White with Blue Livery        
 		echo.
 		set /p VulcanType="Select Choice and press Enter: "  
 
 		if !VulcanType! == 1 goto AstonMartinCon 
 		if !VulcanType! == 2 goto VulcanReward
-		if !VulcanType! == 3 goto VulcanEvo
-		if !VulcanType! == 4 goto VulcanCarbonGL
-		if !VulcanType! == 5 goto VulcanCarbonRL
-		if !VulcanType! == 6 goto VulcanFRed
-		if !VulcanType! == 7 goto VulcanVerdeI
-		if !VulcanType! == 8 goto VulcanGreen
-		if !VulcanType! == 9 goto VulcanRed
-		if !VulcanType! == 10 goto VulcanWhite
+		if !VulcanType! == 3 goto VulcanRewardSJB
+		if !VulcanType! == 4 goto VulcanEvo
+		if !VulcanType! == 5 goto VulcanCarbonGL
+		if !VulcanType! == 6 goto VulcanCarbonRL
+		if !VulcanType! == 7 goto VulcanFRed
+		if !VulcanType! == 8 goto VulcanVerdeI
+		if !VulcanType! == 9 goto VulcanGreen
+		if !VulcanType! == 10 goto VulcanRed
+		if !VulcanType! == 11 goto VulcanWhite
 		goto VulcanCon 
 		
 		:DB5

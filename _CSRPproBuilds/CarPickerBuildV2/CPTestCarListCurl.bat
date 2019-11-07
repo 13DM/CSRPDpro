@@ -977,7 +977,13 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/AstonMartin/Vulcan/VulcanReward.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
             Call :cpFinishCode
 			GOTO VulcanCon 
- 
+
+			:VulcanRewardSJB
+			set tempcarname=AstonMartin_VulcanReward_2016 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/AstonMartin/Vulcan/VulcanRewardQbAMSatinJetBlack.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+            Call :cpFinishCode
+			GOTO VulcanCon 
+
 			:VulcanEvo  
 			set tempcarname=AstonMartin_VulcanRewardGold_2016
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/AstonMartin/Vulcan/VulcanAMR_Prize_EvoCup.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
