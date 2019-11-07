@@ -100,7 +100,7 @@
       "need": 
       "crdb": "BMW_LBM4CoupeCrew_2014",
       "need": 
-      "crdb": "BMW_LBi8_2017",
+      "nigy": "BMW_LBi8_2017",
       "need": 
       "crdb": "BMW_M235iCoupe_2014",
       "need": 
@@ -162,7 +162,7 @@
       "need": 
       "crdb": "Chevrolet_C10Reward_2016",
       "need": 
-      "crdb": "Chevrolet_CamaroFBombF4_1973",
+      "nigy": "Chevrolet_CamaroFBombF4_1973",
       "need": 
       "crdb": "Chevrolet_CamaroSS_2016",
       "need": 
@@ -764,9 +764,9 @@
       "need": 
       "crdb": "Subaru_WRXSTIF8_2018",
       "need": 
-      "crdb": "Toyota_SupraGRReward_2020",
+      "nigy": "Toyota_SupraGRReward_2020",
       "need": 
-      "crdb": "Toyota_SupraGRRewardRecycled_2020",
+      "nigy": "Toyota_SupraGRRewardRecycled_2020",
       "need": 
       "crdb": "Toyota_SupraMKIVF1_1994",
       "need": 
