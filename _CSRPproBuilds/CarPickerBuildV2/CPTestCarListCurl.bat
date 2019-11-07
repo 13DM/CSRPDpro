@@ -14528,7 +14528,101 @@ REM			GOTO 720SCon
  
 			Rem Start of 718 Boxster 2020
 			
-			Rem Placeholder for 2020 718 Boxster
+			:718Boxster2020BBW  
+			set tempcarname=Porsche_718BoxsterSpyder_2020BBW 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Porsche/718Boxster2020/BlackBW.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO 718Boxster2020Con 
+ 
+			:718Boxster2020CW  
+			set tempcarname=Porsche_718BoxsterSpyder_2020CW 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Porsche/718Boxster2020/CarraraWhite.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO 718Boxster2020Con 
+ 
+			:718Boxster2020C  
+			set tempcarname=Porsche_718BoxsterSpyder_2020C 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Porsche/718Boxster2020/Chalk.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO 718Boxster2020Con 
+ 
+			:718Boxster2020GB  
+			set tempcarname=Porsche_718BoxsterSpyder_2020GB 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Porsche/718Boxster2020/GentianBlue.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO 718Boxster2020Con 
+ 
+			:718Boxster2020GTSRA  
+			set tempcarname=Porsche_718BoxsterSpyder_2020GTSRA 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Porsche/718Boxster2020/GTSilverRedAccentInt.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO 718Boxster2020Con 
+ 
+			:718Boxster2020GTSYA  
+			set tempcarname=Porsche_718BoxsterSpyder_2020GTSYA 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Porsche/718Boxster2020/GTSilverYellowAccentInt.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO 718Boxster2020Con 
+ 
+			:718Boxster2020GRBW  
+			set tempcarname=Porsche_718BoxsterSpyder_2020GRBW 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Porsche/718Boxster2020/GuardsRedBW.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO 718Boxster2020Con 
+ 
+			:718Boxster2020GRDW  
+			set tempcarname=Porsche_718BoxsterSpyder_2020GRDW 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Porsche/718Boxster2020/GuardsRedDarkGW.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO 718Boxster2020Con 
+ 
+			:718Boxster2020MBDGW  
+			set tempcarname=Porsche_718BoxsterSpyder_2020MBDGW 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Porsche/718Boxster2020/MiamiBlueDarkGW.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO 718Boxster2020Con 
+ 
+			:718Boxster2020MBLGW  
+			set tempcarname=Porsche_718BoxsterSpyder_2020MBLGW 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Porsche/718Boxster2020/MiamiBlueLightGW.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO 718Boxster2020Con 
+ 
+			:718Boxster2020RY  
+			set tempcarname=Porsche_718BoxsterSpyder_2020RY 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Porsche/718Boxster2020/RacingYellow.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO 718Boxster2020Con 
+ 
+			:718Boxster2020W  
+			set tempcarname=Porsche_718BoxsterSpyder_2020W 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Porsche/718Boxster2020/White.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul 
+			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" 
+			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance" 
+			GOTO 718Boxster2020Con 
 			
 			Rem start of 911 Carrera 4S Cabriolet:
 			

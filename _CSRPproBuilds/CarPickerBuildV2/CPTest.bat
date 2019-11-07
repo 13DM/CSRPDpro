@@ -12187,7 +12187,13 @@ Call :CPLogo
 		:718Boxster2020Con 
 		cls 
 
-Call :CPLogo
+echo    ______              ____  _      __             
+echo   / ____/___ ______   / __ \(_)____/ /_____  _____      ___         _______   ___  __  ___ 
+echo  / /   / __ `/ ___/  / /_/ / / ___/ //_/ _ \/ ___/     / _ )__ __  ^<  /_  /  / _ \/  ^|/  / 
+echo / /___/ /_/ / /     / ____/ / /__/ ,^< /  __/ /        / _  / // /  / //_ ^<  / // / /^|_/ /  
+echo \____/\__,_/_/     /_/   /_/\___/_/^|_^|\___/_/        /____/\_, /  /_/____/ /____/_/  /_/   
+echo                                                           /___/       
+		echo.
 		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 		echo.
 		echo Selected Manufacture:  !CurrentManuChoice! 
@@ -12195,11 +12201,48 @@ Call :CPLogo
 		echo.
 		echo - Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 - 
 		echo.
-		echo 1.) Back        Note* Car is not available on iOS yet. Will Update once available.
+		echo 1.) Back          
 		echo.
+		echo 2.) Black with Black Wheels          
+		echo.
+		echo 3.) Carrara White          
+		echo.
+		echo 4.) Chalk          
+		echo.
+		echo 5.) Gentian Blue          
+		echo.
+		echo 6.) GT Silver with Red Accent Interior          
+		echo.
+		echo 7.) GT Silver with Yellow Accent Interior          
+		echo.
+		echo 8.) Guards Red with Black Wheels          
+		echo.
+		echo 9.) Guards Red with Dark Grey Wheels          
+		echo.
+		echo 10.) Miami Blue with Dark Grey Wheels        
+		echo.
+		echo 11.) Miami Blue with Light Grey Wheels        
+		echo.
+		echo 12.) Racing Yellow
+		echo.
+		echo 13.) White        
+		echo.
+
 		set /p 718Boxster2020Type="Select Choice and press Enter: "  
 
 		if !718Boxster2020Type! == 1 goto PorscheCon 
+		if !718Boxster2020Type! == 2 goto 718Boxster2020BBW
+		if !718Boxster2020Type! == 3 goto 718Boxster2020CW
+		if !718Boxster2020Type! == 4 goto 718Boxster2020C
+		if !718Boxster2020Type! == 5 goto 718Boxster2020GB
+		if !718Boxster2020Type! == 6 goto 718Boxster2020GTSRA
+		if !718Boxster2020Type! == 7 goto 718Boxster2020GTSYA
+		if !718Boxster2020Type! == 8 goto 718Boxster2020GRBW
+		if !718Boxster2020Type! == 9 goto 718Boxster2020GRDW
+		if !718Boxster2020Type! == 10 goto 718Boxster2020MBDGW
+		if !718Boxster2020Type! == 11 goto 718Boxster2020MBLGW
+		if !718Boxster2020Type! == 12 goto 718Boxster2020RY
+		if !718Boxster2020Type! == 13 goto 718Boxster2020W
 		goto 718Boxster2020Con 
 	 
 	 
