@@ -445,7 +445,7 @@
 			
 			:IESecondary
 			set tempcarname=Apollo_IntensaEmozione_2019BC
-			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Apollo/IntensaEmozione/IntensaEmozione_IAPSpecial_Secondary%20Official_.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Apollo/IntensaEmozione/IntensaEmozione_IAPSpecial_Secondary_Official_.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
             Call :cpFinishCode
 			GOTO Apollo
 			
@@ -3045,19 +3045,19 @@
 			
 			:GT1DR
 			set tempcarname=Bentley_ContinentalGTRewardRecycled_2018DR
-			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Bentley/GT%201/ContinentalGT1DragonRedII.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Bentley/GT1/ContinentalGT1DragonRedII.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
             Call :cpFinishCode
 			GOTO GT1
 
 			:GT1R
 			set tempcarname=Bentley_ContinentalGTReward_2018
-			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Bentley/GT%201/ContinentalGT1Reward.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Bentley/GT1/ContinentalGT1Reward.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
             Call :cpFinishCode
 			GOTO GT1
 
 			:GT1SB
 			set tempcarname=Bentley_ContinentalGTRewardRecycled_2018SB
-			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Bentley/GT%201/ContinentalGT1SequinBlue.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Bentley/GT1/ContinentalGT1SequinBlue.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
             Call :cpFinishCode
 			GOTO GT1
 
@@ -3329,13 +3329,13 @@
 
 			:CHIRONWHEELS
 			set tempcarname=Bugatti_ChironRewardRecycled_2016_Wheel_List
-			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Bugatti/Chiron/Custom%20Builds/Wheel%20color.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Bugatti/Chiron/CustomBuilds/Wheelcolor.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
             Call :cpFinishCode
 			GOTO Chiron
 
 			:CHIRONRED
 			set tempcarname=Bugatti_ChironProjectHero_2016
-			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Bugatti/Chiron/Red%20edition_IAP/Chiron%20CSR2%20Red%20Edition.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Bugatti/Chiron/Rededition_IAP/ChironCSR2RedEdition.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
             Call :cpFinishCode
 			GOTO Chiron
 			
@@ -4372,7 +4372,7 @@
 
 			:FnFDemon
 			set tempcarname=Dodge_ChallengerSRTDemonF8_2018
-			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Dodge/Hobbs%20Demon/HobbsDemon.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Dodge/HobbsDemon/HobbsDemon.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
             Call :cpFinishCode
 			GOTO Demon
 
@@ -6750,7 +6750,7 @@
 			
 			:KurtzMustang
 			set tempcarname=Ford_MustangGTPremiumBoss_2015
-			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/KurtzMustang/Kurtz%20Mustang_Prize.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/KurtzMustang/KurtzMustang_Prize.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
             Call :cpFinishCode
 			GOTO MustangGT
 
