@@ -208,8 +208,6 @@ Call :CPLogo
 		echo.
 		echo - Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 - 
 		echo.
-		echo Page 1
-		echo.
 		echo 1.) Back.                                               8.) Performance White with No Livery
 		echo.
 		echo 2.) Circuit Grey                                        9.) Performance White with Red Livery
@@ -309,33 +307,32 @@ Call :CPLogo
 		echo.
 		echo - Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 - 
 		echo.
-		echo 1.) Crew
+		echo 1.) Back
 		echo.
-		echo 2.) Basalt Gray
+		echo 2.) Crew
 		echo.
-		echo 3.) Black
+		echo 3.) Basalt Gray
 		echo.
-		echo 4.) Giallo
+		echo 4.) Black
 		echo.
-		echo 5.) Rosso Alfa
+		echo 5.) Giallo
 		echo.
-		echo 6.) Rosso Competizione
+		echo 6.) Rosso Alfa
 		echo.
-		echo 7.) White
+		echo 7.) Rosso Competizione
 		echo.
-		echo 8.) Back
+		echo 8.) White
 		echo.
 		
 		set /p 4CCoupeChoice="Select Choice and press Enter: " 
-
-		if !4CCoupeChoice! == 1 goto 4CHighStakes
-		if !4CCoupeChoice! == 2 GOTO 4CCoupeBasalt
-		if !4CCoupeChoice! == 3 GOTO 4CCoupeBlack
-		if !4CCoupeChoice! == 4 GOTO 4CCoupeGiallo
-		if !4CCoupeChoice! == 5 GOTO 4CCoupeAlfa
-		if !4CCoupeChoice! == 6 GOTO 4CCoupeComp
-		if !4CCoupeChoice! == 7 GOTO 4CCoupeWhite
-		if !4CCoupeChoice! == 8 GOTO AlfaRomeo
+		if !4CCoupeChoice! == 1 GOTO AlfaRomeo
+		if !4CCoupeChoice! == 2 goto 4CHighStakes
+		if !4CCoupeChoice! == 3 GOTO 4CCoupeBasalt
+		if !4CCoupeChoice! == 4 GOTO 4CCoupeBlack
+		if !4CCoupeChoice! == 5 GOTO 4CCoupeGiallo
+		if !4CCoupeChoice! == 6 GOTO 4CCoupeAlfa
+		if !4CCoupeChoice! == 7 GOTO 4CCoupeComp
+		if !4CCoupeChoice! == 8 GOTO 4CCoupeWhite
 		set 4CCoupeChoice=0
 		Goto 4CCoupe
 
@@ -352,27 +349,27 @@ Call :CPLogo
 		echo.
 		echo - Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 - 
 		echo.
-		echo 1. Alfa Red Carbon Livery
+		echo 1. Back
+		echo.		
+		echo 2. Alfa Red Carbon Livery
 		echo.
-		echo 2. Carrera White Carbon Livery
+		echo 3. Carrera White Carbon Livery
 		echo.
-		echo 3. Concept Red Full Satin Livery
+		echo 4. Concept Red Full Satin Livery
 		echo.
-		echo 4. Etna Black Carbon Livery
+		echo 5. Etna Black Carbon Livery
 		echo.
-		echo 5. Tornado Blue No Livery
+		echo 6. Tornado Blue No Livery
 		echo.
-		echo 6. Back
-		echo.			
 		
 		set /p 4CSpyderChoice="Select Choice and press Enter: " 
+		if !4CSpyderChoice! == 1 GOTO AlfaRomeo
+		if !4CSpyderChoice! == 2 goto 4CSpyderAlfa
+		if !4CSpyderChoice! == 3 GOTO 4CSpyderCarrera
+		if !4CSpyderChoice! == 4 GOTO 4CSpyderConcept
+		if !4CSpyderChoice! == 5 GOTO 4CSpyderEtna
+		if !4CSpyderChoice! == 6 GOTO 4CSpyderTornado
 
-		if !4CSpyderChoice! == 1 goto 4CSpyderAlfa
-		if !4CSpyderChoice! == 2 GOTO 4CSpyderCarrera
-		if !4CSpyderChoice! == 3 GOTO 4CSpyderConcept
-		if !4CSpyderChoice! == 4 GOTO 4CSpyderEtna
-		if !4CSpyderChoice! == 5 GOTO 4CSpyderTornado
-		if !4CSpyderChoice! == 6 GOTO AlfaRomeo
 		set 4CSpyderChoice=0
 		Goto 4CSpyder
 
@@ -389,15 +386,14 @@ Call :CPLogo
 		echo.
 		echo - Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 - 
 		echo.
-		echo 1. 8c Competizione 
+		echo 1. Back
 		echo.
-		echo 2. Back
+		echo 2. 8c Competizione 
 		echo.			
 		
 		set /p 8CCompetizioneChoice="Select Choice and press Enter: " 
-
-		if !8CCompetizioneChoice! == 1 goto 8CCompetizione
-		if !8CCompetizioneChoice! == 2 GOTO AlfaRomeo
+		if !8CCompetizioneChoice! == 1 GOTO AlfaRomeo
+		if !8CCompetizioneChoice! == 2 goto 8CCompetizione
 		set 8CCompetizioneChoice=0
 		Goto 8C
 
@@ -414,39 +410,39 @@ Call :CPLogo
 		echo.
 		echo - Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 - 
 		echo.
-		echo 1. Alfa Red
+		echo 1. Back
 		echo.
-		echo 2. Misano Blue
+		echo 2. Alfa Red
 		echo.
-		echo 3. Montecarlo Blue
+		echo 3. Misano Blue
 		echo.
-		echo 4. Rosso Competizione
+		echo 4. Montecarlo Blue
 		echo.
-		echo 5. Silverstone
+		echo 5. Rosso Competizione
 		echo.
-		echo 6. Trofeo White
+		echo 6. Silverstone
 		echo.
-		echo 7. Vesuvio Grey
+		echo 7. Trofeo White
 		echo.
-		echo 8. Volcanic Black All Black Interior
+		echo 8. Vesuvio Grey
 		echo.
-		echo 9. Volcanic Black Black and Red Interior
+		echo 9. Volcanic Black All Black Interior
 		echo.
-		echo 10. Back
+		echo 10. Volcanic Black Black and Red Interior
 		echo.
 		
 		set /p GiuliaQuadrifoglioChoice="Select Choice and press Enter: " 
+		if !GiuliaQuadrifoglioChoice! == 1 GOTO AlfaRomeo
+		if !GiuliaQuadrifoglioChoice! == 2 goto GQAlfa
+		if !GiuliaQuadrifoglioChoice! == 3 GOTO GQMisano
+		if !GiuliaQuadrifoglioChoice! == 4 GOTO GQMonte
+		if !GiuliaQuadrifoglioChoice! == 5 GOTO GQRosso
+		if !GiuliaQuadrifoglioChoice! == 6 GOTO GQSilverstone
+		if !GiuliaQuadrifoglioChoice! == 7 GOTO GQTrofeo
+		if !GiuliaQuadrifoglioChoice! == 8 GOTO GQVesuvio
+		if !GiuliaQuadrifoglioChoice! == 9 GOTO GQVolcanicAll
+		if !GiuliaQuadrifoglioChoice! == 10 GOTO GQVolcanicBAR
 
-		if !GiuliaQuadrifoglioChoice! == 1 goto GQAlfa
-		if !GiuliaQuadrifoglioChoice! == 2 GOTO GQMisano
-		if !GiuliaQuadrifoglioChoice! == 3 GOTO GQMonte
-		if !GiuliaQuadrifoglioChoice! == 4 GOTO GQRosso
-		if !GiuliaQuadrifoglioChoice! == 5 GOTO GQSilverstone
-		if !GiuliaQuadrifoglioChoice! == 6 GOTO GQTrofeo
-		if !GiuliaQuadrifoglioChoice! == 7 GOTO GQVesuvio
-		if !GiuliaQuadrifoglioChoice! == 8 GOTO GQVolcanicAll
-		if !GiuliaQuadrifoglioChoice! == 9 GOTO GQVolcanicBAR
-		if !GiuliaQuadrifoglioChoice! == 10 GOTO AlfaRomeo
 		set GiuliaQuadrifoglioChoice=0
 		Goto GiuliaQuadrifoglio
 
@@ -578,15 +574,15 @@ Call :CPLogo
 	echo.
 	echo - Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 - 
 	echo.
-	echo 1. Javelin Defiant
+	echo 1. Back
 	echo.
-	echo 2. Back
+	echo 2. Javelin Defiant
 	echo.			
-	echo (1.) Select - (2.) Back
+	echo (1.) Back - (2.) Select
 	echo.
 	CHOICE /C 12 /M "" >nul
-	IF ERRORLEVEL == 2 GOTO CarPickerManuReturn
-	IF ERRORLEVEL == 1 GOTO Javelin
+	IF ERRORLEVEL == 2 GOTO Javelin
+	IF ERRORLEVEL == 1 GOTO CarPickerManuReturn
 	goto AMC
 
 	:Apollo
@@ -1109,15 +1105,15 @@ Call :CPLogo
 		echo.
 		echo - Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 - 
 		echo.
-		echo 1.) DB5 Restored
+		echo 1.) Back
 		echo.
-		echo 2.) Back
+		echo 2.) DB5 Restored
 		echo.			
-		echo (1.) Select - (2.) Back
+		echo (1.) Back - (2.) Select
 		echo.
 		CHOICE /C 12 /M ""
-		IF ERRORLEVEL == 2 GOTO AstonMartinCon
-		IF ERRORLEVEL == 1 GOTO DB5R
+		IF ERRORLEVEL == 2 GOTO DB5R
+		IF ERRORLEVEL == 1 GOTO AstonMartinCon
 		goto DB5
 
 		:Zagato
@@ -2825,15 +2821,15 @@ Call :CPLogo
 	echo.
 	echo - Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 - 
 	echo.
-	echo 1.) BT62
+	echo 1.) Back
 	echo.
-	echo 2.) Back
+	echo 2.) BT62
 	echo.			
-	echo (1.) Select - (2.) Back
+	echo (1.) Back - (2.) Select
 	echo.
 	CHOICE /C 12 /M "" >nul
-	IF ERRORLEVEL == 2 GOTO CarPickerManuReturn
-	IF ERRORLEVEL == 1 GOTO BT62
+	IF ERRORLEVEL == 2 GOTO BT62
+	IF ERRORLEVEL == 1 GOTO CarPickerManuReturn
 	goto Brabham
 
 	:Bugatti
@@ -3016,15 +3012,15 @@ Call :CPLogo
 		echo.
 		echo - Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 - 
 		echo.
-		echo 1.) Divo
+		echo 1.) Back
 		echo.
-		echo 2.) Back
+		echo 2.) Divo
 		echo.			
-		echo (1.) Select - (2.) Back
+		echo (1.) Back - (2.) Select
 		echo.
 		CHOICE /C 12 /M "" >nul
-		IF ERRORLEVEL == 2 GOTO CarPickerManuReturn
-		IF ERRORLEVEL == 1 GOTO DIVOIAP
+		IF ERRORLEVEL == 2 GOTO DIVOIAP
+		IF ERRORLEVEL == 1 GOTO CarPickerManuReturn
 		goto Divo
 		
 		:EB110SS
@@ -3040,15 +3036,15 @@ Call :CPLogo
 		echo.
 		echo - Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 - 
 		echo.
-		echo 1.) EB110SS
+		echo 1.) Back
 		echo.
-		echo 2.) Back
+		echo 2.) EB110SS
 		echo.			
-		echo (1.) Select - (2.) Back
+		echo (1.) Back - (2.) Select
 		echo.
 		CHOICE /C 12 /M "" >nul
-		IF ERRORLEVEL == 2 GOTO CarPickerManuReturn
-		IF ERRORLEVEL == 1 GOTO EB110SSRestored
+		IF ERRORLEVEL == 2 GOTO EB110SSRestored
+		IF ERRORLEVEL == 1 GOTO CarPickerManuReturn
 		goto EB110SS
 		
 		:Veyron
@@ -3065,6 +3061,7 @@ Call :CPLogo
 		echo Selected Car:          !CurrentCarChoice!
 		echo.
 		echo - Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 - 
+		echo.
 		echo (1.) Back.
 		echo.
 		echo (2.) Blanc with Dark Blue Tinted Carbon Back and Dark Blue Wheels
@@ -3085,7 +3082,7 @@ Call :CPLogo
 		echo. 
 		echo (10.) Veyron Super Sport World Record Edition
 		echo. 
-		echo.
+
 		set /p VeyronType="Select Choice and press Enter: " 
 		
 		:VeyronType1
@@ -3795,15 +3792,15 @@ Call :CPLogo
 			echo.
 			echo - Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 - 
 			echo.
-			echo 1.) ZR1 Classic
+			echo 1.) Back
 			echo.
-			echo 2.) Back
+			echo 2.) ZR1 Classic
 			echo.			
-			echo (1.) Select - (2.) Back
+			echo (1.) Back - (2.) Select
 			echo.
 			CHOICE /C 12 /M "" >nul
-			IF ERRORLEVEL == 2 GOTO CorvetteCon
-			IF ERRORLEVEL == 1 GOTO ZR1RESTORED
+			IF ERRORLEVEL == 2 GOTO ZR1RESTORED
+			IF ERRORLEVEL == 1 GOTO CorvetteCon
 			goto ZR1ClassicRestored
 			
 			:Stingray
@@ -4004,15 +4001,15 @@ Call :CPLogo
 			echo.
 			echo - Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 - 
 			echo.
-			echo 1.) Corvette Grandsport
+			echo 1.) Back
 			echo.
-			echo 2.) Back
+			echo 2.) Corvette Grandsport
 			echo.			
-			echo (1.) Select - (2.) Back
+			echo (1.) Back - (2.) Select
 			echo.
 			CHOICE /C 12 /M "" >nul
-			IF ERRORLEVEL == 2 GOTO CorvetteCon
-			IF ERRORLEVEL == 1 GOTO GRANSPORT
+			IF ERRORLEVEL == 2 GOTO GRANSPORT
+			IF ERRORLEVEL == 1 GOTO CorvetteCon
 			goto Grandsport
 			
 			
@@ -4149,15 +4146,15 @@ Call :CPLogo
 		echo.
 		echo - Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 - 
 		echo.
-		echo 1.) Demon HPE1200
+		echo 1.) Back
 		echo.
-		echo 2.) Back
+		echo 2.) Demon HPE1200
 		echo.			
-		echo (1.) Select - (2.) Back
+		echo (1.) Back - (2.) Select
 		echo.
 		CHOICE /C 12 /M "" >nul
-		IF ERRORLEVEL == 2 GOTO DodgeCon
-		IF ERRORLEVEL == 1 GOTO HPE1200
+		IF ERRORLEVEL == 2 GOTO HPE1200
+		IF ERRORLEVEL == 1 GOTO DodgeCon
 		goto DemonHPE1200
 	
 		:SRTHellcat
@@ -4366,15 +4363,15 @@ Call :CPLogo
 		echo.
 		echo - Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 - 
 		echo.
-		echo 1.) ACRExtreme
+		echo 1.) Back
 		echo.
-		echo 2.) Back
+		echo 2.) ACR Extreme Aero
 		echo.			
-		echo (1.) Select - (2.) Back
+		echo (1.) Back - (2.) Select
 		echo.
 		CHOICE /C 12 /M "" >nul
-		IF ERRORLEVEL == 2 GOTO DodgeCon
-		IF ERRORLEVEL == 1 GOTO ACRExtremeAero
+		IF ERRORLEVEL == 2 GOTO ACRExtremeAero
+		IF ERRORLEVEL == 1 GOTO DodgeCon
 		goto ACRExtreme
 	
 		:ViperGTS
@@ -4444,15 +4441,15 @@ Call :CPLogo
 		echo.
 		echo - Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 - 
 		echo.
-		echo 1.) SnakeskinGTC
+		echo 1.) Back
 		echo.
-		echo 2.) Back
+		echo 2.) SnakeskinGTC
 		echo.			
-		echo (1.) Select - (2.) Back
+		echo (1.) Back - (2.) Select
 		echo.
 		CHOICE /C 12 /M "" >nul
-		IF ERRORLEVEL == 2 GOTO DodgeCon
-		IF ERRORLEVEL == 1 GOTO VIPERSNAKE
+		IF ERRORLEVEL == 2 GOTO VIPERSNAKE
+		IF ERRORLEVEL == 1 GOTO DodgeCon
 		goto SnakeskinGTC
 		
 		:Donkervoort
@@ -4663,15 +4660,15 @@ Call :CPLogo
 		echo.
 		echo - Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 - 
 		echo.
-		echo 1.) 250 GTO Restored
+		echo 1.) Back
 		echo.
-		echo 2.) Back
+		echo 2.) 250 GTO Restored
 		echo.			
-		echo (1.) Select - (2.) Back
+		echo (1.) Back - (2.) Select
 		echo.
 		CHOICE /C 12 /M "" >nul
-		IF ERRORLEVEL == 2 GOTO FerrariCon
-		IF ERRORLEVEL == 1 GOTO 250GTORestored
+		IF ERRORLEVEL == 2 GOTO 250GTORestored
+		IF ERRORLEVEL == 1 GOTO FerrariCon
 		goto 250GTO
 	
 		:458Speciale
@@ -5774,15 +5771,15 @@ Call :CPLogo
 		echo.
 		echo - Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 - 
 		echo.
-		echo 1.) Durty 30
+		echo 1.) Back
 		echo.
-		echo 2.) Back
+		echo 2.) Durty 30
 		echo.			
-		echo (1.) Select - (2.) Back
+		echo (1.) Back - (2.) Select
 		echo.
 		CHOICE /C 12 /M "" >nul
-		IF ERRORLEVEL == 2 GOTO FordCon
-		IF ERRORLEVEL == 1 GOTO Durty30Get
+		IF ERRORLEVEL == 2 GOTO Durty30Get
+		IF ERRORLEVEL == 1 GOTO FordCon
 		goto Durty30
 	    
 		:F150Raptor
@@ -5905,15 +5902,15 @@ Call :CPLogo
 		echo.
 		echo - Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 - 
 		echo.
-		echo 1.) GT40 MKii Restored
+		echo 1.) Back
 		echo.
-		echo 2.) Back
+		echo 2.) GT40 MKii Restored
 		echo.			
-		echo (1.) Select - (2.) Back
+		echo (1.) Back - (2.) Select
 		echo.
 		CHOICE /C 12 /M "" >nul
-		IF ERRORLEVEL == 2 GOTO FordCon
-		IF ERRORLEVEL == 1 GOTO GT40MKIIR
+		IF ERRORLEVEL == 2 GOTO GT40MKIIR
+		IF ERRORLEVEL == 1 GOTO FordCon
 		goto GT40
 	    
 		:FordGT
@@ -6612,15 +6609,15 @@ Call :CPLogo
 	echo.
 	echo - Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 - 
 	echo.
-	echo 1.) Akula
+	echo 1.) Back
 	echo.
-	echo 2.) Back
+	echo 2.) Akula
 	echo.			
-	echo (1.) Select - (2.) Back
+	echo (1.) Back - (2.) Select
 	echo.
 	CHOICE /C 12 /M "" >nul
-	IF ERRORLEVEL == 2 GOTO CarPickerManuReturn
-	IF ERRORLEVEL == 1 GOTO Akula
+	IF ERRORLEVEL == 2 GOTO Akula
+	IF ERRORLEVEL == 1 GOTO CarPickerManuReturn
 	goto Ginetta
 
 	
@@ -7007,15 +7004,15 @@ Call :CPLogo
 		echo.
 		echo - Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 - 
 		echo.
-		echo 1.) NSX Type R Restored
+		echo 1.) Back
 		echo.
-		echo 2.) Back
+		echo 2.) NSX Type R Restored
 		echo.			
-		echo (1.) Select - (2.) Back
+		echo (1.) Back - (2.) Select
 		echo.
 		CHOICE /C 12 /M "" >nul
-		IF ERRORLEVEL == 2 GOTO HondaCon
-		IF ERRORLEVEL == 1 GOTO NSXClassicR
+		IF ERRORLEVEL == 2 GOTO NSXClassicR
+		IF ERRORLEVEL == 1 GOTO HondaCon
 		goto NSXClassic
 	    
 		:NSX 
@@ -7161,15 +7158,15 @@ Call :CPLogo
 		echo.
 		echo - Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 - 
 		echo.
-		echo 1.) Suki's S2000
+		echo 1.) Back
 		echo.
-		echo 2.) Back
+		echo 2.) Suki's S2000
 		echo.			
-		echo (1.) Select - (2.) Back
+		echo (1.) Back - (2.) Select
 		echo.
 		CHOICE /C 12 /M "" >nul
-		IF ERRORLEVEL == 2 GOTO HondaCon
-		IF ERRORLEVEL == 1 GOTO SukiS2kCar
+		IF ERRORLEVEL == 2 GOTO SukiS2kCar
+		IF ERRORLEVEL == 1 GOTO HondaCon
 		goto SukiS2k
 		
 	:Hyundai
@@ -7560,15 +7557,15 @@ Call :CPLogo
 		echo.
 		echo - Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 - 
 		echo.
-		echo 1.) Victor's Project 7
+		echo 1.) Back
 		echo.
-		echo 2.) Back
+		echo 2.) Victor's Project 7
 		echo.			
-		echo (1.) Select - (2.) Back
+		echo (1.) Back - (2.) Select
 		echo.
 		CHOICE /C 12 /M "" >nul
-		IF ERRORLEVEL == 2 GOTO JaguarCon
-		IF ERRORLEVEL == 1 GOTO VictorProject7
+		IF ERRORLEVEL == 2 GOTO VictorProject7
+		IF ERRORLEVEL == 1 GOTO JaguarCon
 		goto Project7Boss
 		
 		:Project7VIP
@@ -7583,15 +7580,15 @@ Call :CPLogo
 		echo.
 		echo - Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 - 
 		echo.
-		echo 1.) VIP Project 7
+		echo 1.) Back
 		echo.
-		echo 2.) Back
+		echo 2.) VIP Project 7
 		echo.			
-		echo (1.) Select - (2.) Back
+		echo (1.) Back - (2.) Select
 		echo.
 		CHOICE /C 12 /M "" >nul
-		IF ERRORLEVEL == 2 GOTO JaguarCon
-		IF ERRORLEVEL == 1 GOTO VIPProject7
+		IF ERRORLEVEL == 2 GOTO VIPProject7
+		IF ERRORLEVEL == 1 GOTO JaguarCon
 		goto Project7VIP
 	    
 		:XESVProject8 
@@ -7657,15 +7654,15 @@ Call :CPLogo
 		echo.
 		echo - Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 - 
 		echo.
-		echo 1.) XJ 220
+		echo 1.) Back
 		echo.
-		echo 2.) Back
+		echo 2.) XJ 220
 		echo.			
-		echo (1.) Select - (2.) Back
+		echo (1.) Back - (2.) Select
 		echo.
 		CHOICE /C 12 /M "" >nul
-		IF ERRORLEVEL == 2 GOTO JaguarCon
-		IF ERRORLEVEL == 1 GOTO XJ220R
+		IF ERRORLEVEL == 2 GOTO XJ220R
+		IF ERRORLEVEL == 1 GOTO JaguarCon
 		goto XJ220
 		
 		
@@ -7797,15 +7794,15 @@ Call :CPLogo
 		echo.
 		echo - Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 - 
 		echo.
-		echo 1.) Shax's Agera R
+		echo 1.) Back
 		echo.
-		echo 2.) Back
+		echo 2.) Shax's Agera R
 		echo.			
-		echo (1.) Select - (2.) Back
+		echo (1.) Back - (2.) Select
 		echo.
 		CHOICE /C 12 /M "" >nul
-		IF ERRORLEVEL == 2 GOTO KoenigseggCon
-		IF ERRORLEVEL == 1 GOTO ShaxAgeraR
+		IF ERRORLEVEL == 2 GOTO ShaxAgeraR
+		IF ERRORLEVEL == 1 GOTO KoenigseggCon
 		goto AgeraR
 	    
 		:AgeraRS 
@@ -7870,15 +7867,15 @@ Call :CPLogo
 		echo.
 		echo - Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 - 
 		echo.
-		echo 1.) Jesko
+		echo 1.) Back
 		echo.
-		echo 2.) Back
+		echo 2.) Jesko
 		echo.			
-		echo (1.) Select - (2.) Back
+		echo (1.) Back - (2.) Select
 		echo.
 		CHOICE /C 12 /M "" >nul
-		IF ERRORLEVEL == 2 GOTO KoenigseggCon
-		IF ERRORLEVEL == 1 GOTO JeskoWhite
+		IF ERRORLEVEL == 2 GOTO JeskoWhite
+		IF ERRORLEVEL == 1 GOTO KoenigseggCon
 		goto Jesko
 		
 		:One1 
@@ -8004,15 +8001,15 @@ Call :CPLogo
 		echo.
 		echo - Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 - 
 		echo.
-		echo 1.) Regera Ghost Edition
+		echo 1.) Back
 		echo.
-		echo 2.) Back
+		echo 2.) Regera Ghost Edition
 		echo.			
-		echo (1.) Select - (2.) Back
+		echo (1.) Back - (2.) Select
 		echo.
 		CHOICE /C 12 /M "" >nul
-		IF ERRORLEVEL == 2 GOTO KoenigseggCon
-		IF ERRORLEVEL == 1 GOTO RegeraGhostEdition
+		IF ERRORLEVEL == 2 GOTO RegeraGhostEdition
+		IF ERRORLEVEL == 1 GOTO KoenigseggCon
 		goto RegeraGhost
 		
 		
@@ -8391,15 +8388,15 @@ Call :CPLogo
 		echo.
 		echo - Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 - 
 		echo.
-		echo 1.) Countach Classic Restored
+		echo 1.) Back
 		echo.
-		echo 2.) Back
+		echo 2.) Countach Classic Restored
 		echo.			
-		echo (1.) Select - (2.) Back
+		echo (1.) Back - (2.) Select
 		echo.
 		CHOICE /C 12 /M "" >nul
-		IF ERRORLEVEL == 2 GOTO LamborghiniCon
-		IF ERRORLEVEL == 1 GOTO CountachR
+		IF ERRORLEVEL == 2 GOTO CountachR
+		IF ERRORLEVEL == 1 GOTO LamborghiniCon
 		goto Countach
 	    
 		:Huracan 
@@ -8758,15 +8755,15 @@ Call :CPLogo
 		echo.
 		echo - Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 - 
 		echo.
-		echo 1.) SC18 Alton
+		echo 1.) Back
 		echo.
-		echo 2.) Back
+		echo 2.) SC18 Alton
 		echo.			
-		echo (1.) Select - (2.) Back
+		echo (1.) Back - (2.) Select
 		echo.
 		CHOICE /C 12 /M "" >nul
-		IF ERRORLEVEL == 2 GOTO LamborghiniCon
-		IF ERRORLEVEL == 1 GOTO SC18Alton
+		IF ERRORLEVEL == 2 GOTO SC18Alton
+		IF ERRORLEVEL == 1 GOTO LamborghiniCon
 		goto SC18
 		
 		:Sian
@@ -8779,15 +8776,15 @@ Call :CPLogo
 		echo.
 		echo - Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 - 
 		echo.
-		echo 1.) Sian ^"Few Off^"
+		echo 1.) Back
 		echo.
-		echo 2.) Back
+		echo 2.) Sian ^"Few Off^"
 		echo.			
-		echo (1.) Select - (2.) Back
+		echo (1.) Back - (2.) Select
 		echo.
 		CHOICE /C 12 /M "" >nul
-		IF ERRORLEVEL == 2 GOTO CarPickerManuReturn
-		IF ERRORLEVEL == 1 GOTO FewOff
+		IF ERRORLEVEL == 2 GOTO FewOff
+		IF ERRORLEVEL == 1 GOTO CarPickerManuReturn
 		goto Sian
 	    
 		:Sesto 
@@ -8907,15 +8904,15 @@ Call :CPLogo
 		echo.
 		echo - Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 - 
 		echo.
-		echo 1.) Veneno
+		echo 1.) Back
 		echo.
-		echo 2.) Back
+		echo 2.) Veneno
 		echo.			
-		echo (1.) Select - (2.) Back
+		echo (1.) Back - (2.) Select
 		echo.
 		CHOICE /C 12 /M "" >nul
-		IF ERRORLEVEL == 2 GOTO LamborghiniCon
-		IF ERRORLEVEL == 1 GOTO VenenoFI
+		IF ERRORLEVEL == 2 GOTO VenenoFI
+		IF ERRORLEVEL == 1 GOTO LamborghiniCon
 		goto Veneno
 		
 		
@@ -9204,15 +9201,15 @@ Call :CPLogo
 		echo.
 		echo - Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 - 
 		echo.
-		echo 1.) Exige LF1
+		echo 1.) Back
 		echo.
-		echo 2.) Back
+		echo 2.) Exige LF1
 		echo.			
-		echo (1.) Select - (2.) Back
+		echo (1.) Back - (2.) Select
 		echo.
 		CHOICE /C 12 /M "" >nul
-		IF ERRORLEVEL == 2 GOTO LotusCon
-		IF ERRORLEVEL == 1 GOTO LF1
+		IF ERRORLEVEL == 2 GOTO LF1
+		IF ERRORLEVEL == 1 GOTO LotusCon
 		goto ExigeLF1
 
 		:EvoraGT430 
@@ -9452,15 +9449,15 @@ Call :CPLogo
 		echo.
 		echo - Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 - 
 		echo.
-		echo 1.) MC12
+		echo 1.) Back
 		echo.
-		echo 2.) Back
+		echo 2.) MC12
 		echo.			
-		echo (1.) Select - (2.) Back
+		echo (1.) Back - (2.) Select
 		echo.
 		CHOICE /C 12 /M "" >nul
-		IF ERRORLEVEL == 2 GOTO MaseratiCon
-		IF ERRORLEVEL == 1 GOTO MC12W
+		IF ERRORLEVEL == 2 GOTO MC12W
+		IF ERRORLEVEL == 1 GOTO MaseratiCon
 		goto MC12
 		
 		
@@ -9651,15 +9648,15 @@ Call :CPLogo
 	echo.
 	echo - Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 - 
 	echo.
-	echo 1.) Evantra Millecavalli
+	echo 1.) Back
 	echo.
-	echo 2.) Back
+	echo 2.) Evantra Millecavalli
 	echo.			
-	echo (1.) Select - (2.) Back
+	echo (1.) Back - (2.) Select
 	echo.
 	CHOICE /C 12 /M ""
-	IF ERRORLEVEL == 2 GOTO CarPickerManuReturn
-	IF ERRORLEVEL == 1 GOTO Evantra
+	IF ERRORLEVEL == 2 GOTO Evantra
+	IF ERRORLEVEL == 1 GOTO CarPickerManuReturn
 	goto Mazzanti
 
 
@@ -10124,15 +10121,15 @@ Call :CPLogo
 		echo.
 		echo - Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 - 
 		echo.
-		echo 1.) F1
+		echo 1.) Back
 		echo.
-		echo 2.) Back
+		echo 2.) F1
 		echo.			
-		echo (1.) Select - (2.) Back
+		echo (1.) Back - (2.) Select
 		echo.
 		CHOICE /C 12 /M "" >nul
-		IF ERRORLEVEL == 2 GOTO MclarenCon
-		IF ERRORLEVEL == 1 GOTO F1L
+		IF ERRORLEVEL == 2 GOTO F1L
+		IF ERRORLEVEL == 1 GOTO MclarenCon
 		goto F1
 	    
 		:P1 
@@ -10236,15 +10233,17 @@ Call :CPLogo
 		echo.
 		echo - Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 - 
 		echo.
-		echo 1.) Harkness SLR 722 Edition
+		echo 1.) Back
 		echo.
-		echo 2.) Back
+		echo 2.) Harkness SLR 722 Edition
 		echo.			
-		echo (1.) Select - (2.) Back
+		echo (1.) Back - (2.) Select
+		echo.
+		echo Note* This car is not available and is only a AI car. Use at your own risk. Car is not maxed due to bug loading it.
 		echo.
 		CHOICE /C 12 /M "" >nul
-		IF ERRORLEVEL == 2 GOTO MclarenCon
-		IF ERRORLEVEL == 1 GOTO SLR722Crew
+		IF ERRORLEVEL == 2 GOTO SLR722Crew
+		IF ERRORLEVEL == 1 GOTO MclarenCon
 		goto SLR722
 	    
 		:Senna
@@ -10257,15 +10256,15 @@ Call :CPLogo
 		echo.
 		echo - Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 - 
 		echo.
-		echo 1.) Senna
+		echo 1.) Back
 		echo.
-		echo 2.) Back
+		echo 2.) Senna
 		echo.			
-		echo (1.) Select - (2.) Back
+		echo (1.) Back - (2.) Select
 		echo.
 		CHOICE /C 12 /M "" >nul
-		IF ERRORLEVEL == 2 GOTO MclarenCon
-		IF ERRORLEVEL == 1 GOTO SennaCar
+		IF ERRORLEVEL == 2 GOTO SennaCar
+		IF ERRORLEVEL == 1 GOTO MclarenCon
 		goto Senna
 		
 		:Speedtail
@@ -10278,15 +10277,15 @@ Call :CPLogo
 		echo.
 		echo - Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 - 
 		echo.
-		echo 1.) Speedtail
+		echo 1.) Back
 		echo.
-		echo 2.) Back
+		echo 2.) Speedtail
 		echo.			
-		echo (1.) Select - (2.) Back
+		echo (1.) Back - (2.) Select
 		echo.
 		CHOICE /C 12 /M "" >nul
-		IF ERRORLEVEL == 2 GOTO MclarenCon
-		IF ERRORLEVEL == 1 GOTO SpeedtailCar
+		IF ERRORLEVEL == 2 GOTO SpeedtailCar
+		IF ERRORLEVEL == 1 GOTO MclarenCon
 		goto Speedtail
 		
 		:570VX 
@@ -10565,15 +10564,15 @@ Call :CPLogo
 		echo.
 		echo - Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 - 
 		echo.
-		echo 1.) 300 SL Classic Restored
+		echo 1.) Back
 		echo.
-		echo 2.) Back
+		echo 2.) 300 SL Classic Restored
 		echo.			
-		echo (1.) Select - (2.) Back
+		echo (1.) Back - (2.) Select
 		echo.
 		CHOICE /C 12 /M "" >nul
-		IF ERRORLEVEL == 2 GOTO MercedesCon
-		IF ERRORLEVEL == 1 GOTO 300SLR
+		IF ERRORLEVEL == 2 GOTO 300SLR
+		IF ERRORLEVEL == 1 GOTO MercedesCon
 		goto 300SL
 	    
 		:A45AMG
@@ -10586,15 +10585,15 @@ Call :CPLogo
 		echo.
 		echo - Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 - 
 		echo.
-		echo 1.) Benz Cirrus White
+		echo 1.) Back
 		echo.
-		echo 2.) Back
+		echo 2.) Benz Cirrus White
 		echo.			
-		echo (1.) Select - (2.) Back
+		echo (1.) Back - (2.) Select
 		echo.
 		CHOICE /C 12 /M "" >nul
-		IF ERRORLEVEL == 2 GOTO MercedesCon
-		IF ERRORLEVEL == 1 GOTO A45AMGBCW
+		IF ERRORLEVEL == 2 GOTO A45AMGBCW
+		IF ERRORLEVEL == 1 GOTO MercedesCon
 		goto A45AMG
 	    
 		:C63BS 
@@ -11617,15 +11616,15 @@ Call :CPLogo
 		echo.
 		echo - Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 - 
 		echo.
-		echo 1.) M600 Carbon Sport
+		echo 1.) Back
 		echo.
-		echo 2.) Back
+		echo 2.) M600 Carbon Sport
 		echo.			
-		echo (1.) Select - (2.) Back
+		echo (1.) Back - (2.) Select
 		echo.
 		CHOICE /C 12 /M "" >nul
-		IF ERRORLEVEL == 2 GOTO CarPickerManuReturn
-		IF ERRORLEVEL == 1 GOTO NobleM600
+		IF ERRORLEVEL == 2 GOTO NobleM600
+		IF ERRORLEVEL == 1 GOTO CarPickerManuReturn
 		goto Noble
 
 
@@ -11864,15 +11863,15 @@ Call :CPLogo
 		echo.
 		echo - Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 - 
 		echo.
-		echo 1.) Zonda Barchetta Blu Tricolore
+		echo 1.) Back
 		echo.
-		echo 2.) Back
+		echo 2.) Zonda Barchetta Blu Tricolore
 		echo.			
-		echo (1.) Select - (2.) Back
+		echo (1.) Back - (2.) Select
 		echo.
 		CHOICE /C 12 /M "" >nul
-		IF ERRORLEVEL == 2 GOTO PaganiCon
-		IF ERRORLEVEL == 1 GOTO ZondaBarchettaBT
+		IF ERRORLEVEL == 2 GOTO ZondaBarchettaBT
+		IF ERRORLEVEL == 1 GOTO PaganiCon
 		goto ZondaBarchetta
 		
 		:ZondaRevolucion
@@ -11885,15 +11884,15 @@ Call :CPLogo
 		echo.
 		echo - Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 - 
 		echo.
-		echo 1.) Zonda Barchetta Revolucion
+		echo 1.) Back
 		echo.
-		echo 2.) Back
+		echo 2.) Zonda Barchetta Revolucion
 		echo.			
-		echo (1.) Select - (2.) Back
+		echo (1.) Back - (2.) Select
 		echo.
 		CHOICE /C 12 /M "" >nul
-		IF ERRORLEVEL == 2 GOTO PaganiCon
-		IF ERRORLEVEL == 1 GOTO ZondaRevolucionR
+		IF ERRORLEVEL == 2 GOTO ZondaRevolucionR
+		IF ERRORLEVEL == 1 GOTO PaganiCon
 		goto ZondaRevolucion
 
 	:Pontiac
@@ -11906,15 +11905,15 @@ Call :CPLogo
 	echo.
 	echo - Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 - 
 	echo.
-	echo 1.) GTO "The Judge" Restored
+	echo 1.) Back
 	echo.
-	echo 2.) Back
+	echo 2.) GTO "The Judge" Restored
 	echo.			
-	echo (1.) Select - (2.) Back
+	echo (1.) Back - (2.) Select
 	echo.
 	CHOICE /C 12 /M "" >nul
-	IF ERRORLEVEL == 2 GOTO CarPickerManuReturn
-	IF ERRORLEVEL == 1 GOTO JudgeGTO
+	IF ERRORLEVEL == 2 GOTO JudgeGTO
+	IF ERRORLEVEL == 1 GOTO CarPickerManuReturn
 	goto Pontiac
 	 
     :Plymouth 
@@ -11980,15 +11979,15 @@ Call :CPLogo
 		echo.
 		echo - Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 - 
 		echo.
-		echo 1.) Hobbs Road Runner GTX
+		echo 1.) Back
 		echo.
-		echo 2.) Back
+		echo 2.) Hobbs Road Runner GTX
 		echo.			
-		echo (1.) Select - (2.) Back
+		echo (1.) Back - (2.) Select
 		echo.
 		CHOICE /C 12 /M "" >nul
-		IF ERRORLEVEL == 2 GOTO PlymouthCon
-		IF ERRORLEVEL == 1 GOTO RoadRunnerGTX
+		IF ERRORLEVEL == 2 GOTO RoadRunnerGTX
+		IF ERRORLEVEL == 1 GOTO PlymouthCon
 		goto GTX
 		
 		:Torc 
@@ -12032,15 +12031,15 @@ Call :CPLogo
 		echo.
 		echo - Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 - 
 		echo.
-		echo 1.) Cuda Classic Restored
+		echo 1.) Back
 		echo.
-		echo 2.) Back
+		echo 2.) Cuda Classic Restored
 		echo.			
-		echo (1.) Select - (2.) Back
+		echo (1.) Back - (2.) Select
 		echo.
 		CHOICE /C 12 /M "" >nul
-		IF ERRORLEVEL == 2 GOTO PlymouthCon
-		IF ERRORLEVEL == 1 GOTO CudaClassic
+		IF ERRORLEVEL == 2 GOTO CudaClassic
+		IF ERRORLEVEL == 1 GOTO PlymouthCon
 		goto Cuda
 	 
 	 
@@ -12502,15 +12501,15 @@ Call :CPLogo
 		echo.
 		echo - Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 - 
 		echo.
-		echo 1.) 911 "Urban Outlaw" STRII
+		echo 1.) Back
 		echo.
-		echo 2.) Back
+		echo 2.) 911 "Urban Outlaw" STRII
 		echo.			
-		echo (1.) Select - (2.) Back
+		echo (1.) Back - (2.) Select
 		echo.
 		CHOICE /C 12 /M "" >nul
-		IF ERRORLEVEL == 2 GOTO PorscheCon
-		IF ERRORLEVEL == 1 GOTO 911UrbanOutlawSTRII
+		IF ERRORLEVEL == 2 GOTO 911UrbanOutlawSTRII
+		IF ERRORLEVEL == 1 GOTO PorscheCon
 		goto 911UrbanOutlaw
 
 		:918Spyder 
@@ -12577,15 +12576,15 @@ Call :CPLogo
 		echo.
 		echo - Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 - 
 		echo.
-		echo 1.) 959 SC "Canepa"
+		echo 1.) Back
 		echo.
-		echo 2.) Back
+		echo 2.) 959 SC "Canepa"
 		echo.			
-		echo (1.) Select - (2.) Back
+		echo (1.) Back - (2.) Select
 		echo.
 		CHOICE /C 12 /M "" >nul
-		IF ERRORLEVEL == 2 GOTO PorscheCon
-		IF ERRORLEVEL == 1 GOTO 959SCCanepa
+		IF ERRORLEVEL == 2 GOTO 959SCCanepa
+		IF ERRORLEVEL == 1 GOTO PorscheCon
 		goto 959SC
 
 		:CaymanGT4 
@@ -12886,15 +12885,15 @@ Call :CPLogo
 		echo.
 		echo - Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 - 
 		echo.
-		echo 1.) Carrera Classic Restored
+		echo 1.) Back
 		echo.
-		echo 2.) Back
+		echo 2.) Carrera Classic Restored
 		echo.			
-		echo (1.) Select - (2.) Back
+		echo (1.) Back - (2.) Select
 		echo.
 		CHOICE /C 12 /M "" >nul
-		IF ERRORLEVEL == 2 GOTO PorscheCon
-		IF ERRORLEVEL == 1 GOTO CarreraClassic
+		IF ERRORLEVEL == 2 GOTO CarreraClassic
+		IF ERRORLEVEL == 1 GOTO PorscheCon
 		goto Carrera
 	 
 	 
@@ -13011,15 +13010,15 @@ Call :CPLogo
 		echo.
 		echo - Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 - 
 		echo.
-		echo 1.) S7 Classic 
+		echo 1.) Back
 		echo.
-		echo 2.) Back
+		echo 2.) S7 Classic 
 		echo.			
-		echo (1.) Select - (2.) Back
+		echo (1.) Back - (2.) Select
 		echo.
 		CHOICE /C 12 /M "" >nul
-		IF ERRORLEVEL == 2 GOTO SaleenCon
-		IF ERRORLEVEL == 1 GOTO S7Classic
+		IF ERRORLEVEL == 2 GOTO S7Classic
+		IF ERRORLEVEL == 1 GOTO SaleenCon
 		goto S7
 
 
@@ -13083,15 +13082,15 @@ Call :CPLogo
 		echo.
 		echo - Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 - 
 		echo.
-		echo 1.) SCG003S
+		echo 1.) Back
 		echo.
-		echo 2.) Back
+		echo 2.) SCG003S
 		echo.			
-		echo (1.) Select - (2.) Back
+		echo (1.) Back - (2.) Select
 		echo.
 		CHOICE /C 12 /M "" >nul
-		IF ERRORLEVEL == 2 GOTO SCGCon
-		IF ERRORLEVEL == 1 GOTO SCG003SIAP
+		IF ERRORLEVEL == 2 GOTO SCG003SIAP
+		IF ERRORLEVEL == 1 GOTO SCGCon
 		goto SCG003S
 
 		:SCG004C 
@@ -13184,15 +13183,15 @@ Call :CPLogo
 		echo.
 		echo - Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 - 
 		echo.
-		echo 1.) Cobra 427 Restored
+		echo 1.) Back
 		echo.
-		echo 2.) Back
+		echo 2.) Cobra 427 Restored
 		echo.			
-		echo (1.) Select - (2.) Back
+		echo (1.) Back - (2.) Select
 		echo.
 		CHOICE /C 12 /M "" >nul
-		IF ERRORLEVEL == 2 GOTO SCGCon
-		IF ERRORLEVEL == 1 GOTO Cobra427
+		IF ERRORLEVEL == 2 GOTO Cobra427
+		IF ERRORLEVEL == 1 GOTO ShelbyCon
 		goto Cobra
 
 		:SuperSnake 
@@ -13232,7 +13231,7 @@ Call :CPLogo
 		echo.
 		set /p SuperSnakeType="Select Choice and press Enter: "  
 
-		if !SuperSnakeType! == 1 goto SaleenCon 
+		if !SuperSnakeType! == 1 goto ShelbyCon 
 		if !SuperSnakeType! == 2 goto SuperSnakeReward  
 		if !SuperSnakeType! == 3 goto SuperSnakeCOBS  
 		if !SuperSnakeType! == 4 goto SuperSnakeCOWS  
@@ -13294,15 +13293,15 @@ Call :CPLogo
 		echo.
 		echo - Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 - 
 		echo.
-		echo 1.) Tuatara
+		echo 1.) Back
 		echo.
-		echo 2.) Back
+		echo 2.) Tuatara
 		echo.			
-		echo (1.) Select - (2.) Back
+		echo (1.) Back - (2.) Select
 		echo.
 		CHOICE /C 12 /M "" >nul
-		IF ERRORLEVEL == 2 GOTO CarPickerManuReturn
-		IF ERRORLEVEL == 1 GOTO Tuatara
+		IF ERRORLEVEL == 2 GOTO Tuatara
+		IF ERRORLEVEL == 1 GOTO CarPickerManuReturn
 		goto SCC
 	
     :Subaru 
@@ -13651,15 +13650,15 @@ Call :CPLogo
 		echo.
 		echo - Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 - 
 		echo.
-		echo 1.) Brian's Supra MKIV 
+		echo 1.) Back
 		echo.
-		echo 2.) Back
+		echo 2.) Brian's Supra MKIV 
 		echo.			
-		echo (1.) Select - (2.) Back
+		echo (1.) Back - (2.) Select
 		echo.
 		CHOICE /C 12 /M "" >nul
-		IF ERRORLEVEL == 2 GOTO ToyotaCon
-		IF ERRORLEVEL == 1 GOTO BrianSupra
+		IF ERRORLEVEL == 2 GOTO BrianSupra
+		IF ERRORLEVEL == 1 GOTO ToyotaCon
 		goto SupraMKIV
 
 	:TVR
@@ -13672,15 +13671,15 @@ Call :CPLogo
 	echo.
 	echo - Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 - 
 	echo.
-	echo 1.) Sagaris
+	echo 1.) Back
 	echo.
-	echo 2.) Back
+	echo 2.) Sagaris
 	echo.			
-	echo (1.) Select - (2.) Back
+	echo (1.) Back - (2.) Select
 	echo.
 	CHOICE /C 12 /M "" >nul
-	IF ERRORLEVEL == 2 GOTO CarPickerManuReturn
-	IF ERRORLEVEL == 1 GOTO Sagaris
+	IF ERRORLEVEL == 2 GOTO Sagaris
+	IF ERRORLEVEL == 1 GOTO CarPickerManuReturn
 	goto TVR
 
 		:Ultima
@@ -13693,15 +13692,15 @@ Call :CPLogo
 		echo.
 		echo - Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 - 
 		echo.
-		echo 1.) RS
+		echo 1.) Back
 		echo.
-		echo 2.) Back
+		echo 2.) RS
 		echo.			
-		echo (1.) Select - (2.) Back
+		echo (1.) Back - (2.) Select
 		echo.
 		CHOICE /C 12 /M "" >nul
-		IF ERRORLEVEL == 2 GOTO CarPickerManuReturn
-		IF ERRORLEVEL == 1 GOTO UltimaRS
+		IF ERRORLEVEL == 2 GOTO UltimaRS
+		IF ERRORLEVEL == 1 GOTO CarPickerManuReturn
 		goto Ultima
 
     :Volkswagen 
@@ -14271,15 +14270,15 @@ Call :CPLogo
 		echo.
 		echo - Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 - 
 		echo.
-		echo 1.) TSR-S Laguna Roja
+		echo 1.) Back
 		echo.
-		echo 2.) Back
+		echo 2.) TSR-S Laguna Roja
 		echo.			
-		echo (1.) Select - (2.) Back
+		echo (1.) Back - (2.) Select
 		echo.
 		CHOICE /C 12 /M "" >nul
-		IF ERRORLEVEL == 2 GOTO ZenvoCon
-		IF ERRORLEVEL == 1 GOTO TSRSLR
+		IF ERRORLEVEL == 2 GOTO TSRSLR
+		IF ERRORLEVEL == 1 GOTO ZenvoCon
 		goto TSRS
 	 
 :MainMenuBack
