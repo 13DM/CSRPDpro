@@ -98,43 +98,43 @@
 			
 			:4CHighStakes
 			set tempcarname=AlfaRomeo_4CCoupeCrew_2016
-			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/AlfaRomeo/4C%20Coupe/4CCoupeHighStakes.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/AlfaRomeo/4CCoupe/4CCoupeHighStakes.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
             Call :cpFinishCode
 			GOTO 4CCoupe
 
 			:4CCoupeBasalt
 			set tempcarname=AlfaRomeo_4CCoupeCrewRecycled_2013BG
-			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/AlfaRomeo/4C%20Coupe/4CCoupeBasaltGray.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
-            Call :cpFinishCode
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/AlfaRomeo/4CCoupe/4CCoupeBasaltGray.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
+			Call :cpFinishCode
 			GOTO 4CCoupe
 
 			:4CCoupeBlack
 			set tempcarname=AlfaRomeo_4CCoupeCrewRecycled_2013B
-			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/AlfaRomeo/4C%20Coupe/4CCoupeBlack.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/AlfaRomeo/4CCoupe/4CCoupeBlack.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
             Call :cpFinishCode
 			GOTO 4CCoupe
 
 			:4CCoupeGiallo
 			set tempcarname=AlfaRomeo_4CCoupeCrewRecycled_2013GP
-			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/AlfaRomeo/4C%20Coupe/4CCoupeGialloPrototipo.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/AlfaRomeo/4CCoupe/4CCoupeGialloPrototipo.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
             Call :cpFinishCode
 			GOTO 4CCoupe
 
 			:4CCoupeAlfa
 			set tempcarname=AlfaRomeo_4CCoupeCrewRecycled_2013RA
-			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/AlfaRomeo/4C%20Coupe/4CCoupeRossoAlfa.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/AlfaRomeo/4CCoupe/4CCoupeRossoAlfa.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
             Call :cpFinishCode
 			GOTO 4CCoupe
 
 			:4CCoupeComp
 			set tempcarname=AlfaRomeo_4CCoupeCrewRecycled_2013RC
-			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/AlfaRomeo/4C%20Coupe/4CCoupeRossoCompetizione.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/AlfaRomeo/4CCoupe/4CCoupeRossoCompetizione.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
             Call :cpFinishCode
 			GOTO 4CCoupe
 					
 			:4CCoupeWhite
 			set tempcarname=AlfaRomeo_4CCoupeCrewRecycled_2013W
-			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/AlfaRomeo/4C%20Coupe/4CCoupeWhite.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/AlfaRomeo/4CCoupe/4CCoupeWhite.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
             Call :cpFinishCode
 			GOTO 4CCoupe
 			
@@ -142,7 +142,7 @@
 			
 			:4CSpyderAlfa
 			set tempcarname=AlfaRomeo_4CSpider_2016ARCL
-			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/AlfaRomeo/4C%20Spyder/4CSpyderAlfaRedCarbonLiv.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/AlfaRomeo/4CSpyder/4CSpyderAlfaRedCarbonLiv.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
 			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
 			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%"
 
@@ -151,25 +151,25 @@
 					
 			:4CSpyderCarrera
 			set tempcarname=AlfaRomeo_4CSpider_2016CWCL
-			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/AlfaRomeo/4C%20Spyder/4CSpyderCarreraWhiteCarbonLiv.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/AlfaRomeo/4CSpyder/4CSpyderCarreraWhiteCarbonLiv.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
             Call :cpFinishCode
 			GOTO 4CSpyder					
 	
 			:4CSpyderConcept
 			set tempcarname=AlfaRomeo_4CSpider_2016CRFSL
-			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/AlfaRomeo/4C%20Spyder/4CSpyderConceptRedFullSatinLiv.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/AlfaRomeo/4CSpyder/4CSpyderConceptRedFullSatinLiv.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
             Call :cpFinishCode
 			GOTO 4CSpyder
 
 			:4CSpyderEtna
 			set tempcarname=AlfaRomeo_4CSpider_2016EBCL
-			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/AlfaRomeo/4C%20Spyder/4CSpyderEtnaBlackCarbonLiv.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/AlfaRomeo/4CSpyder/4CSpyderEtnaBlackCarbonLiv.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
             Call :cpFinishCode
 			GOTO 4CSpyder
 
 			:4CSpyderTornado
 			set tempcarname=AlfaRomeo_4CSpider_2016TBNL
-			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/AlfaRomeo/4C%20Spyder/4CSpyderTornadoBlueNoLiv.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/AlfaRomeo/4CSpyder/4CSpyderTornadoBlueNoLiv.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
             Call :cpFinishCode
 			GOTO 4CSpyder
 			

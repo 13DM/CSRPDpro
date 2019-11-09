@@ -210,17 +210,17 @@ Call :CPLogo
 		echo.
 		echo Page 1
 		echo.
-		echo 1.) Back.                                               8.) Abarth 500 Performance with White No Livery
+		echo 1.) Back.                                               8.) Performance White with No Livery
 		echo.
-		echo 2.) Circuit Grey                                        9.) Performance with White Red Livery
+		echo 2.) Circuit Grey                                        9.) Performance White with Red Livery
 		echo.
 		echo 3.) Cordolo Red                                        10.) Podium Blue with White Livery
 		echo.
 		echo 4.) Legends Blue                                       11.) Rally Beige
 		echo.
-		echo 5.) Performance with Black No Livery                   12.) Scorpione Black
+		echo 5.) Performance Black with No Livery                   12.) Scorpione Black
 		echo.
-		echo 6.) Performance with Black Red Livery                  13.) Trofeo Grey
+		echo 6.) Performance Black with Red Livery                  13.) Trofeo Grey
 		echo.
 		echo 7.) Performance Grey                                   14.) Yellow with Black Livery
 		echo.
