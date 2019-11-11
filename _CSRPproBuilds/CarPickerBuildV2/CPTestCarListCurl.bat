@@ -979,7 +979,7 @@
 			GOTO VulcanCon 
 
 			:VulcanRewardSJB
-			set tempcarname=AstonMartin_VulcanReward_2016 
+			set tempcarname=AstonMartin_VulcanReward_2016SJB 
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/AstonMartin/Vulcan/VulcanRewardQbAMSatinJetBlack.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
             Call :cpFinishCode
 			GOTO VulcanCon 
