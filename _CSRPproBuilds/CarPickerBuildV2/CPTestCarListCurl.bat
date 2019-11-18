@@ -3775,7 +3775,7 @@
 			
 			:GRANSPORT
 			set tempcarname=Chevrolet_CorvetteGrandSport_2017
-			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Chevy/Gransport/CorvetteGransport.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"set tempcarname=
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Chevy/Gransport/CorvetteGransport.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
             Call :cpFinishCode
 			GOTO Grandsport
 
