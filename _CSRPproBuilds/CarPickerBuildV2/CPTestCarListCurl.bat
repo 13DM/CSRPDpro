@@ -2377,126 +2377,126 @@
 			REM Start of Z4 
 			
 			:Z4AWTIW1
-			set tempcarname=BMW_Z4_2019
+			set tempcarname=BMW_Z4_2019AWTIW1
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/BMW/Z4/AlpineWhiteTanIntW1.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
             Call :cpFinishCode
 			set Z4choiceChoice=0
 			GOTO Z4
 
 			:Z4AWW1
-			set tempcarname=BMW_Z4_2019
+			set tempcarname=BMW_Z4_2019AWW1
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/BMW/Z4/AlpineWhiteW1.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
             Call :cpFinishCode
 			set Z4choiceChoice=0
 			GOTO Z4
 
 			:Z4AWW2
-			set tempcarname=BMW_Z4_2019
+			set tempcarname=BMW_Z4_2019AWW2
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/BMW/Z4/AlpineWhiteW2.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
             Call :cpFinishCode
 			set Z4choiceChoice=0
 			GOTO Z4
 
 			:Z4BSTIW1
-			set tempcarname=BMW_Z4_2019
+			set tempcarname=BMW_Z4_2019BSTIW1
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/BMW/Z4/BlackSapphireTanIntW1.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
             Call :cpFinishCode
 			set Z4choiceChoice=0
 			GOTO Z4
 
 			:Z4BSW2
-			set tempcarname=BMW_Z4_2019
+			set tempcarname=BMW_Z4_2019BSW2
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/BMW/Z4/BlackSapphireW2.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
             Call :cpFinishCode
 			set Z4choiceChoice=0
 			GOTO Z4
 
 			:Z4BSWIW1
-			set tempcarname=BMW_Z4_2019
+			set tempcarname=BMW_Z4_2019BSWIW1
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/BMW/Z4/BlackSapphireWhiteIntW1.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
             Call :cpFinishCode
 			set Z4choiceChoice=0
 			GOTO Z4
 
 			:Z4FGW1
-			set tempcarname=BMW_Z4_2019
+			set tempcarname=BMW_Z4_2019FGW1
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/BMW/Z4/FrozenGreyIITanIntW1.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
             Call :cpFinishCode
 			set Z4choiceChoice=0
 			GOTO Z4
 
 			:Z4FGW2
-			set tempcarname=BMW_Z4_2019
+			set tempcarname=BMW_Z4_2019FGW2
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/BMW/Z4/FrozenGreyIIW2.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
             Call :cpFinishCode
 			set Z4choiceChoice=0
 			GOTO Z4
 
 			:Z4FGWIW1
-			set tempcarname=BMW_Z4_2019
+			set tempcarname=BMW_Z4_2019FGWIW1
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/BMW/Z4/FrozenGreyIIWhiteIntW1.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
             Call :cpFinishCode
 			set Z4choiceChoice=0
 			GOTO Z4
 
 			:Z4GSRIW1
-			set tempcarname=BMW_Z4_2019
+			set tempcarname=BMW_Z4_2019GSRIW1
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/BMW/Z4/GlacierSilverRedIntW1.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
             Call :cpFinishCode
 			set Z4choiceChoice=0
 			GOTO Z4
 
 			:Z4GSW1
-			set tempcarname=BMW_Z4_2019
+			set tempcarname=BMW_Z4_2019GSW1
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/BMW/Z4/GlacierSilverW1.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
             Call :cpFinishCode
 			set Z4choiceChoice=0
 			GOTO Z4
 
 			:Z4GSW2
-			set tempcarname=BMW_Z4_2019
+			set tempcarname=BMW_Z4_2019GSW2
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/BMW/Z4/GlacierSilverW2.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
             Call :cpFinishCode
 			set Z4choiceChoice=0
 			GOTO Z4
 
 			:Z4MBRIW1
-			set tempcarname=BMW_Z4_2019
+			set tempcarname=BMW_Z4_2019MBRIW1
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/BMW/Z4/MisanoBlueRedIntW1.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
             Call :cpFinishCode
 			set Z4choiceChoice=0
 			GOTO Z4
 
 			:Z4MBW2
-			set tempcarname=BMW_Z4_2019
+			set tempcarname=BMW_Z4_2019MBW2
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/BMW/Z4/MisanoBlueW2.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
             Call :cpFinishCode
 			set Z4choiceChoice=0
 			GOTO Z4
 
 			:Z4MBWIW1
-			set tempcarname=BMW_Z4_2019
+			set tempcarname=BMW_Z4_2019MBWIW1
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/BMW/Z4/MisanoBlueWhiteIntW1.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
             Call :cpFinishCode
 			set Z4choiceChoice=0
 			GOTO Z4
 
 			:Z4SFRBIW2
-			set tempcarname=BMW_Z4_2019
+			set tempcarname=BMW_Z4_2019SFRBIW2
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/BMW/Z4/SanFranciscoRedBlackIntW2.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
             Call :cpFinishCode
 			set Z4choiceChoice=0
 			GOTO Z4
 
 			:Z4SFRW1
-			set tempcarname=BMW_Z4_2019
+			set tempcarname=BMW_Z4_2019SFRW1
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/BMW/Z4/SanFranciscoRedW1.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
             Call :cpFinishCode
 			set Z4choiceChoice=0
 			GOTO Z4
 
 			:Z4SFRWIW2
-			set tempcarname=BMW_Z4_2019
+			set tempcarname=BMW_Z4_2019SFRWIW2
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/BMW/Z4/SanFranciscoRedWhiteIntW2.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
             Call :cpFinishCode
 			set Z4choiceChoice=0
