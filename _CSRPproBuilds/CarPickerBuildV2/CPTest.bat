@@ -10872,7 +10872,7 @@ Call :CPLogo
 	:Mitsubishi1
 
 	if !MitsubishiType! == 1 goto MitsubishiEclipse
-	if !MitsubishiType! == 2 goto MitsubishiEvo
+	if !MitsubishiType! == 2 goto MitsubishiLanEvo
 
 	GOTO MitsubishiCon
 
