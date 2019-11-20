@@ -5671,20 +5671,21 @@ Call :CPLogo
 	if !FordType! == 1 set CurrentCarChoice=Boss 302 Mustang
 	if !FordType! == 2 set CurrentCarChoice=Durty 30
 	if !FordType! == 3 set CurrentCarChoice=F150 Raptor
-	if !FordType! == 4 set CurrentCarChoice=Focus RS
-	if !FordType! == 5 set CurrentCarChoice=Focus ST (TrackSTer)
-	if !FordType! == 6 set CurrentCarChoice=GT40 MkII Restored
-	if !FordType! == 7 set CurrentCarChoice=GT (All Types)
-	if !FordType! == 8 set CurrentCarChoice=Mustang GT HPE750
-	if !FordType! == 9 set CurrentCarChoice=Mustang GT Premium (All Types)
-	if !FordType! == 10 set CurrentCarChoice=Mustang Shelby GT500
-	if !FordType! == 11 set CurrentCarChoice=Mustang Shelby GT350R
-	if !FordType! == 12 set CurrentCarChoice=Roush Stage 3 Mustang
-	if !FordType! == 13 GOTO FordOD
+    if !FordType! == 4 set CurrentCarChoice=Fiesta ST
+	if !FordType! == 5 set CurrentCarChoice=Focus RS
+	if !FordType! == 6 set CurrentCarChoice=Focus ST (TrackSTer)
+	if !FordType! == 7 set CurrentCarChoice=GT40 MkII Restored
+	if !FordType! == 8 set CurrentCarChoice=GT (All Types)
+	if !FordType! == 9 set CurrentCarChoice=Mustang GT HPE750
+	if !FordType! == 10 set CurrentCarChoice=Mustang GT Premium (All Types)
+	if !FordType! == 11 set CurrentCarChoice=Mustang Shelby GT500
+	if !FordType! == 12 set CurrentCarChoice=Mustang Shelby GT350R
+	if !FordType! == 13 set CurrentCarChoice=Roush Stage 3 Mustang
+	if !FordType! == 14 GOTO FordOD
 	GOTO FordCon
 
 	:FordOD
-	set FordType=12
+	set FordType=13
 	goto FordType1
 	
 	:Ford1
@@ -5692,15 +5693,16 @@ Call :CPLogo
 	if !FordType! == 1 goto Boss302
 	if !FordType! == 2 goto Durty30
 	if !FordType! == 3 goto F150Raptor
-	if !FordType! == 4 goto FocusRS
-	if !FordType! == 5 goto FocusST
-	if !FordType! == 6 goto GT40
-	if !FordType! == 7 goto FordGT
-	if !FordType! == 8 goto HPE750
-	if !FordType! == 9 goto MustangGT
-	if !FordType! == 10 goto GT500
-	if !FordType! == 11 goto GT350R
-	if !FordType! == 12 goto RoushS3
+	if !FordType! == 4 goto Fiesta
+	if !FordType! == 5 goto FocusRS
+	if !FordType! == 6 goto FocusST
+	if !FordType! == 7 goto GT40
+	if !FordType! == 8 goto FordGT
+	if !FordType! == 9 goto HPE750
+	if !FordType! == 10 goto MustangGT
+	if !FordType! == 11 goto GT500
+	if !FordType! == 12 goto GT350R
+	if !FordType! == 13 goto RoushS3
 
 	GOTO FordCon
 	
@@ -5810,6 +5812,63 @@ Call :CPLogo
 		if !F150RaptorType! == 3 goto F150TB
 		goto F150RaptorCon
 	    
+		:Fiesta 
+		CLS 
+		set FiestaType=0 
+
+		:FiestaCon 
+		cls 
+
+Call :CPLogo
+		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
+		echo.
+		echo Selected Manufacture:  !CurrentManuChoice! 
+		echo Selected Car:          !CurrentCarChoice! 
+		echo.
+		echo - Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 - 
+		echo.
+		echo 1.) Back          
+		echo.
+		echo 2.) Kona Blue          
+		echo.
+		echo 3.) Magnetic          
+		echo.
+		echo 4.) Molten Orange          
+		echo.
+		echo 5.) Performance Blue          
+		echo.
+		echo 6.) Ruby Red          
+		echo.
+		echo 7.) Shadow Black          
+		echo.
+		echo 8.) Stealth Gray          
+		echo.
+		echo 9.) Tangerine Scream          
+		echo.
+		echo 10.) Tuxedo Black        
+		echo.
+		echo 11.) Ultimate Green        
+		echo.
+		echo 12.) White Platinium        
+		echo.
+
+		set /p FiestaType="Select Choice and press Enter: "  
+
+		if !FiestaType! == 1 goto FordCon 
+		if !FiestaType! == 2 goto FiestaKB
+		if !FiestaType! == 3 goto FiestaM
+		if !FiestaType! == 4 goto FiestaMO
+		if !FiestaType! == 5 goto FiestaPB
+		if !FiestaType! == 6 goto FiestaRR
+		if !FiestaType! == 7 goto FiestaSB
+		if !FiestaType! == 8 goto FiestaSG
+		if !FiestaType! == 9 goto FiestaTS
+		if !FiestaType! == 10 goto FiestaTB
+		if !FiestaType! == 11 goto FiestaUG
+		if !FiestaType! == 12 goto FiestaWP
+		goto FiestaCon 
+
+
 		:FocusRS
 		CLS
 		set FocusRSType=0
