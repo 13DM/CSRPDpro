@@ -107,23 +107,24 @@ Call :CPLogo
 	if !CurrentManuLevel! == 46 set CurrentManuChoice=Porsche
 	if !CurrentManuLevel! == 47 set CurrentManuChoice=Saleen
 	if !CurrentManuLevel! == 48 set CurrentManuChoice=SCG
-	if !CurrentManuLevel! == 49 set CurrentManuChoice=Spyker
-	if !CurrentManuLevel! == 50 set CurrentManuChoice=SSC
-	if !CurrentManuLevel! == 51 set CurrentManuChoice=Subaru
-	if !CurrentManuLevel! == 52 set CurrentManuChoice=Toyota
-	if !CurrentManuLevel! == 53 set CurrentManuChoice=TVR
-	if !CurrentManuLevel! == 54 set CurrentManuChoice=Volkswagen
-	if !CurrentManuLevel! == 55 set CurrentManuChoice=WMotors
-	if !CurrentManuLevel! == 56 set CurrentManuChoice=Zenvo
-	if !CurrentManuLevel! == 57 set CurrentManuChoice=PUPR
-	if !CurrentManuLevel! == 58 set CurrentManuChoice=Master ID List
-	if !CurrentManuLevel! == 59 GOTO CPManuCHECKUE
+	if !CurrentManuLevel! == 49 set CurrentManuChoice=Shelby
+	if !CurrentManuLevel! == 50 set CurrentManuChoice=Spyker
+	if !CurrentManuLevel! == 51 set CurrentManuChoice=SSC
+	if !CurrentManuLevel! == 52 set CurrentManuChoice=Subaru
+	if !CurrentManuLevel! == 53 set CurrentManuChoice=Toyota
+	if !CurrentManuLevel! == 54 set CurrentManuChoice=TVR
+	if !CurrentManuLevel! == 55 set CurrentManuChoice=Volkswagen
+	if !CurrentManuLevel! == 56 set CurrentManuChoice=WMotors
+	if !CurrentManuLevel! == 57 set CurrentManuChoice=Zenvo
+	if !CurrentManuLevel! == 58 set CurrentManuChoice=PUPR
+	if !CurrentManuLevel! == 59 set CurrentManuChoice=Master ID List
 	if !CurrentManuLevel! == 60 GOTO CPManuCHECKUE
 	if !CurrentManuLevel! == 61 GOTO CPManuCHECKUE
 	if !CurrentManuLevel! == 62 GOTO CPManuCHECKUE
 	if !CurrentManuLevel! == 63 GOTO CPManuCHECKUE
 	if !CurrentManuLevel! == 64 GOTO CPManuCHECKUE
 	if !CurrentManuLevel! == 65 GOTO CPManuCHECKUE
+	if !CurrentManuLevel! == 66 GOTO CPManuCHECKUE
 	GOTO CarPickerManuType
 	
 	:CPManuCHECKDE
@@ -184,16 +185,17 @@ Call :CPLogo
 	if !CurrentManuLevel! == 46 GOTO Porsche
 	if !CurrentManuLevel! == 47 GOTO Saleen
 	if !CurrentManuLevel! == 48 GOTO SCG
-	if !CurrentManuLevel! == 49 GOTO Spyker
-	if !CurrentManuLevel! == 50 GOTO SSC
-	if !CurrentManuLevel! == 51 GOTO Subaru
-	if !CurrentManuLevel! == 52 GOTO Toyota
-	if !CurrentManuLevel! == 53 GOTO TVR
-	if !CurrentManuLevel! == 54 GOTO Volkswagen
-	if !CurrentManuLevel! == 55 GOTO WMotors
-	if !CurrentManuLevel! == 56 GOTO Zenvo
-	if !CurrentManuLevel! == 57 GOTO PUPR
-	if !CurrentManuLevel! == 58 GOTO MasterIDList
+	if !CurrentManuLevel! == 49 GOTO Shelby
+	if !CurrentManuLevel! == 50 GOTO Spyker
+	if !CurrentManuLevel! == 51 GOTO SSC
+	if !CurrentManuLevel! == 52 GOTO Subaru
+	if !CurrentManuLevel! == 53 GOTO Toyota
+	if !CurrentManuLevel! == 54 GOTO TVR
+	if !CurrentManuLevel! == 55 GOTO Volkswagen
+	if !CurrentManuLevel! == 56 GOTO WMotors
+	if !CurrentManuLevel! == 57 GOTO Zenvo
+	if !CurrentManuLevel! == 58 GOTO PUPR
+	if !CurrentManuLevel! == 59 GOTO MasterIDList
 
 	:Abarth
 		::This opens the first page of the Abarth 500 options
