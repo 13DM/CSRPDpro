@@ -14167,7 +14167,7 @@ REM			GOTO 720SCon
 
 			:NobleM600  
 			set tempcarname=Noble_M600CarbonSport_2017 
-			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Noble/N600CarbonSport.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Noble/M600CarbonSport.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
             Call :cpFinishCode
 			GOTO Noble
 
@@ -15715,7 +15715,7 @@ REM			GOTO 720SCon
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Spyker/C8Preliator/AscotBronze.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
             Call :cpFinishCode
 			GOTO SpykerCon 
- 
+
 			:SpykerDO  
 			set tempcarname=Spyker_C8PreliatorRewardRecycled_2017DO 
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Spyker/C8Preliator/DutchOrange.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
@@ -15729,7 +15729,7 @@ REM			GOTO 720SCon
 			set tempcarname=SSC_Tuatara_2019 
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/SSC/Tuatara.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
             Call :cpFinishCode
-			GOTO SCC 
+			GOTO SSC 
 
 			rem start of Subaru:
 			rem start of Rocket Bunny BRZ:

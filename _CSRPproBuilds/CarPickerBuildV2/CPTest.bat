@@ -13344,7 +13344,7 @@ Call :CPLogo
 		if !SpykerType! == 4 goto SpykerDO  
 		goto SpykerCon 
 	
-		:SCC
+		:SSC
 		CLS
 Call :CPLogo
 		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
@@ -13363,7 +13363,7 @@ Call :CPLogo
 		CHOICE /C 12 /M "" >nul
 		IF ERRORLEVEL == 2 GOTO Tuatara
 		IF ERRORLEVEL == 1 GOTO CarPickerManuReturn
-		goto SCC
+		goto SSC
 	
     :Subaru 
     CLS 
