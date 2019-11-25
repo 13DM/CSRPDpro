@@ -10001,7 +10001,7 @@
 			set tempcarname=Lamborghini_Veneno_2013
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Lamborghini/Veneno/Veneno_IAP.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
             Call :cpFinishCode
-			GOTO UrusCon 
+			GOTO Veneno
 			
 			Rem start of Land Rover:
 			Rem start of Evoque:
