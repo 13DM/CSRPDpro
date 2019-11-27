@@ -24,7 +24,12 @@ Call :CPLogo
 	echo.
 	echo (1.)^< Previous - (2.) Next ^> - (3.)^<^< Fast Skip Previous - (4.) Fast Skip Next ^>^> - (5.) Select - (6.)Main Menu
 	echo.
-	CHOICE /C 123456 /M "" >nul
+	echo          Press (s) to quick search manufactures. This allows you to jump straight to a manufacture.
+	echo.
+	echo                        Master ID list is located at the end of the manufacture selection.
+	echo.
+	CHOICE /C 123456s /M "" >nul
+	IF ERRORLEVEL == 7 GOTO QuickCarPickerManuType
 	IF ERRORLEVEL == 6 GOTO MainMenuBack
 	IF ERRORLEVEL == 5 GOTO CarPickerCarType1
 	IF ERRORLEVEL == 4 GOTO CarPickerManuADD5
@@ -134,9 +139,98 @@ Call :CPLogo
 	:CPManuCHECKUE
 	set CurrentManuLevel=54
 	GOTO CarPickerManuType1
-	
+
+	:QuickCarPickerManuType
+	::This is where you can select a car, and load it up directly to notepad++ for easy copying files to an nsb.
+	cls
+Call :CPLogo
+	echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
+	echo.
+    ECHO 1.) Abarth               19.) FnF Cars        37.) McLaren           55.) Volkswagen
+    ECHO 2.) Alfa Romeo           20.) Ford            38.) Mercedes Benz     56.) WMotors
+    ECHO 3.) Alpine               21.) Ginetta         39.) Mini              57.) Zenvo
+    ECHO 4.) AMC                  22.) GTA Motors      40.) Mitsubishi        58.) PUPR
+    ECHO 5.) Apollo               23.) Hennessey       41.) Nissan            59.) Master ID List
+    ECHO 6.) Aston Martin         24.) Honda           42.) Noble             
+    ECHO 7.) ATS Automobili       25.) Hyundai         43.) Pagani            0.) RETURN
+    ECHO 8.) Audi                 26.) Jaguar          44.) Plymouth
+    ECHO 9.) BAC                  27.) Jeep            45.) Pontiac
+    ECHO 10.) Bentley             28.) Koenigsegg      46.) Porsche
+    ECHO 11.) BMW                 29.) KTM             47.) Saleen
+    ECHO 12.) Brabham             30.) Lamborghini     48.) SCG
+    ECHO 13.) Bugatti             31.) Land Rover      49.) Shelby
+    ECHO 14.) Cadillac            32.) Local Motors    50.) Spyker
+    ECHO 15.) Chevrolet           33.) Lotus           51.) SSC
+    ECHO 16.) Dodge               34.) Maserati        52.) Subaru
+    ECHO 17.) Donkervoort         35.) Mazda           53.) Toyota
+    ECHO 18.) Ferrari             36.) Mazzanti        54.) TVR
+	echo.
+	set /p CurrentManuLevel="Select the manufacure id number you want: " 
+		if !CurrentManuLevel! LSS 0 goto CarPickerManuReturn
+		if !CurrentManuLevel! GTR 59 goto CarPickerManuReturn
+		if !CurrentManuLevel! == 0 goto CarPickerManuType
+	if !CurrentManuLevel! == 1 set CurrentManuChoice=Abarth
+	if !CurrentManuLevel! == 2 set CurrentManuChoice=Alfa Romeo
+	if !CurrentManuLevel! == 3 set CurrentManuChoice=Alpine
+	if !CurrentManuLevel! == 4 set CurrentManuChoice=AMC
+	if !CurrentManuLevel! == 5 set CurrentManuChoice=Apollo
+	if !CurrentManuLevel! == 6 set CurrentManuChoice=Aston Martin
+	if !CurrentManuLevel! == 7 set CurrentManuChoice=ATS Automobili
+	if !CurrentManuLevel! == 8 set CurrentManuChoice=Audi
+	if !CurrentManuLevel! == 9 set CurrentManuChoice=BAC
+	if !CurrentManuLevel! == 10 set CurrentManuChoice=Bentley
+	if !CurrentManuLevel! == 11 set CurrentManuChoice=BMW
+	if !CurrentManuLevel! == 12 set CurrentManuChoice=Brabham
+	if !CurrentManuLevel! == 13 set CurrentManuChoice=Bugatti
+	if !CurrentManuLevel! == 14 set CurrentManuChoice=Cadillac
+	if !CurrentManuLevel! == 15 set CurrentManuChoice=Chevrolet
+	if !CurrentManuLevel! == 16 set CurrentManuChoice=Dodge
+	if !CurrentManuLevel! == 17 set CurrentManuChoice=Donkervoort
+ 	if !CurrentManuLevel! == 18 set CurrentManuChoice=Ferrari
+	if !CurrentManuLevel! == 19 set CurrentManuChoice=FnF Cars
+	if !CurrentManuLevel! == 20 set CurrentManuChoice=Ford
+	if !CurrentManuLevel! == 21 set CurrentManuChoice=Ginetta
+	if !CurrentManuLevel! == 22 set CurrentManuChoice=GTA Motors
+	if !CurrentManuLevel! == 23 set CurrentManuChoice=Hennessey
+	if !CurrentManuLevel! == 24 set CurrentManuChoice=Honda
+	if !CurrentManuLevel! == 25 set CurrentManuChoice=Hyundai
+	if !CurrentManuLevel! == 26 set CurrentManuChoice=Jaguar
+	if !CurrentManuLevel! == 27 set CurrentManuChoice=Jeep
+	if !CurrentManuLevel! == 28 set CurrentManuChoice=Koenigsegg
+	if !CurrentManuLevel! == 29 set CurrentManuChoice=KTM
+	if !CurrentManuLevel! == 30 set CurrentManuChoice=Lamborghini
+	if !CurrentManuLevel! == 31 set CurrentManuChoice=Land Rover
+	if !CurrentManuLevel! == 32 set CurrentManuChoice=Local Motors
+	if !CurrentManuLevel! == 33 set CurrentManuChoice=Lotus
+	if !CurrentManuLevel! == 34 set CurrentManuChoice=Maserati
+	if !CurrentManuLevel! == 35 set CurrentManuChoice=Mazda
+	if !CurrentManuLevel! == 36 set CurrentManuChoice=Mazzanti
+	if !CurrentManuLevel! == 37 set CurrentManuChoice=McLaren
+	if !CurrentManuLevel! == 38 set CurrentManuChoice=Mercedes Benz
+	if !CurrentManuLevel! == 39 set CurrentManuChoice=Mini
+	if !CurrentManuLevel! == 40 set CurrentManuChoice=Mitsubishi
+	if !CurrentManuLevel! == 41 set CurrentManuChoice=Nissan
+	if !CurrentManuLevel! == 42 set CurrentManuChoice=Noble
+	if !CurrentManuLevel! == 43 set CurrentManuChoice=Pagani
+	if !CurrentManuLevel! == 44 set CurrentManuChoice=Plymouth
+	if !CurrentManuLevel! == 45 set CurrentManuChoice=Pontiac
+	if !CurrentManuLevel! == 46 set CurrentManuChoice=Porsche
+	if !CurrentManuLevel! == 47 set CurrentManuChoice=Saleen
+	if !CurrentManuLevel! == 48 set CurrentManuChoice=SCG
+	if !CurrentManuLevel! == 49 set CurrentManuChoice=Shelby
+	if !CurrentManuLevel! == 50 set CurrentManuChoice=Spyker
+	if !CurrentManuLevel! == 51 set CurrentManuChoice=SSC
+	if !CurrentManuLevel! == 52 set CurrentManuChoice=Subaru
+	if !CurrentManuLevel! == 53 set CurrentManuChoice=Toyota
+	if !CurrentManuLevel! == 54 set CurrentManuChoice=TVR
+	if !CurrentManuLevel! == 55 set CurrentManuChoice=Volkswagen
+	if !CurrentManuLevel! == 56 set CurrentManuChoice=WMotors
+	if !CurrentManuLevel! == 57 set CurrentManuChoice=Zenvo
+	if !CurrentManuLevel! == 58 set CurrentManuChoice=PUPR
+	if !CurrentManuLevel! == 59 set CurrentManuChoice=Master ID List
+		goto CarPickerCarType1
+
 	:CarPickerCarType1
-	
 	if !CurrentManuLevel! == 1 GOTO Abarth
 	if !CurrentManuLevel! == 2 GOTO AlfaRomeo
 	if !CurrentManuLevel! == 3 GOTO Alpine
