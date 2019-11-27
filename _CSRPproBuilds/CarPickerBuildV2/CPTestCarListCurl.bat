@@ -4185,6 +4185,12 @@
             Call :cpFinishCode
 			GOTO 18ZR1
 
+			:FnFZR1SHAW
+			set tempcarname=Chevrolet_CorvetteZR1SH1_2018fnf
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Chevy/ZR1FnF/ZR1SH1.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
+            Call :cpFinishCode
+			GOTO FnFCarsCon
+
 			REM Start of Dodge:
 			REM Start of Challenger SRT:
 			
@@ -6242,7 +6248,7 @@
 			GOTO FnFCarsCon
 			
 			:FnF720S
-			set tempcarname=McLaren_P14CoupeSH1_2017
+			set tempcarname=McLaren_P14CoupeSH1_2017fnf
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/FastandFurious/Shaw720S.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
             Call :cpFinishCode
 			GOTO FnFCarsCon
@@ -11214,7 +11220,13 @@
 			GOTO 675LTSpiderCon 
  
 			Rem start of 720S:
-			
+
+			:720SSHAW
+			set tempcarname=McLaren_P14CoupeSH1_2017
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/FastandFurious/Shaw720S.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
+            Call :cpFinishCode
+			GOTO 720SCon
+
 			:720SReward  
 			set tempcarname=McLaren_P14CoupeReward_2017
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Mclaren/720S/Reward.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 

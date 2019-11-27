@@ -4064,7 +4064,7 @@ Call :CPLogo
 			echo.
 			echo 13.) Yell-O Tint with Carbon Wheels
 			echo.
-			echo 14.) Shaw's ZR1
+			echo 14.) Hobbs's ZR1
 			echo.
 			set /p 18ZR1Type="Select Choice and press Enter: " 
 		
@@ -5695,11 +5695,15 @@ Call :CPLogo
 	if !FnFCarsType! == 21 set FnFCarsVariant=RX7 Veilside Fortune F3
 	if !FnFCarsType! == 22 set CurrentCarChoice=Toyota
 	if !FnFCarsType! == 22 set FnFCarsVariant=Supra MKIV Aero Top
-	if !FnFCarsType! == 23 GOTO FnFCarsOD
+	if !FnFCarsType! == 23 set CurrentCarChoice=Chevrolet
+	if !FnFCarsType! == 23 set FnFCarsVariant=Hobb's ZR1
+	if !FnFCarsType! == 24 set CurrentCarChoice=McLaren
+	if !FnFCarsType! == 24 set FnFCarsVariant=Shaw's 720s
+	if !FnFCarsType! == 25 GOTO FnFCarsOD
 	GOTO FnFCarsCon
 
 	:FnFCarsOD
-	set FnFCarsType=22
+	set FnFCarsType=24
 	goto FnFCarsType1
 	
 	:FnFCars1
@@ -5726,6 +5730,8 @@ Call :CPLogo
 	if !FnFCarsType! == 20 goto FnFLanEvo7
 	if !FnFCarsType! == 21 goto FnFHanRX7
 	if !FnFCarsType! == 22 goto FnFSupra
+	if !FnFCarsType! == 23 goto FnFZR1SHAW
+	if !FnFCarsType! == 24 goto FnF720S
 	GOTO FnFCarsCon
 
 	
@@ -10184,7 +10190,7 @@ Call :CPLogo
 		echo.
 		echo 12.) Ceramic Grey                  26.) Papaya Spark                              40.) Zenith Black  
 		echo.
-		echo 13.) Cosmos                        27.) Paris Blue
+		echo 13.) Cosmos                        27.) Paris Blue                                41.) Shaw's 720S
 		echo.
 		echo 14.) Fistral Blue                  28.) Pearl White      
 		echo.
@@ -10230,6 +10236,7 @@ Call :CPLogo
 		if !720SType! == 38 goto 720SVY  
 		if !720SType! == 39 goto 720SW  
 		if !720SType! == 40 goto 720SZB  
+		if !720SType! == 41 goto 720SSHAW
 		goto 720SCon 
 
 		:720SSpider 
