@@ -3249,7 +3249,7 @@ Call :CPLogo
 		if !C10CarChoice! == 1 set CurrentCarChoice=C10 Reward Recycled (Green)
 		if !C10CarChoice! == 2 set CurrentCarChoice=C10 Reward (Orange)
 		if !C10CarChoice! == 3 set CurrentCarChoice=C10 Reward VIP (Black)
-		if !C10CarChoice! == 3 set CurrentCarChoice=C10 Halloween (Green Purple Star)
+		if !C10CarChoice! == 4 set CurrentCarChoice=C10 Halloween (Green Purple Star)
 		if !C10CarChoice! == 5 GOTO C10OD
 		GOTO C10Con
 
@@ -11980,7 +11980,7 @@ Call :CPLogo
     :Plymouth 
     CLS 
     set CurrentCarChoice=Hobbs Road Runner GTX 
-    set PlymouthType=1 
+    set PlymouthType=1
  
     :PlymouthCon 
     cls 
