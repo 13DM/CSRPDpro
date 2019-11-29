@@ -3345,7 +3345,7 @@
 			set tempcarname=Bugatti_Divo_2019
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Bugatti/Divo/Divo.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
             Call :cpFinishCode
-			GOTO
+			GOTO Divo
 
 			REM Start of EB110 SS:
 			
@@ -3353,7 +3353,7 @@
 			set tempcarname=Bugatti_EB110SSClassic_1992
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Bugatti/EB110SS/EB110SS.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
             Call :cpFinishCode
-			GOTO
+			GOTO Veyron
 
 			REM Start of Veyron:
 			
@@ -3361,55 +3361,55 @@
 			set tempcarname=Bugatti_VeyronSuperSport_2012BDBDBW
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Bugatti/Veyron/BlancDarkBlueBackDBW.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
             Call :cpFinishCode
-			GOTO
+			GOTO Veyron
 
 			:VEYRONBBDBBBBW
 			set tempcarname=Bugatti_VeyronSuperSport_2012BBDBBBBW
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Bugatti/Veyron/BugattiBlueDarkBlueBackBBW.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
             Call :cpFinishCode
-			GOTO
+			GOTO Veyron
 
 			:VEYRONDBTCMW
 			set tempcarname=Bugatti_VeyronSuperSport_2012DBTCMW
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Bugatti/Veyron/DarkBlueTintedCarbonMatchW.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
             Call :cpFinishCode
-			GOTO
+			GOTO Veyron
 
 			:VEYRONDBTCSW
 			set tempcarname=Bugatti_VeyronSuperSport_2012DBTCSW
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Bugatti/Veyron/DarkBlueTintedCarbonSilverW.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
             Call :cpFinishCode
-			GOTO
+			GOTO Veyron
 
 			:VEYRONDBTCWSBI
 			set tempcarname=Bugatti_VeyronSuperSport_2012DBTCWSBI
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Bugatti/Veyron/DarkBlueTintedCarbonWhiteSilverBlackInt.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
             Call :cpFinishCode
-			GOTO
+			GOTO Veyron
 
 			:VEYRONDBTCWSMW
 			set tempcarname=Bugatti_VeyronSuperSport_2012DBTCWSMW
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Bugatti/Veyron/DarkBlueTintedCarbonWhiteSilverMatchW.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
             Call :cpFinishCode
-			GOTO
+			GOTO Veyron
 
 			:VEYRONDBTCWSWI
 			set tempcarname=Bugatti_VeyronSuperSport_2012DBTCWSWI
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Bugatti/Veyron/DarkBlueTintedCarbonWhiteSilverWhiteInt.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
             Call :cpFinishCode
-			GOTO
+			GOTO Veyron
 
 			:VEYRONJMDBCJMW
 			set tempcarname=Bugatti_VeyronSuperSport_2012JMDBCJMW
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Bugatti/Veyron/JauneMolsheimDarkBlueCarbonJMW.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
             Call :cpFinishCode
-			GOTO
+			GOTO Veyron
 
 			:VEYRONWRE
 			set tempcarname=Bugatti_VeyronSuperSportGold_2012
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Bugatti/Veyron/VeyronSuperSportGold.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
             Call :cpFinishCode
-			GOTO
+			GOTO Veyron
 
 			REM Start of Cadillac:
 			REM Start of CTS-V
