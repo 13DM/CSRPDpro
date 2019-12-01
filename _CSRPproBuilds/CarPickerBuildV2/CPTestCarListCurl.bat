@@ -3353,7 +3353,7 @@
 			set tempcarname=Bugatti_EB110SSClassic_1992
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Bugatti/EB110SS/EB110SS.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
             Call :cpFinishCode
-			GOTO Veyron
+			GOTO EB110SS
 
 			REM Start of Veyron:
 			
@@ -3418,67 +3418,67 @@
 			set tempcarname=Cadillac_CTSVRewardRecycled_2017CWTWA
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Cadillac/CSTVCrystalWhiteTricoatWA.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
             Call :cpFinishCode
-			GOTO
+			GOTO Cadillac
 
 			:CTSVCWTWB
 			set tempcarname=Cadillac_CTSVRewardRecycled_2017CWTWB
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Cadillac/CSTVCrystalWhiteTricoatWB.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
             Call :cpFinishCode
-			GOTO
+			GOTO Cadillac
 
-			:CTSVReward
+			:CTSVR
 			set tempcarname=Cadillac_CTSVReward_2017
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Cadillac/CSTVReward.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
             Call :cpFinishCode
-			GOTO
+			GOTO Cadillac
 
 			:CTSVBRWA
 			set tempcarname=Cadillac_CTSVRewardRecycled_2017BRWA
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Cadillac/CTSVBlackRavenWA.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
             Call :cpFinishCode
-			GOTO
+			GOTO Cadillac
 
 			:CTSVBRWB
 			set tempcarname=Cadillac_CTSVRewardRecycled_2017BRWB
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Cadillac/CTSVBlackRavenWB.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
             Call :cpFinishCode
-			GOTO
+			GOTO Cadillac
 
 			:CTSVSSWA
 			set tempcarname=Cadillac_CTSVRewardRecycled_2017SSWA
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Cadillac/CTSVSatinSteelWA.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
             Call :cpFinishCode
-			GOTO
+			GOTO Cadillac
 
 			:CTSVSSWB
 			set tempcarname=Cadillac_CTSVRewardRecycled_2017SSWB
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Cadillac/CTSVSatinSteelWB.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
             Call :cpFinishCode
-			GOTO
+			GOTO Cadillac
 
 			:CTSVVRWA
 			set tempcarname=Cadillac_CTSVRewardRecycled_2017VRWA
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Cadillac/CTSVVelocityRedWA.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
             Call :cpFinishCode
-			GOTO
+			GOTO Cadillac
 
 			:CTSVVRWB
 			set tempcarname=Cadillac_CTSVRewardRecycled_2017VRWB
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Cadillac/CTSVVelocityRedWB.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
             Call :cpFinishCode
-			GOTO
+			GOTO Cadillac
 
 			:CTSVWWA
 			set tempcarname=Cadillac_CTSVRewardRecycled_2017WWA
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Cadillac/CTSVWaveWA.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
             Call :cpFinishCode
-			GOTO
+			GOTO Cadillac
 
 			:CTSVWWB
 			set tempcarname=Cadillac_CTSVRewardRecycled_2017WWB
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Cadillac/CTSVWaveWB.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
             Call :cpFinishCode
-			GOTO
+			GOTO Cadillac
 
 			REM Start of Chevrolet:
 			REM Start of 2015 Stingray Corvette
@@ -7200,10 +7200,10 @@
 			GOTO GTA
 
 			:SpanoR
-			set tempcarname=GTA_SpanoCrewRecycled_2015
+			set tempcarname=GTA_SpanoCrewRecycled_2015R
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/GTAMotors/Rojo.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
             Call :cpFinishCode
-			GOTO 
+			GOTO GTA
 			
 			Rem Start Hennessey Cars:
 			rem start Exorcist
