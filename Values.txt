@@ -28,6 +28,10 @@ FC53D360-72BA-11E3-AC30-1C872C604309
 -- -- -- -- -- -- -- -- -- -- -- --
 //Shane Dodson - on installments
 A0F4ED2E-A671-E711-B753-186024B8AA24  
+//Jack Knoblock - on installments
+90AA1E02-E15E-A04B-B25B-255B252053C7  
+//Rick Barron - on installments
+00000000-0000-0000-0000-6C626D8DD005  
 //PLACEHOLDER
 00000000-0000-0000-0000-000000000000  
 -- -- -- -- -- -- -- -- -- -- -- -- 
