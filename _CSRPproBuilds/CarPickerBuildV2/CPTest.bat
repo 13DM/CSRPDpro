@@ -1541,9 +1541,9 @@ Call :CPLogo
 		echo.
 		echo - Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 - 
 		echo.
-		echo 1.) 2019 R8 Decennium
+		echo 1.) Back
 		echo.
-		echo 2.) Back
+		echo 2.) 2019 R8 Decennium
 		echo.			
 		echo (1.) Select - (2.) Back
 		echo.
@@ -3228,15 +3228,15 @@ Call :CPLogo
 		echo.
 		echo - Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 - 
 		echo.
-		echo 1.) Chiron Super Sport "WRE 300"
+		echo 1.) Back
 		echo.
-		echo 2.) Back
+		echo 2.) Chiron Super Sport "WRE 300"
 		echo.			
 		echo (1.) Select - (2.) Back
 		echo.
 		CHOICE /C 12 /M "" >nul
-		IF ERRORLEVEL == 2 GOTO BugattiCon
-		IF ERRORLEVEL == 1 GOTO ChironSuperSportWRE
+		IF ERRORLEVEL == 2 GOTO ChironSuperSportWRE
+		IF ERRORLEVEL == 1 GOTO BugattiCon
 		goto ChironSuperSport
 	
 		:Chiron42
@@ -3249,15 +3249,15 @@ Call :CPLogo
 		echo.
 		echo - Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 - 
 		echo.
-		echo 1.) Chiron 42 Seconds Edition
+		echo 1.) Back
 		echo.
-		echo 2.) Back
+		echo 2.) Chiron 42 Seconds Edition
 		echo.			
 		echo (1.) Select - (2.) Back
 		echo.
 		CHOICE /C 12 /M "" >nul
-		IF ERRORLEVEL == 2 GOTO BugattiCon
-		IF ERRORLEVEL == 1 GOTO Chiron42Seconds
+		IF ERRORLEVEL == 2 GOTO Chiron42Seconds
+		IF ERRORLEVEL == 1 GOTO BugattiCon
 		goto Chiron42
 
 		:Centodieci 
@@ -3298,15 +3298,15 @@ Call :CPLogo
 		echo.
 		echo - Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 - 
 		echo.
-		echo 1.) La Voiture Noire
+		echo 1.) Back
 		echo.
-		echo 2.) Back
+		echo 2.) La Voiture Noire
 		echo.			
 		echo (1.) Select - (2.) Back
 		echo.
 		CHOICE /C 12 /M "" >nul
-		IF ERRORLEVEL == 2 GOTO BugattiCon
-		IF ERRORLEVEL == 1 GOTO ChironLaVoitureNoire
+		IF ERRORLEVEL == 2 GOTO ChironLaVoitureNoire
+		IF ERRORLEVEL == 1 GOTO BugattiCon
 		goto LaVoitureNoire
 
 		:Chiron
