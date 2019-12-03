@@ -262,7 +262,7 @@ Call :CPLogo
 	
 	set /p newcarselection="Select the car you want. " 
 		if !newcarselection! LSS 1 goto CarPickerManuReturn
-		if !newcarselection! GTR 14 goto CarPickerManuReturn
+		if !newcarselection! GTR 15 goto CarPickerManuReturn
 		if !newcarselection! == 0 goto CarPickerManuType
 		if !newcarselection! == 1 (
 			set CurrentManuChoice=Audi
