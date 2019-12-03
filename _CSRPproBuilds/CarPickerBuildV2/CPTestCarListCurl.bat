@@ -1238,6 +1238,14 @@
             Call :cpFinishCode
 			GOTO 2016R8
 
+			REM Start of 2019 R8 Decennium
+			
+			:19R8DecenniumD  
+			set tempcarname=Audi_R8V10Decennium_2019D 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Audi/19R8Decennium/Decennium.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+            Call :cpFinishCode
+			GOTO 19R8Decennium
+
 			REM Start of Liberty Walk R8:
 			
 			:LBR8ABCW2
@@ -1557,73 +1565,119 @@
 			REM Start of BAC:
 			REM Start of Mono:
 			
-			:MonoBlack
-			set tempcarname=BAC_MonoRewardRecycled_2017Black
-			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/BAC/MonoBlackPearl.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
-			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
-			START "%tempcarname%" Notepad++.exe "%USERPROFIL
-			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"E%\Documents\CSRPpro\TempFiles\%tempcarname%"
-			GOTO BAC
-
-			:MonoBlue
-			set tempcarname=BAC_MonoRewardRecycled_2017Blue
-			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/BAC/MonoBluePearl.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
-            Call :cpFinishCode
-			GOTO BAC
-
-			:MonoGreen
-			set tempcarname=BAC_MonoRewardRecycled_2017Green
-			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/BAC/MonoGreenPearl.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
-            Call :cpFinishCode
-			GOTO BAC
-
-			:MonoGunmetal
-			set tempcarname=BAC_MonoRewardRecycled_2017Gunmetal
-			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/BAC/MonoGunmetal.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
-            Call :cpFinishCode
-			GOTO BAC
-
-			:MonoOrange
-			set tempcarname=BAC_MonoRewardRecycled_2017Orange
-			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/BAC/MonoOrangePearl.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
-            Call :cpFinishCode
-			GOTO BAC
-
-			:MonoRaptor
-			set tempcarname=BAC_MonoRewardRecycled_2017Raptor
-			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/BAC/MonoRaptorGrey.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
-            Call :cpFinishCode
-			GOTO BAC
-
-			:MonoRed
-			set tempcarname=BAC_MonoRewardRecycled_2017Red
-			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/BAC/MonoRedPearl.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
-            Call :cpFinishCode
-			GOTO BAC
-
-			:MonoReward
+			:MonoBlackBaWW  
+			set tempcarname=BAC_MonoRewardRecycled_2017BlackBaWW 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/BAC/BlackPearlBaWW.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+            Call :cpFinishCode 
+			GOTO BAC 
+ 
+			:MonoBlueMW 
+			set tempcarname=BAC_MonoRewardRecycled_2017Black 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/BAC/BluePearlMW.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+            Call :cpFinishCode 
+			GOTO BAC 
+ 
+			:MonoGreenMW  
+			set tempcarname=BAC_MonoRewardRecycled_2017GreenMW 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/BAC/GreenPearlMW.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+            Call :cpFinishCode 
+			GOTO BAC 
+ 
+			:MonoBlackP  
+			set tempcarname=BAC_MonoRewardRecycled_2017BlackP 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/BAC/MonoBlackPearl.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+            Call :cpFinishCode 
+			GOTO BAC 
+ 
+			:MonoBlue  
+			set tempcarname=BAC_MonoRewardRecycled_2017Blue 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/BAC/MonoBluePearl.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+            Call :cpFinishCode 
+			GOTO BAC 
+ 
+			:MonoGreen  
+			set tempcarname=BAC_MonoRewardRecycled_2017Green 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/BAC/MonoGreenPearl.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+            Call :cpFinishCode 
+			GOTO BAC 
+ 
+			:MonoGunmetal  
+			set tempcarname=BAC_MonoRewardRecycled_2017Gunmetal 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/BAC/MonoGunmetal.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+            Call :cpFinishCode 
+			GOTO BAC 
+ 
+			:MonoOrange  
+			set tempcarname=BAC_MonoRewardRecycled_2017Orange 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/BAC/MonoOrangePearl.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+            Call :cpFinishCode 
+			GOTO BAC 
+ 
+			:MonoRaptor  
+			set tempcarname=BAC_MonoRewardRecycled_2017Raptor 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/BAC/MonoRaptorGrey.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+            Call :cpFinishCode 
+			GOTO BAC 
+ 
+			:MonoRed  
+			set tempcarname=BAC_MonoRewardRecycled_2017Red 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/BAC/MonoRedPearl.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+            Call :cpFinishCode 
+			GOTO BAC 
+ 
+			:MonoReward  
 			set tempcarname=BAC_MonoReward_2017
-			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/BAC/MonoReward.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
-            Call :cpFinishCode
-			GOTO BAC
-
-			:MonoTitanium
-			set tempcarname=BAC_MonoRewardRecycled_2017Titanium
-			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/BAC/MonoTitanium.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
-            Call :cpFinishCode
-			GOTO BAC
-
-			:MonoWhite
-			set tempcarname=BAC_MonoRewardRecycled_2017White
-			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/BAC/MonoWhitePearl.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
-            Call :cpFinishCode
-			GOTO BAC
-
-			:MonoYellow
-			set tempcarname=BAC_MonoRewardRecycled_2017Yellow
-			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/BAC/MonoYellowPearl.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
-            Call :cpFinishCode
-			GOTO BAC
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/BAC/MonoReward.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+            Call :cpFinishCode 
+			GOTO BAC 
+ 
+			:MonoTitanium  
+			set tempcarname=BAC_MonoRewardRecycled_2017Titanium 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/BAC/MonoTitanium.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+            Call :cpFinishCode 
+			GOTO BAC 
+ 
+			:MonoWhite  
+			set tempcarname=BAC_MonoRewardRecycled_2017White 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/BAC/MonoWhitePearl.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+            Call :cpFinishCode 
+			GOTO BAC 
+ 
+			:MonoYellow  
+			set tempcarname=BAC_MonoRewardRecycled_2017Yellow 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/BAC/MonoYellowPearl.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+            Call :cpFinishCode 
+			GOTO BAC 
+ 
+			:MonoOrangeMW  
+			set tempcarname=BAC_MonoRewardRecycled_2017OrangeMW 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/BAC/OrangePearlMW.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+            Call :cpFinishCode 
+			GOTO BAC 
+ 
+			:MonoRaptorMW  
+			set tempcarname=BAC_MonoRewardRecycled_2017RaptorMW 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/BAC/RaptorGreyMW.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+            Call :cpFinishCode 
+			GOTO BAC 
+ 
+			:MonoRedMW  
+			set tempcarname=BAC_MonoRewardRecycled_2017RedMW 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/BAC/RedPearlMW.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+            Call :cpFinishCode 
+			GOTO BAC 
+ 
+			:MonoWhiteMW  
+			set tempcarname=BAC_MonoRewardRecycled_2017WhiteMW 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/BAC/WhitePearlMW.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+            Call :cpFinishCode 
+			GOTO BAC 
+ 
+			:MonoYellowMW  
+			set tempcarname=BAC_MonoRewardRecycled_2017YellowMW 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/BAC/YellowPearlMW.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+            Call :cpFinishCode 
+			GOTO BAC 
 
 			REM Start of BMW:
 			REM Start of AC Schnitzer M2:
@@ -2374,6 +2428,66 @@
             Call :cpFinishCode
 			GOTO I8REWARD
 
+			:LBi8Reward  
+			set tempcarname=BMW_LBi8RewardRecycled_2017Reward 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/BMW/LBi8/Reward.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+           Call :cpFinishCode 
+			GOTO LBi8Con 
+ 
+			:LBi8BB  
+			set tempcarname=BMW_LBi8RewardRecycled_2017BB 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/BMW/LBi8/BarcelonaBlue.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+           Call :cpFinishCode 
+			GOTO LBi8Con 
+ 
+			:LBi8BHG  
+			set tempcarname=BMW_LBi8RewardRecycled_2017BHG 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/BMW/LBi8/BrandsHatchGrey.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+           Call :cpFinishCode 
+			GOTO LBi8Con 
+ 
+			:LBi8CWP  
+			set tempcarname=BMW_LBi8RewardRecycled_2017CWP 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/BMW/LBi8/CrystalWhitePearl.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+           Call :cpFinishCode 
+			GOTO LBi8Con 
+ 
+			:LBi8DG  
+			set tempcarname=BMW_LBi8RewardRecycled_2017DG 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/BMW/LBi8/DimGray.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+           Call :cpFinishCode 
+			GOTO LBi8Con 
+ 
+			:LBi8FB  
+			set tempcarname=BMW_LBi8RewardRecycled_2017FB 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/BMW/LBi8/FrozenBluestone.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+           Call :cpFinishCode 
+			GOTO LBi8Con 
+ 
+			:LBi8MRBW  
+			set tempcarname=BMW_LBi8RewardRecycled_2017MRBW 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/BMW/LBi8/MotegiRedBW.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+           Call :cpFinishCode 
+			GOTO LBi8Con 
+ 
+			:LBi8MRGW  
+			set tempcarname=BMW_LBi8RewardRecycled_2017MRGW 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/BMW/LBi8/MotegiRedGW.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+           Call :cpFinishCode 
+			GOTO LBi8Con 
+ 
+			:LBi8PB  
+			set tempcarname=BMW_LBi8RewardRecycled_2017PB 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/BMW/LBi8/ProtonicBlue.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+           Call :cpFinishCode 
+			GOTO LBi8Con 
+ 
+			:LBi8SSB  
+			set tempcarname=BMW_LBi8RewardRecycled_2017SSB 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/BMW/LBi8/SonicSpeedBlue.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+           Call :cpFinishCode 
+			GOTO LBi8Con 
+
 			REM Start of Z4 
 			
 			:Z4AWTIW1
@@ -2895,6 +3009,50 @@
             Call :cpFinishCode
 			GOTO Bentayga
 
+			Rem Start of Continental GT Convertible
+			
+			:ContinentalGTConvertibleReward  
+			set tempcarname=Bentley_ContinentalGTConvertibleRewardRecycled_2019Reward 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Bentley/ContinentalGTConvertible/Reward.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+           Call :cpFinishCode 
+			GOTO ContinentalGTConvertibleCon 
+ 
+			:ContinentalGTConvertibleBC  
+			set tempcarname=Bentley_ContinentalGTConvertibleRewardRecycled_2019BC 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Bentley/ContinentalGTConvertible/BlueCrystal.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+           Call :cpFinishCode 
+			GOTO ContinentalGTConvertibleCon 
+ 
+			:ContinentalGTConvertibleCB  
+			set tempcarname=Bentley_ContinentalGTConvertibleRewardRecycled_2019CB 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Bentley/ContinentalGTConvertible/CricketBall.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+           Call :cpFinishCode 
+			GOTO ContinentalGTConvertibleCon 
+ 
+			:ContinentalGTConvertibleI  
+			set tempcarname=Bentley_ContinentalGTConvertibleRewardRecycled_2019I 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Bentley/ContinentalGTConvertible/Ice.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+           Call :cpFinishCode 
+			GOTO ContinentalGTConvertibleCon 
+ 
+			:ContinentalGTConvertibleO  
+			set tempcarname=Bentley_ContinentalGTConvertibleRewardRecycled_2019O 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Bentley/ContinentalGTConvertible/Onyx.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+           Call :cpFinishCode 
+			GOTO ContinentalGTConvertibleCon 
+ 
+			:ContinentalGTConvertibleST  
+			set tempcarname=Bentley_ContinentalGTConvertibleRewardRecycled_2019ST 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Bentley/ContinentalGTConvertible/SilverTempest.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+           Call :cpFinishCode 
+			GOTO ContinentalGTConvertibleCon 
+ 
+			:ContinentalGTConvertibleSG  
+			set tempcarname=Bentley_ContinentalGTConvertibleRewardRecycled_2019SG 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Bentley/ContinentalGTConvertible/SunburstGold.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+           Call :cpFinishCode 
+			GOTO ContinentalGTConvertibleCon 
+
 			REM Start of Continental GT Speed
 			
 			:GTSpeedAnthracite
@@ -3338,7 +3496,60 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Bugatti/Chiron/Rededition_IAP/ChironCSR2RedEdition.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
             Call :cpFinishCode
 			GOTO Chiron
+
+			REM Start of Chiron Sport
 			
+			:ChironSportChironSportBlue  
+			set tempcarname=Bugatti_ChironSport_2016 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Bugatti/Chiron/ChironSport110/ChironSportBlue.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+           Call :cpFinishCode 
+			GOTO ChironSportCon 
+ 
+			:ChironSportChironSportRed  
+			set tempcarname=Bugatti_ChironRewardGold_2016 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Bugatti/Chiron/ChironSport110/ChironSportRed.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+           Call :cpFinishCode 
+			GOTO ChironSportCon 
+
+			REM Start of Chiron Super Sport WRE
+			
+			:ChironSuperSportWRE  
+			set tempcarname=Bugatti_ChironSuperSportWRE_2020 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Bugatti/Chiron/ChironSuperSport/WRE.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+           Call :cpFinishCode 
+			GOTO ChironSuperSport 
+
+			REM Start of Chiron 42 Seconds Edition
+			
+			:Chiron42Seconds 
+			set tempcarname=Bugatti_Chiron42Seconds_2016 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Bugatti/Chiron/42Seconds/42Seconds.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+           Call :cpFinishCode 
+			GOTO Chiron42 
+
+			REM Start of Centodieci
+			
+			:CentodieciLB  
+			set tempcarname=Bugatti_EB110HomageLB_2019
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Bugatti/EB110Homage/LeaderboardBugattiBlue.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+           Call :cpFinishCode 
+			GOTO CentodieciCon 
+ 
+			:CentodieciMS  
+			set tempcarname=Bugatti_EB110HomageMS_2019
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Bugatti/EB110Homage/MilestoneQuartzWhite.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+           Call :cpFinishCode 
+			GOTO CentodieciCon 
+
+			REM Start of Chiron La Voiture Noire
+			
+			:ChironLaVoitureNoire
+			set tempcarname=Bugatti_LaVoitureNoire_2019 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Bugatti/LaVoitureNoire/LaVoitureNoire.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+           Call :cpFinishCode 
+			GOTO LaVoitureNoire 
+
+
 			REM Start of Divo:
 			
 			:DIVOIAP
@@ -3347,6 +3558,12 @@
             Call :cpFinishCode
 			GOTO Divo
 
+			:DIVO110
+			set tempcarname=Bugatti_Divo110_2019
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Bugatti/Divo/110.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
+            Call :cpFinishCode
+			GOTO Divo
+			
 			REM Start of EB110 SS:
 			
 			:EB110SSRestored
@@ -3410,6 +3627,68 @@
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Bugatti/Veyron/VeyronSuperSportGold.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
             Call :cpFinishCode
 			GOTO Veyron
+
+			REM Start of Veyron GrandSport Vitesse
+			
+			:VeyronGrandSportVitesseWRE  
+			set tempcarname=Bugatti_VeyronGrandSportVitesseWRE_2012
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Bugatti/VeyronGrandSportVitesse/WRE.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+           Call :cpFinishCode 
+			GOTO VeyronGrandSportVitesseCon 
+ 
+			:VeyronGrandSportVitesseAndroid  
+			set tempcarname=Bugatti_VeyronGrandSportVitesseAndroid_2012 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Bugatti/VeyronGrandSportVitesse/AndroidEttoreBugatti.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+           Call :cpFinishCode 
+			GOTO VeyronGrandSportVitesseCon 
+ 
+			:VeyronGrandSportVitesseiOS  
+			set tempcarname=Bugatti_VeyronGrandSportVitesseiOS_2012 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Bugatti/VeyronGrandSportVitesse/iOSJeanBugatti.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+           Call :cpFinishCode 
+			GOTO VeyronGrandSportVitesseCon 
+ 
+			:VeyronGrandSportVitesseBLBWL  
+			set tempcarname=Bugatti_VeyronGrandSportVitesse_2012BLBWL 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Bugatti/VeyronGrandSportVitesse/BlackLightBlueWandLiv.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+           Call :cpFinishCode 
+			GOTO VeyronGrandSportVitesseCon 
+ 
+			:VeyronGrandSportVitesseBOI  
+			set tempcarname=Bugatti_VeyronGrandSportVitesse_2012BOI 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Bugatti/VeyronGrandSportVitesse/BlackOrangeInt.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+           Call :cpFinishCode 
+			GOTO VeyronGrandSportVitesseCon 
+ 
+			:VeyronGrandSportVitesseBBWL  
+			set tempcarname=Bugatti_VeyronGrandSportVitesse_2012BBWL 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Bugatti/VeyronGrandSportVitesse/BlancBlueWandLiv.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+           Call :cpFinishCode 
+			GOTO VeyronGrandSportVitesseCon 
+ 
+			:VeyronGrandSportVitesseDBLBWL  
+			set tempcarname=Bugatti_VeyronGrandSportVitesse_2012DBLBWL 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Bugatti/VeyronGrandSportVitesse/DarkBlueLightBlueWandLiv.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+           Call :cpFinishCode 
+			GOTO VeyronGrandSportVitesseCon 
+ 
+			:VeyronGrandSportVitesseGOI  
+			set tempcarname=Bugatti_VeyronGrandSportVitesse_2012GOI 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Bugatti/VeyronGrandSportVitesse/GreyOrangeInt.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+           Call :cpFinishCode 
+			GOTO VeyronGrandSportVitesseCon 
+ 
+			:VeyronGrandSportVitesseIRBB  
+			set tempcarname=Bugatti_VeyronGrandSportVitesse_2012IRBB 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Bugatti/VeyronGrandSportVitesse/ItalianRedBlackBack.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+           Call :cpFinishCode 
+			GOTO VeyronGrandSportVitesseCon 
+ 
+			:VeyronGrandSportVitesseTBSI  
+			set tempcarname=Bugatti_VeyronGrandSportVitesse_2012TBSI 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Bugatti/VeyronGrandSportVitesse/TangerineBlackStripeandInt.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+           Call :cpFinishCode 
+			GOTO VeyronGrandSportVitesseCon 
 
 			REM Start of Cadillac:
 			REM Start of CTS-V
@@ -3481,6 +3760,26 @@
 			GOTO Cadillac
 
 			REM Start of Chevrolet:
+			REM Start of C8 Corvette
+			
+			:C8CorvetteReward  
+			set tempcarname=Chevrolet_CorvetteC8Reward_2020 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Chevy/C8Corvette/Reward.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+           Call :cpFinishCode 
+			GOTO C8CorvetteCon 
+ 
+			:C8CorvetteRB  
+			set tempcarname=Chevrolet_CorvetteC8RewardRecycled_2020RB 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Chevy/C8Corvette/RapidBlue.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+           Call :cpFinishCode 
+			GOTO C8CorvetteCon 
+ 
+			:C8CorvetteSOMT  
+			set tempcarname=Chevrolet_CorvetteC8RewardRecycled_2020SOMT 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Chevy/C8Corvette/SebringOrangeMetallicTintcoat.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+           Call :cpFinishCode 
+			GOTO C8CorvetteCon 
+
 			REM Start of 2015 Stingray Corvette
 			
 			:STINGRAYAW
@@ -12586,7 +12885,58 @@ REM			GOTO 720SCon
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Nissan/LBGTR/WarriorPinkBlackLiveryWW.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
             Call :cpFinishCode
 			GOTO LBGTRCon 
+
+			REM Start of Juke R 2.0
+			
+			:JukeReward  
+			set tempcarname=Nissan_JukeR20ConceptReward_2015
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Nissan/Juke/Reward.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+           Call :cpFinishCode 
+			GOTO JukeCon 
  
+			:JukeAW  
+			set tempcarname=Nissan_JukeR20ConceptRewardRecycled_2015AW 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Nissan/Juke/ArcticWhite.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+           Call :cpFinishCode 
+			GOTO JukeCon 
+ 
+			:JukeB  
+			set tempcarname=Nissan_JukeR20ConceptRewardRecycled_2015B 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Nissan/Juke/Black.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+           Call :cpFinishCode 
+			GOTO JukeCon 
+ 
+			:JukeBS  
+			set tempcarname=Nissan_JukeR20ConceptRewardRecycled_2015BS 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Nissan/Juke/BladeSilver.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+           Call :cpFinishCode 
+			GOTO JukeCon 
+ 
+			:JukeFR  
+			set tempcarname=Nissan_JukeR20ConceptRewardRecycled_2015FR 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Nissan/Juke/FlameRed.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+           Call :cpFinishCode 
+			GOTO JukeCon 
+ 
+			:JukeMR  
+			set tempcarname=Nissan_JukeR20ConceptRewardRecycled_2015MR 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Nissan/Juke/MagneticRed.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+           Call :cpFinishCode 
+			GOTO JukeCon 
+ 
+			:JukePB  
+			set tempcarname=Nissan_JukeR20ConceptRewardRecycled_2015PB 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Nissan/Juke/PearlBlack.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+           Call :cpFinishCode 
+			GOTO JukeCon 
+ 
+			:JukeVB  
+			set tempcarname=Nissan_JukeR20ConceptRewardRecycled_2015VB 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Nissan/Juke/VividBlue.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+           Call :cpFinishCode 
+			GOTO JukeCon 
+ 
+
 			Rem start of Rocket bunny S15:
 			
 			:RBS15A1A  
@@ -16234,7 +16584,46 @@ REM			GOTO 720SCon
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Volkswagen/SciroccoR/ViperGreen.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
             Call :cpFinishCode
 			GOTO SciroccoRCon 
+
+			Rem start of VUHL
+			Rem start of 05RR
+			
+			:VUHLReward
+			set tempcarname=VUHL_05RRReward_2019 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/VUHL/05RR/Reward.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+           Call :cpFinishCode 
+			GOTO VUHLCon 
  
+			:VUHLB  
+			set tempcarname=VUHL_05RRRewardRecycled_2019B 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/VUHL/05RR/Blue.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+           Call :cpFinishCode 
+			GOTO VUHLCon 
+ 
+			:VUHLD  
+			set tempcarname=VUHL_05RRRewardRecycled_2019D 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/VUHL/05RR/DeepBlack.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+           Call :cpFinishCode 
+			GOTO VUHLCon 
+ 
+			:VUHLF  
+			set tempcarname=VUHL_05RRRewardRecycled_2019F 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/VUHL/05RR/FrozenWhite.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+           Call :cpFinishCode 
+			GOTO VUHLCon 
+ 
+			:VUHLO  
+			set tempcarname=VUHL_05RRRewardRecycled_2019O 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/VUHL/05RR/Orange.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+           Call :cpFinishCode 
+			GOTO VUHLCon 
+ 
+			:VUHLR  
+			set tempcarname=VUHL_05RRRewardRecycled_2019R 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/VUHL/05RR/Red.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+           Call :cpFinishCode 
+			GOTO VUHLCon 
+
 			Rem start of Wmotors:
 			Rem start of Fenyr Supersport:
 

@@ -26,9 +26,12 @@ Call :CPLogo
 	echo.
 	echo          Press (s) to quick search manufactures. This allows you to jump straight to a manufacture.
 	echo.
+	echo                     Press (n) to view new cars in this latest update! Updated Version: 2.9.0
+	echo.
 	echo                        Master ID list is located at the end of the manufacture selection.
 	echo.
-	CHOICE /C 123456s /M "" >nul
+	CHOICE /C 123456sn /M "" >nul
+	IF ERRORLEVEL == 8 GOTO NewCarsMenu
 	IF ERRORLEVEL == 7 GOTO QuickCarPickerManuType
 	IF ERRORLEVEL == 6 GOTO MainMenuBack
 	IF ERRORLEVEL == 5 GOTO CarPickerCarType1
@@ -119,17 +122,18 @@ Call :CPLogo
 	if !CurrentManuLevel! == 53 set CurrentManuChoice=Toyota
 	if !CurrentManuLevel! == 54 set CurrentManuChoice=TVR
 	if !CurrentManuLevel! == 55 set CurrentManuChoice=Volkswagen
-	if !CurrentManuLevel! == 56 set CurrentManuChoice=WMotors
-	if !CurrentManuLevel! == 57 set CurrentManuChoice=Zenvo
-	if !CurrentManuLevel! == 58 set CurrentManuChoice=PUPR
-	if !CurrentManuLevel! == 59 set CurrentManuChoice=Master ID List
-	if !CurrentManuLevel! == 60 GOTO CPManuCHECKUE
+	if !CurrentManuLevel! == 56 set CurrentManuChoice=VUHL
+	if !CurrentManuLevel! == 57 set CurrentManuChoice=WMotors
+	if !CurrentManuLevel! == 58 set CurrentManuChoice=Zenvo
+	if !CurrentManuLevel! == 59 set CurrentManuChoice=PUPR
+	if !CurrentManuLevel! == 60 set CurrentManuChoice=Master ID List
 	if !CurrentManuLevel! == 61 GOTO CPManuCHECKUE
 	if !CurrentManuLevel! == 62 GOTO CPManuCHECKUE
 	if !CurrentManuLevel! == 63 GOTO CPManuCHECKUE
 	if !CurrentManuLevel! == 64 GOTO CPManuCHECKUE
 	if !CurrentManuLevel! == 65 GOTO CPManuCHECKUE
 	if !CurrentManuLevel! == 66 GOTO CPManuCHECKUE
+	if !CurrentManuLevel! == 67 GOTO CPManuCHECKUE
 	GOTO CarPickerManuType
 	
 	:CPManuCHECKDE
@@ -137,7 +141,7 @@ Call :CPLogo
 	GOTO CarPickerManuType1
 	
 	:CPManuCHECKUE
-	set CurrentManuLevel=54
+	set CurrentManuLevel=60
 	GOTO CarPickerManuType1
 
 	:QuickCarPickerManuType
@@ -147,13 +151,13 @@ Call :CPLogo
 	echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 	echo.
     ECHO 1.) Abarth               19.) FnF Cars        37.) McLaren           55.) Volkswagen
-    ECHO 2.) Alfa Romeo           20.) Ford            38.) Mercedes Benz     56.) WMotors
-    ECHO 3.) Alpine               21.) Ginetta         39.) Mini              57.) Zenvo
-    ECHO 4.) AMC                  22.) GTA Motors      40.) Mitsubishi        58.) PUPR
-    ECHO 5.) Apollo               23.) Hennessey       41.) Nissan            59.) Master ID List
-    ECHO 6.) Aston Martin         24.) Honda           42.) Noble             
-    ECHO 7.) ATS Automobili       25.) Hyundai         43.) Pagani            0.) RETURN
-    ECHO 8.) Audi                 26.) Jaguar          44.) Plymouth
+    ECHO 2.) Alfa Romeo           20.) Ford            38.) Mercedes Benz     56.) VUHL
+    ECHO 3.) Alpine               21.) Ginetta         39.) Mini              57.) WMotors
+    ECHO 4.) AMC                  22.) GTA Motors      40.) Mitsubishi        58.) Zenvo
+    ECHO 5.) Apollo               23.) Hennessey       41.) Nissan            59.) PUPR
+    ECHO 6.) Aston Martin         24.) Honda           42.) Noble             60.) Master ID List
+    ECHO 7.) ATS Automobili       25.) Hyundai         43.) Pagani            
+    ECHO 8.) Audi                 26.) Jaguar          44.) Plymouth          0.) RETURN
     ECHO 9.) BAC                  27.) Jeep            45.) Pontiac
     ECHO 10.) Bentley             28.) Koenigsegg      46.) Porsche
     ECHO 11.) BMW                 29.) KTM             47.) Saleen
@@ -167,7 +171,7 @@ Call :CPLogo
 	echo.
 	set /p CurrentManuLevel="Select the manufacure id number you want: " 
 		if !CurrentManuLevel! LSS 0 goto CarPickerManuReturn
-		if !CurrentManuLevel! GTR 59 goto CarPickerManuReturn
+		if !CurrentManuLevel! GTR 60 goto CarPickerManuReturn
 		if !CurrentManuLevel! == 0 goto CarPickerManuType
 	if !CurrentManuLevel! == 1 set CurrentManuChoice=Abarth
 	if !CurrentManuLevel! == 2 set CurrentManuChoice=Alfa Romeo
@@ -224,11 +228,102 @@ Call :CPLogo
 	if !CurrentManuLevel! == 53 set CurrentManuChoice=Toyota
 	if !CurrentManuLevel! == 54 set CurrentManuChoice=TVR
 	if !CurrentManuLevel! == 55 set CurrentManuChoice=Volkswagen
-	if !CurrentManuLevel! == 56 set CurrentManuChoice=WMotors
-	if !CurrentManuLevel! == 57 set CurrentManuChoice=Zenvo
-	if !CurrentManuLevel! == 58 set CurrentManuChoice=PUPR
-	if !CurrentManuLevel! == 59 set CurrentManuChoice=Master ID List
+	if !CurrentManuLevel! == 56 set CurrentManuChoice=VUHL
+	if !CurrentManuLevel! == 57 set CurrentManuChoice=WMotors
+	if !CurrentManuLevel! == 58 set CurrentManuChoice=Zenvo
+	if !CurrentManuLevel! == 59 set CurrentManuChoice=PUPR
+	if !CurrentManuLevel! == 60 set CurrentManuChoice=Master ID List
 		goto CarPickerCarType1
+
+	:NewCarsMenu
+	::This is where you can jump straight to new cars in the update
+	cls
+Call :CPLogo
+	echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
+	echo.
+	echo New Cars in 2.9.0
+	echo.
+	echo 0.) Exit out of this menu
+	echo.
+	echo 1.) Audi R8 Decennium                       8.) Centodieci
+	echo.
+	echo 2.) BAC Mono (New Variants)                 9.) La Voiture Noire
+	echo.
+	echo 3.) Continental GT Convertible              10.) Divo
+	echo.
+	echo 4.) Liberty Walk i8                         11.) Veyron GrandSport Vitesse
+	echo.
+	echo 5.) Chiron Sport                            12.) C8 Corvette
+	echo.
+	echo 6.) Chiron Super Sport WRE                  13.) Juke R 2.0
+	echo.
+	echo 7.) Chiron 42 Seconds Edition               14.) Vuhl 05RR
+	echo.
+	
+	set /p newcarselection="Select the car you want. " 
+		if !newcarselection! LSS 1 goto CarPickerManuReturn
+		if !newcarselection! GTR 14 goto CarPickerManuReturn
+		if !newcarselection! == 0 goto CarPickerManuType
+		if !newcarselection! == 1 set CurrentManuChoice=Audi
+		if !newcarselection! == 1 set CurrentCarChoice=2019 R8 Decennium
+		if !newcarselection! == 1 set CurrentManuLevel=8
+		if !newcarselection! == 1 goto 19R8Decennium
+		if !newcarselection! == 2 set CurrentManuChoice=BAC
+		if !newcarselection! == 2 set CurrentCarChoice=Mono
+		if !newcarselection! == 2 set CurrentManuLevel=9
+		if !newcarselection! == 2 goto BAC
+		if !newcarselection! == 3 set CurrentManuChoice=Bentley
+		if !newcarselection! == 3 set CurrentManuLevel=10
+		if !newcarselection! == 3 set CurrentCarChoice=Continental GT Convertible
+		if !newcarselection! == 3 goto ContinentalGTConvertible
+		if !newcarselection! == 4 set CurrentManuLevel=11
+		if !newcarselection! == 4 set CurrentManuChoice=BMW
+		if !newcarselection! == 4 set CurrentCarChoice=i8 Options
+		if !newcarselection! == 4 set i8OptionType=LBi8
+		if !newcarselection! == 4 set Currenti8Option=Liberty Walk i8
+		if !newcarselection! == 4 goto LBi8
+		if !newcarselection! == 5 set CurrentManuChoice=Bugatti
+		if !newcarselection! == 5 set CurrentCarChoice=Chiron Sport
+		if !newcarselection! == 5 set CurrentManuLevel=13
+		if !newcarselection! == 5 goto ChironSport
+		if !newcarselection! == 6 set CurrentManuLevel=13
+		if !newcarselection! == 6 set CurrentManuChoice=Bugatti
+		if !newcarselection! == 6 set CurrentCarChoice=Chiron Super Sport WRE
+		if !newcarselection! == 6 goto ChironSuperSport
+		if !newcarselection! == 7 set CurrentManuLevel=13
+		if !newcarselection! == 7 set CurrentManuChoice=Bugatti
+		if !newcarselection! == 7 set CurrentCarChoice=Chiron 42 Second Edition
+		if !newcarselection! == 7 goto Chiron42
+		if !newcarselection! == 8 set CurrentManuLevel=13
+		if !newcarselection! == 8 set CurrentManuChoice=Bugatti
+		if !newcarselection! == 8 set CurrentCarChoice=Centodieci
+		if !newcarselection! == 8 goto Centodieci
+		if !newcarselection! == 9 set CurrentManuLevel=13
+		if !newcarselection! == 9 set CurrentManuChoice=Bugatti
+		if !newcarselection! == 9 set CurrentCarChoice=La Voiture Noire
+		if !newcarselection! == 9 goto LaVoitureNoire
+		if !newcarselection! == 10 set CurrentManuLevel=13
+		if !newcarselection! == 10 set CurrentManuChoice=Bugatti
+		if !newcarselection! == 10 set CurrentCarChoice=Divo
+		if !newcarselection! == 10 goto Divo
+		if !newcarselection! == 11 set CurrentManuChoice=Bugatti
+		if !newcarselection! == 11 set CurrentCarChoice=Veyron GrandSport Vitesse
+		if !newcarselection! == 11 set CurrentManuLevel=13
+		if !newcarselection! == 11 goto VeyronGrandSportVitesse
+		if !newcarselection! == 12 set CurrentManuLevel=15
+		if !newcarselection! == 12 set CurrentManuChoice=Chevrolet
+		if !newcarselection! == 12 set CurrentCarChoice=Corvette
+		if !newcarselection! == 12 set CorvetteCarChoice=7
+		if !newcarselection! == 12 goto C8Corvette
+		if !newcarselection! == 13 set CurrentManuLevel=41
+		if !newcarselection! == 13 set CurrentManuChoice=Nissan
+		if !newcarselection! == 13 set CurrentCarChoice=Juke R 2.0
+		if !newcarselection! == 13 goto Juke
+		if !newcarselection! == 14 set CurrentManuLevel=56
+		if !newcarselection! == 14 set CurrentManuChoice=VUHL
+		if !newcarselection! == 14 set CurrentCarChoice=05RR
+		if !newcarselection! == 14 goto VUHL
+	
 
 	:CarPickerCarType1
 	if !CurrentManuLevel! == 1 GOTO Abarth
@@ -286,10 +381,11 @@ Call :CPLogo
 	if !CurrentManuLevel! == 53 GOTO Toyota
 	if !CurrentManuLevel! == 54 GOTO TVR
 	if !CurrentManuLevel! == 55 GOTO Volkswagen
-	if !CurrentManuLevel! == 56 GOTO WMotors
-	if !CurrentManuLevel! == 57 GOTO Zenvo
-	if !CurrentManuLevel! == 58 GOTO PUPR
-	if !CurrentManuLevel! == 59 GOTO MasterIDList
+	if !CurrentManuLevel! == 56 GOTO VUHL
+	if !CurrentManuLevel! == 57 GOTO WMotors
+	if !CurrentManuLevel! == 58 GOTO Zenvo
+	if !CurrentManuLevel! == 59 GOTO PUPR
+	if !CurrentManuLevel! == 60 GOTO MasterIDList
 
 	:Abarth
 		::This opens the first page of the Abarth 500 options
@@ -342,6 +438,7 @@ Call :CPLogo
 	::This is where you can select a car, and load it up directly to notepad++ for easy copying files to an nsb.
 	set AlfaRomeoType=1
 	set CurrentCarChoice=4C Coupe
+
 	:AlfaRomeo1
 	cls
 Call :CPLogo
@@ -1312,27 +1409,29 @@ Call :CPLogo
 	if !AudiType! == 0 GOTO Audi
 	if !AudiType! == 1 set CurrentCarChoice=2014 R8
 	if !AudiType! == 2 set CurrentCarChoice=2016 R8
-	if !AudiType! == 3 set CurrentCarChoice=Liberty Walk R8
-	if !AudiType! == 4 set CurrentCarChoice=Liberty Walk RS5
-	if !AudiType! == 5 set CurrentCarChoice=RS5
-	if !AudiType! == 6 set CurrentCarChoice=TT RS
-	if !AudiType! == 7 set CurrentCarChoice=Vorsteiner R8
-	if !AudiType! == 8 GOTO AudiOD
+	if !AudiType! == 3 set CurrentCarChoice=2019 R8 Decennium
+	if !AudiType! == 4 set CurrentCarChoice=Liberty Walk R8
+	if !AudiType! == 5 set CurrentCarChoice=Liberty Walk RS5
+	if !AudiType! == 6 set CurrentCarChoice=RS5
+	if !AudiType! == 7 set CurrentCarChoice=TT RS
+	if !AudiType! == 8 set CurrentCarChoice=Vorsteiner R8
+	if !AudiType! == 9 GOTO AudiOD
 	GOTO AudiCon
 
 	:AudiOD
-	set AudiType=7
+	set AudiType=8
 	goto AudiType1
 	
 	:Audi1
 
 	if !AudiType! == 1 goto 2014R8
 	if !AudiType! == 2 goto 2016R8
-	if !AudiType! == 3 goto LBR8
-	if !AudiType! == 4 goto LBRS5
-	if !AudiType! == 5 goto RS5
-	if !AudiType! == 6 goto TTRS
-	if !AudiType! == 7 goto R8VRS
+	if !AudiType! == 3 goto 19R8Decennium
+	if !AudiType! == 4 goto LBR8
+	if !AudiType! == 5 goto LBRS5
+	if !AudiType! == 6 goto RS5
+	if !AudiType! == 7 goto TTRS
+	if !AudiType! == 8 goto R8VRS
 	GOTO AudiCon
 		
 		:2014R8
@@ -1431,7 +1530,28 @@ Call :CPLogo
 		if !2016R8Choice! == 15 GOTO 16R8VY
 		set 2016R8Choice=0
 		Goto 2016R8
-		
+
+		:19R8Decennium
+		CLS
+Call :CPLogo
+		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
+		echo.
+		echo Selected Manufacture:  !CurrentManuChoice!
+		echo Selected Car:          2019 R8 Decennium
+		echo.
+		echo - Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 - 
+		echo.
+		echo 1.) 2019 R8 Decennium
+		echo.
+		echo 2.) Back
+		echo.			
+		echo (1.) Select - (2.) Back
+		echo.
+		CHOICE /C 12 /M "" >nul
+		IF ERRORLEVEL == 2 GOTO AudiCon
+		IF ERRORLEVEL == 1 GOTO 19R8DecenniumD
+		goto AudiCon
+
 		:LBR8
 		CLS
 		SET LBR8Choice=0
@@ -1677,44 +1797,49 @@ Call :CPLogo
 	echo.
 	echo - Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 - 
 	echo.
-	echo 1.) Back.                                        
+	echo 1.) Back.                                            11.) Orange Pearl with Matching Wheels
 	echo.
-	echo 2.) Mono Reward                            
+	echo 2.) Mono Reward                                      12.) Raptor Grey
 	echo.
-	echo 3.) Black Pearl
+	echo 3.) Black Pearl                                      13.) Raptor Grey with Matching Wheels
 	echo.
-	echo 4.) Blue Pearl
+	echo 4.) Black Pearl with Black and White Wheels          14.) Red Pearl
 	echo.
-	echo 5.) Green Pearl
+	echo 5.) Blue Pearl                                       15.) Red Pearl with Matching Wheels
 	echo.
-	echo 6.) Gunmetal 
+	echo 6.) Blue Pearl with Matching Wheels                  16.) Titanium
 	echo.
-	echo 7.) Orange Pearl
+	echo 7.) Green Pearl                                      17.) White Pearl
 	echo.
-	echo 8.) Raptor Grey
+	echo 8.) Green Pearl with Matching Wheels                 18.) White Pearl with Matching Wheels
 	echo.
-	echo 9.) Red Pearl
+	echo 9.) Gunmetal                                         19.) Yellow Pearl
 	echo.
-	echo 10.) Titanium
+	echo 10.) Orange Pearl                                    20.) Yellow Pearl with Matching Wheels
 	echo.
-	echo 11.) White Pearl
-	echo.
-	echo 12.) Yellow Pearl
-	echo.
+
 	set /p BACMonoChoice="Select Choice and press Enter: " 
 	
 	if %BACMonoChoice% == 1 GOTO CarPickerManuReturn
 	if %BACMonoChoice% == 2 GOTO MonoReward
-	if %BACMonoChoice% == 3 GOTO MonoBlack
-	if %BACMonoChoice% == 4 GOTO MonoBlue
-	if %BACMonoChoice% == 5 GOTO MonoGreen
-	if %BACMonoChoice% == 6 GOTO MonoGunmetal
-	if %BACMonoChoice% == 7 GOTO MonoOrange
-	if %BACMonoChoice% == 8 GOTO MonoRaptor
-	if %BACMonoChoice% == 9 GOTO MonoRed
-	if %BACMonoChoice% == 10 GOTO MonoTitanium
-	if %BACMonoChoice% == 11 GOTO MonoWhite
-	if %BACMonoChoice% == 12 GOTO MonoYellow
+	if %BACMonoChoice% == 3 GOTO MonoBlackP
+	if %BACMonoChoice% == 4 GOTO MonoBlackBaWW
+	if %BACMonoChoice% == 5 GOTO MonoBlue
+	if %BACMonoChoice% == 6 GOTO MonoBlueMW
+	if %BACMonoChoice% == 7 GOTO MonoGreen
+	if %BACMonoChoice% == 8 GOTO MonoGreenMW
+	if %BACMonoChoice% == 9 GOTO MonoGunmetal
+	if %BACMonoChoice% == 10 GOTO MonoOrange
+	if %BACMonoChoice% == 11 GOTO MonoOrangeMW
+	if %BACMonoChoice% == 12 GOTO MonoRaptor
+	if %BACMonoChoice% == 13 GOTO MonoRaptorMW
+	if %BACMonoChoice% == 14 GOTO MonoRed
+	if %BACMonoChoice% == 15 GOTO MonoRedMW
+	if %BACMonoChoice% == 16 GOTO MonoTitanium
+	if %BACMonoChoice% == 17 GOTO MonoWhite
+	if %BACMonoChoice% == 18 GOTO MonoWhiteMW
+	if %BACMonoChoice% == 19 GOTO MonoYellow
+	if %BACMonoChoice% == 20 GOTO MonoYellowMW
 	Goto BAC
 
 	:Bentley
@@ -1756,12 +1881,13 @@ Call :CPLogo
 	if !BentleyType! == 1 set CurrentCarChoice=Bentayga
 	if !BentleyType! == 2 set CurrentCarChoice=Continental GT1
 	if !BentleyType! == 3 set CurrentCarChoice=Continental GT3R
-	if !BentleyType! == 4 set CurrentCarChoice=Continental GT Speed
-	if !BentleyType! == 5 GOTO BentleyOD
+	if !BentleyType! == 4 set CurrentCarChoice=Continental GT Convertible
+	if !BentleyType! == 5 set CurrentCarChoice=Continental GT Speed
+	if !BentleyType! == 6 GOTO BentleyOD
 	GOTO BentleyCon
 
 	:BentleyOD
-	set BentleyType=4
+	set BentleyType=5
 	goto BentleyType1
 	
 	:Bentley1
@@ -1769,7 +1895,8 @@ Call :CPLogo
 	if !BentleyType! == 1 goto Bentayga
 	if !BentleyType! == 2 goto GT1
 	if !BentleyType! == 3 goto GT3R
-	if !BentleyType! == 4 goto GTSpeed
+	if !BentleyType! == 4 goto ContinentalGTConvertible
+	if !BentleyType! == 5 goto GTSpeed
 
 	GOTO BentleyCon
 
@@ -1965,6 +2092,50 @@ Call :CPLogo
 		if %GT3RType% == 7 GOTO GT3RCY
 		if %GT3RType% == 8 GOTO GT3RGW
 		GOTO GT3RCon
+
+		:ContinentalGTConvertible 
+		CLS 
+		set ContinentalGTConvertibleType=0 
+
+		:ContinentalGTConvertibleCon 
+		cls 
+
+Call :CPLogo
+		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
+		echo.
+		echo Selected Manufacture:  !CurrentManuChoice! 
+		echo Selected Car:          !CurrentCarChoice! 
+		echo.
+		echo - Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 - 
+		echo.
+		echo 1.) Back          
+		echo.
+		echo 2.) Reward          
+		echo.
+		echo 3.) Blue Crystal          
+		echo.
+		echo 4.) Cricket Ball          
+		echo.
+		echo 5.) Ice          
+		echo.
+		echo 6.) Onyx          
+		echo.
+		echo 7.) Silver Tempest          
+		echo.
+		echo 8.) Sunburst Gold          
+		echo.
+		set /p ContinentalGTConvertibleType="Select Choice and press Enter: "  
+
+		if !ContinentalGTConvertibleType! == 1 goto BentleyCon 
+		if !ContinentalGTConvertibleType! == 2 goto ContinentalGTConvertibleReward
+		if !ContinentalGTConvertibleType! == 3 goto ContinentalGTConvertibleBC
+		if !ContinentalGTConvertibleType! == 4 goto ContinentalGTConvertibleCB
+		if !ContinentalGTConvertibleType! == 5 goto ContinentalGTConvertibleI
+		if !ContinentalGTConvertibleType! == 6 goto ContinentalGTConvertibleO
+		if !ContinentalGTConvertibleType! == 7 goto ContinentalGTConvertibleST
+		if !ContinentalGTConvertibleType! == 8 goto ContinentalGTConvertibleSG
+
+		goto ContinentalGTConvertibleCon 
 
 		:GTSpeed
 		CLS
@@ -2659,7 +2830,7 @@ Call :CPLogo
 		if !i8OptionType! == 1 goto I8SILVER
 		if !i8OptionType! == 2 goto I8REWARD
 		if !i8OptionType! == 3 goto I8RECYCLED
-		if !i8OptionType! == 4 goto LBI8
+		if !i8OptionType! == 4 goto LBi8
 		
 			:I8SILVER
 			CLS
@@ -2795,40 +2966,13 @@ Call :CPLogo
 			if %I8REWARDType% == 3 GOTO I8HOLIDAY
 			GOTO I8REWARDCon
 			
-			:LBI8
-			CLS
-			set LBI8Type=0
-	
-			:LBI8Con
-			cls
-	
-Call :CPLogo
-			echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
-			echo.
-			echo Selected Manufacture:  %CurrentManuChoice%
-			echo Selected Car:          %CurrentCarChoice%
-			echo Selected i8 Option:    %Currenti8Option%
-			echo.
-			echo - Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 - 
-			echo.
-			echo 1.) Back
-			echo.
-			echo 2.) Liberty Walk i8 Reward Placeholder
-			echo.
-			echo 3.) Liberty Walk i8 Reward Recycled Placeholder
-			echo.
+			:LBi8 
+			CLS 
+			set LBi8Type=0 
 
-			set /p LBI8Type="Select Choice and press Enter: " 
-		
-			:LBI8Type1
-			if %LBI8Type% == 1 GOTO I8OPTIONSCon
-			if %LBI8Type% == 2 GOTO LBI8ALERT
-			if %LBI8Type% == 3 GOTO LBI8ALERT
-			GOTO LBI8Con
-			
-			:LBI8ALERT
-			cls
-	
+			:LBi8Con 
+			cls 
+
 Call :CPLogo
 			echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 			echo.
@@ -2838,12 +2982,62 @@ Call :CPLogo
 			echo.
 			echo - Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 - 
 			echo.
-			echo             Note: Car not available yet. Has only been found in game files to be released in later updates.
+			echo 1.) Back          
 			echo.
-			echo                                 Press enter to return to the previous screen.
+			echo 2.) Reward          
 			echo.
-			pause >nul
-			goto LBI8Con
+			echo 3.) Barcelona Blue          
+			echo.
+			echo 4.) Brands Hatch Grey          
+			echo.
+			echo 5.) Crystal White Pearl          
+			echo.
+			echo 6.) Dim Gray with Black Door          
+			echo.
+			echo 7.) Frozen Bluestone          
+			echo.
+			echo 8.) Motegi Red with Black Wheels          
+			echo.
+			echo 9.) Motegi Red with Gold Wheels          
+			echo.
+			echo 10.) Protonic Blue        
+			echo.
+			echo 11.) Sonic Speed Blue        
+			echo.
+			set /p LBi8Type="Select Choice and press Enter: "  
+
+			if %LBi8Type% == 1 goto I8OPTIONSCon 
+			if !LBi8Type! == 2 goto LBi8Reward
+			if !LBi8Type! == 3 goto LBi8BB
+			if !LBi8Type! == 4 goto LBi8BHG
+			if !LBi8Type! == 5 goto LBi8CWP
+			if !LBi8Type! == 6 goto LBi8DG
+			if !LBi8Type! == 7 goto LBi8FB
+			if !LBi8Type! == 8 goto LBi8MRBW
+			if !LBi8Type! == 9 goto LBi8MRGW
+			if !LBi8Type! == 10 goto LBi8PB
+			if !LBi8Type! == 11 goto LBi8SSB
+			goto LBi8Con 
+
+			
+			REM :LBI8ALERT
+			REM cls
+	
+REM Call :CPLogo
+			REM echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
+			REM echo.
+			REM echo Selected Manufacture:  %CurrentManuChoice%
+			REM echo Selected Car:          %CurrentCarChoice%
+			REM echo Selected i8 Option:    %Currenti8Option%
+			REM echo.
+			REM echo - Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 - 
+			REM echo.
+			REM echo             Note: Car not available yet. Has only been found in game files to be released in later updates.
+			REM echo.
+			REM echo                                 Press enter to return to the previous screen.
+			REM echo.
+			REM pause >nul
+			REM goto LBI8Con
 		
 		:Z4
 		CLS
@@ -2965,25 +3159,156 @@ Call :CPLogo
 	:BugattiType1
 	if !BugattiType! == 0 GOTO Bugatti
 	if !BugattiType! == 1 set CurrentCarChoice=Chiron
-	if !BugattiType! == 2 set CurrentCarChoice=Divo
-	if !BugattiType! == 3 set CurrentCarChoice=EB110SS
-	if !BugattiType! == 4 set CurrentCarChoice=Veyron
-	if !BugattiType! == 5 GOTO BugattiOD
+	if !BugattiType! == 2 set CurrentCarChoice=Chiron Sport
+	if !BugattiType! == 3 set CurrentCarChoice=Chiron Super Sport WRE
+	if !BugattiType! == 4 set CurrentCarChoice=Chiron 42 Second Edition
+	if !BugattiType! == 5 set CurrentCarChoice=Centodieci
+	if !BugattiType! == 6 set CurrentCarChoice=Divo
+	if !BugattiType! == 7 set CurrentCarChoice=EB110SS
+	if !BugattiType! == 8 set CurrentCarChoice=La Voiture Noire
+	if !BugattiType! == 9 set CurrentCarChoice=Veyron
+	if !BugattiType! == 10 set CurrentCarChoice=Veyron GrandSport Vitesse
+	if !BugattiType! == 11 GOTO BugattiOD
 	GOTO BugattiCon
 
 	:BugattiOD
-	set BugattiType=4
+	set BugattiType=10
 	goto BugattiType1
 	
 	:Bugatti1
 
 	if !BugattiType! == 1 goto Chiron
-	if !BugattiType! == 2 goto Divo
-	if !BugattiType! == 3 goto EB110SS
-	if !BugattiType! == 4 goto Veyron
+	if !BugattiType! == 2 goto ChironSport
+	if !BugattiType! == 3 goto ChironSuperSport
+	if !BugattiType! == 4 goto Chiron42
+	if !BugattiType! == 5 goto Centodieci
+	if !BugattiType! == 6 goto Divo
+	if !BugattiType! == 7 goto EB110SS
+	if !BugattiType! == 8 goto LaVoitureNoire
+	if !BugattiType! == 9 goto Veyron
+	if !BugattiType! == 10 goto VeyronGrandSportVitesse
 
 	GOTO BugattiCon
+
+		:ChironSport 
+		CLS 
+		set ChironSportType=0 
+
+		:ChironSportCon 
+		cls 
+
+Call :CPLogo
+		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
+		echo.
+		echo Selected Manufacture:  !CurrentManuChoice! 
+		echo Selected Car:          !CurrentCarChoice! 
+		echo.
+		echo - Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 - 
+		echo.
+		echo 1.) Back          
+		echo.
+		echo 2.) Chiron Reward Gold (Red)          
+		echo.
+		echo 3.) Chiron Sport (Blue)          
+		echo.
+		set /p ChironSportType="Select Choice and press Enter: "  
+
+		if !ChironSportType! == 1 goto BugattiCon 
+		if !ChironSportType! == 2 goto ChironSportChironSportBlue
+		if !ChironSportType! == 3 goto ChironSportChironSportRed
+		goto ChironSportCon 
+
+		:ChironSuperSport
+		CLS
+Call :CPLogo
+		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
+		echo.
+		echo Selected Manufacture:  !CurrentManuChoice!
+		echo Selected Car:          Chiron Super Sport WRE
+		echo.
+		echo - Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 - 
+		echo.
+		echo 1.) Chiron Super Sport "WRE 300"
+		echo.
+		echo 2.) Back
+		echo.			
+		echo (1.) Select - (2.) Back
+		echo.
+		CHOICE /C 12 /M "" >nul
+		IF ERRORLEVEL == 2 GOTO BugattiCon
+		IF ERRORLEVEL == 1 GOTO ChironSuperSportWRE
+		goto ChironSuperSport
 	
+		:Chiron42
+		CLS
+Call :CPLogo
+		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
+		echo.
+		echo Selected Manufacture:  !CurrentManuChoice!
+		echo Selected Car:          Chiron 42 Seconds Edition
+		echo.
+		echo - Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 - 
+		echo.
+		echo 1.) Chiron 42 Seconds Edition
+		echo.
+		echo 2.) Back
+		echo.			
+		echo (1.) Select - (2.) Back
+		echo.
+		CHOICE /C 12 /M "" >nul
+		IF ERRORLEVEL == 2 GOTO BugattiCon
+		IF ERRORLEVEL == 1 GOTO Chiron42Seconds
+		goto Chiron42
+
+		:Centodieci 
+		CLS 
+		set CentodieciType=0 
+
+		:CentodieciCon 
+		cls 
+
+Call :CPLogo
+		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
+		echo.
+		echo Selected Manufacture:  !CurrentManuChoice! 
+		echo Selected Car:          !CurrentCarChoice! 
+		echo.
+		echo - Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 - 
+		echo.
+		echo 1.) Back          
+		echo.
+		echo 2.) Leaderboard Bugatti Blue          
+		echo.
+		echo 3.) Milestone Quartz White          
+		echo.
+		set /p CentodieciType="Select Choice and press Enter: "  
+
+		if !CentodieciType! == 1 goto BugattiCon 
+		if !CentodieciType! == 2 goto CentodieciLB
+		if !CentodieciType! == 3 goto CentodieciMS
+		goto CentodieciCon 
+
+		:LaVoitureNoire
+		CLS
+Call :CPLogo
+		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
+		echo.
+		echo Selected Manufacture:  !CurrentManuChoice!
+		echo Selected Car:          La Voiture Noire
+		echo.
+		echo - Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 - 
+		echo.
+		echo 1.) La Voiture Noire
+		echo.
+		echo 2.) Back
+		echo.			
+		echo (1.) Select - (2.) Back
+		echo.
+		CHOICE /C 12 /M "" >nul
+		IF ERRORLEVEL == 2 GOTO BugattiCon
+		IF ERRORLEVEL == 1 GOTO ChironLaVoitureNoire
+		goto LaVoitureNoire
+
 		:Chiron
 		CLS
 		set ChironType=0
@@ -3104,19 +3429,24 @@ Call :CPLogo
 		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 		echo.
 		echo Selected Manufacture:  !CurrentManuChoice!
-		echo Selected Car:          Divo
+		echo Selected Car:          !CurrentCarChoice!
 		echo.
 		echo - Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 - 
 		echo.
 		echo 1.) Back
 		echo.
 		echo 2.) Divo
-		echo.			
+		echo.
+		echo 3.) Divo 110
+		echo.		
 		echo (1.) Back - (2.) Select
 		echo.
-		CHOICE /C 12 /M "" >nul
-		IF ERRORLEVEL == 2 GOTO DIVOIAP
-		IF ERRORLEVEL == 1 GOTO CarPickerManuReturn
+		set /p DivoType="Select choice and press enter " 
+		
+		:DivoType1
+		if %DivoType% == 1 GOTO BugattiCon
+		if %DivoType% == 2 GOTO DIVOIAP
+		if %DivoType% == 3 GOTO DIVO110
 		goto Divo
 		
 		:EB110SS
@@ -3140,7 +3470,7 @@ Call :CPLogo
 		echo.
 		CHOICE /C 12 /M "" >nul
 		IF ERRORLEVEL == 2 GOTO EB110SSRestored
-		IF ERRORLEVEL == 1 GOTO CarPickerManuReturn
+		IF ERRORLEVEL == 1 GOTO BugattiCon
 		goto EB110SS
 		
 		:Veyron
@@ -3193,7 +3523,59 @@ Call :CPLogo
 		if %VeyronType% == 9 GOTO VEYRONJMDBCJMW
 		if %VeyronType% == 10 GOTO VEYRONWRE
 		GOTO VeyronCon
-		
+
+		:VeyronGrandSportVitesse 
+		CLS 
+		set VeyronGrandSportVitesseType=0 
+
+		:VeyronGrandSportVitesseCon 
+		cls 
+
+Call :CPLogo
+		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
+		echo.
+		echo Selected Manufacture:  !CurrentManuChoice! 
+		echo Selected Car:          !CurrentCarChoice! 
+		echo.
+		echo - Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 - 
+		echo.
+		echo 1.) Back          
+		echo.
+		echo 2.) WRE Edition          
+		echo.
+		echo 3.) Android Exclusive          
+		echo.
+		echo 4.) iOS Exclusive          
+		echo.
+		echo 5.) Black with Light Blue Wheel and Livery          
+		echo.
+		echo 6.) Black with Orange Interior          
+		echo.
+		echo 7.) Blanc with Blue Wheels and Livery          
+		echo.
+		echo 8.) Dark Blue with Light Blue Wheels and Livery          
+		echo.
+		echo 9.) Grey with Orange Interior          
+		echo.
+		echo 10.) Italian Red with Black Back        
+		echo.
+		echo 11.) Tangerine with Black Stripe and Interior        
+		echo.
+		set /p VeyronGrandSportVitesseType="Select Choice and press Enter: "  
+
+		if !VeyronGrandSportVitesseType! == 1 goto Con 
+		if !VeyronGrandSportVitesseType! == 2 goto VeyronGrandSportVitesseWRE
+		if !VeyronGrandSportVitesseType! == 3 goto VeyronGrandSportVitesseAndroid
+		if !VeyronGrandSportVitesseType! == 4 goto VeyronGrandSportVitesseiOS
+		if !VeyronGrandSportVitesseType! == 5 goto VeyronGrandSportVitesseBLBWL
+		if !VeyronGrandSportVitesseType! == 6 goto VeyronGrandSportVitesseBOI
+		if !VeyronGrandSportVitesseType! == 7 goto VeyronGrandSportVitesseBBWL
+		if !VeyronGrandSportVitesseType! == 8 goto VeyronGrandSportVitesseDBLBWL
+		if !VeyronGrandSportVitesseType! == 9 goto VeyronGrandSportVitesseGOI
+		if !VeyronGrandSportVitesseType! == 10 goto VeyronGrandSportVitesseIRBB
+		if !VeyronGrandSportVitesseType! == 11 goto VeyronGrandSportVitesseTBSI
+		goto VeyronGrandSportVitesseCon 
+	
 	:Cadillac
 	CLS
 	SET CadillacCSTVChoice=0
@@ -3467,11 +3849,12 @@ Call :CPLogo
 		if !CorvetteCarChoice! == 3 set CurrentCarChoice=2015 Z06 C7
 		if !CorvetteCarChoice! == 4 set CurrentCarChoice=2017 Grandsport
 		if !CorvetteCarChoice! == 5 set CurrentCarChoice=2018 ZR1
-		if !CorvetteCarChoice! == 6 GOTO CorvetteOD
+		if !CorvetteCarChoice! == 6 set CurrentCarChoice=2020 C8
+		if !CorvetteCarChoice! == 7 GOTO CorvetteOD
 		GOTO CorvetteCon
 
 		:CorvetteOD
-		set CorvetteCarChoice=5
+		set CorvetteCarChoice=6
 		goto CorvetteCarChoice1
 	
 		:Corvette1
@@ -3481,6 +3864,7 @@ Call :CPLogo
 		if !CorvetteCarChoice! == 3 goto Z06C7
 		if !CorvetteCarChoice! == 4 goto Grandsport
 		if !CorvetteCarChoice! == 5 goto 18ZR1
+		if !CorvetteCarChoice! == 6 goto C8Corvette
 
 		GOTO CorvetteCon
 		
@@ -4108,6 +4492,37 @@ Call :CPLogo
 			IF ERRORLEVEL == 1 GOTO CorvetteCon
 			goto Grandsport
 			
+		:C8Corvette 
+		CLS 
+		set C8CorvetteType=0 
+
+		:C8CorvetteCon 
+		cls 
+
+Call :CPLogo
+		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
+		echo.
+		echo Selected Manufacture:  !CurrentManuChoice! 
+		echo Selected Car:          !CurrentCarChoice! 
+		echo.
+		echo - Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 - 
+		echo.
+		echo 1.) Back          
+		echo.
+		echo 2.) Reward          
+		echo.
+		echo 3.) Rapid Blue          
+		echo.
+		echo 4.) Sebring Orange Metallic Tintcoat          
+		echo.
+
+		set /p C8CorvetteType="Select Choice and press Enter: "  
+
+		if !C8CorvetteType! == 1 goto CorvetteCon 
+		if !C8CorvetteType! == 2 goto C8CorvetteReward
+		if !C8CorvetteType! == 3 goto C8CorvetteRB
+		if !C8CorvetteType! == 4 goto C8CorvetteSOMT
+		goto C8CorvetteCon 
 			
 	:Dodge
 	CLS
@@ -11078,13 +11493,14 @@ Call :CPLogo
 	if !NissanType! == 3 set CurrentCarChoice=GTR Nismo 
 	if !NissanType! == 4 set CurrentCarChoice=GTR Nismo N-Attack Package
 	if !NissanType! == 5 set CurrentCarChoice=LB GTR
-	if !NissanType! == 6 set CurrentCarChoice=Silvia S15 Garage Mak
-	if !NissanType! == 7 set CurrentCarChoice=RocketBunny Silvia
-	if !NissanType! == 8 GOTO NissanOD
+	if !NissanType! == 6 set CurrentCarChoice=Juke R 2.0
+	if !NissanType! == 7 set CurrentCarChoice=Silvia S15 Garage Mak
+	if !NissanType! == 8 set CurrentCarChoice=RocketBunny Silvia
+	if !NissanType! == 9 GOTO NissanOD
 	GOTO NissanCon
 
 	:NissanOD
-	set NissanType=7
+	set NissanType=8
 	goto NissanType1
 	
 	:Nissan1
@@ -11094,11 +11510,59 @@ Call :CPLogo
 	if !NissanType! == 3 goto GTRNismo
 	if !NissanType! == 4 goto GTRNAttack
 	if !NissanType! == 5 goto LBGTR
-	if !NissanType! == 6 goto S15
-	if !NissanType! == 7 goto RBS15
+	if !NissanType! == 6 goto Juke
+	if !NissanType! == 7 goto S15
+	if !NissanType! == 8 goto RBS15
 
 
 	GOTO NissanCon
+
+		:Juke 
+		CLS 
+		set JukeType=0 
+
+		:JukeCon 
+		cls 
+
+Call :CPLogo
+		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
+		echo.
+		echo Selected Manufacture:  !CurrentManuChoice! 
+		echo Selected Car:          !CurrentCarChoice! 
+		echo.
+		echo - Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 - 
+		echo.
+		echo 1.) Back          
+		echo.
+		echo 2.) Reward          
+		echo.
+		echo 3.) Arctic White          
+		echo.
+		echo 4.) Black          
+		echo.
+		echo 5.) Blade Silver          
+		echo.
+		echo 6.) Flare Red          
+		echo.
+		echo 7.) Magnetic Red          
+		echo.
+		echo 8.) Pearl Black          
+		echo.
+		echo 9.) Vivid Blue          
+		echo.
+		set /p JukeType="Select Choice and press Enter: "  
+
+		if !JukeType! == 1 goto NissanCon 
+		if !JukeType! == 2 goto JukeReward
+		if !JukeType! == 3 goto JukeAW
+		if !JukeType! == 4 goto JukeB
+		if !JukeType! == 5 goto JukeBS
+		if !JukeType! == 6 goto JukeFR
+		if !JukeType! == 7 goto JukeMR
+		if !JukeType! == 8 goto JukePB
+		if !JukeType! == 9 goto JukeVB
+		goto JukeCon 
+
 
 		:15GTR 
 		CLS 
@@ -14118,6 +14582,47 @@ Call :CPLogo
 		if !SciroccoRType! == 8 goto SciroccoRTR
 		if !SciroccoRType! == 9 goto SciroccoRVG
 		goto SciroccoRCon 
+
+		:VUHL 
+		CLS 
+		set VUHLType=0 
+
+		:VUHLCon 
+		cls 
+
+Call :CPLogo
+		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
+		echo.
+		echo Selected Manufacture:  !CurrentManuChoice! 
+		echo Selected Car:          05RR 
+		echo.
+		echo - Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 - 
+		echo.
+		echo 1.) Back          
+		echo.
+		echo 2.) Reward          
+		echo.
+		echo 3.) Blue          
+		echo.
+		echo 4.) Deep Black          
+		echo.
+		echo 5.) Frozen White          
+		echo.
+		echo 6.) Orange          
+		echo.
+		echo 7.) Red          
+		echo.
+		set /p VUHLType="Select Choice and press Enter: "  
+
+		if !VUHLType! == 1 goto CarPickerManuReturn 
+		if !VUHLType! == 2 goto VUHLReward
+		if !VUHLType! == 3 goto VUHLB
+		if !VUHLType! == 4 goto VUHLD
+		if !VUHLType! == 5 goto VUHLF
+		if !VUHLType! == 6 goto VUHLO
+		if !VUHLType! == 7 goto VUHLR
+		goto VUHLCon 
+
 
     :Wmotors 
     CLS 
