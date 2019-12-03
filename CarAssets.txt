@@ -54,6 +54,8 @@
       "need": 
       "crdb": "Audi_LBRS5Coupe_2014",
       "need": 
+      "crdb": "Audi_R8V10Decennium_2019",
+      "need": 
       "crdb": "Audi_R8V10PlusCoupeRewardRecycled_2016",
       "need": 
       "crdb": "Audi_R8V10PlusCoupeReward_2016",
@@ -78,6 +80,8 @@
       "need": 
       "crdb": "Bentley_ContinentalGT3RReward_2015",
       "need": 
+      "crdb": "Bentley_ContinentalGTConvertibleRewardRecycled_2019",
+      "need": 
       "crdb": "Bentley_ContinentalGTRewardRecycled_2018",
       "need": 
       "crdb": "Bentley_ContinentalGTReward_2018",
@@ -100,7 +104,7 @@
       "need": 
       "crdb": "BMW_LBM4CoupeCrew_2014",
       "need": 
-      "nigy": "BMW_LBi8_2017",
+      "crdb": "BMW_LBi8RewardRecycled_2017",
       "need": 
       "crdb": "BMW_M235iCoupe_2014",
       "need": 
@@ -138,13 +142,31 @@
       "need": 
       "crdb": "Bugatti_ChironSport110_2018",
       "need": 
+      "crdb": "Bugatti_ChironSport_2016",
+      "need": 
+      "crdb": "Bugatti_ChironSuperSportWRE_2020",
+      "need": 
       "crdb": "Bugatti_Divo_2019",
+      "need": 
+      "crdb": "Bugatti_Divo110_2019",
+      "need": 
+      "crdb": "Bugatti_EB110HomageLB_2019",
+      "need": 
+      "crdb": "Bugatti_EB110HomageMS_2019",
       "need": 
       "crdb": "Bugatti_EB110SSClassic_1992",
       "need": 
       "crdb": "Bugatti_VeyronSuperSportGold_2012",
       "need": 
       "crdb": "Bugatti_VeyronSuperSport_2012",
+      "need": 
+      "crdb": "Bugatti_VeyronGrandSportVitesse_2012",
+      "need": 
+      "crdb": "Bugatti_VeyronGrandSportVitesseAndroid_2012",
+      "need": 
+      "crdb": "Bugatti_VeyronGrandSportVitesseiOS_2012",
+      "need": 
+      "crdb": "Bugatti_VeyronGrandSportVitesseWRE_2012",
       "need": 
       "crdb": "Cadillac_CTSVRewardRecycled_2017",
       "need": 
@@ -185,6 +207,8 @@
       "crdb": "Chevrolet_CorvetteC7REditionRewardRecycled_2015",
       "need": 
       "crdb": "Chevrolet_CorvetteC7REditionReward_2015",
+      "need": 
+      "crdb": "Chevrolet_CorvetteC8RewardRecycled_2020",
       "need": 
       "crdb": "Chevrolet_CorvetteGrandSport_2017",
       "need": 
@@ -624,6 +648,8 @@
       "need": 
       "crdb": "Nissan_GTR_2017",
       "need": 
+      "crdb": "Nissan_JukeR20ConceptRewardRecycled_2015",
+      "need": 
       "crdb": "Nissan_SilviaS15CrewRecycled_1999",
       "need": 
       "crdb": "Nissan_SilviaS15Crew_1999",
@@ -777,6 +803,8 @@
       "crdb": "Volkswagen_RocketBunnyGolfGTI_2014",
       "need": 
       "crdb": "Volkswagen_SciroccoR_2015",
+      "need": 
+      "crdb": "VUHL_05RRRewardRecycled_2019",
       "need": 
       "crdb": "WMotors_FenyrSupersportRewardRecycled_2016",
       "need": 
