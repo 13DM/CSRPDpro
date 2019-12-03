@@ -922,53 +922,203 @@
 			
 			REM Start of Vantage V8
 			
-			:VantageReward
+			:VantageReward  
 			set tempcarname=AstonMartin_VantageV8Reward_2018
-			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/AstonMartin/Vantage/VantageReward.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
-            Call :cpFinishCode
-			GOTO Vantage
-			
-			:VantageCG
-			set tempcarname=AstonMartin_VantageV8RewardRecycled_2018CG
-			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/AstonMartin/Vantage/VantageChinaGrey.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
-            Call :cpFinishCode
-			GOTO Vantage
-			
-			:VantageHR
-			set tempcarname=AstonMartin_VantageV8RewardRecycled_2018HR
-			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/AstonMartin/Vantage/VantageHyperRed.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
-            Call :cpFinishCode
-			GOTO Vantage
-			
-			:VantageJB
-			set tempcarname=AstonMartin_VantageV8RewardRecycled_2018JB
-			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/AstonMartin/Vantage/VantageJetBlack.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
-            Call :cpFinishCode
-			GOTO Vantage
-			
-			:VantageLE
-			set tempcarname=AstonMartin_VantageV8RewardRecycled_2018LE
-			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/AstonMartin/Vantage/VantageLimeEssence.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
-            Call :cpFinishCode
-			GOTO Vantage
-			
-			:VantageUB
-			set tempcarname=AstonMartin_VantageV8RewardRecycled_2018UB
-			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/AstonMartin/Vantage/VantageUltramarineBlack.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
-            Call :cpFinishCode
-			GOTO Vantage
-			
-			:VantageWS
-			set tempcarname=AstonMartin_VantageV8RewardRecycled_2018WS
-			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/AstonMartin/Vantage/VantageWhiteStone.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
-            Call :cpFinishCode
-			GOTO Vantage
-			
-			:VantageYT
-			set tempcarname=AstonMartin_VantageV8RewardRecycled_2018YT
-			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/AstonMartin/Vantage/VantageYellowTang.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
-            Call :cpFinishCode
-			GOTO Vantage
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/AstonMartin/Vantage/Reward.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+           Call :cpFinishCode 
+			GOTO VantageCon 
+ 
+			:VantageAG  
+			set tempcarname=AstonMartin_VantageV8RewardRecycled_2018AG 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/AstonMartin/Vantage/AppletreeGreen.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+           Call :cpFinishCode 
+			GOTO VantageCon 
+ 
+			:VantageAB  
+			set tempcarname=AstonMartin_VantageV8RewardRecycled_2018AB 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/AstonMartin/Vantage/ArizonaBronze.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+           Call :cpFinishCode 
+			GOTO VantageCon 
+ 
+			:VantageCG  
+			set tempcarname=AstonMartin_VantageV8RewardRecycled_2018CG 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/AstonMartin/Vantage/ChinaGrey.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+           Call :cpFinishCode 
+			GOTO VantageCon 
+ 
+			:VantageCO  
+			set tempcarname=AstonMartin_VantageV8RewardRecycled_2018CO 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/AstonMartin/Vantage/CinnabarOrange.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+           Call :cpFinishCode 
+			GOTO VantageCon 
+ 
+			:VantageCB  
+			set tempcarname=AstonMartin_VantageV8RewardRecycled_2018CB 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/AstonMartin/Vantage/ConcoursBlue.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+           Call :cpFinishCode 
+			GOTO VantageCon 
+ 
+			:VantageDiavolo  
+			set tempcarname=AstonMartin_VantageV8RewardRecycled_2018Diavolo 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/AstonMartin/Vantage/DiavoloRed.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+           Call :cpFinishCode 
+			GOTO VantageCon 
+ 
+			:VantageDivine  
+			set tempcarname=AstonMartin_VantageV8RewardRecycled_2018Divine 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/AstonMartin/Vantage/DivineRed.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+           Call :cpFinishCode 
+			GOTO VantageCon 
+ 
+			:VantageHS  
+			set tempcarname=AstonMartin_VantageV8RewardRecycled_2018HS 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/AstonMartin/Vantage/HammerheadSilver.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+           Call :cpFinishCode 
+			GOTO VantageCon 
+ 
+			:VantageHR1B  
+			set tempcarname=AstonMartin_VantageV8RewardRecycled_2018HR1B 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/AstonMartin/Vantage/HyperRed1B.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+           Call :cpFinishCode 
+			GOTO VantageCon 
+ 
+			:VantageHR2B  
+			set tempcarname=AstonMartin_VantageV8RewardRecycled_2018HR2B 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/AstonMartin/Vantage/HyperRed2B.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+           Call :cpFinishCode 
+			GOTO VantageCon 
+ 
+			:VantageIB  
+			set tempcarname=AstonMartin_VantageV8RewardRecycled_2018IB 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/AstonMartin/Vantage/IntenseBlue.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+           Call :cpFinishCode 
+			GOTO VantageCon 
+ 
+			:VantageJB2A  
+			set tempcarname=AstonMartin_VantageV8RewardRecycled_2018JB2A 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/AstonMartin/Vantage/JetBlack2A.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+           Call :cpFinishCode 
+			GOTO VantageCon 
+ 
+			:VantageJB2C  
+			set tempcarname=AstonMartin_VantageV8RewardRecycled_2018JB2C 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/AstonMartin/Vantage/JetBlack2C.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+           Call :cpFinishCode 
+			GOTO VantageCon 
+ 
+			:VantageKB  
+			set tempcarname=AstonMartin_VantageV8RewardRecycled_2018KB 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/AstonMartin/Vantage/KopiBronze.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+           Call :cpFinishCode 
+			GOTO VantageCon 
+ 
+			:VantageLS  
+			set tempcarname=AstonMartin_VantageV8RewardRecycled_2018LS 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/AstonMartin/Vantage/LighteningSilver.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+           Call :cpFinishCode 
+			GOTO VantageCon 
+ 
+			:VantageLE  
+			set tempcarname=AstonMartin_VantageV8RewardRecycled_2018LE 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/AstonMartin/Vantage/LimeEssence.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+           Call :cpFinishCode 
+			GOTO VantageCon 
+ 
+			:VantageLW  
+			set tempcarname=AstonMartin_VantageV8RewardRecycled_2018LW 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/AstonMartin/Vantage/LunarWhite.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+           Call :cpFinishCode 
+			GOTO VantageCon 
+ 
+			:VantageMS  
+			set tempcarname=AstonMartin_VantageV8RewardRecycled_2018MS 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/AstonMartin/Vantage/MagneticSilver.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+           Call :cpFinishCode 
+			GOTO VantageCon 
+ 
+			:VantageMB  
+			set tempcarname=AstonMartin_VantageV8RewardRecycled_2018MB 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/AstonMartin/Vantage/MarianaBlue.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+           Call :cpFinishCode 
+			GOTO VantageCon 
+ 
+			:VantageMidB  
+			set tempcarname=AstonMartin_VantageV8RewardRecycled_2018MidB 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/AstonMartin/Vantage/MignightBlue.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+           Call :cpFinishCode 
+			GOTO VantageCon 
+ 
+			:VantageMFW  
+			set tempcarname=AstonMartin_VantageV8RewardRecycled_2018MFW 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/AstonMartin/Vantage/MorningFrostWhite.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+           Call :cpFinishCode 
+			GOTO VantageCon 
+ 
+			:VantageOT  
+			set tempcarname=AstonMartin_VantageV8RewardRecycled_2018OT 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/AstonMartin/Vantage/OcellusTeal.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+           Call :cpFinishCode 
+			GOTO VantageCon 
+ 
+			:VantageOB  
+			set tempcarname=AstonMartin_VantageV8RewardRecycled_2018OB 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/AstonMartin/Vantage/OnyxBlack.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+           Call :cpFinishCode 
+			GOTO VantageCon 
+ 
+			:VantageSea  
+			set tempcarname=AstonMartin_VantageV8RewardRecycled_2018Sea 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/AstonMartin/Vantage/SeaStorm.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+           Call :cpFinishCode 
+			GOTO VantageCon 
+ 
+			:VantageSB  
+			set tempcarname=AstonMartin_VantageV8RewardRecycled_2018SB 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/AstonMartin/Vantage/SeleneBronze.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+           Call :cpFinishCode 
+			GOTO VantageCon 
+ 
+			:VantageSS  
+			set tempcarname=AstonMartin_VantageV8RewardRecycled_2018SS 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/AstonMartin/Vantage/SkyfallSilver.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+           Call :cpFinishCode 
+			GOTO VantageCon 
+ 
+			:VantageSW  
+			set tempcarname=AstonMartin_VantageV8RewardRecycled_2018SW 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/AstonMartin/Vantage/StratusWhite.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+           Call :cpFinishCode 
+			GOTO VantageCon 
+ 
+			:VantageUBBC  
+			set tempcarname=AstonMartin_VantageV8RewardRecycled_2018UBBC 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/AstonMartin/Vantage/UltramarineBlackBlueCaliper.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+           Call :cpFinishCode 
+			GOTO VantageCon 
+ 
+			:VantageUBRC  
+			set tempcarname=AstonMartin_VantageV8RewardRecycled_2018UBRC 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/AstonMartin/Vantage/UltramarineBlackRedCaliper.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+           Call :cpFinishCode 
+			GOTO VantageCon 
+ 
+			:VantageWS  
+			set tempcarname=AstonMartin_VantageV8RewardRecycled_2018WS 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/AstonMartin/Vantage/WhiteStone.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+           Call :cpFinishCode 
+			GOTO VantageCon 
+ 
+			:VantageYT1C  
+			set tempcarname=AstonMartin_VantageV8RewardRecycled_2018YT1C 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/AstonMartin/Vantage/YellowTang1C.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+           Call :cpFinishCode 
+			GOTO VantageCon 
+ 
+			:VantageYT2B  
+			set tempcarname=AstonMartin_VantageV8RewardRecycled_2018YT2B 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/AstonMartin/Vantage/YellowTang2B.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+           Call :cpFinishCode 
+			GOTO VantageCon 
 			
 			REM Start of Vulcan
 			

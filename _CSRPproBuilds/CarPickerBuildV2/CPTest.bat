@@ -245,7 +245,7 @@ Call :CPLogo
 	echo.
 	echo 0.) Exit out of this menu
 	echo.
-	echo 1.) Audi R8 Decennium                       8.) Centodieci
+	echo 1.) Audi R8 Decennium                       8.) Centodieci                     15.) Vantage (New Variants)
 	echo.
 	echo 2.) BAC Mono (New Variants)                 9.) La Voiture Noire
 	echo.
@@ -264,65 +264,98 @@ Call :CPLogo
 		if !newcarselection! LSS 1 goto CarPickerManuReturn
 		if !newcarselection! GTR 14 goto CarPickerManuReturn
 		if !newcarselection! == 0 goto CarPickerManuType
-		if !newcarselection! == 1 set CurrentManuChoice=Audi
-		if !newcarselection! == 1 set CurrentCarChoice=2019 R8 Decennium
-		if !newcarselection! == 1 set CurrentManuLevel=8
-		if !newcarselection! == 1 goto 19R8Decennium
-		if !newcarselection! == 2 set CurrentManuChoice=BAC
-		if !newcarselection! == 2 set CurrentCarChoice=Mono
-		if !newcarselection! == 2 set CurrentManuLevel=9
-		if !newcarselection! == 2 goto BAC
-		if !newcarselection! == 3 set CurrentManuChoice=Bentley
-		if !newcarselection! == 3 set CurrentManuLevel=10
-		if !newcarselection! == 3 set CurrentCarChoice=Continental GT Convertible
-		if !newcarselection! == 3 goto ContinentalGTConvertible
-		if !newcarselection! == 4 set CurrentManuLevel=11
-		if !newcarselection! == 4 set CurrentManuChoice=BMW
-		if !newcarselection! == 4 set CurrentCarChoice=i8 Options
-		if !newcarselection! == 4 set i8OptionType=LBi8
-		if !newcarselection! == 4 set Currenti8Option=Liberty Walk i8
-		if !newcarselection! == 4 goto LBi8
-		if !newcarselection! == 5 set CurrentManuChoice=Bugatti
-		if !newcarselection! == 5 set CurrentCarChoice=Chiron Sport
-		if !newcarselection! == 5 set CurrentManuLevel=13
-		if !newcarselection! == 5 goto ChironSport
-		if !newcarselection! == 6 set CurrentManuLevel=13
-		if !newcarselection! == 6 set CurrentManuChoice=Bugatti
-		if !newcarselection! == 6 set CurrentCarChoice=Chiron Super Sport WRE
-		if !newcarselection! == 6 goto ChironSuperSport
-		if !newcarselection! == 7 set CurrentManuLevel=13
-		if !newcarselection! == 7 set CurrentManuChoice=Bugatti
-		if !newcarselection! == 7 set CurrentCarChoice=Chiron 42 Second Edition
-		if !newcarselection! == 7 goto Chiron42
-		if !newcarselection! == 8 set CurrentManuLevel=13
-		if !newcarselection! == 8 set CurrentManuChoice=Bugatti
-		if !newcarselection! == 8 set CurrentCarChoice=Centodieci
-		if !newcarselection! == 8 goto Centodieci
-		if !newcarselection! == 9 set CurrentManuLevel=13
-		if !newcarselection! == 9 set CurrentManuChoice=Bugatti
-		if !newcarselection! == 9 set CurrentCarChoice=La Voiture Noire
-		if !newcarselection! == 9 goto LaVoitureNoire
-		if !newcarselection! == 10 set CurrentManuLevel=13
-		if !newcarselection! == 10 set CurrentManuChoice=Bugatti
-		if !newcarselection! == 10 set CurrentCarChoice=Divo
-		if !newcarselection! == 10 goto Divo
-		if !newcarselection! == 11 set CurrentManuChoice=Bugatti
-		if !newcarselection! == 11 set CurrentCarChoice=Veyron GrandSport Vitesse
-		if !newcarselection! == 11 set CurrentManuLevel=13
-		if !newcarselection! == 11 goto VeyronGrandSportVitesse
-		if !newcarselection! == 12 set CurrentManuLevel=15
-		if !newcarselection! == 12 set CurrentManuChoice=Chevrolet
-		if !newcarselection! == 12 set CurrentCarChoice=Corvette
-		if !newcarselection! == 12 set CorvetteCarChoice=7
-		if !newcarselection! == 12 goto C8Corvette
-		if !newcarselection! == 13 set CurrentManuLevel=41
-		if !newcarselection! == 13 set CurrentManuChoice=Nissan
-		if !newcarselection! == 13 set CurrentCarChoice=Juke R 2.0
-		if !newcarselection! == 13 goto Juke
-		if !newcarselection! == 14 set CurrentManuLevel=56
-		if !newcarselection! == 14 set CurrentManuChoice=VUHL
-		if !newcarselection! == 14 set CurrentCarChoice=05RR
-		if !newcarselection! == 14 goto VUHL
+		if !newcarselection! == 1 (
+			set CurrentManuChoice=Audi
+			set CurrentCarChoice=2019 R8 Decennium
+			set CurrentManuLevel=8
+			set AudiType=3
+			goto 19R8Decennium )
+		if !newcarselection! == 2 (
+			set CurrentManuChoice=BAC
+			set CurrentCarChoice=Mono
+			set CurrentManuLevel=9
+			goto BAC )
+		if !newcarselection! == 3 (
+			set CurrentManuChoice=Bentley
+			set CurrentManuLevel=10
+			set CurrentCarChoice=Continental GT Convertible
+			set BentleyType=4
+			goto ContinentalGTConvertible )
+		if !newcarselection! == 4 (
+			set CurrentManuLevel=11
+			set CurrentManuChoice=BMW
+			set CurrentCarChoice=i8 Options
+			SET BMWType=10
+			set i8OptionType=4
+			set Currenti8Option=Liberty Walk i8
+			goto LBi8 )
+		if !newcarselection! == 5 (
+			set CurrentManuChoice=Bugatti
+			SET CurrentCarChoice=Chiron Sport
+			set BugattiType=2
+			set CurrentManuLevel=13
+			goto ChironSport )
+		if !newcarselection! == 6 (
+			set CurrentManuLevel=13
+			set CurrentManuChoice=Bugatti
+			set BugattiType=3
+			set CurrentCarChoice=Chiron Super Sport WRE
+			goto ChironSuperSport )
+		if !newcarselection! == 7 (
+			set CurrentManuLevel=13
+			set CurrentManuChoice=Bugatti
+			set BugattiType=4
+			set CurrentCarChoice=Chiron 42 Second Edition
+			goto Chiron42 )
+		if !newcarselection! == 8 (
+			set CurrentManuLevel=13
+			set CurrentManuChoice=Bugatti
+			set BugattiType=5
+			set CurrentCarChoice=Centodieci
+			goto Centodieci )
+		if !newcarselection! == 9 (
+			set CurrentManuLevel=13
+			set CurrentManuChoice=Bugatti
+			set BugattiType=8
+			set CurrentCarChoice=La Voiture Noire
+			goto LaVoitureNoire )
+		if !newcarselection! == 10 (
+			set CurrentManuLevel=13
+			set CurrentManuChoice=Bugatti
+			set BugattiType=6
+			set CurrentCarChoice=Divo
+			goto Divo )
+		if !newcarselection! == 11 (
+			set CurrentManuChoice=Bugatti
+			set CurrentCarChoice=Veyron GrandSport Vitesse
+			set BugattiType=10
+			set CurrentManuLevel=13
+			goto VeyronGrandSportVitesse )
+		if !newcarselection! == 12 (
+			set CurrentManuLevel=15
+			set CurrentManuChoice=Chevrolet
+			set ChevroletType=3
+			set CurrentChevyChoice=Corvette Options
+			set CorvetteCarChoice=6
+			set CurrentCarChoice=2020 C8
+			goto C8Corvette )
+		if !newcarselection! == 13 (
+			set CurrentManuLevel=41
+			set CurrentManuChoice=Nissan
+			set NissanType=6
+			set CurrentCarChoice=Juke R 2.0
+			goto Juke )
+		if !newcarselection! == 14 (
+			set CurrentManuLevel=56
+			set CurrentManuChoice=VUHL
+			set CurrentCarChoice=05RR
+			goto VUHL )
+		if !newcarselection! == 15 (
+			SET AstonMartinType=4
+			set CurrentManuLevel=6
+			set CurrentManuChoice=Aston Martin
+			set CurrentCarChoice=Vantage
+			goto Vantage )
 	
 
 	:CarPickerCarType1
@@ -1184,53 +1217,85 @@ Call :CPLogo
 		if %VanquishType% == 12 GOTO VanquishVR
 		GOTO VanquishCon
 
-		:Vantage
-		CLS
-		set VantageType=0
-	
-		:VantageCon
-		cls
-		
+		:Vantage 
+		CLS 
+		set VantageType=0 
+
+		:VantageCon 
+		cls 
+
 Call :CPLogo
 		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 		echo.
-		echo Selected Manufacture:  !CurrentManuChoice!
-		echo Selected Car:          !CurrentCarChoice!
+		echo Selected Manufacture:  !CurrentManuChoice! 
+		echo Selected Car:          !CurrentCarChoice! 
 		echo.
 		echo - Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 - 
 		echo.
-		echo 1.) Back
+		echo 1.) Back                  14.) Jet Black Wheel 2A        27.) Selene Bronze    
 		echo.
-		echo 2.) Reward
+		echo 2.) Reward                15.) Jet Black Wheel 2C        28.) Skyfall Silver     
 		echo.
-		echo 3.) China Grey
+		echo 3.) Appletree Green       16.) Kopi Bronze               29.) Stratus White   
 		echo.
-		echo 4.) Hyper Red
+		echo 4.) Arizona Bronze        17.) Lightening Silver         30.) Ultramarine Black with Blue Caliper   
 		echo.
-		echo 5.) Jet Black
+		echo 5.) China Grey            18.) Lime Essence              31.) Ultramarine Black with Red Caliper   
 		echo.
-		echo 6.) Lime Essence
+		echo 6.) Cinnabar Orange       19.) Lunar White               32.) White Stone   
 		echo.
-		echo 7.) Ultramarine Black
+		echo 7.) Concours Blue         20.) Magnetic Silver           33.) Yellow Tang Wheel 1C   
 		echo.
-		echo 8.) White Stone
+		echo 8.) Diavolo Red           21.) Mariana Blue              34.) Yellow Tang Wheel 2B   
 		echo.
-		echo 9.) Yellow Tang
+		echo 9.) Divine Red            22.) Midnight Blue      
 		echo.
+		echo 10.) Hammerhead Silver    23.) Morning Frost White 
+		echo.
+		echo 11.) Hyper Red Wheel 1B   24.) Ocellus Teal
+		echo.
+		echo 12.) Hyper Red Wheel 2B   25.) Onyx Black     
+		echo.
+		echo 13.) Intense Blue         26.) Sea Storm     
+		echo.
+		set /p VantageType="Select Choice and press Enter: "  
 
-	set /p VantageType="Select Choice and press Enter: " 
-		
-		:VantageType1
-		if %VantageType% == 1 GOTO AstonMartinCon
-		if %VantageType% == 2 GOTO VantageReward
-		if %VantageType% == 3 GOTO VantageCG
-		if %VantageType% == 4 GOTO VantageHR
-		if %VantageType% == 5 GOTO VantageJB
-		if %VantageType% == 6 GOTO VantageLE
-		if %VantageType% == 7 GOTO VantageUB
-		if %VantageType% == 8 GOTO VantageWS
-		if %VantageType% == 9 GOTO VantageYT
-		GOTO VantageCon
+		if !VantageType! == 1 goto AstonMartinCon 
+		if !VantageType! == 2 goto VantageReward
+		if !VantageType! == 3 goto VantageAG
+		if !VantageType! == 4 goto VantageAB
+		if !VantageType! == 5 goto VantageCG
+		if !VantageType! == 6 goto VantageCO
+		if !VantageType! == 7 goto VantageCB
+		if !VantageType! == 8 goto VantageDiavolo
+		if !VantageType! == 9 goto VantageDivine
+		if !VantageType! == 10 goto VantageHS
+		if !VantageType! == 11 goto VantageHR1B
+		if !VantageType! == 12 goto VantageHR2B
+		if !VantageType! == 13 goto VantageIB
+		if !VantageType! == 14 goto VantageJB2A
+		if !VantageType! == 15 goto VantageJB2C
+		if !VantageType! == 16 goto VantageKB
+		if !VantageType! == 17 goto VantageLS
+		if !VantageType! == 18 goto VantageLE
+		if !VantageType! == 19 goto VantageLW
+		if !VantageType! == 20 goto VantageMS
+		if !VantageType! == 21 goto VantageMB
+		if !VantageType! == 22 goto VantageMidB
+		if !VantageType! == 23 goto VantageMFW
+		if !VantageType! == 24 goto VantageOT
+		if !VantageType! == 25 goto VantageOB
+		if !VantageType! == 26 goto VantageSea
+		if !VantageType! == 27 goto VantageSB
+		if !VantageType! == 28 goto VantageSS
+		if !VantageType! == 29 goto VantageSW
+		if !VantageType! == 30 goto VantageUBBC
+		if !VantageType! == 31 goto VantageUBRC
+		if !VantageType! == 32 goto VantageWS
+		if !VantageType! == 33 goto VantageYT1C
+		if !VantageType! == 34 goto VantageYT2B
+		goto VantageCon 
+
 		
 		:Vulcan 
 		CLS 
@@ -1545,11 +1610,11 @@ Call :CPLogo
 		echo.
 		echo 2.) 2019 R8 Decennium
 		echo.			
-		echo (1.) Select - (2.) Back
+		echo (1.) Back - (2.) Select
 		echo.
 		CHOICE /C 12 /M "" >nul
-		IF ERRORLEVEL == 2 GOTO AudiCon
-		IF ERRORLEVEL == 1 GOTO 19R8DecenniumD
+		IF ERRORLEVEL == 2 GOTO 19R8DecenniumD
+		IF ERRORLEVEL == 1 GOTO AudiCon
 		goto AudiCon
 
 		:LBR8
