@@ -121,19 +121,20 @@ Call :CPLogo
 	if !CurrentManuLevel! == 52 set CurrentManuChoice=Subaru
 	if !CurrentManuLevel! == 53 set CurrentManuChoice=Toyota
 	if !CurrentManuLevel! == 54 set CurrentManuChoice=TVR
-	if !CurrentManuLevel! == 55 set CurrentManuChoice=Volkswagen
-	if !CurrentManuLevel! == 56 set CurrentManuChoice=VUHL
-	if !CurrentManuLevel! == 57 set CurrentManuChoice=WMotors
-	if !CurrentManuLevel! == 58 set CurrentManuChoice=Zenvo
-	if !CurrentManuLevel! == 59 set CurrentManuChoice=PUPR
-	if !CurrentManuLevel! == 60 set CurrentManuChoice=Master ID List
-	if !CurrentManuLevel! == 61 GOTO CPManuCHECKUE
+	if !CurrentManuLevel! == 55 set CurrentManuChoice=Ultima
+	if !CurrentManuLevel! == 56 set CurrentManuChoice=Volkswagen
+	if !CurrentManuLevel! == 57 set CurrentManuChoice=VUHL
+	if !CurrentManuLevel! == 58 set CurrentManuChoice=WMotors
+	if !CurrentManuLevel! == 59 set CurrentManuChoice=Zenvo
+	if !CurrentManuLevel! == 60 set CurrentManuChoice=PUPR
+	if !CurrentManuLevel! == 61 set CurrentManuChoice=Master ID List
 	if !CurrentManuLevel! == 62 GOTO CPManuCHECKUE
 	if !CurrentManuLevel! == 63 GOTO CPManuCHECKUE
 	if !CurrentManuLevel! == 64 GOTO CPManuCHECKUE
 	if !CurrentManuLevel! == 65 GOTO CPManuCHECKUE
 	if !CurrentManuLevel! == 66 GOTO CPManuCHECKUE
 	if !CurrentManuLevel! == 67 GOTO CPManuCHECKUE
+	if !CurrentManuLevel! == 68 GOTO CPManuCHECKUE
 	GOTO CarPickerManuType
 	
 	:CPManuCHECKDE
@@ -141,7 +142,7 @@ Call :CPLogo
 	GOTO CarPickerManuType1
 	
 	:CPManuCHECKUE
-	set CurrentManuLevel=60
+	set CurrentManuLevel=61
 	GOTO CarPickerManuType1
 
 	:QuickCarPickerManuType
@@ -150,15 +151,15 @@ Call :CPLogo
 Call :CPLogo
 	echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
 	echo.
-    ECHO 1.) Abarth               19.) FnF Cars        37.) McLaren           55.) Volkswagen
-    ECHO 2.) Alfa Romeo           20.) Ford            38.) Mercedes Benz     56.) VUHL
-    ECHO 3.) Alpine               21.) Ginetta         39.) Mini              57.) WMotors
-    ECHO 4.) AMC                  22.) GTA Motors      40.) Mitsubishi        58.) Zenvo
-    ECHO 5.) Apollo               23.) Hennessey       41.) Nissan            59.) PUPR
-    ECHO 6.) Aston Martin         24.) Honda           42.) Noble             60.) Master ID List
-    ECHO 7.) ATS Automobili       25.) Hyundai         43.) Pagani            
-    ECHO 8.) Audi                 26.) Jaguar          44.) Plymouth          0.) RETURN
-    ECHO 9.) BAC                  27.) Jeep            45.) Pontiac
+    ECHO 1.) Abarth               19.) FnF Cars        37.) McLaren           55.) Ultima
+    ECHO 2.) Alfa Romeo           20.) Ford            38.) Mercedes Benz     56.) Volkswagen
+    ECHO 3.) Alpine               21.) Ginetta         39.) Mini              57.) VUHL
+    ECHO 4.) AMC                  22.) GTA Motors      40.) Mitsubishi        58.) WMotors
+    ECHO 5.) Apollo               23.) Hennessey       41.) Nissan            59.) Zenvo
+    ECHO 6.) Aston Martin         24.) Honda           42.) Noble             60.) PUPR
+    ECHO 7.) ATS Automobili       25.) Hyundai         43.) Pagani            61.) Master ID List
+    ECHO 8.) Audi                 26.) Jaguar          44.) Plymouth          
+    ECHO 9.) BAC                  27.) Jeep            45.) Pontiac           0.) RETURN
     ECHO 10.) Bentley             28.) Koenigsegg      46.) Porsche
     ECHO 11.) BMW                 29.) KTM             47.) Saleen
     ECHO 12.) Brabham             30.) Lamborghini     48.) SCG
@@ -227,12 +228,13 @@ Call :CPLogo
 	if !CurrentManuLevel! == 52 set CurrentManuChoice=Subaru
 	if !CurrentManuLevel! == 53 set CurrentManuChoice=Toyota
 	if !CurrentManuLevel! == 54 set CurrentManuChoice=TVR
-	if !CurrentManuLevel! == 55 set CurrentManuChoice=Volkswagen
-	if !CurrentManuLevel! == 56 set CurrentManuChoice=VUHL
-	if !CurrentManuLevel! == 57 set CurrentManuChoice=WMotors
-	if !CurrentManuLevel! == 58 set CurrentManuChoice=Zenvo
-	if !CurrentManuLevel! == 59 set CurrentManuChoice=PUPR
-	if !CurrentManuLevel! == 60 set CurrentManuChoice=Master ID List
+	if !CurrentManuLevel! == 55 set CurrentManuChoice=Ultima
+	if !CurrentManuLevel! == 56 set CurrentManuChoice=Volkswagen
+	if !CurrentManuLevel! == 57 set CurrentManuChoice=VUHL
+	if !CurrentManuLevel! == 58 set CurrentManuChoice=WMotors
+	if !CurrentManuLevel! == 59 set CurrentManuChoice=Zenvo
+	if !CurrentManuLevel! == 60 set CurrentManuChoice=PUPR
+	if !CurrentManuLevel! == 61 set CurrentManuChoice=Master ID List
 		goto CarPickerCarType1
 
 	:NewCarsMenu
@@ -245,24 +247,24 @@ Call :CPLogo
 	echo.
 	echo 0.) Exit out of this menu
 	echo.
-	echo 1.) Audi R8 Decennium                       8.) Centodieci                     15.) Vantage (New Variants)
+	echo 1.) Audi R8 Decennium                  8.) Centodieci                     15.) Vantage (New Variants)
 	echo.
-	echo 2.) BAC Mono (New Variants)                 9.) La Voiture Noire
+	echo 2.) BAC Mono (New Variants)            9.) La Voiture Noire               16.) 911 Carrera 4S Cabriolet (New Variants)
 	echo.
-	echo 3.) Continental GT Convertible              10.) Divo
+	echo 3.) Continental GT Convertible         10.) Divo                          17.) Portofino (New Variants)
 	echo.
-	echo 4.) Liberty Walk i8                         11.) Veyron GrandSport Vitesse
+	echo 4.) Liberty Walk i8                    11.) Veyron GrandSport Vitesse
 	echo.
-	echo 5.) Chiron Sport                            12.) C8 Corvette
+	echo 5.) Chiron Sport                       12.) C8 Corvette
 	echo.
-	echo 6.) Chiron Super Sport WRE                  13.) Juke R 2.0
+	echo 6.) Chiron Super Sport WRE             13.) Juke R 2.0
 	echo.
-	echo 7.) Chiron 42 Seconds Edition               14.) Vuhl 05RR
+	echo 7.) Chiron 42 Seconds Edition          14.) Vuhl 05RR
 	echo.
 	
 	set /p newcarselection="Select the car you want. " 
 		if !newcarselection! LSS 1 goto CarPickerManuReturn
-		if !newcarselection! GTR 15 goto CarPickerManuReturn
+		if !newcarselection! GTR 17 goto CarPickerManuReturn
 		if !newcarselection! == 0 goto CarPickerManuType
 		if !newcarselection! == 1 (
 			set CurrentManuChoice=Audi
@@ -356,6 +358,18 @@ Call :CPLogo
 			set CurrentManuChoice=Aston Martin
 			set CurrentCarChoice=Vantage
 			goto Vantage )
+		if !newcarselection! == 16 (
+			Set PorscheType=3
+			set CurrentManuLevel=46
+			set CurrentManuChoice=Porsche
+			set CurrentCarChoice=911 Carrera 4S Cabriolet
+			goto 911Carrera4SCabriolet )
+		if !newcarselection! == 17 (
+			set FerrariType=18
+			set CurrentManuLevel=18
+			set CurrentManuChoice=Ferrari
+			set CurrentCarChoice=Portofino
+			goto Portofino )
 	
 
 	:CarPickerCarType1
@@ -12951,29 +12965,48 @@ Call :CPLogo
 		echo.
 		echo - Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 - 
 		echo.
-		echo 1.) Back          
+		echo 1.) Back                                        11.) GT Silver        
 		echo.
-		echo 2.) Reward          
+		echo 2.) Reward                                      12.) Guards Red Wheel 1C        
 		echo.
-		echo 3.) Dolomite Silver          
+		echo 3.) Aventurine Green                            13.) Guards Red Wheel 1D        
 		echo.
-		echo 4.) Gentian Blue          
+		echo 4.) Black                                       14.) Jet Black        
 		echo.
-		echo 5.) Lizard Green          
+		echo 5.) Carmine Red                                 15.) Lava Orange      
 		echo.
-		echo 6.) Miami Blue          
+		echo 6.) Carrara White                               16.) Lizard Green      
 		echo.
-		echo 7.) Racing Yellow          
+		echo 7.) Crayon                                      17.) Miami Blue      
+		echo.
+		echo 8.) Dolomite Silver                             18.) Night Blue      
+		echo.
+		echo 9.) Gentian Blue Wheel 1D                       19.) Racing Yellow      
+		echo.
+		echo 10.) Gentian Blue Wheel 4A                      20.) White      
 		echo.
 		set /p 911Carrera4SCabrioletType="Select Choice and press Enter: "  
 
 		if !911Carrera4SCabrioletType! == 1 goto PorscheCon 
-		if !911Carrera4SCabrioletType! == 2 goto 911Carrera4SCabrioletReward  
-		if !911Carrera4SCabrioletType! == 3 goto 911Carrera4SCabrioletDS  
-		if !911Carrera4SCabrioletType! == 4 goto 911Carrera4SCabrioletGB  
-		if !911Carrera4SCabrioletType! == 5 goto 911Carrera4SCabrioletLG  
-		if !911Carrera4SCabrioletType! == 6 goto 911Carrera4SCabrioletMB  
-		if !911Carrera4SCabrioletType! == 7 goto 911Carrera4SCabrioletRY  
+		if !911Carrera4SCabrioletType! == 2 goto 911Carrera4SCabrioletReward
+		if !911Carrera4SCabrioletType! == 3 goto 911Carrera4SCabrioletAG
+		if !911Carrera4SCabrioletType! == 4 goto 911Carrera4SCabrioletB
+		if !911Carrera4SCabrioletType! == 5 goto 911Carrera4SCabrioletCR
+		if !911Carrera4SCabrioletType! == 6 goto 911Carrera4SCabrioletCW
+		if !911Carrera4SCabrioletType! == 7 goto 911Carrera4SCabrioletC
+		if !911Carrera4SCabrioletType! == 8 goto 911Carrera4SCabrioletDS
+		if !911Carrera4SCabrioletType! == 9 goto 911Carrera4SCabrioletGB1D
+		if !911Carrera4SCabrioletType! == 10 goto 911Carrera4SCabrioletGB4A
+		if !911Carrera4SCabrioletType! == 11 goto 911Carrera4SCabrioletGTS
+		if !911Carrera4SCabrioletType! == 12 goto 911Carrera4SCabrioletGR1C
+		if !911Carrera4SCabrioletType! == 13 goto 911Carrera4SCabrioletGR1D
+		if !911Carrera4SCabrioletType! == 14 goto 911Carrera4SCabrioletJB
+		if !911Carrera4SCabrioletType! == 15 goto 911Carrera4SCabrioletLO
+		if !911Carrera4SCabrioletType! == 16 goto 911Carrera4SCabrioletLG
+		if !911Carrera4SCabrioletType! == 17 goto 911Carrera4SCabrioletMB
+		if !911Carrera4SCabrioletType! == 18 goto 911Carrera4SCabrioletNB
+		if !911Carrera4SCabrioletType! == 19 goto 911Carrera4SCabrioletRY
+		if !911Carrera4SCabrioletType! == 20 goto 911Carrera4SCabrioletW
 		goto 911Carrera4SCabrioletCon 
 
 		:911GT3 
