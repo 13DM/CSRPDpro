@@ -3297,7 +3297,7 @@ Call :CPLogo
 		echo.
 		echo 2.) Chiron Super Sport "WRE 300"
 		echo.			
-		echo (1.) Select - (2.) Back
+		echo (1.) Back - (2.) Select
 		echo.
 		CHOICE /C 12 /M "" >nul
 		IF ERRORLEVEL == 2 GOTO ChironSuperSportWRE
@@ -3318,7 +3318,7 @@ Call :CPLogo
 		echo.
 		echo 2.) Chiron 42 Seconds Edition
 		echo.			
-		echo (1.) Select - (2.) Back
+		echo (1.) Back - (2.) Select
 		echo.
 		CHOICE /C 12 /M "" >nul
 		IF ERRORLEVEL == 2 GOTO Chiron42Seconds
@@ -3367,7 +3367,7 @@ Call :CPLogo
 		echo.
 		echo 2.) La Voiture Noire
 		echo.			
-		echo (1.) Select - (2.) Back
+		echo (1.) Back - (2.) Select
 		echo.
 		CHOICE /C 12 /M "" >nul
 		IF ERRORLEVEL == 2 GOTO ChironLaVoitureNoire
@@ -3628,7 +3628,7 @@ Call :CPLogo
 		echo.
 		set /p VeyronGrandSportVitesseType="Select Choice and press Enter: "  
 
-		if !VeyronGrandSportVitesseType! == 1 goto Con 
+		if !VeyronGrandSportVitesseType! == 1 goto BugattiCon 
 		if !VeyronGrandSportVitesseType! == 2 goto VeyronGrandSportVitesseWRE
 		if !VeyronGrandSportVitesseType! == 3 goto VeyronGrandSportVitesseAndroid
 		if !VeyronGrandSportVitesseType! == 4 goto VeyronGrandSportVitesseiOS
