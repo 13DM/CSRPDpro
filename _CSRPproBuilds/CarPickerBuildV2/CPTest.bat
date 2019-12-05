@@ -3641,6 +3641,8 @@ Call :CPLogo
 		echo.
 		echo 11.) Tangerine with Black Stripe and Interior        
 		echo.
+		ECHO 12.) Build the Bought with Gold Version
+		echo.
 		set /p VeyronGrandSportVitesseType="Select Choice and press Enter: "  
 
 		if !VeyronGrandSportVitesseType! == 1 goto BugattiCon 
@@ -3654,8 +3656,302 @@ Call :CPLogo
 		if !VeyronGrandSportVitesseType! == 9 goto VeyronGrandSportVitesseGOI
 		if !VeyronGrandSportVitesseType! == 10 goto VeyronGrandSportVitesseIRBB
 		if !VeyronGrandSportVitesseType! == 11 goto VeyronGrandSportVitesseTBSI
+		if !VeyronGrandSportVitesseType! == 12 goto VeyronGrandSportVitesseGoldCar
 		goto VeyronGrandSportVitesseCon 
-	
+
+		:VeyronGrandSportVitesseGoldCar
+		cls 
+
+Call :CPLogo
+		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
+		echo.
+		echo Selected Manufacture:  !CurrentManuChoice! 
+		echo Selected Car:          !CurrentCarChoice! Bought with Gold
+		echo.
+		echo - Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 - 
+		echo.
+		echo Car Paint Color Options:
+		echo.
+		echo 1.) Blanc                             12.) Gris Rafale
+		echo.
+		echo 2.) Jaune Molsheim                    13.) Grenade
+		echo.
+		echo 3.) Italian Red                       14.) Brise
+		echo.
+		echo 4.) Lorelin                           15.) Atlantic Blue
+		echo.
+		echo 5.) Bugatti Light Blue Sport          16.) Silk
+		echo.
+		echo 6.) French Racing Blue                17.) Firefinch
+		echo.
+		echo 7.) Lake Blue                         18.) Cast Grey
+		echo.
+		echo 8.) Le Patron                         19.) Glacier
+		echo.
+		echo 9.) Fierce                            20.) Liquid Silver
+		echo.
+		echo 10.) Gun Powder                       21.) Ruby
+		echo.
+		echo 11.) Nocturne                         22.) Mink Black
+		echo.
+
+		set /p VeyronGrandSportVitessePaintType="Select Choice and press Enter: "  
+
+		if !VeyronGrandSportVitessePaintType! LSS 1 goto VeyronGrandSportVitesseGoldCar
+		if !VeyronGrandSportVitessePaintType! == 1 (
+		set BVGSVappi=0
+		set BCGSVpname=Blanc )
+		if !VeyronGrandSportVitessePaintType! == 2 (
+		set BVGSVappi=1
+		set BCGSVpname=JauneMolsheim )
+		if !VeyronGrandSportVitessePaintType! == 3 (
+		set BVGSVappi=2
+		set BCGSVpname=ItalianRed )
+		if !VeyronGrandSportVitessePaintType! == 4 (
+		set BVGSVappi=3
+		set BCGSVpname=Lorelin )
+		if !VeyronGrandSportVitessePaintType! == 5 (
+		set BVGSVappi=4
+		set BCGSVpname=BugattiLightBlueSport )
+		if !VeyronGrandSportVitessePaintType! == 6 (
+		set BVGSVappi=5
+		set BCGSVpname=FrenchRacingBlue )
+		if !VeyronGrandSportVitessePaintType! == 7 (
+		set BVGSVappi=6
+		set BCGSVpname=LakeBlue )
+		if !VeyronGrandSportVitessePaintType! == 8 (
+		set BVGSVappi=7
+		set BCGSVpname=LePatron )
+		if !VeyronGrandSportVitessePaintType! == 9 (
+		set BVGSVappi=8
+		set BCGSVpname=Fierce )
+		if !VeyronGrandSportVitessePaintType! == 10 (
+		set BVGSVappi=9
+		set BCGSVpname=GunPowder )
+		if !VeyronGrandSportVitessePaintType! == 11 (
+		set BVGSVappi=10
+		set BCGSVpname=Nocturne )
+		if !VeyronGrandSportVitessePaintType! == 12 (
+		set BVGSVappi=11
+		set BCGSVpname=GrisRafle )
+		if !VeyronGrandSportVitessePaintType! == 13 (
+		set BVGSVappi=12
+		set BCGSVpname=Grenade )
+		if !VeyronGrandSportVitessePaintType! == 14 (
+		set BVGSVappi=13
+		set BCGSVpname=Brise )
+		if !VeyronGrandSportVitessePaintType! == 15 (
+		set BVGSVappi=14
+		set BCGSVpname=AtlanticBlue )
+		if !VeyronGrandSportVitessePaintType! == 16 (
+		set BVGSVappi=15
+		set BCGSVpname=Silk )
+		if !VeyronGrandSportVitessePaintType! == 17 (
+		set BVGSVappi=16
+		set BCGSVpname=Firefinch )
+		if !VeyronGrandSportVitessePaintType! == 18 (
+		set BVGSVappi=17
+		set BCGSVpname=CastGrey )
+		if !VeyronGrandSportVitessePaintType! == 19 (
+		set BVGSVappi=18
+		set BCGSVpname=Glacier )
+		if !VeyronGrandSportVitessePaintType! == 20 (
+		set BVGSVappi=19
+		set BCGSVpname=LiquidSilver )
+		if !VeyronGrandSportVitessePaintType! == 21 (
+		set BVGSVappi=20
+		set BCGSVpname=Ruby )
+		if !VeyronGrandSportVitessePaintType! == 22 (
+		set BVGSVappi=21
+		set BCGSVpname=MinkBlack )
+		if !VeyronGrandSportVitessePaintType! GTR 22 goto VeyronGrandSportVitesseGoldCar
+
+		:VeyronGrandSportVitesseInt
+		cls 
+
+Call :CPLogo
+		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
+		echo.
+		echo Selected Manufacture:  !CurrentManuChoice! 
+		echo Selected Car:          !CurrentCarChoice! Bought with Gold
+		echo.
+		echo - Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 - 
+		echo.
+		echo Car Interior Color Options:
+		echo.
+		echo 1.) Beluga Black
+		echo.
+		echo 2.) Gris Rafale
+		echo.
+		echo 3.) Silk
+		echo.
+		echo 4.) Terre D'Or
+		echo.
+		echo 5.) Brun Cavalier
+		echo.
+		echo 6.) Italian Red
+		echo.
+		echo 7.) Bugatti Light Blue Sport
+		echo.
+		echo 8.) Lake Blue
+
+
+		set /p VeyronGrandSportVitesseIntType="Select Choice and press Enter: "  
+
+		if !VeyronGrandSportVitesseIntType! LSS 1 goto VeyronGrandSportVitesseInt
+		if !VeyronGrandSportVitesseIntType! == 1 (
+		set BVGSVintid=445
+		set BCGSViname=BelugaBlack )
+		if !VeyronGrandSportVitesseIntType! == 2 (
+		set BVGSVintid=449
+		set BCGSViname=GrisRafale )
+		if !VeyronGrandSportVitesseIntType! == 3 (
+		set BVGSVintid=455
+		set BCGSViname=Silk )
+		if !VeyronGrandSportVitesseIntType! == 4 (
+		set BVGSVintid=444
+		set BCGSViname=TerreDor )
+		if !VeyronGrandSportVitesseIntType! == 5 (
+		set BVGSVintid=460
+		set BCGSViname=BrunCavalier )
+		if !VeyronGrandSportVitesseIntType! == 6 (
+		set BVGSVintid=466
+		set BCGSViname=ItalianRed )
+		if !VeyronGrandSportVitesseIntType! == 7 (
+		set BVGSVintid=472
+		set BCGSViname=BugattiLightBlueSport )
+		if !VeyronGrandSportVitesseIntType! == 8 (
+		set BVGSVintid=476
+		set BCGSViname=LakeBlue )
+		if !VeyronGrandSportVitesseIntType! GTR 8 goto VeyronGrandSportVitesseInt
+
+		:VeyronGrandSportVitesseCaliper
+		cls 
+
+Call :CPLogo
+		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
+		echo.
+		echo Selected Manufacture:  !CurrentManuChoice! 
+		echo Selected Car:          !CurrentCarChoice! Bought with Gold
+		echo.
+		echo - Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 - 
+		echo.
+		echo Car Caliper Color Options:
+		echo.
+		echo 1.) Black
+		echo.
+		echo 2.) Cast Grey
+		echo.
+		echo 3.) Maritime Blue
+		echo.
+		echo 4.) Italian Red
+		echo.
+		echo 5.) Bugatti Light Sport Blue
+		echo.
+		echo 6.) French Racing Blue
+		echo.
+
+		set /p VeyronGrandSportVitesseCaliperType="Select Choice and press Enter: "  
+
+		if !VeyronGrandSportVitesseCaliperType! LSS 1 goto VeyronGrandSportVitesseCaliper
+		if !VeyronGrandSportVitesseCaliperType! == 1 (
+		set BVGSVcalid=59
+		set BCGSVcname=Black )
+		if !VeyronGrandSportVitesseCaliperType! == 2 (
+		set BVGSVcalid=58
+		set BCGSVcname=CastGrey )
+		if !VeyronGrandSportVitesseCaliperType! == 3 (
+		set BVGSVcalid=60
+		set BCGSVcname=MaritimeBlue )
+		if !VeyronGrandSportVitesseCaliperType! == 4 (
+		set BVGSVcalid=61
+		set BCGSVcname=ItalianRed )
+		if !VeyronGrandSportVitesseCaliperType! == 5 (
+		set BVGSVcalid=57
+		set BCGSVcname=BugattiLightSportBlue )
+		if !VeyronGrandSportVitesseCaliperType! == 6 (
+		set BVGSVcalid=62
+		set BCGSVcname=FrenchRacingBlue )
+		if !VeyronGrandSportVitesseIntType! GTR 8 goto VeyronGrandSportVitesseCaliper
+
+		:VeyronGrandSportVitesseWheel
+		cls 
+
+Call :CPLogo
+		echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
+		echo.
+		echo Selected Manufacture:  !CurrentManuChoice! 
+		echo Selected Car:          !CurrentCarChoice! Bought with Gold
+		echo.
+		echo - Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 - 
+		echo.
+		echo Car Wheel Options:
+		echo.
+		echo 1.) Silver / Black
+		echo.
+		echo 2.) Black
+		echo.
+		echo 3.) Chrome
+		echo.
+
+		set /p VeyronGrandSportVitesseWheelType="Select Choice and press Enter: "  
+
+		if !VeyronGrandSportVitesseWheelType! LSS 1 goto VeyronGrandSportVitesseWheel
+		if !VeyronGrandSportVitesseWheelType! == 1 (
+		set BVGSVwid=Bugatti_VeyronGrandSportVitesse_2012_Wheel1A_3D
+		set BCGSVwname=W1A )
+		if !VeyronGrandSportVitesseWheelType! == 2 (
+		set BVGSVwid=Bugatti_VeyronGrandSportVitesse_2012_Wheel1E_3D
+		set BCGSVwname=W1E )
+		if !VeyronGrandSportVitesseWheelType! == 3 (
+		set BVGSVwid=Bugatti_VeyronGrandSportVitesse_2012_Wheel1C_3D
+		set BCGSVwname=W1C )
+		if !VeyronGrandSportVitesseWheelType! GTR 3 goto VeyronGrandSportVitesseWheel
+
+
+
+		:VeyronGrandSportVitesseWrite
+echo     { >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+echo       "unid": 0, >>"%USERPROFILE%\Documents\CSRPpro\Temp" 
+echo       "crdb": "Bugatti_VeyronGrandSportVitesse_2012", >>"%USERPROFILE%\Documents\CSRPpro\Temp" 
+echo       "awar": false, >>"%USERPROFILE%\Documents\CSRPpro\Temp" 
+echo       "grsp": [ >>"%USERPROFILE%\Documents\CSRPpro\Temp" 
+echo         3.18, >>"%USERPROFILE%\Documents\CSRPpro\Temp" 
+echo         2.24, >>"%USERPROFILE%\Documents\CSRPpro\Temp" 
+echo         1.19, >>"%USERPROFILE%\Documents\CSRPpro\Temp" 
+echo         0.92, >>"%USERPROFILE%\Documents\CSRPpro\Temp" 
+echo         0.75, >>"%USERPROFILE%\Documents\CSRPpro\Temp" 
+echo         0.62, >>"%USERPROFILE%\Documents\CSRPpro\Temp" 
+echo         0.55 >>"%USERPROFILE%\Documents\CSRPpro\Temp" 
+echo       ], >>"%USERPROFILE%\Documents\CSRPpro\Temp" 
+echo       "fidr": 3.64, >>"%USERPROFILE%\Documents\CSRPpro\Temp" 
+echo       "nlpr": 0.5, >>"%USERPROFILE%\Documents\CSRPpro\Temp" 
+echo       "tafr": 0.5, >>"%USERPROFILE%\Documents\CSRPpro\Temp" 
+echo       "titp": 0.5, >>"%USERPROFILE%\Documents\CSRPpro\Temp" 
+echo       "trld": 0.0, >>"%USERPROFILE%\Documents\CSRPpro\Temp" 
+echo       "tssp": 0.5, >>"%USERPROFILE%\Documents\CSRPpro\Temp" 
+echo       "tssr": 0.5, >>"%USERPROFILE%\Documents\CSRPpro\Temp" 
+echo       "ttup": 0.5, >>"%USERPROFILE%\Documents\CSRPpro\Temp" 
+echo       "ttpp": 0.5, >>"%USERPROFILE%\Documents\CSRPpro\Temp" 
+echo       "appi": !BVGSVappi!, >>"%USERPROFILE%\Documents\CSRPpro\Temp" 
+echo       "orpi": !BVGSVappi!, >>"%USERPROFILE%\Documents\CSRPpro\Temp" 
+echo       "apiid": !BVGSVintid!, >>"%USERPROFILE%\Documents\CSRPpro\Temp" 
+echo       "oriid": !BVGSVintid!, >>"%USERPROFILE%\Documents\CSRPpro\Temp" 
+echo       "apcid": !BVGSVcalid!, >>"%USERPROFILE%\Documents\CSRPpro\Temp" 
+echo       "orcid": !BVGSVcalid!, >>"%USERPROFILE%\Documents\CSRPpro\Temp" 
+echo       "aplid": 543, >>"%USERPROFILE%\Documents\CSRPpro\Temp" 
+echo       "orlid": 543, >>"%USERPROFILE%\Documents\CSRPpro\Temp" 
+echo       "aplzsid": 2, >>"%USERPROFILE%\Documents\CSRPpro\Temp" 
+echo       "orlzsid": 2, >>"%USERPROFILE%\Documents\CSRPpro\Temp" 
+echo       "apln": "", >>"%USERPROFILE%\Documents\CSRPpro\Temp" 
+echo       "apcn": [ >>"%USERPROFILE%\Documents\CSRPpro\Temp" 
+echo         "!BVGSVwid!" >>"%USERPROFILE%\Documents\CSRPpro\Temp" 
+curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Bugatti/VeyronGrandSportVitesse/VitesseGoldMaxBase.txt" >>"%USERPROFILE%\Documents\CSRPpro\Temp" 
+
+		set tempcarname=Bugatti_VeyronGrandSportVitesse_2012_p_!BCGSVpname!_c_!BCGSVcname!_i_!BCGSViname!_w_!BCGSVwname!
+        Call :cpFinishCode 
+		GOTO VeyronGrandSportVitesseCon 
+
 	:Cadillac
 	CLS
 	SET CadillacCSTVChoice=0
