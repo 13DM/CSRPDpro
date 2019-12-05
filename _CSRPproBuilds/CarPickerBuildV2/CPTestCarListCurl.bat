@@ -3647,6 +3647,18 @@
             Call :cpFinishCode
 			GOTO Chiron
 
+			:CHIRONBLBSSpecialW
+			set tempcarname=Bugatti_ChironRewardRecycled_2016BLBSSpecialW
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Bugatti/Chiron/Gacha/BugattiLightBlueSportSpecialW.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
+            Call :cpFinishCode
+			GOTO Chiron
+
+			:CHIRONITSW
+			set tempcarname=Bugatti_ChironRewardRecycled_2016ITSW
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Bugatti/Chiron/Gacha/ItalianRedSpecialW.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
+            Call :cpFinishCode
+			GOTO Chiron
+
 			REM Start of Chiron Sport
 			
 			:ChironSportChironSportBlue  

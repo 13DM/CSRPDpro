@@ -3427,9 +3427,9 @@ Call :CPLogo
 		echo (18.) Full Firefinch with Silver Wheels                        and Mink Black Wheels
 		echo (19.) Full Glacier with Le Patron Wheels                 (37.) Silk with Back Firefinch Livery and Firefinch Wheels
 		echo (20.) Full Grenade with Silver Wheels                    (38.) Silk with Low Firefinch Livery and Firefinch Wheels
-		echo (21.) Full Gris Rafale with Atlantic Blue Wheels
-		echo (22.) Full Italian Red with Nocturne Wheels
-		echo (23.) Full Lake Blue with Silver Wheels
+		echo (21.) Full Gris Rafale with Atlantic Blue Wheels         (39.) Italian Red with Black Back and Special Black Wheels
+		echo (22.) Full Italian Red with Nocturne Wheels              (40.) Bugatti Light Blue Sport with Black Back and
+		echo (23.) Full Lake Blue with Silver Wheels                        Special Wheels
 		echo (24.) Full Le Patron with Silver Wheels
 		echo.
 		set /p ChironType="Select Choice and press Enter: " 
@@ -3473,6 +3473,8 @@ Call :CPLogo
 		if %ChironType% == 36 GOTO CHIRONMBLBCMBW
 		if %ChironType% == 37 GOTO CHIRONSBFFLFFW
 		if %ChironType% == 38 GOTO CHIRONSLFFLFFW
+		if %ChironType% == 39 GOTO CHIRONITSW
+		if %ChironType% == 40 GOTO CHIRONBLBSSpecialW
 		GOTO ChironCon
 		
 		REM echo (25.) Full Liquid Silver with Lake Blue Wheels
