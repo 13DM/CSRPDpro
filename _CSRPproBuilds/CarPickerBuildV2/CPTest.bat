@@ -427,12 +427,13 @@ Call :CPLogo
 	if !CurrentManuLevel! == 52 GOTO Subaru
 	if !CurrentManuLevel! == 53 GOTO Toyota
 	if !CurrentManuLevel! == 54 GOTO TVR
-	if !CurrentManuLevel! == 55 GOTO Volkswagen
-	if !CurrentManuLevel! == 56 GOTO VUHL
-	if !CurrentManuLevel! == 57 GOTO WMotors
-	if !CurrentManuLevel! == 58 GOTO Zenvo
-	if !CurrentManuLevel! == 59 GOTO PUPR
-	if !CurrentManuLevel! == 60 GOTO MasterIDList
+	if !CurrentManuLevel! == 55 GOTO Ultima
+	if !CurrentManuLevel! == 56 GOTO Volkswagen
+	if !CurrentManuLevel! == 57 GOTO VUHL
+	if !CurrentManuLevel! == 58 GOTO WMotors
+	if !CurrentManuLevel! == 59 GOTO Zenvo
+	if !CurrentManuLevel! == 60 GOTO PUPR
+	if !CurrentManuLevel! == 61 GOTO MasterIDList
 
 	:Abarth
 		::This opens the first page of the Abarth 500 options
