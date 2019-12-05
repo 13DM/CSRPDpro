@@ -253,7 +253,7 @@ Call :CPLogo
 	echo.
 	echo 3.) Continental GT Convertible         10.) Divo                          17.) Portofino (New Variants)
 	echo.
-	echo 4.) Liberty Walk i8                    11.) Veyron GrandSport Vitesse
+	echo 4.) Liberty Walk i8                    11.) Veyron GrandSport Vitesse     18.) Chiron (New Variants #39 and #40)
 	echo.
 	echo 5.) Chiron Sport                       12.) C8 Corvette
 	echo.
@@ -264,7 +264,7 @@ Call :CPLogo
 	
 	set /p newcarselection="Select the car you want. " 
 		if !newcarselection! LSS 1 goto CarPickerManuReturn
-		if !newcarselection! GTR 17 goto CarPickerManuReturn
+		if !newcarselection! GTR 18 goto CarPickerManuReturn
 		if !newcarselection! == 0 goto CarPickerManuType
 		if !newcarselection! == 1 (
 			set CurrentManuChoice=Audi
@@ -370,6 +370,12 @@ Call :CPLogo
 			set CurrentManuChoice=Ferrari
 			set CurrentCarChoice=Portofino
 			goto Portofino )
+		if !newcarselection! == 18 (
+			set CurrentManuChoice=Bugatti
+			SET CurrentCarChoice=Chiron
+			set BugattiType=1
+			set CurrentManuLevel=13
+			goto Chiron )
 	
 
 	:CarPickerCarType1
