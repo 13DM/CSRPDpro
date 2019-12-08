@@ -12144,7 +12144,7 @@ Call :CPLogo
 		echo.
 		echo 1.) Back   
 		echo 2.) Reward   
-		echo 3.) Azure Blue   
+		echo 3.) Amethyst Black   
 		echo 4.) Azure Blue with Black Livery and Black Wheels   
 		echo 5.) Azure Blue with Gold 5 Spoke Wheels   
 		echo 6.) Azure Blue with Gold Livery and Gold 5 Spoke Wheels   
