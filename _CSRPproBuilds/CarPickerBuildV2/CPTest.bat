@@ -3300,8 +3300,8 @@ Call :CPLogo
 		set /p ChironSportType="Select Choice and press Enter: "  
 
 		if !ChironSportType! == 1 goto BugattiCon 
-		if !ChironSportType! == 2 goto ChironSportChironSportBlue
-		if !ChironSportType! == 3 goto ChironSportChironSportRed
+		if !ChironSportType! == 2 goto ChironSportChironSportRed
+		if !ChironSportType! == 3 goto ChironSportChironSportBlue
 		goto ChironSportCon 
 
 		:ChironSuperSport
