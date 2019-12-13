@@ -20417,7 +20417,6 @@ echo         "erpm": 0 >>"%USERPROFILE%\%Documents%\CSRPpro\fusionpartslist.txt"
 echo       } >>"%USERPROFILE%\%Documents%\CSRPpro\fusionpartslist.txt"
 echo     }, >>"%USERPROFILE%\%Documents%\CSRPpro\fusionpartslist.txt"
 echo     !createdFusionAmount!, >>"%USERPROFILE%\%Documents%\CSRPpro\fusionpartslist.txt"
-echo  >>"%USERPROFILE%\%Documents%\CSRPpro\fusionpartslist.txt"
 
 cls
 Call :MainLogo
