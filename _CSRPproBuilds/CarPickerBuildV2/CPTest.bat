@@ -3962,7 +3962,7 @@ curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Bugatti/Vey
 
 	:Cadillac
 	CLS
-	SET CadillacCSTVChoice=0
+	SET CadillacCTSVChoice=0
 
 Call :CPLogo
 	echo ---------- CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe - CSR Packer Deluxe -----------
@@ -3996,20 +3996,20 @@ Call :CPLogo
 	echo.
 	echo 12.) Wave Wheel B
 	echo.
-	set /p CadillacCSTVChoice="Select Choice and press Enter: " 
+	set /p CadillacCTSVChoice="Select Choice and press Enter: " 
 	
-	if %CadillacCSTVChoice% == 1 GOTO CarPickerManuReturn
-	if %CadillacCSTVChoice% == 2 GOTO CSTVR
-	if %CadillacCSTVChoice% == 3 GOTO CSTVBRA
-	if %CadillacCSTVChoice% == 4 GOTO CSTVBRB
-	if %CadillacCSTVChoice% == 5 GOTO CSTVCWA
-	if %CadillacCSTVChoice% == 6 GOTO CSTVCWB
-	if %CadillacCSTVChoice% == 7 GOTO CSTVSSA
-	if %CadillacCSTVChoice% == 8 GOTO CSTVSSB
-	if %CadillacCSTVChoice% == 9 GOTO CSTVVRA
-	if %CadillacCSTVChoice% == 10 GOTO CSTVVRB
-	if %CadillacCSTVChoice% == 11 GOTO CSTVWA
-	if %CadillacCSTVChoice% == 12 GOTO CSTVWB
+	if %CadillacCTSVChoice% == 1 GOTO CarPickerManuReturn
+	if %CadillacCTSVChoice% == 2 GOTO CTSVR
+	if %CadillacCTSVChoice% == 3 GOTO CTSVBRA
+	if %CadillacCTSVChoice% == 4 GOTO CTSVBRB
+	if %CadillacCTSVChoice% == 5 GOTO CTSVCWA
+	if %CadillacCTSVChoice% == 6 GOTO CTSVCWB
+	if %CadillacCTSVChoice% == 7 GOTO CTSVSSA
+	if %CadillacCTSVChoice% == 8 GOTO CTSVSSB
+	if %CadillacCTSVChoice% == 9 GOTO CTSVVRA
+	if %CadillacCTSVChoice% == 10 GOTO CTSVVRB
+	if %CadillacCTSVChoice% == 11 GOTO CTSVWA
+	if %CadillacCTSVChoice% == 12 GOTO CTSVWB
 	Goto Cadillac
 
 	:Chevrolet
