@@ -3855,13 +3855,13 @@
 			REM Start of Cadillac:
 			REM Start of CTS-V
 			
-			:CTSVCWTWA
+			:CTSVCWA
 			set tempcarname=Cadillac_CTSVRewardRecycled_2017CWTWA
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Cadillac/CSTVCrystalWhiteTricoatWA.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
             Call :cpFinishCode
 			GOTO Cadillac
 
-			:CTSVCWTWB
+			:CTSVCWB
 			set tempcarname=Cadillac_CTSVRewardRecycled_2017CWTWB
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Cadillac/CSTVCrystalWhiteTricoatWB.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
             Call :cpFinishCode
@@ -3873,49 +3873,49 @@
             Call :cpFinishCode
 			GOTO Cadillac
 
-			:CTSVBRWA
-			set tempcarname=Cadillac_CTSVRewardRecycled_2017BRWA
+			:CTSVBRA
+			set tempcarname=Cadillac_CTSVRewardRecycled_2017BRA
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Cadillac/CTSVBlackRavenWA.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
             Call :cpFinishCode
 			GOTO Cadillac
 
-			:CTSVBRWB
-			set tempcarname=Cadillac_CTSVRewardRecycled_2017BRWB
+			:CTSVBRB
+			set tempcarname=Cadillac_CTSVRewardRecycled_2017BRB
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Cadillac/CTSVBlackRavenWB.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
             Call :cpFinishCode
 			GOTO Cadillac
 
-			:CTSVSSWA
+			:CTSVSSA
 			set tempcarname=Cadillac_CTSVRewardRecycled_2017SSWA
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Cadillac/CTSVSatinSteelWA.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
             Call :cpFinishCode
 			GOTO Cadillac
 
-			:CTSVSSWB
+			:CTSVSSB
 			set tempcarname=Cadillac_CTSVRewardRecycled_2017SSWB
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Cadillac/CTSVSatinSteelWB.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
             Call :cpFinishCode
 			GOTO Cadillac
 
-			:CTSVVRWA
+			:CTSVVRA
 			set tempcarname=Cadillac_CTSVRewardRecycled_2017VRWA
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Cadillac/CTSVVelocityRedWA.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
             Call :cpFinishCode
 			GOTO Cadillac
 
-			:CTSVVRWB
+			:CTSVVRB
 			set tempcarname=Cadillac_CTSVRewardRecycled_2017VRWB
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Cadillac/CTSVVelocityRedWB.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
             Call :cpFinishCode
 			GOTO Cadillac
 
-			:CTSVWWA
+			:CTSVWA
 			set tempcarname=Cadillac_CTSVRewardRecycled_2017WWA
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Cadillac/CTSVWaveWA.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
             Call :cpFinishCode
 			GOTO Cadillac
 
-			:CTSVWWB
+			:CTSVWB
 			set tempcarname=Cadillac_CTSVRewardRecycled_2017WWB
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Cadillac/CTSVWaveWB.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
             Call :cpFinishCode
