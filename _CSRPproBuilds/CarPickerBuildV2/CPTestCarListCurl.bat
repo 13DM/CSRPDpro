@@ -6630,7 +6630,7 @@
             Call :cpFinishCode
 			GOTO FnFCarsCon
 			
-			:FnFLanEvo
+			:FnFLanEvo7
 			set tempcarname=Mitsubishi_LancerEvolutionVIIF2_2002
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/FastandFurious/BriansLanEvo.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
             Call :cpFinishCode
