@@ -9065,7 +9065,7 @@ Call :CPLogo
 	if !LamborghiniType! == 2 set CurrentCarChoice=Aventador LP750-4 Superveloce
 	if !LamborghiniType! == 3 set CurrentCarChoice=Aventador SVJ
 	if !LamborghiniType! == 4 set CurrentCarChoice=Centenario Roadster
-	if !LamborghiniType! == 5 set CurrentCarChoice=Countache Classic Restored
+	if !LamborghiniType! == 5 set CurrentCarChoice=Countach Classic Restored
 	if !LamborghiniType! == 6 set CurrentCarChoice=Huracan Coupe
 	if !LamborghiniType! == 7 set CurrentCarChoice=Huracan Performante
 	if !LamborghiniType! == 8 set CurrentCarChoice=Huracan Performante Spyder

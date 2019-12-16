@@ -9598,7 +9598,7 @@
 			
 			:CountachR
 			set tempcarname=Lamborghini_CountachClassic_1988
-			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Lamborghini/Countach/CountachRestored.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Lamborghini/Countach/CoutachRestored.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
             Call :cpFinishCode
 			GOTO Countach 
 
@@ -16090,7 +16090,7 @@ REM			GOTO 720SCon
 			set tempcarname=Porsche_CarreraGTClassic_2003 
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Porsche/Carrera/CarreraClassic.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
             Call :cpFinishCode
-			GOTO VorsteinerGT4VCSCon 
+			GOTO Carrera
 
 			Rem start of Saleen:
 			Rem start of S1:
