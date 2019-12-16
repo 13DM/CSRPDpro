@@ -14189,7 +14189,7 @@ Call :CPLogo
     if !ShelbyType! == 1 set CurrentCarChoice=427 Cobra 
     if !ShelbyType! == 2 set CurrentCarChoice=Mustang Supersnake 
     if !ShelbyType! == 3 GOTO ShelbyOD 
-    GOTO ShelbyCon 
+    GOTO ShelbyCon
  
     :ShelbyOD 
     set ShelbyType= 2
