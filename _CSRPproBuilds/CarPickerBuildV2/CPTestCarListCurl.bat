@@ -1216,9 +1216,7 @@
 			:ATSAGTR
 			set tempcarname=ATSAutomobili_GTRewardRecycled_2018R
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/ATSAutomobili/RedBlackLiv.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
-			move "%USERPROFILE%\Documents\CSRPpro\Temp" "%USERPROFILE%\Documents\CSRPpro\TempFiles\%tempcarname%" >nul
-			START "%tempcarname%" Notepad++.exe "%USERPROFILE%\D
-			echo Opened %tempcarname% in notepad++ at %date% %time% >>"%USERPROFILE%\%Documents%\CSRPpro\CSRPproShellInstance"ocuments\CSRPpro\TempFiles\%tempcarname%"
+			Call :cpFinishCode
 			GOTO ATSAutomobili
 			
 			:ATSAGTReward

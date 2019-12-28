@@ -13577,8 +13577,8 @@ Call :CPLogo
 		set /p 918SpyderType="Select Choice and press Enter: "  
 
 		if !918SpyderType! == 1 goto PorscheCon 
-		if !918SpyderType! == 2 goto 918SpyderRewardBaWN5  
-		if !918SpyderType! == 3 goto 918SpyderRewardWaRN3  
+		if !918SpyderType! == 2 goto 918SpyderRewardWaRN3  
+		if !918SpyderType! == 3 goto 918SpyderRewardBaWN5
 		if !918SpyderType! == 4 goto 918SpyderMartini  
 		if !918SpyderType! == 5 goto 918SpyderAG  
 		if !918SpyderType! == 6 goto 918SpyderBB  
