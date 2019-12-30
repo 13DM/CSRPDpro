@@ -2787,32 +2787,35 @@ Call :CPLogo
 		echo.
 		echo 1.) Back
 		echo.
-		echo 2.) Alpine White
+		echo 2.) Reward
 		echo.
-		echo 3.) Black Sapphire
+		echo 3.) Alpine White
 		echo.
-		echo 4.) Bluestone
+		echo 4.) Black Sapphire
 		echo.
-		echo 5.) Donington Grey
+		echo 5.) Bluestone
 		echo.
-		echo 6.) Marina Bay Blue
+		echo 6.) Donington Grey
 		echo.
-		echo 7.) Singapore Gray
+		echo 7.) Marina Bay Blue
 		echo.
-		echo 8.) Snapper Rocks Blue
+		echo 8.) Singapore Gray
+		echo.
+		echo 9.) Snapper Rocks Blue
 		echo.
 
 		set /p M5COMPType="Select Choice and press Enter: " 
 		
 		:M5COMPType1
 		if %M5COMPType% == 1 GOTO BMWCon
-		if %M5COMPType% == 2 GOTO M5COMPAW
-		if %M5COMPType% == 3 GOTO M5COMPBS
-		if %M5COMPType% == 4 GOTO M5COMPB
-		if %M5COMPType% == 5 GOTO M5COMPDG
-		if %M5COMPType% == 6 GOTO M5COMPMBB
-		if %M5COMPType% == 7 GOTO M5COMPSG
-		if %M5COMPType% == 8 GOTO M5COMPSRB
+		if %M5COMPType% == 2 GOTO M5COMPReward
+		if %M5COMPType% == 3 GOTO M5COMPAW
+		if %M5COMPType% == 4 GOTO M5COMPBS
+		if %M5COMPType% == 5 GOTO M5COMPB
+		if %M5COMPType% == 6 GOTO M5COMPDG
+		if %M5COMPType% == 7 GOTO M5COMPMBB
+		if %M5COMPType% == 8 GOTO M5COMPSG
+		if %M5COMPType% == 9 GOTO M5COMPSRB
 		GOTO M5COMPCon
 
 		:M8 

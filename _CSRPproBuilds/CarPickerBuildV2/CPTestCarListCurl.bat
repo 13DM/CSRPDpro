@@ -2319,6 +2319,12 @@
 			GOTO M4GTS
 
 			REM Start of M5 Competition
+
+			:M5COMPReward
+			set tempcarname=BMW_M5CompetitionReward_2019
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/BMW/M5Competition/Reward.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
+            Call :cpFinishCode
+			GOTO M5COMP
 			
 			:M5COMPAW
 			set tempcarname=BMW_M5CompetitionRewardRecycled_2019AW
@@ -11141,139 +11147,139 @@
 			set tempcarname=Mazda_RX7RewardRecycled_1993Reward 
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Mazda/RBRX7/Reward.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
             Call :cpFinishCode
-			GOTO RBRX7Con 
+			GOTO RX7Con 
  
 			:RBRX7RewardEaster  
 			set tempcarname=Mazda_RX7RewardRecycled_1993RewardEaster 
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Mazda/RBRX7/RewardEasterEdition.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
             Call :cpFinishCode
-			GOTO RBRX7Con 
+			GOTO RX7Con 
  
 			:RBRX7ABGL  
 			set tempcarname=Mazda_RX7RewardRecycled_1993ABGL 
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Mazda/RBRX7/AdmiralBlueGoldLiv.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
             Call :cpFinishCode
-			GOTO RBRX7Con 
+			GOTO RX7Con 
  
 			:RBRX7ABSL  
 			set tempcarname=Mazda_RX7RewardRecycled_1993ABSL 
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Mazda/RBRX7/AdmiralBlueSilverLiv.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
             Call :cpFinishCode
-			GOTO RBRX7Con 
+			GOTO RX7Con 
  
 			:RBRX7AWBLW  
 			set tempcarname=Mazda_RX7RewardRecycled_1993AWBLW 
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Mazda/RBRX7/ArcticWhiteBlackLivandW.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
             Call :cpFinishCode
-			GOTO RBRX7Con 
+			GOTO RX7Con 
  
 			:RBRX7AWPLW  
 			set tempcarname=Mazda_RX7RewardRecycled_1993AWPLW 
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Mazda/RBRX7/ArcticWhitePinkLivandW.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
             Call :cpFinishCode
-			GOTO RBRX7Con 
+			GOTO RX7Con 
  
 			:RBRX7BGLW  
 			set tempcarname=Mazda_RX7RewardRecycled_1993BGLW 
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Mazda/RBRX7/BlackGoldLivandW.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
             Call :cpFinishCode
-			GOTO RBRX7Con 
+			GOTO RX7Con 
  
 			:RBRX7BPLW  
 			set tempcarname=Mazda_RX7RewardRecycled_1993BPLW 
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Mazda/RBRX7/BlackPinkLivandW.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
             Call :cpFinishCode
-			GOTO RBRX7Con 
+			GOTO RX7Con 
  
 			:RBRX7BPW  
 			set tempcarname=Mazda_RX7RewardRecycled_1993BPW 
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Mazda/RBRX7/BlackPinkW.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
             Call :cpFinishCode
-			GOTO RBRX7Con 
+			GOTO RX7Con 
  
 			:RBRX7BSL  
 			set tempcarname=Mazda_RX7RewardRecycled_1993BSL 
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Mazda/RBRX7/BlackSilverLiv.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
             Call :cpFinishCode
-			GOTO RBRX7Con 
+			GOTO RX7Con 
  
 			:RBRX7G  
 			set tempcarname=Mazda_RX7RewardRecycled_1993G 
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Mazda/RBRX7/Gray.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
             Call :cpFinishCode
-			GOTO RBRX7Con 
+			GOTO RX7Con 
  
 			:RBRX7GBL  
 			set tempcarname=Mazda_RX7RewardRecycled_1993GBL 
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Mazda/RBRX7/GrayBlueLiv.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
             Call :cpFinishCode
-			GOTO RBRX7Con 
+			GOTO RX7Con 
  
 			:RBRX7GSL  
 			set tempcarname=Mazda_RX7RewardRecycled_1993GSL 
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Mazda/RBRX7/GraySilverLiv.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
             Call :cpFinishCode
-			GOTO RBRX7Con 
+			GOTO RX7Con 
  
 			:RBRX7IB  
 			set tempcarname=Mazda_RX7RewardRecycled_1993IB 
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Mazda/RBRX7/IrisBlue.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
             Call :cpFinishCode
-			GOTO RBRX7Con 
+			GOTO RX7Con 
  
 			:RBRX7LY  
 			set tempcarname=Mazda_RX7RewardRecycled_1993LY 
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Mazda/RBRX7/LighteningYellow.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
             Call :cpFinishCode
-			GOTO RBRX7Con 
+			GOTO RX7Con 
  
 			:RBRX7LYBL  
 			set tempcarname=Mazda_RX7RewardRecycled_1993LYBL 
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Mazda/RBRX7/LighteningYellowBlackLiv.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
             Call :cpFinishCode
-			GOTO RBRX7Con 
+			GOTO RX7Con 
  
 			:RBRX7TD  
 			set tempcarname=Mazda_RX7RewardRecycled_1993TD 
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Mazda/RBRX7/Tamarillo(Duplicate).txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
             Call :cpFinishCode
-			GOTO RBRX7Con 
+			GOTO RX7Con 
  
 			:RBRX7T  
 			set tempcarname=Mazda_RX7RewardRecycled_1993T 
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Mazda/RBRX7/Tamarillo.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
             Call :cpFinishCode
-			GOTO RBRX7Con 
+			GOTO RX7Con 
  
 			:RBRX7TBL  
 			set tempcarname=Mazda_RX7RewardRecycled_1993TBL 
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Mazda/RBRX7/TamarilloBlackLiv.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
             Call :cpFinishCode
-			GOTO RBRX7Con 
+			GOTO RX7Con 
  
 			:RBRX7TGL  
 			set tempcarname=Mazda_RX7RewardRecycled_1993TGL 
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Mazda/RBRX7/TamarilloGoldLiv.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
             Call :cpFinishCode
-			GOTO RBRX7Con 
+			GOTO RX7Con 
  
 			:RBRX7VR  
 			set tempcarname=Mazda_RX7RewardRecycled_1993VR 
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Mazda/RBRX7/VenetianRed.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
             Call :cpFinishCode
-			GOTO RBRX7Con 
+			GOTO RX7Con 
  
 			:RBRX7VRBL  
 			set tempcarname=Mazda_RX7RewardRecycled_1993VRBL 
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Mazda/RBRX7/VenetianRedBlackLiv.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
             Call :cpFinishCode
-			GOTO RBRX7Con 
+			GOTO RX7Con 
  
 			:RBRX7WPBL  
 			set tempcarname=Mazda_RX7RewardRecycled_1993WPBL 
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Mazda/RBRX7/WarriorPinkBlackLiv.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
             Call :cpFinishCode
-			GOTO RBRX7Con 
+			GOTO RX7Con 
  
 			Rem start of Mazzanti Evantra Millecavalli:
 			
