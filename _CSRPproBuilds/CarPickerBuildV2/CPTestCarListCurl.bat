@@ -7355,247 +7355,247 @@
 			set tempcarname=Ford_MustangShelbyGT500RewardRecycled_2019DarkHighlandGreen
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/ShelbyGT500/DarkHighlandGreen.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
             Call :cpFinishCode
-			GOTO GT500
+			GOTO GT500Con
 
 			:GT500DarkHighlandGreenBR
 			set tempcarname=Ford_MustangShelbyGT500RewardRecycled_2019DarkHighlandGreenBR
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/ShelbyGT500/DarkHighlandGreenBR.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
             Call :cpFinishCode
-			GOTO GT500
+			GOTO GT500Con
 
 			:GT500DarkHighlandGreenBRBlackStripes
 			set tempcarname=Ford_MustangShelbyGT500RewardRecycled_2019DarkHighlandGreenBRBlackStripes
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/ShelbyGT500/DarkHighlandGreenBRBlackStripes.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
             Call :cpFinishCode
-			GOTO GT500
+			GOTO GT500Con
 
 			:GT500DarkHighlandGreenWhiteStripes
 			set tempcarname=Ford_MustangShelbyGT500RewardRecycled_2019DarkHighlandGreenWhiteStripes
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/ShelbyGT500/DarkHighlandGreenWhiteStripes.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
             Call :cpFinishCode
-			GOTO GT500
+			GOTO GT500Con
 
 			:GT500GrabberLime
 			set tempcarname=Ford_MustangShelbyGT500RewardRecycled_2019GrabberLime
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/ShelbyGT500/GrabberLime.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
             Call :cpFinishCode
-			GOTO GT500
+			GOTO GT500Con
 
 			:GT500GrabberLimeBlackStripes
 			set tempcarname=Ford_MustangShelbyGT500RewardRecycled_2019GrabberLimeBlackStripes
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/ShelbyGT500/GrabberLimeBlackStripes.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
             Call :cpFinishCode
-			GOTO GT500
+			GOTO GT500Con
 
 			:GT500GrabberLimeBR
 			set tempcarname=Ford_MustangShelbyGT500RewardRecycled_2019GrabberLimeBR
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/ShelbyGT500/GrabberLimeBR.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
             Call :cpFinishCode
-			GOTO GT500
+			GOTO GT500Con
 
 			:GT500GrabberLimeBRBlackStripes
 			set tempcarname=Ford_MustangShelbyGT500RewardRecycled_2019GrabberLimeBRBlackStripes
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/ShelbyGT500/GrabberLimeBRBlackStripes.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
             Call :cpFinishCode
-			GOTO GT500
+			GOTO GT500Con
 
 			:GT500IconicSilver
 			set tempcarname=Ford_MustangShelbyGT500RewardRecycled_2019IconicSilver
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/ShelbyGT500/IconicSilver.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
             Call :cpFinishCode
-			GOTO GT500
+			GOTO GT500Con
 
 			:GT500IconicSilverBlackStripes
 			set tempcarname=Ford_MustangShelbyGT500RewardRecycled_2019IconicSilverBlackStripes
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/ShelbyGT500/IconicSilverBlackStripes.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
             Call :cpFinishCode
-			GOTO GT500
+			GOTO GT500Con
 
 			:GT500IconicSilverBR
 			set tempcarname=Ford_MustangShelbyGT500RewardRecycled_2019IconicSilverBR
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/ShelbyGT500/IconicSilverBR.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
             Call :cpFinishCode
-			GOTO GT500
+			GOTO GT500Con
 
 			:GT500IconicSilverBRBlackStripes
 			set tempcarname=Ford_MustangShelbyGT500RewardRecycled_2019IconicSilverBRBlackStripes
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/ShelbyGT500/IconicSilverBRBlackStripes.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
             Call :cpFinishCode
-			GOTO GT500
+			GOTO GT500Con
 
 			:GT500KonaBlue
 			set tempcarname=Ford_MustangShelbyGT500RewardRecycled_2019KonaBlue
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/ShelbyGT500/KonaBlue.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
             Call :cpFinishCode
-			GOTO GT500
+			GOTO GT500Con
 
 			:GT500KonaBlueBR
 			set tempcarname=Ford_MustangShelbyGT500RewardRecycled_2019KonaBlueBR
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/ShelbyGT500/KonaBlueBR.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
             Call :cpFinishCode
-			GOTO GT500
+			GOTO GT500Con
 
 			:GT500KonaBlueWhiteStripes
 			set tempcarname=Ford_MustangShelbyGT500RewardRecycled_2019KonaBlueWhiteStripes
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/ShelbyGT500/KonaBlueWhiteStripes.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
             Call :cpFinishCode
-			GOTO GT500
+			GOTO GT500Con
 
 			:GT500Magnetic
 			set tempcarname=Ford_MustangShelbyGT500RewardRecycled_2019Magnetic
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/ShelbyGT500/Magnetic.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
             Call :cpFinishCode
-			GOTO GT500
+			GOTO GT500Con
 
 			:GT500MagneticBR
 			set tempcarname=Ford_MustangShelbyGT500RewardRecycled_2019MagneticBR
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/ShelbyGT500/MagneticBR.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
             Call :cpFinishCode
-			GOTO GT500
+			GOTO GT500Con
 
 			:GT500MagneticBRBlackStripes
 			set tempcarname=Ford_MustangShelbyGT500RewardRecycled_2019MagneticBRBlackStripes
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/ShelbyGT500/MagneticBRBlackStripes.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
             Call :cpFinishCode
-			GOTO GT500
+			GOTO GT500Con
 
 			:GT500MagneticWhiteStripes
 			set tempcarname=Ford_MustangShelbyGT500RewardRecycled_2019MagneticWhiteStripes
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/ShelbyGT500/MagneticWhiteStripes.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
             Call :cpFinishCode
-			GOTO GT500
+			GOTO GT500Con
 
 			:GT500OxfordWhite
 			set tempcarname=Ford_MustangShelbyGT500RewardRecycled_2019OxfordWhite
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/ShelbyGT500/OxfordWhite.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
             Call :cpFinishCode
-			GOTO GT500
+			GOTO GT500Con
 
 			:GT500OxfordWhiteBlackSideandTopStripes
 			set tempcarname=Ford_MustangShelbyGT500RewardRecycled_2019OxfordWhiteBlackSideandTopStripes
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/ShelbyGT500/OxfordWhiteBlackSideandTopStripes.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
             Call :cpFinishCode
-			GOTO GT500
+			GOTO GT500Con
 
 			:GT500OxfordWhiteBlackStripes
 			set tempcarname=Ford_MustangShelbyGT500RewardRecycled_2019OxfordWhiteBlackStripes
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/ShelbyGT500/OxfordWhiteBlackStripes.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
             Call :cpFinishCode
-			GOTO GT500
+			GOTO GT500Con
 
 			:GT500OxfordWhiteBR
 			set tempcarname=Ford_MustangShelbyGT500RewardRecycled_2019OxfordWhiteBR
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/ShelbyGT500/OxfordWhiteBR.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
             Call :cpFinishCode
-			GOTO GT500
+			GOTO GT500Con
 
 			:GT500OxfordWhiteBRBlackStripes
 			set tempcarname=Ford_MustangShelbyGT500RewardRecycled_2019OxfordWhiteBRBlackStripes
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/ShelbyGT500/OxfordWhiteBRBlackStripes.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
             Call :cpFinishCode
-			GOTO GT500
+			GOTO GT500Con
 
 			:GT500RaceRed
 			set tempcarname=Ford_MustangShelbyGT500RewardRecycled_2019RaceRed
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/ShelbyGT500/RaceRed.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
             Call :cpFinishCode
-			GOTO GT500
+			GOTO GT500Con
 
 			:GT500RaceRedBR
 			set tempcarname=Ford_MustangShelbyGT500RewardRecycled_2019RaceRedBR
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/ShelbyGT500/RaceRedBR.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
             Call :cpFinishCode
-			GOTO GT500
+			GOTO GT500Con
 
 			:GT500RaceRedBRBlackStripes
 			set tempcarname=Ford_MustangShelbyGT500RewardRecycled_2019RaceRedBRBlackStripes
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/ShelbyGT500/RaceRedBRBlackStripes.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
             Call :cpFinishCode
-			GOTO GT500
+			GOTO GT500Con
 
 			:GT500RaceRedWhiteStripesTopandSide
 			set tempcarname=Ford_MustangShelbyGT500RewardRecycled_2019RaceRedWhiteStripesTopandSide
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/ShelbyGT500/RaceRedWhiteStripesTopandSide.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
             Call :cpFinishCode
-			GOTO GT500
+			GOTO GT500Con
 
 			:GT500RedHotMetalicTintedClearcoatBlackStripes
 			set tempcarname=Ford_MustangShelbyGT500RewardRecycled_2019RedHotMetalicTintedClearcoatBlackStripes
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/ShelbyGT500/RedHotMetalicTintedClearcoatBlackStripes.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
             Call :cpFinishCode
-			GOTO GT500
+			GOTO GT500Con
 
 			:GT500Reward
 			set tempcarname=Ford_MustangShelbyGT500Reward_2019Reward
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/ShelbyGT500/Reward.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
             Call :cpFinishCode
-			GOTO GT500
+			GOTO GT500Con
 
 			:GT500ShadowBlack
 			set tempcarname=Ford_MustangShelbyGT500RewardRecycled_2019ShadowBlack
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/ShelbyGT500/ShadowBlack.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
             Call :cpFinishCode
-			GOTO GT500
+			GOTO GT500Con
 
 			:GT500ShadowBlackWhiteStripes
 			set tempcarname=Ford_MustangShelbyGT500RewardRecycled_2019ShadowBlackWhiteStripes
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/ShelbyGT500/ShadowBlackWhiteStripes.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
             Call :cpFinishCode
-			GOTO GT500
+			GOTO GT500Con
 
 			:GT500ShadowBlackWhiteStripesTopandSide
 			set tempcarname=Ford_MustangShelbyGT500RewardRecycled_2019ShadowBlackWhiteStripesTopandSide
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/ShelbyGT500/ShadowBlackWhiteStripesTopandSide.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
             Call :cpFinishCode
-			GOTO GT500
+			GOTO GT500Con
 
 			:GT500TwisterOrange
 			set tempcarname=Ford_MustangShelbyGT500RewardRecycled_2019TwisterOrange
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/ShelbyGT500/TwisterOrange.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
             Call :cpFinishCode
-			GOTO GT500
+			GOTO GT500Con
 
 			:GT500TwisterOrangeBlackStripes
 			set tempcarname=Ford_MustangShelbyGT500RewardRecycled_2019TwisterOrangeBlackStripes
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/ShelbyGT500/TwisterOrangeBlackStripes.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
             Call :cpFinishCode
-			GOTO GT500
+			GOTO GT500Con
 
 			:GT500TwisterOrangeBR
 			set tempcarname=Ford_MustangShelbyGT500RewardRecycled_2019TwisterOrangeBR
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/ShelbyGT500/TwisterOrangeBR.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
             Call :cpFinishCode
-			GOTO GT500
+			GOTO GT500Con
 
 			:GT500TwisterOrangeBRBlackStripes
 			set tempcarname=Ford_MustangShelbyGT500RewardRecycled_2019TwisterOrangeBRBlackStripes
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/ShelbyGT500/TwisterOrangeBRBlackStripes.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
             Call :cpFinishCode
-			GOTO GT500
+			GOTO GT500Con
 
 			:GT500VelocityBlue
 			set tempcarname=Ford_MustangShelbyGT500RewardRecycled_2019VelocityBlue
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/ShelbyGT500/VelocityBlue.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
             Call :cpFinishCode
-			GOTO GT500
+			GOTO GT500Con
 
 			:GT500VelocityBlueBR
 			set tempcarname=Ford_MustangShelbyGT500RewardRecycled_2019VelocityBlueBR
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/ShelbyGT500/VelocityBlueBR.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
             Call :cpFinishCode
-			GOTO GT500
+			GOTO GT500Con
 
 			:GT500VelocityBlueBRBlackStripes
 			set tempcarname=Ford_MustangShelbyGT500RewardRecycled_2019VelocityBlueBRBlackStripes
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/ShelbyGT500/VelocityBlueBRBlackStripes.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
             Call :cpFinishCode
-			GOTO GT500
+			GOTO GT500Con
 
 			:GT500VelocityBlueWhiteStipes
 			set tempcarname=Ford_MustangShelbyGT500RewardRecycled_2019VelocityBlueWhiteStipes
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Ford/ShelbyGT500/VelocityBlueWhiteStipes.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp"
             Call :cpFinishCode
-			GOTO GT500
+			GOTO GT500Con
 
 			REM Start of TrackSTer
 			

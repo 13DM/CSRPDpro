@@ -11397,7 +11397,7 @@ Call :CPLogo
 	if !MercedesType! == 1 goto AMGGT
 	if !MercedesType! == 2 goto AMGGTR
 	if !MercedesType! == 3 goto 300SL
-	if !MercedesType! == 4 goto A45
+	if !MercedesType! == 4 goto A45AMG
 	if !MercedesType! == 5 goto C63BS
 	if !MercedesType! == 6 goto C63E507
 	if !MercedesType! == 7 goto LBC63
