@@ -12213,13 +12213,13 @@ REM			GOTO 720SCon
 			
 			:V720SReward  
 			set tempcarname=McLaren_Vorsteiner720SReward_2018
-			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Mclaren/Vorsteiner720S/Reward.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Mclaren/Vorsteiner720S/Azores.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
             Call :cpFinishCode
 			GOTO V720SCon 
  
 			:V720SA  
 			set tempcarname=McLaren_Vorsteiner720SRewardRecycled_2018A 
-			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Mclaren/Vorsteiner720S/Azores.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Mclaren/Vorsteiner720S/Reward.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
             Call :cpFinishCode
 			GOTO V720SCon 
  
