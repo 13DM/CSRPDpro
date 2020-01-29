@@ -1,0 +1,86 @@
+{
+	"cpdb": {
+		"Abarth": {
+			"500": [
+				"Circuit Grey": "https://raw.githubusercontent.com/13DM/PackerProCars/master/Abarth/AbarthCircuitGrey.txt",
+				"Cordolo Red": "https://raw.githubusercontent.com/13DM/PackerProCars/master/Abarth/AbarthCordoloRed.txt",
+				"Legends Blue": "https://raw.githubusercontent.com/13DM/PackerProCars/master/Abarth/AbarthLegendsBlue.txt",
+				"Performance Black with No Livery": "https://raw.githubusercontent.com/13DM/PackerProCars/master/Abarth/AbarthPerfBlackNoLiv.txt",
+				"Performance Black with Red Livery": "https://raw.githubusercontent.com/13DM/PackerProCars/master/Abarth/AbarthPerfBlackRedLiv.txt",
+				"Performance Grey with No Livery": "https://raw.githubusercontent.com/13DM/PackerProCars/master/Abarth/AbarthPerfGreyNoLiv.txt",
+				"Performance White with No Livery": "https://raw.githubusercontent.com/13DM/PackerProCars/master/Abarth/AbarthPerfWhiteNoLiv.txt",
+				"Performance White with Red Livery": "https://raw.githubusercontent.com/13DM/PackerProCars/master/Abarth/AbarthPerfWhiteRedLiv.txt",
+				"Podium Blue with White Livery": "https://raw.githubusercontent.com/13DM/PackerProCars/master/Abarth/AbarthPodiumBlueWhiteLiv.txt",
+				"Rally Beige": "https://raw.githubusercontent.com/13DM/PackerProCars/master/Abarth/AbarthRallyBeige.txt",
+				"Scorpione Blue": "https://raw.githubusercontent.com/13DM/PackerProCars/master/Abarth/AbarthScorpioneBlack.txt",
+				"Trofeo Grey": "https://raw.githubusercontent.com/13DM/PackerProCars/master/Abarth/AbarthTrofeoGrey.txt",
+				"Yellow with Black Livery": "https://raw.githubusercontent.com/13DM/PackerProCars/master/Abarth/AbarthYellowBlackLiv.txt"
+			]
+		},
+		"Alfa Romeo": {
+			"4C Coupe": [
+				"High Stakes Crew Car": "https://raw.githubusercontent.com/13DM/PackerProCars/master/AlfaRomeo/4CCoupe/4CCoupeHighStakes.txt",
+				"Basalt Gray": "https://raw.githubusercontent.com/13DM/PackerProCars/master/AlfaRomeo/4CCoupe/4CCoupeBasaltGray.txt",
+				"Black": "https://raw.githubusercontent.com/13DM/PackerProCars/master/AlfaRomeo/4CCoupe/4CCoupeBlack.txt",
+				"Giallo Prototipo": "https://raw.githubusercontent.com/13DM/PackerProCars/master/AlfaRomeo/4CCoupe/4CCoupeGialloPrototipo.txt",
+				"Rosso Alfa": "https://raw.githubusercontent.com/13DM/PackerProCars/master/AlfaRomeo/4CCoupe/4CCoupeRossoAlfa.txt",
+				"Rosso Competizione": "https://raw.githubusercontent.com/13DM/PackerProCars/master/AlfaRomeo/4CCoupe/4CCoupeRossoCompetizione.txt",
+				"White": "https://raw.githubusercontent.com/13DM/PackerProCars/master/AlfaRomeo/4CCoupe/4CCoupeWhite.txt"
+			],
+			"4C Spyder": [
+				"Alfa Red with Carbon Livery": "https://raw.githubusercontent.com/13DM/PackerProCars/master/AlfaRomeo/4CSpyder/4CSpyderAlfaRedCarbonLiv.txt",
+				"Carrera White with Carbon Livery": "https://raw.githubusercontent.com/13DM/PackerProCars/master/AlfaRomeo/4CSpyder/4CSpyderCarreraWhiteCarbonLiv.txt",
+				"Concept Red with Full Satin Livery": "https://raw.githubusercontent.com/13DM/PackerProCars/master/AlfaRomeo/4CSpyder/4CSpyderConceptRedFullSatinLiv.txt",
+				"Etna Black with Carbon Livery": "https://raw.githubusercontent.com/13DM/PackerProCars/master/AlfaRomeo/4CSpyder/4CSpyderEtnaBlackCarbonLiv.txt",
+				"Tornado Blue with No Livery": "https://raw.githubusercontent.com/13DM/PackerProCars/master/AlfaRomeo/4CSpyder/4CSpyderTornadoBlueNoLiv.txt"
+			],
+			"8C Competizione": [
+				"Rosso Competizione TriCoat": "https://raw.githubusercontent.com/13DM/PackerProCars/master/AlfaRomeo/8CCompetizione/8CCompetizione.txt"
+			],
+			"Giulia Quadrifoglio": [
+				"Alfa Red": "https://raw.githubusercontent.com/13DM/PackerProCars/master/AlfaRomeo/GiuliaQuadrifoglio/ARGiuliaQuadrifoglioAlfaRed.txt",
+				"Misano Blue": "https://raw.githubusercontent.com/13DM/PackerProCars/master/AlfaRomeo/GiuliaQuadrifoglio/ARGiuliaQuadrifoglioMisanoBlue.txt",
+				"Monte Carlo Blue": "https://raw.githubusercontent.com/13DM/PackerProCars/master/AlfaRomeo/GiuliaQuadrifoglio/ARGiuliaQuadrifoglioMontecarloBlue.txt",
+				"Rosso Competizione": "https://raw.githubusercontent.com/13DM/PackerProCars/master/AlfaRomeo/GiuliaQuadrifoglio/ARGiuliaQuadrifoglioRossoComp.txt",
+				"Silverstone": "https://raw.githubusercontent.com/13DM/PackerProCars/master/AlfaRomeo/GiuliaQuadrifoglio/ARGiuliaQuadrifoglioSilverstone.txt",
+				"Trofeo White": "https://raw.githubusercontent.com/13DM/PackerProCars/master/AlfaRomeo/GiuliaQuadrifoglio/ARGiuliaQuadrifoglioTrofeoWhite.txt",
+				"Vesuvio Grey": "https://raw.githubusercontent.com/13DM/PackerProCars/master/AlfaRomeo/GiuliaQuadrifoglio/ARGiuliaQuadrifoglioVesuvioGrey.txt",
+				"Volcanic Black with All Black Interior": "https://raw.githubusercontent.com/13DM/PackerProCars/master/AlfaRomeo/GiuliaQuadrifoglio/ARGiuliaQuadrifoglioVolcanicBlackAllBlackInt.txt",
+				"Volcanic Black with Black and Red Interior": "https://raw.githubusercontent.com/13DM/PackerProCars/master/AlfaRomeo/GiuliaQuadrifoglio/ARGiuliaQuadrifoglioVolcanicBlackBlackAndRedInt.txt"
+			]
+		},
+		"Alpine": {
+			"A110": [
+				"Blanc Glacier with Wheel 1": "https://raw.githubusercontent.com/13DM/PackerProCars/master/Alpine/A110BlancGlacierW1.txt",
+				"Blanc Glacier with Wheel 2": "https://raw.githubusercontent.com/13DM/PackerProCars/master/Alpine/A110BlancGlacierW2.txt",
+				"Blanc Glacier with Wheel 3": "https://raw.githubusercontent.com/13DM/PackerProCars/master/Alpine/A110BlancGlacierW3.txt",
+				"Blanc Irise with Wheel 1": "https://raw.githubusercontent.com/13DM/PackerProCars/master/Alpine/A110BlancIriseW1.txt",
+				"Blanc Irise with Wheel 2": "https://raw.githubusercontent.com/13DM/PackerProCars/master/Alpine/A110BlancIriseW2.txt",
+				"Blanc Irise with Wheel 3": "https://raw.githubusercontent.com/13DM/PackerProCars/master/Alpine/A110BlancIriseW3.txt",
+				"Bleu with Wheel 1": "https://raw.githubusercontent.com/13DM/PackerProCars/master/Alpine/A110BleuW1.txt",
+				"Bleu with Wheel 2": "https://raw.githubusercontent.com/13DM/PackerProCars/master/Alpine/A110BleuW2.txt",
+				"Bleu with Wheel 3": "https://raw.githubusercontent.com/13DM/PackerProCars/master/Alpine/A110BleuW3.txt",
+				"Bleu Abysse with Wheel 1": "https://raw.githubusercontent.com/13DM/PackerProCars/master/Alpine/A110BleuAbysseW1.txt",
+				"Bleu Abysse with Wheel 2": "https://raw.githubusercontent.com/13DM/PackerProCars/master/Alpine/A110BleuAbysseW2.txt",
+				"Bleu Abysse with Wheel 3": "https://raw.githubusercontent.com/13DM/PackerProCars/master/Alpine/A110BleuAbysseW3.txt",
+				"Gris Tonnerre with Wheel 1": "https://raw.githubusercontent.com/13DM/PackerProCars/master/Alpine/A110GrisTonnerreW1.txt",
+				"Gris Tonnerre with Wheel 2": "https://raw.githubusercontent.com/13DM/PackerProCars/master/Alpine/A110GrisTonnerreW2.txt",
+				"Gris Tonnerre with Wheel 3": "https://raw.githubusercontent.com/13DM/PackerProCars/master/Alpine/A110GrisTonnerreW3.txt",
+				"Noire Profond with Wheel 1": "https://raw.githubusercontent.com/13DM/PackerProCars/master/Alpine/A110NoirProfondW1.txt",
+				"Noire Profond with Wheel 2": "https://raw.githubusercontent.com/13DM/PackerProCars/master/Alpine/A110NoirProfondW2.txt",
+				"Noire Profond with Wheel 3": "https://raw.githubusercontent.com/13DM/PackerProCars/master/Alpine/A110NoirProfondW3.txt"
+			]
+		},
+		"AMC": {
+			"Ring Brothers Javelin Defiant": [
+				"Gold": "https://raw.githubusercontent.com/13DM/PackerProCars/master/AMC/Javelin/Javelin_IAPSpecial.txt"
+			]
+		},
+		"Apollo": {
+			"Intensa Emozione": [
+				"Purple Carbon with Gold Wheels": "https://raw.githubusercontent.com/13DM/PackerProCars/master/Apollo/IntensaEmozione/IntensaEmozione_IAPSpecial.txt",
+				"Black Carbon with Black and Red Wheels": "https://raw.githubusercontent.com/13DM/PackerProCars/master/Apollo/IntensaEmozione/IntensaEmozione_IAPSpecial_Secondary_Official_.txt"
+			]
+		}
+	}
+}
