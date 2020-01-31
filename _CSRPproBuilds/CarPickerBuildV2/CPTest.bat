@@ -172,7 +172,7 @@ Call :CPLogo
 	echo.
 	set /p CurrentManuLevel="Select the manufacure id number you want: " 
 		if !CurrentManuLevel! LSS 0 goto CarPickerManuReturn
-		if !CurrentManuLevel! GTR 60 goto CarPickerManuReturn
+		if !CurrentManuLevel! GTR 61 goto CarPickerManuReturn
 		if !CurrentManuLevel! == 0 goto CarPickerManuType
 	if !CurrentManuLevel! == 1 set CurrentManuChoice=Abarth
 	if !CurrentManuLevel! == 2 set CurrentManuChoice=Alfa Romeo
