@@ -17111,6 +17111,8 @@ REM			GOTO 720SCon
 			Rem start of Masterlist:
 
 			:MasterIDList
+			cls
+			echo Getting Master ID List . . .
 			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/_MasterLists/CSR2MasterIDList.xlsx" > "%USERPROFILE%\Documents\CSRPpro\TempFiles\CSR2MasterIDList.xlsx"
 			START "" "%USERPROFILE%\Documents\CSRPpro\TempFiles\CSR2MasterIDList.xlsx"
 			GOTO CarPickerManuType
