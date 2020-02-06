@@ -18,7 +18,7 @@
 			}
 		},
 		"Alfa Romeo": {
-			"4C Coupe": [
+			"4C Coupe": {
 				"High Stakes Crew Car": "https://raw.githubusercontent.com/13DM/PackerProCars/master/AlfaRomeo/4CCoupe/4CCoupeHighStakes.txt",
 				"Basalt Gray": "https://raw.githubusercontent.com/13DM/PackerProCars/master/AlfaRomeo/4CCoupe/4CCoupeBasaltGray.txt",
 				"Black": "https://raw.githubusercontent.com/13DM/PackerProCars/master/AlfaRomeo/4CCoupe/4CCoupeBlack.txt",
@@ -26,18 +26,18 @@
 				"Rosso Alfa": "https://raw.githubusercontent.com/13DM/PackerProCars/master/AlfaRomeo/4CCoupe/4CCoupeRossoAlfa.txt",
 				"Rosso Competizione": "https://raw.githubusercontent.com/13DM/PackerProCars/master/AlfaRomeo/4CCoupe/4CCoupeRossoCompetizione.txt",
 				"White": "https://raw.githubusercontent.com/13DM/PackerProCars/master/AlfaRomeo/4CCoupe/4CCoupeWhite.txt"
-			],
-			"4C Spyder": [
+			},
+			"4C Spyder": {
 				"Alfa Red with Carbon Livery": "https://raw.githubusercontent.com/13DM/PackerProCars/master/AlfaRomeo/4CSpyder/4CSpyderAlfaRedCarbonLiv.txt",
 				"Carrera White with Carbon Livery": "https://raw.githubusercontent.com/13DM/PackerProCars/master/AlfaRomeo/4CSpyder/4CSpyderCarreraWhiteCarbonLiv.txt",
 				"Concept Red with Full Satin Livery": "https://raw.githubusercontent.com/13DM/PackerProCars/master/AlfaRomeo/4CSpyder/4CSpyderConceptRedFullSatinLiv.txt",
 				"Etna Black with Carbon Livery": "https://raw.githubusercontent.com/13DM/PackerProCars/master/AlfaRomeo/4CSpyder/4CSpyderEtnaBlackCarbonLiv.txt",
 				"Tornado Blue with No Livery": "https://raw.githubusercontent.com/13DM/PackerProCars/master/AlfaRomeo/4CSpyder/4CSpyderTornadoBlueNoLiv.txt"
-			],
-			"8C Competizione": [
+			},
+			"8C Competizione": {
 				"Rosso Competizione TriCoat": "https://raw.githubusercontent.com/13DM/PackerProCars/master/AlfaRomeo/8CCompetizione/8CCompetizione.txt"
-			],
-			"Giulia Quadrifoglio": [
+			},
+			"Giulia Quadrifoglio": {
 				"Alfa Red": "https://raw.githubusercontent.com/13DM/PackerProCars/master/AlfaRomeo/GiuliaQuadrifoglio/ARGiuliaQuadrifoglioAlfaRed.txt",
 				"Misano Blue": "https://raw.githubusercontent.com/13DM/PackerProCars/master/AlfaRomeo/GiuliaQuadrifoglio/ARGiuliaQuadrifoglioMisanoBlue.txt",
 				"Monte Carlo Blue": "https://raw.githubusercontent.com/13DM/PackerProCars/master/AlfaRomeo/GiuliaQuadrifoglio/ARGiuliaQuadrifoglioMontecarloBlue.txt",
@@ -47,10 +47,10 @@
 				"Vesuvio Grey": "https://raw.githubusercontent.com/13DM/PackerProCars/master/AlfaRomeo/GiuliaQuadrifoglio/ARGiuliaQuadrifoglioVesuvioGrey.txt",
 				"Volcanic Black with All Black Interior": "https://raw.githubusercontent.com/13DM/PackerProCars/master/AlfaRomeo/GiuliaQuadrifoglio/ARGiuliaQuadrifoglioVolcanicBlackAllBlackInt.txt",
 				"Volcanic Black with Black and Red Interior": "https://raw.githubusercontent.com/13DM/PackerProCars/master/AlfaRomeo/GiuliaQuadrifoglio/ARGiuliaQuadrifoglioVolcanicBlackBlackAndRedInt.txt"
-			]
+			}
 		},
 		"Alpine": {
-			"A110": [
+			"A110": {
 				"Blanc Glacier with Wheel 1": "https://raw.githubusercontent.com/13DM/PackerProCars/master/Alpine/A110BlancGlacierW1.txt",
 				"Blanc Glacier with Wheel 2": "https://raw.githubusercontent.com/13DM/PackerProCars/master/Alpine/A110BlancGlacierW2.txt",
 				"Blanc Glacier with Wheel 3": "https://raw.githubusercontent.com/13DM/PackerProCars/master/Alpine/A110BlancGlacierW3.txt",
@@ -69,18 +69,18 @@
 				"Noire Profond with Wheel 1": "https://raw.githubusercontent.com/13DM/PackerProCars/master/Alpine/A110NoirProfondW1.txt",
 				"Noire Profond with Wheel 2": "https://raw.githubusercontent.com/13DM/PackerProCars/master/Alpine/A110NoirProfondW2.txt",
 				"Noire Profond with Wheel 3": "https://raw.githubusercontent.com/13DM/PackerProCars/master/Alpine/A110NoirProfondW3.txt"
-			]
+			}
 		},
 		"AMC": {
-			"Ring Brothers Javelin Defiant": [
+			"Ring Brothers Javelin Defiant": {
 				"Gold": "https://raw.githubusercontent.com/13DM/PackerProCars/master/AMC/Javelin/Javelin_IAPSpecial.txt"
-			]
+			}
 		},
 		"Apollo": {
-			"Intensa Emozione": [
+			"Intensa Emozione": {
 				"Purple Carbon with Gold Wheels": "https://raw.githubusercontent.com/13DM/PackerProCars/master/Apollo/IntensaEmozione/IntensaEmozione_IAPSpecial.txt",
 				"Black Carbon with Black and Red Wheels": "https://raw.githubusercontent.com/13DM/PackerProCars/master/Apollo/IntensaEmozione/IntensaEmozione_IAPSpecial_Secondary_Official_.txt"
-			]
+			}
 		}
 	}
 }
