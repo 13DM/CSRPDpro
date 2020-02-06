@@ -1,7 +1,7 @@
 {
 	"cpdb": {
 		"Abarth": {
-			"500": [
+			"500": {
 				"Circuit Grey": "https://raw.githubusercontent.com/13DM/PackerProCars/master/Abarth/AbarthCircuitGrey.txt",
 				"Cordolo Red": "https://raw.githubusercontent.com/13DM/PackerProCars/master/Abarth/AbarthCordoloRed.txt",
 				"Legends Blue": "https://raw.githubusercontent.com/13DM/PackerProCars/master/Abarth/AbarthLegendsBlue.txt",
@@ -15,7 +15,7 @@
 				"Scorpione Blue": "https://raw.githubusercontent.com/13DM/PackerProCars/master/Abarth/AbarthScorpioneBlack.txt",
 				"Trofeo Grey": "https://raw.githubusercontent.com/13DM/PackerProCars/master/Abarth/AbarthTrofeoGrey.txt",
 				"Yellow with Black Livery": "https://raw.githubusercontent.com/13DM/PackerProCars/master/Abarth/AbarthYellowBlackLiv.txt"
-			]
+			}
 		},
 		"Alfa Romeo": {
 			"4C Coupe": [
