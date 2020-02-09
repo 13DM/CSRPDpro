@@ -15792,11 +15792,84 @@ REM			GOTO 720SCon
             Call :cpFinishCode
 			GOTO GT2RSCon 
  
-			:GT2RSMB  
-			set tempcarname=Porsche_911GT2RS_2017MB 
-			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Porsche/GT2RS/MiamiBlue.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+			:GT2RSBBW
+			set tempcarname=Porsche_911GT2RS_2017BBW
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Porsche/GT2RS/BlackBlackWheels.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
             Call :cpFinishCode
 			GOTO GT2RSCon 
+			
+			:GT2RSBGW
+			set tempcarname=Porsche_911GT2RS_2017BGW
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Porsche/GT2RS/BlackGoldWheels.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+            Call :cpFinishCode
+			GOTO GT2RSCon 
+			
+			:GT2RSCPW
+			set tempcarname=Porsche_911GT2RS_2017CPW
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Porsche/GT2RS/ChalkPlatinumWheels.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+            Call :cpFinishCode
+			GOTO GT2RSCon 
+			
+			:GT2RSGTSGW
+			set tempcarname=Porsche_911GT2RS_2017GTSGW
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Porsche/GT2RS/GTSilverGoldWheels.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+            Call :cpFinishCode
+			GOTO GT2RSCon 
+			
+			:GT2RSGRBW
+			set tempcarname=Porsche_911GT2RS_2017GRBW
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Porsche/GT2RS/GuardsRedBlackWheels.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+            Call :cpFinishCode
+			GOTO GT2RSCon 
+			
+			:GT2RSGRSW
+			set tempcarname=Porsche_911GT2RS_2017GRSW
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Porsche/GT2RS/GuardsRedSilverWheels.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+            Call :cpFinishCode
+			GOTO GT2RSCon 
+			
+			:GT2RSLOBW
+			set tempcarname=Porsche_911GT2RS_2017LOBW
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Porsche/GT2RS/LavaOrangeBlackWheels.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+            Call :cpFinishCode
+			GOTO GT2RSCon 
+			
+			:GT2RSLOPW
+			set tempcarname=Porsche_911GT2RS_2017LOPW
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Porsche/GT2RS/LavaOrangePlatinumWheels.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+            Call :cpFinishCode
+			GOTO GT2RSCon 
+			
+			:GT2RSMBBW
+			set tempcarname=Porsche_911GT2RS_2017MBBW
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Porsche/GT2RS/MiamiBlueBlackWheel.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+            Call :cpFinishCode
+			GOTO GT2RSCon 
+			
+			:GT2RSMBSW
+			set tempcarname=Porsche_911GT2RS_2017MBSW
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Porsche/GT2RS/MiamiBlueSilverWheels.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+            Call :cpFinishCode
+			GOTO GT2RSCon 
+			
+			:GT2RSRYBW
+			set tempcarname=Porsche_911GT2RS_2017RYBW
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Porsche/GT2RS/RacingYellowBlackWheels.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+            Call :cpFinishCode
+			GOTO GT2RSCon 
+			
+			:GT2RSRYGW
+			set tempcarname=Porsche_911GT2RS_2017RYGW
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Porsche/GT2RS/RacingYellowGoldWheels.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+            Call :cpFinishCode
+			GOTO GT2RSCon 
+			
+			:GT2RSWBW
+			set tempcarname=Porsche_911GT2RS_2017WBW
+			curl -s "https://raw.githubusercontent.com/13DM/PackerProCars/master/Porsche/GT2RS/WhiteBlackWheels.txt" >"%USERPROFILE%\Documents\CSRPpro\Temp" 
+            Call :cpFinishCode
+			GOTO GT2RSCon 
+
  
 			Rem start of 2016 GT3RS:
 

@@ -13695,15 +13695,25 @@ Call :CPLogo
 		echo.
 		echo - Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 -- Car Picker V2 - 
 		echo.
-		echo 1.) Back          
+		echo 1.) Back                                            (11.) Lava Orange with Black Wheels
 		echo.
-		echo 2.) IAP "Mark Webber" Weissach Package          
+		echo 2.) IAP "Mark Webber" Weissach Package              (12.) Lava Orange with Platinum Wheels
 		echo.
-		echo 3.) IAP "GT Silver" Unofficial Second Variant          
+		echo 3.) IAP "GT Silver" Unofficial Second Variant       (13.) Miami Blue with Black Wheels
 		echo.
-		echo 4.) VIP Weissach Package          
+		echo 4.) VIP Weissach Package                            (14.) Miami Blue with Silver Wheels
 		echo.
-		echo 5.) Miami Blue "Gold Cup Car"       
+		echo 5.) Black with Black Wheels                         (15.) Racing Yellow with Black Wheels 
+		echo.
+		echo 6.) Black with Gold Wheels                          (16.) Racing Yellow with Gold Wheels
+		echo.
+		echo 7.) Chalk with Platinum Wheels                      (17.) White with Black Wheels
+		echo.
+		echo 8.) GT Silver with Gold Wheels
+		echo.
+		echo 9.) Guards Red with Black Wheels
+		echo.
+		echo 10.) Guards Red with Silver Wheels
 		echo.
 		set /p GT2RSType="Select Choice and press Enter: "  
 
@@ -13711,7 +13721,19 @@ Call :CPLogo
 		if !GT2RSType! == 2 goto GT2RSIAP
 		if !GT2RSType! == 3 goto GT2RSSIAP
 		if !GT2RSType! == 4 goto GT2RSVIP  
-		if !GT2RSType! == 5 goto GT2RSMB  
+		if !GT2RSType! == 5 goto GT2RSBBW
+		if !GT2RSType! == 6 goto GT2RSBGW
+		if !GT2RSType! == 7 goto GT2RSCPW
+		if !GT2RSType! == 8 goto GT2RSGTSGW
+		if !GT2RSType! == 9 goto GT2RSGRBW
+		if !GT2RSType! == 10 goto GT2RSGRSW
+		if !GT2RSType! == 11 goto GT2RSLOBW
+		if !GT2RSType! == 12 goto GT2RSLOPW
+		if !GT2RSType! == 13 goto GT2RSMBBW
+		if !GT2RSType! == 14 goto GT2RSMBSW
+		if !GT2RSType! == 15 goto GT2RSRYBW
+		if !GT2RSType! == 16 goto GT2RSRYGW
+		if !GT2RSType! == 17 goto GT2RSWBW
 		goto GT2RSCon 
 
 		:GT3RS2016 
